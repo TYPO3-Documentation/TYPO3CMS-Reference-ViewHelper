@@ -21,7 +21,7 @@ A view helper for creating links to TYPO3 pages.
 <f:link.page pageUid="1" additionalParams="{foo: 'bar'}">page link</f:link.page>
 </code>
 <output>
-<a href="index.php?id=1&foo=bar">page link</f:link.action>
+<a href="index.php?id=1&foo=bar">page link</a>
 (depending on your TS configuration)
 </output>
 
@@ -29,7 +29,7 @@ A view helper for creating links to TYPO3 pages.
 <f:link.page pageUid="1" additionalParams="{extension_key: {foo: 'bar'}}">page link</f:link.page>
 </code>
 <output>
-<a href="index.php?id=1&extension_key[foo]=bar">page link</f:link.action>
+<a href="index.php?id=1&extension_key[foo]=bar">page link</a>
 (depending on your TS configuration)
 </output>
 
