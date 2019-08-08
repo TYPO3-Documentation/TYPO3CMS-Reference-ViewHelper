@@ -39,39 +39,47 @@ below).
     Will result true if {foo.bar}'s represented value equals 'stringToCompare'.
   </f:if>
 
-= Examples =
+--------
+Examples
+--------
 
-<code title="Basic usage">
-<f:if condition="somecondition">
-  This is being shown in case the condition matches
-</f:if>
-</code>
+**Simple if**
+
+::
+
+  <f:if condition="somecondition">
+    This is being shown in case the condition matches
+  </f:if>
+
 <output>
 Everything inside the <f:if> tag is being displayed if the condition evaluates to TRUE.
 </output>
 
-<code title="If / then / else">
-<f:if condition="somecondition">
-  <f:then>
-    This is being shown in case the condition matches.
-  </f:then>
-  <f:else>
-    This is being displayed in case the condition evaluates to FALSE.
-  </f:else>
-</f:if>
-</code>
-<output>
+**If/then/else**
+
+::
+
+  <f:if condition="somecondition">
+    <f:then>
+      This is being shown in case the condition matches.
+    </f:then>
+    <f:else>
+      This is being displayed in case the condition evaluates to FALSE.
+    </f:else>
+  </f:if>
+
 Everything inside the "then" tag is displayed if the condition evaluates to TRUE.
 Otherwise, everything inside the "else"-tag is displayed.
-</output>
 
-<code title="inline notation">
-{f:if(condition: someCondition, then: 'condition is met', else: 'condition is not met')}
-</code>
-<output>
+**Inline if**
+
+::
+
+  {f:if(condition: someCondition, then: 'condition is met', else: 'condition is not met')}
+
 The value of the "then" attribute is displayed if the condition evaluates to TRUE.
 Otherwise, everything the value of the "else"-attribute is displayed.
-</output>
+
 
 Arguments
 =========
