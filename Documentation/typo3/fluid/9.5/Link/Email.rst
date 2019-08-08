@@ -23,6 +23,12 @@ Generates an email link incorporating TYPO3s spamProtectEmailAddresses-settings.
 <a href="javascript:linkTo_UnCryptMailto('ocknvq,hqqBdct0vnf');">some custom content</a>
 </output>
 
+-------
+Adding a subject and/or body
+-------
+
+If you want to add a subject and body, you can simply add `?subject=<f:format.urlencode><f:translate key="somefield" /></f:format.urlencode>&body=<f:format.urlencode><f:translate key="somebody" /></f:format.urlencode>` to your email address, but ensure that `config.spamProtectEmailAddresses` is set to 10.
+
 Arguments
 =========
 
