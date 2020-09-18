@@ -11,6 +11,7 @@ Generates an email link incorporating TYPO3s spamProtectEmailAddresses-settings.
 = Examples
 
 <code title="basic email link">
+<f:link.email email="foo@bar.tld" />
 </code>
 <output>
 <a href="javascript:linkTo_UnCryptMailto('ocknvq,hqqBdct0vnf');">foo(at)bar.tld</a>
@@ -18,6 +19,7 @@ Generates an email link incorporating TYPO3s spamProtectEmailAddresses-settings.
 </output>
 
 <code title="Email link with custom linktext">
+<f:link.email email="foo@bar.tld" >some custom content</f:link.email>
 </code>
 <output>
 <a href="javascript:linkTo_UnCryptMailto('ocknvq,hqqBdct0vnf');">some custom content</a>
