@@ -30,9 +30,9 @@ The ViewHelpers are in:
 * Fluid (`typo3fluid/`): `src/ViewHelpers <https://github.com/TYPO3/Fluid/tree/master/src/ViewHelpers>`__
 * TYPO3:
 
-   * `typo3/backend`: `typo3/sysext/backend/Classes/ViewHelpers <https://github.com/TYPO3/TYPO3.CMS/tree/master/typo3/sysext/backend/Classes/ViewHelpers>`__
-   * `typo3/core`: `typo3/sysext/core/Classes/ViewHelpers <https://github.com/TYPO3/TYPO3.CMS/tree/master/typo3/sysext/core/Classes/ViewHelpers>`__
-   * `typo3/fluid`: `typo3/sysext/fluid/Classes/ViewHelpers <https://github.com/TYPO3/TYPO3.CMS/tree/master/typo3/sysext/fluid/Classes/ViewHelpers>`__
+   * `typo3/backend`: `typo3/sysext/backend/Classes/ViewHelpers <https://github.com/typo3/typo3/tree/master/typo3/sysext/backend/Classes/ViewHelpers>`__
+   * `typo3/core`: `typo3/sysext/core/Classes/ViewHelpers <https://github.com/typo3/typo3/tree/master/typo3/sysext/core/Classes/ViewHelpers>`__
+   * `typo3/fluid`: `typo3/sysext/fluid/Classes/ViewHelpers <https://github.com/typo3/typo3/tree/master/typo3/sysext/fluid/Classes/ViewHelpers>`__
 
 Content
 -------
