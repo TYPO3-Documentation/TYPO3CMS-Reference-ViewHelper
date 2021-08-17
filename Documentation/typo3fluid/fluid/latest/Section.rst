@@ -54,6 +54,13 @@ Output::
         </li>
     [...]
     (depending on the value of {menu})
+    
+Special sections HeaderAssets/FooterAssets
+------------------------------------------
+
+In case you want to add header or footer assets within plugins, you can use the special sections "HeaderAssets" and "FooterAssets".
+Those are rendered by the ActionController (\TYPO3\CMS\Extbase\Mvc\Controller\ActionController) and provide the possibilty to add resources, meta data etc. as you like by simply using those two sections as wanted.
+
 
 Arguments
 =========
