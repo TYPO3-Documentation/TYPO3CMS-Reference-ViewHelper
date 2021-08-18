@@ -64,7 +64,7 @@ Those are rendered by the ActionController (\TYPO3\CMS\Extbase\Mvc\Controller\Ac
 ::
 
     <f:section name="HeaderAssets">
-       <title>My title within the plugin template</title>
+       <link rel="stylesheet" href="typo3conf/ext/my_extension/Resources/Public/Css/myCssFile.css" />
     </f:section>
     <f:section name="FooterAssets">
          <p>© My example copyright note in the footer</p>
