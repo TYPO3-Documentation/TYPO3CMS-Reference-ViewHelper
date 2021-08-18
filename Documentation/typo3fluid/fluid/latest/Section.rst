@@ -58,9 +58,9 @@ Output::
 Special sections HeaderAssets/FooterAssets
 ------------------------------------------
 
-In case you want to add header or footer assets within plugins, you can use the special sections "HeaderAssets" and "FooterAssets".
-Those are rendered by the ActionController (\TYPO3\CMS\Extbase\Mvc\Controller\ActionController) and provide the possibilty to add resources, meta data etc. as you like by simply using those two sections as wanted.
-When rendering, `{request}` is available as template variable in both sections, as is `{arguments}`, allowing you to make decisions based on various request/controller arguments. As usual, `{settings}` is also available.
+If you want to include a header or footer asset within a plugin, you can use the special sections "HeaderAssets" and "FooterAssets".
+These sections are rendered by the ActionController (\TYPO3\CMS\Extbase\Mvc\Controller\ActionController) and provide the ability to include various resources and metadata.
+When rendering, `{request}` is available as a template variable in both sections, as is `{arguments}`. This allows you to make decisions based on various request/controller arguments. Note that `{settings}` is also available.
 
 All content you write into these sections will be output in the respective location as is, meaning you must write the entire `<script>` or whichever tag you are writing, including all attributes. You can of course use various Fluid ViewHelpers to resolve extension asset paths.
 
