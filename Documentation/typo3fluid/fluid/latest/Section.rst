@@ -67,7 +67,8 @@ Those are rendered by the ActionController (\TYPO3\CMS\Extbase\Mvc\Controller\Ac
        <link rel="stylesheet" href="typo3conf/ext/my_extension/Resources/Public/Css/myCssFile.css" />
     </f:section>
     <f:section name="FooterAssets">
-         <p>© My example copyright note in the footer</p>
+        <p>© My example copyright note in the footer</p>
+        <script src="typo3conf/myExtension/my_extension/Resources/Public/Js/myJsFile.js"></script>
     </f:section>
 
 Arguments
