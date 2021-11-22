@@ -21,11 +21,11 @@ Link to a file
 
 Output of a public file::
 
-   <a href="https://example.com/fileadmin/path/to/file.jpg" target="_blank">See file</a>
+   <a href="https://example.org/fileadmin/path/to/file.jpg" target="_blank">See file</a>
 
 Output of a non-public file::
 
-   <a href="https://example.com/index.php?eID=dumpFile&t=f&f=123&token=79bce812" target="_blank">See file</a>
+   <a href="https://example.org/index.php?eID=dumpFile&t=f&f=123&token=79bce812" target="_blank">See file</a>
 
 Link to download a file
 -----------------------
@@ -36,11 +36,11 @@ Link to download a file
 
 Output of a public file::
 
-   <a href="https://example.com/fileadmin/path/to/file.jpg" download="alternative-name.jpg">Download file</a>
+   <a href="https://example.org/fileadmin/path/to/file.jpg" download="alternative-name.jpg">Download file</a>
 
 Output of a non-public file::
 
-   <a href="https://example.com/index.php?eID=dumpFile&t=f&f=123&dl=1&fn=alternative-name.jpg&token=79bce812">Download file</a>
+   <a href="https://example.org/index.php?eID=dumpFile&t=f&f=123&dl=1&fn=alternative-name.jpg&token=79bce812">Download file</a>
 
 Arguments
 =========
