@@ -20,7 +20,7 @@ URI to the record-edit action passed to FormEngine::
 
    <be:uri.editRecord uid="42" table="a_table" returnUrl="foo/bar" />
 
-``/typo3/index.php?route=/record/edit&edit[a_table][42]=edit&returnUrl=foo/bar``
+:samp:`/typo3/index.php?route=/record/edit&edit[a_table][42]=edit&returnUrl=foo/bar`
 
 Arguments
 =========
