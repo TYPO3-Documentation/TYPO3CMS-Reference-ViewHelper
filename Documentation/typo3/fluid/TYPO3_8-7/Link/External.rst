@@ -14,11 +14,11 @@ Examples
 
 ::
 
-   <f:link.external uri="http://www.typo3.org" target="_blank">external link</f:link.external>
+   <f:link.external uri="https://typo3.org" target="_blank">external link</f:link.external>
 
 Output::
 
-   <a href="http://www.typo3.org" target="_blank">external link</a>
+   <a href="https://typo3.org" target="_blank">external link</a>
 
 custom default scheme::
 

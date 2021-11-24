@@ -15,11 +15,11 @@ Examples
 
 ::
 
-   <f:uri.external uri="http://www.typo3.org" />
+   <f:uri.external uri="https://typo3.org" />
 
 Output::
 
-   http://www.typo3.org
+   https://typo3.org
 
 custom default scheme::
 

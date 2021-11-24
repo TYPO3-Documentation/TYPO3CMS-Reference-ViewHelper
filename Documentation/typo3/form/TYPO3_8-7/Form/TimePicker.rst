@@ -136,7 +136,7 @@ initialDate
 :aspect:`Required`
    true
 :aspect:`Description`
-   Initial time (@see http://www.php.net/manual/en/datetime.formats.php for supported formats)
+   Initial time (@see https://www.php.net/manual/en/datetime.formats.php for supported formats)
 
 .. _form.timepicker_timetype:
 timeType

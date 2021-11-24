@@ -126,7 +126,7 @@ initialDate
 :aspect:`Required`
    true
 :aspect:`Description`
-   Initial date (@see http://www.php.net/manual/en/datetime.formats.php for supported formats)
+   Initial date (@see https://www.php.net/manual/en/datetime.formats.php for supported formats)
 
 .. _form.datepicker_enabledatepicker:
 enableDatePicker

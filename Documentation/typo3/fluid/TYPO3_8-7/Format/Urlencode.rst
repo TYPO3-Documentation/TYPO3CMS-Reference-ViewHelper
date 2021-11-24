@@ -7,7 +7,7 @@ format.urlencode
 ================
 
 
-Encodes the given string according to http://www.faqs.org/rfcs/rfc3986.html (applying PHPs rawurlencode() function)
+Encodes the given string according to `RFC 3986 <https://www.ietf.org/rfc/rfc3986.txt>`__ (applying PHPs rawurlencode() function).
 Note: The output is not escaped. You may have to ensure proper escaping on your own.
 
 Examples

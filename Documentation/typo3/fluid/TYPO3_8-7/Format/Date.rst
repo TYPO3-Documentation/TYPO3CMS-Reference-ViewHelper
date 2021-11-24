@@ -50,7 +50,7 @@ Output::
 
    13.12.1980 - 21:03:42
 
-(depending on the current time, see http://www.php.net/manual/en/function.strtotime.php)
+(depending on the current time, see https://www.php.net/manual/en/function.strtotime.php)
 
 Localized dates using strftime date format::
 
