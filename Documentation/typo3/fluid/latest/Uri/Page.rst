@@ -19,7 +19,7 @@ URI to the current page
 
    <f:uri.page>page link</f:uri.page>
 
-``/page/path/name.html``
+:samp:`/page/path/name.html`
 
 Depending on current page, routing and page path configuration.
 
@@ -30,7 +30,7 @@ Query parameters
 
    <f:uri.page pageUid="1" additionalParams="{foo: 'bar'}" />
 
-``/page/path/name.html?foo=bar``
+:samp:`/page/path/name.html?foo=bar`
 
 Depending on current page, routing and page path configuration.
 
@@ -41,7 +41,7 @@ Query parameters for extensions
 
    <f:uri.page pageUid="1" additionalParams="{extension_key: {foo: 'bar'}}" />
 
-``/page/path/name.html?extension_key[foo]=bar``
+:samp:`/page/path/name.html?extension_key[foo]=bar`
 
 Depending on current page, routing and page path configuration.
 

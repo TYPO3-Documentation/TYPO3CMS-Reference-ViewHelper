@@ -7,7 +7,7 @@ format.urlencode
 ================
 
 
-Encodes the given string according to http://www.faqs.org/rfcs/rfc3986.html
+Encodes the given string according to `RFC 3986 <https://www.ietf.org/rfc/rfc3986.txt>`__.
 Applying PHPs :php:`rawurlencode()` function.
 See https://www.php.net/manual/function.rawurlencode.php.
 

@@ -17,11 +17,11 @@ Default
 
 ::
 
-   <f:link.external uri="https://www.typo3.org" target="_blank">external link</f:link.external>
+   <f:link.external uri="https://typo3.org" target="_blank">external link</f:link.external>
 
 Output::
 
-   <a href="https://www.typo3.org" target="_blank">external link</a>
+   <a href="https://typo3.org" target="_blank">external link</a>
 
 Custom default scheme
 ---------------------
