@@ -18,9 +18,9 @@ Default
 
 ::
 
-   <f:uri.external uri="https://www.typo3.org" />
+   <f:uri.external uri="https://typo3.org" />
 
-``https://www.typo3.org``
+:samp:`https://typo3.org`
 
 Custom default scheme
 ---------------------

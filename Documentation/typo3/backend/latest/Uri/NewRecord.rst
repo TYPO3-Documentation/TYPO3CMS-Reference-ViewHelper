@@ -32,25 +32,25 @@ Uri to create a new record of a_table after record 17 on the same pid::
 
    <be:uri.newRecord table="a_table" returnUrl="foo/bar" uid="-17"/>
 
-``/typo3/record/edit?edit[a_table][-17]=new&returnUrl=foo/bar``
+:samp:`/typo3/record/edit?edit[a_table][-17]=new&returnUrl=foo/bar`
 
 Uri to create a new record of a_table on root page::
 
    <be:uri.newRecord table="a_table" returnUrl="foo/bar""/>
 
-``/typo3/record/edit?edit[a_table][]=new&returnUrl=foo/bar``
+:samp:`/typo3/record/edit?edit[a_table][]=new&returnUrl=foo/bar`
 
 Uri to create a new record of a_table on page 17::
 
    <be:uri.newRecord table="a_table" returnUrl="foo/bar" pid="17"/>
 
-``/typo3/record/edit?edit[a_table][17]=new&returnUrl=foo/bar``
+:samp:`/typo3/record/edit?edit[a_table][17]=new&returnUrl=foo/bar`
 
 Uri to create a new record of a_table on page 17 with a default value::
 
    <be:uri.newRecord table="a_table" returnUrl="foo/bar" pid="17" defaultValues="{a_table: {a_field: 'value'}}"/>
 
-``/typo3/record/edit?edit[a_table][17]=new&returnUrl=foo/bar&defVals[a_table][a_field]=value``
+:samp:`/typo3/record/edit?edit[a_table][17]=new&returnUrl=foo/bar&defVals[a_table][a_field]=value`
 
 Arguments
 =========
