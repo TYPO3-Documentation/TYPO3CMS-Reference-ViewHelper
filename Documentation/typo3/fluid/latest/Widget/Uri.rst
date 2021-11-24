@@ -16,7 +16,7 @@ URI to the show-action of the current controller::
 
    <f:widget.uri action="show" />
 
-``/page/path/name.html?tx_myextension_plugin[widgetIdentifier][action]=show&tx_myextension_plugin[widgetIdentifier][controller]=Standard&cHash=xyz``
+:samp:`/page/path/name.html?tx_myextension_plugin[widgetIdentifier][action]=show&tx_myextension_plugin[widgetIdentifier][controller]=Standard&cHash=xyz`
 
 Depending on current page, routing and page path configuration.
 
