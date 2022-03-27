@@ -1,43 +1,41 @@
-.. include:: Includes.txt
+.. include:: /Includes.txt
 
-.. _start:
+==========================
+Fluid ViewHelper Reference
+==========================
 
-==============================
-Fluid ViewHelper Documentation
-==============================
+:Version:
+   |release|
 
-:Rendered: |today|
+:Language:
+   en
 
-This is a complete reference of all available Fluid ViewHelpers within TYPO3 CMS.
-This documentation is generated from PHP Source code of TYPO3 CMS.
+:Author:
+   TYPO3 contributors
 
-.. note::
+:License:
+   This document is published under the
+   `Creative Commons BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`__
+   license.
 
-   This reference is one time generated for Version 8.7.
+:Rendered:
+   |today|
 
-Also notice that package names are not 1:1 Composer packages. ``cms-`` is
-stripped.
+----
 
-.. note::
+This is a complete reference of all available :ref:`Fluid <t3extbasebook:fluid>`
+view helpers in TYPO3 CMS.
 
-   This reference contains all ViewHelpers provided by the TYPO3 core, but most of them are not considered public API.
-   If you look for a ViewHelper to use with your own project, use only available from ext:backend, ext:fluid or the standalone fluid package.
-   It is recommended to develop own ViewHelpers, implementing one of the AbstractViewHelper classes from the TYPO3Fluid namespace, when you need special handling.
+*Note:* This documentation was `generated <https://github.com/TYPO3-Documentation/fluid-documentation-generator>`__
+from the PHP source code of TYPO3 CMS and the package names do not correspond
+1:1 to the Composer package names, as the ``cms-`` prefix has been removed.
 
+----
 
-The ViewHelpers are in:
-
-* Fluid (`typo3fluid/`): `src/ViewHelpers <https://github.com/TYPO3/Fluid/tree/master/src/ViewHelpers>`__
-* TYPO3:
-
-   * `typo3/backend`: `typo3/sysext/backend/Classes/ViewHelpers <https://github.com/typo3/typo3/tree/master/typo3/sysext/backend/Classes/ViewHelpers>`__
-   * `typo3/core`: `typo3/sysext/core/Classes/ViewHelpers <https://github.com/typo3/typo3/tree/master/typo3/sysext/core/Classes/ViewHelpers>`__
-   * `typo3/fluid`: `typo3/sysext/fluid/Classes/ViewHelpers <https://github.com/typo3/typo3/tree/master/typo3/sysext/fluid/Classes/ViewHelpers>`__
-
-Content
--------
+**Table of Contents:**
 
 .. toctree::
+   :maxdepth: 2
    :titlesonly:
 
    typo3/backend/TYPO3_8-7/Index
@@ -58,3 +56,11 @@ Content
    typo3/scheduler/TYPO3_8-7/Index
    typo3/sys_note/TYPO3_8-7/Index
    typo3fluid/fluid/2.5.5/Index
+
+.. Meta Menu
+
+.. toctree::
+   :hidden:
+
+   Sitemap
+   genindex
