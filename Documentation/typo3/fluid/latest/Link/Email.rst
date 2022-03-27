@@ -44,6 +44,7 @@ Arguments
 
 
 .. _link.email_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -56,6 +57,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _link.email_data:
+
 data
 ----
 
@@ -68,6 +70,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _link.email_email:
+
 email
 -----
 
@@ -80,6 +83,7 @@ email
    The email address to be turned into a link
 
 .. _link.email_class:
+
 class
 -----
 
@@ -92,6 +96,7 @@ class
    CSS class(es) for this element
 
 .. _link.email_dir:
+
 dir
 ---
 
@@ -104,6 +109,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _link.email_id:
+
 id
 --
 
@@ -116,6 +122,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _link.email_lang:
+
 lang
 ----
 
@@ -128,6 +135,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _link.email_style:
+
 style
 -----
 
@@ -140,6 +148,7 @@ style
    Individual CSS styles for this element
 
 .. _link.email_title:
+
 title
 -----
 
@@ -152,6 +161,7 @@ title
    Tooltip text of element
 
 .. _link.email_accesskey:
+
 accesskey
 ---------
 
@@ -164,6 +174,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _link.email_tabindex:
+
 tabindex
 --------
 
@@ -176,6 +187,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _link.email_onclick:
+
 onclick
 -------
 
@@ -188,6 +200,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _link.email_name:
+
 name
 ----
 
@@ -200,6 +213,7 @@ name
    Specifies the name of an anchor
 
 .. _link.email_rel:
+
 rel
 ---
 
@@ -212,6 +226,7 @@ rel
    Specifies the relationship between the current document and the linked document
 
 .. _link.email_rev:
+
 rev
 ---
 
@@ -224,6 +239,7 @@ rev
    Specifies the relationship between the linked document and the current document
 
 .. _link.email_target:
+
 target
 ------
 

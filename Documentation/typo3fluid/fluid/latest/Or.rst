@@ -14,6 +14,7 @@ Arguments
 
 
 .. _or_content:
+
 content
 -------
 
@@ -26,6 +27,7 @@ content
    Content to check if empty
 
 .. _or_alternative:
+
 alternative
 -----------
 
@@ -38,6 +40,7 @@ alternative
    Alternative if content is empty
 
 .. _or_arguments:
+
 arguments
 ---------
 

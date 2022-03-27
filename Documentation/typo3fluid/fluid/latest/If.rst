@@ -79,6 +79,7 @@ Arguments
 
 
 .. _if_then:
+
 then
 ----
 
@@ -91,6 +92,7 @@ then
    Value to be returned if the condition if met.
 
 .. _if_else:
+
 else
 ----
 
@@ -103,6 +105,7 @@ else
    Value to be returned if the condition if not met.
 
 .. _if_condition:
+
 condition
 ---------
 

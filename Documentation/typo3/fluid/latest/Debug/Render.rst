@@ -20,6 +20,7 @@ Arguments
 
 
 .. _debug.render_debug:
+
 debug
 -----
 
@@ -35,6 +36,7 @@ debug
    If true, the admin panel shows debug information if activated,
 
 .. _debug.render_section:
+
 section
 -------
 
@@ -47,6 +49,7 @@ section
    Section to render - combine with partial to render section in partial
 
 .. _debug.render_partial:
+
 partial
 -------
 
@@ -59,6 +62,7 @@ partial
    Partial to render, with or without section
 
 .. _debug.render_arguments:
+
 arguments
 ---------
 
@@ -74,6 +78,7 @@ arguments
    Array of variables to be transferred. Use {_all} for all variables
 
 .. _debug.render_optional:
+
 optional
 --------
 
@@ -86,6 +91,7 @@ optional
    If TRUE, considers the *section* optional. Partial never is.
 
 .. _debug.render_default:
+
 default
 -------
 
@@ -98,6 +104,7 @@ default
    Value (usually string) to be displayed if the section or partial does not exist
 
 .. _debug.render_contentas:
+
 contentAs
 ---------
 

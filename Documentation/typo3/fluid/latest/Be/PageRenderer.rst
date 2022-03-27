@@ -29,6 +29,7 @@ Arguments
 
 
 .. _be.pagerenderer_pagetitle:
+
 pageTitle
 ---------
 
@@ -41,6 +42,7 @@ pageTitle
    Title tag of the module. Not required by default, as BE modules are shown in a frame
 
 .. _be.pagerenderer_includecssfiles:
+
 includeCssFiles
 ---------------
 
@@ -53,6 +55,7 @@ includeCssFiles
    List of custom CSS file to be loaded
 
 .. _be.pagerenderer_includejsfiles:
+
 includeJsFiles
 --------------
 
@@ -65,6 +68,7 @@ includeJsFiles
    List of custom JavaScript file to be loaded
 
 .. _be.pagerenderer_addjsinlinelabels:
+
 addJsInlineLabels
 -----------------
 
@@ -77,6 +81,7 @@ addJsInlineLabels
    Custom labels to add to JavaScript inline labels
 
 .. _be.pagerenderer_includerequirejsmodules:
+
 includeRequireJsModules
 -----------------------
 
@@ -89,6 +94,7 @@ includeRequireJsModules
    List of RequireJS modules to be loaded
 
 .. _be.pagerenderer_addinlinesettings:
+
 addInlineSettings
 -----------------
 

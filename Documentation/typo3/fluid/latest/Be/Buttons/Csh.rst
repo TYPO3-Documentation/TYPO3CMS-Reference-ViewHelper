@@ -45,6 +45,7 @@ Arguments
 
 
 .. _be.buttons.csh_table:
+
 table
 -----
 
@@ -57,6 +58,7 @@ table
    Table name ('_MOD_'+module name). If not set, the current module name will be used
 
 .. _be.buttons.csh_field:
+
 field
 -----
 
@@ -69,6 +71,7 @@ field
    Field name (CSH locallang main key)
 
 .. _be.buttons.csh_wrap:
+
 wrap
 ----
 

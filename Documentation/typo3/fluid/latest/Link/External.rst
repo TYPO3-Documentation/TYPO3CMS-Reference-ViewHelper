@@ -39,6 +39,7 @@ Arguments
 
 
 .. _link.external_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -51,6 +52,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _link.external_data:
+
 data
 ----
 
@@ -63,6 +65,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _link.external_uri:
+
 uri
 ---
 
@@ -75,6 +78,7 @@ uri
    The URI that will be put in the href attribute of the rendered link tag
 
 .. _link.external_defaultscheme:
+
 defaultScheme
 -------------
 
@@ -90,6 +94,7 @@ defaultScheme
    Scheme the href attribute will be prefixed with if specified $uri does not contain a scheme already
 
 .. _link.external_class:
+
 class
 -----
 
@@ -102,6 +107,7 @@ class
    CSS class(es) for this element
 
 .. _link.external_dir:
+
 dir
 ---
 
@@ -114,6 +120,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _link.external_id:
+
 id
 --
 
@@ -126,6 +133,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _link.external_lang:
+
 lang
 ----
 
@@ -138,6 +146,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _link.external_style:
+
 style
 -----
 
@@ -150,6 +159,7 @@ style
    Individual CSS styles for this element
 
 .. _link.external_title:
+
 title
 -----
 
@@ -162,6 +172,7 @@ title
    Tooltip text of element
 
 .. _link.external_accesskey:
+
 accesskey
 ---------
 
@@ -174,6 +185,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _link.external_tabindex:
+
 tabindex
 --------
 
@@ -186,6 +198,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _link.external_onclick:
+
 onclick
 -------
 
@@ -198,6 +211,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _link.external_name:
+
 name
 ----
 
@@ -210,6 +224,7 @@ name
    Specifies the name of an anchor
 
 .. _link.external_rel:
+
 rel
 ---
 
@@ -222,6 +237,7 @@ rel
    Specifies the relationship between the current document and the linked document
 
 .. _link.external_rev:
+
 rev
 ---
 
@@ -234,6 +250,7 @@ rev
    Specifies the relationship between the linked document and the current document
 
 .. _link.external_target:
+
 target
 ------
 

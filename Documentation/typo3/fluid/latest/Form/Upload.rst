@@ -26,6 +26,7 @@ Arguments
 
 
 .. _form.upload_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -38,6 +39,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _form.upload_data:
+
 data
 ----
 
@@ -50,6 +52,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _form.upload_name:
+
 name
 ----
 
@@ -62,6 +65,7 @@ name
    Name of input tag
 
 .. _form.upload_value:
+
 value
 -----
 
@@ -74,6 +78,7 @@ value
    Value of input tag
 
 .. _form.upload_property:
+
 property
 --------
 
@@ -86,6 +91,7 @@ property
    Name of Object Property. If used in conjunction with <f:form object="...">, "name" and "value" properties will be ignored.
 
 .. _form.upload_disabled:
+
 disabled
 --------
 
@@ -98,6 +104,7 @@ disabled
    Specifies that the input element should be disabled when the page loads
 
 .. _form.upload_multiple:
+
 multiple
 --------
 
@@ -110,6 +117,7 @@ multiple
    Specifies that the file input element should allow multiple selection of files
 
 .. _form.upload_errorclass:
+
 errorClass
 ----------
 
@@ -125,6 +133,7 @@ errorClass
    CSS class to set if there are errors for this ViewHelper
 
 .. _form.upload_class:
+
 class
 -----
 
@@ -137,6 +146,7 @@ class
    CSS class(es) for this element
 
 .. _form.upload_dir:
+
 dir
 ---
 
@@ -149,6 +159,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _form.upload_id:
+
 id
 --
 
@@ -161,6 +172,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _form.upload_lang:
+
 lang
 ----
 
@@ -173,6 +185,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _form.upload_style:
+
 style
 -----
 
@@ -185,6 +198,7 @@ style
    Individual CSS styles for this element
 
 .. _form.upload_title:
+
 title
 -----
 
@@ -197,6 +211,7 @@ title
    Tooltip text of element
 
 .. _form.upload_accesskey:
+
 accesskey
 ---------
 
@@ -209,6 +224,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _form.upload_tabindex:
+
 tabindex
 --------
 
@@ -221,6 +237,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _form.upload_onclick:
+
 onclick
 -------
 

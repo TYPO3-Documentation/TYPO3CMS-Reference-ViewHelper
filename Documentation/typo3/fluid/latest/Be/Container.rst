@@ -40,6 +40,7 @@ Arguments
 
 
 .. _be.container_pagetitle:
+
 pageTitle
 ---------
 
@@ -52,6 +53,7 @@ pageTitle
    Title tag of the module. Not required by default, as BE modules are shown in a frame
 
 .. _be.container_includecssfiles:
+
 includeCssFiles
 ---------------
 
@@ -64,6 +66,7 @@ includeCssFiles
    List of custom CSS file to be loaded
 
 .. _be.container_includejsfiles:
+
 includeJsFiles
 --------------
 
@@ -76,6 +79,7 @@ includeJsFiles
    List of custom JavaScript file to be loaded
 
 .. _be.container_addjsinlinelabels:
+
 addJsInlineLabels
 -----------------
 
@@ -88,6 +92,7 @@ addJsInlineLabels
    Custom labels to add to JavaScript inline labels
 
 .. _be.container_includerequirejsmodules:
+
 includeRequireJsModules
 -----------------------
 
@@ -100,6 +105,7 @@ includeRequireJsModules
    List of RequireJS modules to be loaded
 
 .. _be.container_enabledocheader:
+
 enableDocHeader
 ---------------
 

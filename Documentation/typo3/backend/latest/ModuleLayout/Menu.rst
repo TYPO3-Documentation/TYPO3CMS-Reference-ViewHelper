@@ -28,6 +28,7 @@ Arguments
 
 
 .. _modulelayout.menu_identifier:
+
 identifier
 ----------
 

@@ -84,6 +84,7 @@ Arguments
 
 
 .. _form.select_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -96,6 +97,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _form.select_data:
+
 data
 ----
 
@@ -108,6 +110,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _form.select_name:
+
 name
 ----
 
@@ -120,6 +123,7 @@ name
    Name of input tag
 
 .. _form.select_value:
+
 value
 -----
 
@@ -132,6 +136,7 @@ value
    Value of input tag
 
 .. _form.select_property:
+
 property
 --------
 
@@ -144,6 +149,7 @@ property
    Name of Object Property. If used in conjunction with <f:form object="...">, "name" and "value" properties will be ignored.
 
 .. _form.select_class:
+
 class
 -----
 
@@ -156,6 +162,7 @@ class
    CSS class(es) for this element
 
 .. _form.select_dir:
+
 dir
 ---
 
@@ -168,6 +175,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _form.select_id:
+
 id
 --
 
@@ -180,6 +188,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _form.select_lang:
+
 lang
 ----
 
@@ -192,6 +201,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _form.select_style:
+
 style
 -----
 
@@ -204,6 +214,7 @@ style
    Individual CSS styles for this element
 
 .. _form.select_title:
+
 title
 -----
 
@@ -216,6 +227,7 @@ title
    Tooltip text of element
 
 .. _form.select_accesskey:
+
 accesskey
 ---------
 
@@ -228,6 +240,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _form.select_tabindex:
+
 tabindex
 --------
 
@@ -240,6 +253,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _form.select_onclick:
+
 onclick
 -------
 
@@ -252,6 +266,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _form.select_size:
+
 size
 ----
 
@@ -264,6 +279,7 @@ size
    Size of input field
 
 .. _form.select_disabled:
+
 disabled
 --------
 
@@ -276,6 +292,7 @@ disabled
    Specifies that the input element should be disabled when the page loads
 
 .. _form.select_options:
+
 options
 -------
 
@@ -288,6 +305,7 @@ options
    Associative array with internal IDs as key, and the values are displayed in the select box. Can be combined with or replaced by child f:form.select.* nodes.
 
 .. _form.select_optionsaftercontent:
+
 optionsAfterContent
 -------------------
 
@@ -300,6 +318,7 @@ optionsAfterContent
    If true, places auto-generated option tags after those rendered in the tag content. If false, automatic options come first.
 
 .. _form.select_optionvaluefield:
+
 optionValueField
 ----------------
 
@@ -312,6 +331,7 @@ optionValueField
    If specified, will call the appropriate getter on each object to determine the value.
 
 .. _form.select_optionlabelfield:
+
 optionLabelField
 ----------------
 
@@ -324,6 +344,7 @@ optionLabelField
    If specified, will call the appropriate getter on each object to determine the label.
 
 .. _form.select_sortbyoptionlabel:
+
 sortByOptionLabel
 -----------------
 
@@ -336,6 +357,7 @@ sortByOptionLabel
    If true, List will be sorted by label.
 
 .. _form.select_selectallbydefault:
+
 selectAllByDefault
 ------------------
 
@@ -348,6 +370,7 @@ selectAllByDefault
    If specified options are selected if none was set before.
 
 .. _form.select_errorclass:
+
 errorClass
 ----------
 
@@ -363,6 +386,7 @@ errorClass
    CSS class to set if there are errors for this ViewHelper
 
 .. _form.select_prependoptionlabel:
+
 prependOptionLabel
 ------------------
 
@@ -375,6 +399,7 @@ prependOptionLabel
    If specified, will provide an option at first position with the specified label.
 
 .. _form.select_prependoptionvalue:
+
 prependOptionValue
 ------------------
 
@@ -387,6 +412,7 @@ prependOptionValue
    If specified, will provide an option at first position with the specified value.
 
 .. _form.select_multiple:
+
 multiple
 --------
 
@@ -399,6 +425,7 @@ multiple
    If set multiple options may be selected.
 
 .. _form.select_required:
+
 required
 --------
 

@@ -53,6 +53,7 @@ Arguments
 
 
 .. _media_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -65,6 +66,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _media_data:
+
 data
 ----
 
@@ -77,6 +79,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _media_class:
+
 class
 -----
 
@@ -89,6 +92,7 @@ class
    CSS class(es) for this element
 
 .. _media_dir:
+
 dir
 ---
 
@@ -101,6 +105,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _media_id:
+
 id
 --
 
@@ -113,6 +118,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _media_lang:
+
 lang
 ----
 
@@ -125,6 +131,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _media_style:
+
 style
 -----
 
@@ -137,6 +144,7 @@ style
    Individual CSS styles for this element
 
 .. _media_title:
+
 title
 -----
 
@@ -149,6 +157,7 @@ title
    Tooltip text of element
 
 .. _media_accesskey:
+
 accesskey
 ---------
 
@@ -161,6 +170,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _media_tabindex:
+
 tabindex
 --------
 
@@ -173,6 +183,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _media_onclick:
+
 onclick
 -------
 
@@ -185,6 +196,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _media_alt:
+
 alt
 ---
 
@@ -197,6 +209,7 @@ alt
    Specifies an alternate text for an image
 
 .. _media_file:
+
 file
 ----
 
@@ -209,6 +222,7 @@ file
    File
 
 .. _media_additionalconfig:
+
 additionalConfig
 ----------------
 
@@ -224,6 +238,7 @@ additionalConfig
    This array can hold additional configuration that is passed though to the Renderer object
 
 .. _media_width:
+
 width
 -----
 
@@ -236,6 +251,7 @@ width
    This can be a numeric value representing the fixed width of in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
 .. _media_height:
+
 height
 ------
 
@@ -248,6 +264,7 @@ height
    This can be a numeric value representing the fixed height in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
 .. _media_cropvariant:
+
 cropVariant
 -----------
 
@@ -263,6 +280,7 @@ cropVariant
    Select a cropping variant, in case multiple croppings have been specified or stored in FileReference
 
 .. _media_fileextension:
+
 fileExtension
 -------------
 
@@ -275,6 +293,7 @@ fileExtension
    Custom file extension to use for images
 
 .. _media_loading:
+
 loading
 -------
 

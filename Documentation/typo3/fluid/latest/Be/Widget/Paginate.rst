@@ -43,6 +43,7 @@ Arguments
 
 
 .. _be.widget.paginate_customwidgetid:
+
 customWidgetId
 --------------
 
@@ -55,6 +56,7 @@ customWidgetId
    Extend the widget identifier with a custom widget id
 
 .. _be.widget.paginate_storesession:
+
 storeSession
 ------------
 
@@ -70,6 +72,7 @@ storeSession
    Store the widgets session (utilizing a cookie).
 
 .. _be.widget.paginate_objects:
+
 objects
 -------
 
@@ -82,6 +85,7 @@ objects
    The QueryResult containing all objects.
 
 .. _be.widget.paginate_as:
+
 as
 --
 
@@ -94,6 +98,7 @@ as
    As
 
 .. _be.widget.paginate_configuration:
+
 configuration
 -------------
 

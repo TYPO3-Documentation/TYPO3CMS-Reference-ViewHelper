@@ -67,6 +67,7 @@ Arguments
 
 
 .. _format.currency_currencysign:
+
 currencySign
 ------------
 
@@ -79,6 +80,7 @@ currencySign
    The currency sign, eg $ or .
 
 .. _format.currency_decimalseparator:
+
 decimalSeparator
 ----------------
 
@@ -94,6 +96,7 @@ decimalSeparator
    The separator for the decimal point.
 
 .. _format.currency_thousandsseparator:
+
 thousandsSeparator
 ------------------
 
@@ -109,6 +112,7 @@ thousandsSeparator
    The thousands separator.
 
 .. _format.currency_prependcurrency:
+
 prependCurrency
 ---------------
 
@@ -121,6 +125,7 @@ prependCurrency
    Select if the currency sign should be prepended
 
 .. _format.currency_separatecurrency:
+
 separateCurrency
 ----------------
 
@@ -136,6 +141,7 @@ separateCurrency
    Separate the currency sign from the number by a single space, defaults to true due to backwards compatibility
 
 .. _format.currency_decimals:
+
 decimals
 --------
 
@@ -151,6 +157,7 @@ decimals
    Set decimals places.
 
 .. _format.currency_usedash:
+
 useDash
 -------
 

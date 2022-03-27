@@ -41,6 +41,7 @@ Arguments
 
 
 .. _be.security.ifauthenticated_then:
+
 then
 ----
 
@@ -53,6 +54,7 @@ then
    Value to be returned if the condition if met.
 
 .. _be.security.ifauthenticated_else:
+
 else
 ----
 

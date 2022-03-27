@@ -51,6 +51,7 @@ Arguments
 
 
 .. _uri.newrecord_uid:
+
 uid
 ---
 
@@ -63,6 +64,7 @@ uid
    Uid < 0 will insert the record after the given uid
 
 .. _uri.newrecord_pid:
+
 pid
 ---
 
@@ -75,6 +77,7 @@ pid
    The page id where the record will be created
 
 .. _uri.newrecord_table:
+
 table
 -----
 
@@ -87,6 +90,7 @@ table
    Target database table
 
 .. _uri.newrecord_returnurl:
+
 returnUrl
 ---------
 

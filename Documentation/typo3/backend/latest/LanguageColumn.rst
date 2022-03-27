@@ -14,6 +14,7 @@ Arguments
 
 
 .. _languagecolumn_languagecolumn:
+
 languageColumn
 --------------
 
@@ -26,6 +27,7 @@ languageColumn
    Language column object which is context for column
 
 .. _languagecolumn_columnnumber:
+
 columnNumber
 ------------
 

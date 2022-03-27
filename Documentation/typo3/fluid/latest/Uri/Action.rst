@@ -25,6 +25,7 @@ Arguments
 
 
 .. _uri.action_action:
+
 action
 ------
 
@@ -37,6 +38,7 @@ action
    Target action
 
 .. _uri.action_arguments:
+
 arguments
 ---------
 
@@ -52,6 +54,7 @@ arguments
    Arguments
 
 .. _uri.action_controller:
+
 controller
 ----------
 
@@ -64,6 +67,7 @@ controller
    Target controller. If NULL current controllerName is used
 
 .. _uri.action_extensionname:
+
 extensionName
 -------------
 
@@ -76,6 +80,7 @@ extensionName
    Target Extension Name (without "tx_" prefix and no underscores). If NULL the current extension name is used
 
 .. _uri.action_pluginname:
+
 pluginName
 ----------
 
@@ -88,6 +93,7 @@ pluginName
    Target plugin. If empty, the current plugin name is used
 
 .. _uri.action_pageuid:
+
 pageUid
 -------
 
@@ -100,6 +106,7 @@ pageUid
    Target page. See TypoLink destination
 
 .. _uri.action_pagetype:
+
 pageType
 --------
 
@@ -112,6 +119,7 @@ pageType
    Type of the target page. See typolink.parameter
 
 .. _uri.action_nocache:
+
 noCache
 -------
 
@@ -124,6 +132,7 @@ noCache
    Set this to disable caching for the target page. You should not need this.
 
 .. _uri.action_nocachehash:
+
 noCacheHash
 -----------
 
@@ -136,6 +145,7 @@ noCacheHash
    Deprecated: Set this to suppress the cHash query parameter created by TypoLink. You should not need this.
 
 .. _uri.action_section:
+
 section
 -------
 
@@ -148,6 +158,7 @@ section
    The anchor to be added to the URI
 
 .. _uri.action_format:
+
 format
 ------
 
@@ -160,6 +171,7 @@ format
    The requested format, e.g. ".html
 
 .. _uri.action_linkaccessrestrictedpages:
+
 linkAccessRestrictedPages
 -------------------------
 
@@ -172,6 +184,7 @@ linkAccessRestrictedPages
    If set, links pointing to access restricted pages will still link to the page even though the page cannot be accessed.
 
 .. _uri.action_additionalparams:
+
 additionalParams
 ----------------
 
@@ -187,6 +200,7 @@ additionalParams
    Additional query parameters that won't be prefixed like $arguments (overrule $arguments)
 
 .. _uri.action_absolute:
+
 absolute
 --------
 
@@ -199,6 +213,7 @@ absolute
    If set, an absolute URI is rendered
 
 .. _uri.action_addquerystring:
+
 addQueryString
 --------------
 
@@ -211,6 +226,7 @@ addQueryString
    If set, the current query parameters will be kept in the URI
 
 .. _uri.action_argumentstobeexcludedfromquerystring:
+
 argumentsToBeExcludedFromQueryString
 ------------------------------------
 
@@ -226,6 +242,7 @@ argumentsToBeExcludedFromQueryString
    Arguments to be removed from the URI. Only active if $addQueryString = TRUE
 
 .. _uri.action_addquerystringmethod:
+
 addQueryStringMethod
 --------------------
 

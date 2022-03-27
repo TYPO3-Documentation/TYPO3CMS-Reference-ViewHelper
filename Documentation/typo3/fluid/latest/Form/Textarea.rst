@@ -27,6 +27,7 @@ Arguments
 
 
 .. _form.textarea_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -39,6 +40,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _form.textarea_data:
+
 data
 ----
 
@@ -51,6 +53,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _form.textarea_name:
+
 name
 ----
 
@@ -63,6 +66,7 @@ name
    Name of input tag
 
 .. _form.textarea_value:
+
 value
 -----
 
@@ -75,6 +79,7 @@ value
    Value of input tag
 
 .. _form.textarea_property:
+
 property
 --------
 
@@ -87,6 +92,7 @@ property
    Name of Object Property. If used in conjunction with <f:form object="...">, "name" and "value" properties will be ignored.
 
 .. _form.textarea_autofocus:
+
 autofocus
 ---------
 
@@ -99,6 +105,7 @@ autofocus
    Specifies that a text area should automatically get focus when the page loads
 
 .. _form.textarea_rows:
+
 rows
 ----
 
@@ -111,6 +118,7 @@ rows
    The number of rows of a text area
 
 .. _form.textarea_cols:
+
 cols
 ----
 
@@ -123,6 +131,7 @@ cols
    The number of columns of a text area
 
 .. _form.textarea_disabled:
+
 disabled
 --------
 
@@ -135,6 +144,7 @@ disabled
    Specifies that the input element should be disabled when the page loads
 
 .. _form.textarea_placeholder:
+
 placeholder
 -----------
 
@@ -147,6 +157,7 @@ placeholder
    The placeholder of the textarea
 
 .. _form.textarea_errorclass:
+
 errorClass
 ----------
 
@@ -162,6 +173,7 @@ errorClass
    CSS class to set if there are errors for this ViewHelper
 
 .. _form.textarea_readonly:
+
 readonly
 --------
 
@@ -174,6 +186,7 @@ readonly
    The readonly attribute of the textarea
 
 .. _form.textarea_required:
+
 required
 --------
 
@@ -186,6 +199,7 @@ required
    Specifies whether the textarea is required
 
 .. _form.textarea_class:
+
 class
 -----
 
@@ -198,6 +212,7 @@ class
    CSS class(es) for this element
 
 .. _form.textarea_dir:
+
 dir
 ---
 
@@ -210,6 +225,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _form.textarea_id:
+
 id
 --
 
@@ -222,6 +238,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _form.textarea_lang:
+
 lang
 ----
 
@@ -234,6 +251,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _form.textarea_style:
+
 style
 -----
 
@@ -246,6 +264,7 @@ style
    Individual CSS styles for this element
 
 .. _form.textarea_title:
+
 title
 -----
 
@@ -258,6 +277,7 @@ title
    Tooltip text of element
 
 .. _form.textarea_accesskey:
+
 accesskey
 ---------
 
@@ -270,6 +290,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _form.textarea_tabindex:
+
 tabindex
 --------
 
@@ -282,6 +303,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _form.textarea_onclick:
+
 onclick
 -------
 

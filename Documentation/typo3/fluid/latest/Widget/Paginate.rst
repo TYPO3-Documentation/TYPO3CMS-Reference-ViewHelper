@@ -54,6 +54,7 @@ Arguments
 
 
 .. _widget.paginate_customwidgetid:
+
 customWidgetId
 --------------
 
@@ -66,6 +67,7 @@ customWidgetId
    Extend the widget identifier with a custom widget id
 
 .. _widget.paginate_storesession:
+
 storeSession
 ------------
 
@@ -81,6 +83,7 @@ storeSession
    Store the widgets session (utilizing a cookie).
 
 .. _widget.paginate_objects:
+
 objects
 -------
 
@@ -93,6 +96,7 @@ objects
    Object
 
 .. _widget.paginate_as:
+
 as
 --
 
@@ -105,6 +109,7 @@ as
    As
 
 .. _widget.paginate_configuration:
+
 configuration
 -------------
 

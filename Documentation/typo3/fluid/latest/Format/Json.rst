@@ -46,6 +46,7 @@ Arguments
 
 
 .. _format.json_value:
+
 value
 -----
 
@@ -58,6 +59,7 @@ value
    The incoming data to convert, or null if VH children should be used
 
 .. _format.json_forceobject:
+
 forceObject
 -----------
 

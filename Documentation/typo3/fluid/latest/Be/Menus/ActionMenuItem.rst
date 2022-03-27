@@ -40,6 +40,7 @@ Arguments
 
 
 .. _be.menus.actionmenuitem_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -52,6 +53,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _be.menus.actionmenuitem_data:
+
 data
 ----
 
@@ -64,6 +66,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _be.menus.actionmenuitem_label:
+
 label
 -----
 
@@ -76,6 +79,7 @@ label
    Label of the option tag
 
 .. _be.menus.actionmenuitem_controller:
+
 controller
 ----------
 
@@ -88,6 +92,7 @@ controller
    Controller to be associated with this ActionMenuItem
 
 .. _be.menus.actionmenuitem_action:
+
 action
 ------
 
@@ -100,6 +105,7 @@ action
    The action to be associated with this ActionMenuItem
 
 .. _be.menus.actionmenuitem_arguments:
+
 arguments
 ---------
 

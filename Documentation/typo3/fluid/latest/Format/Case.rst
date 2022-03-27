@@ -62,6 +62,7 @@ Arguments
 
 
 .. _format.case_value:
+
 value
 -----
 
@@ -74,6 +75,7 @@ value
    The input value. If not given, the evaluated child nodes will be used.
 
 .. _format.case_mode:
+
 mode
 ----
 

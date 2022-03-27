@@ -27,6 +27,7 @@ Arguments
 
 
 .. _link.action_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -39,6 +40,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _link.action_data:
+
 data
 ----
 
@@ -51,6 +53,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _link.action_class:
+
 class
 -----
 
@@ -63,6 +66,7 @@ class
    CSS class(es) for this element
 
 .. _link.action_dir:
+
 dir
 ---
 
@@ -75,6 +79,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _link.action_id:
+
 id
 --
 
@@ -87,6 +92,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _link.action_lang:
+
 lang
 ----
 
@@ -99,6 +105,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _link.action_style:
+
 style
 -----
 
@@ -111,6 +118,7 @@ style
    Individual CSS styles for this element
 
 .. _link.action_title:
+
 title
 -----
 
@@ -123,6 +131,7 @@ title
    Tooltip text of element
 
 .. _link.action_accesskey:
+
 accesskey
 ---------
 
@@ -135,6 +144,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _link.action_tabindex:
+
 tabindex
 --------
 
@@ -147,6 +157,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _link.action_onclick:
+
 onclick
 -------
 
@@ -159,6 +170,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _link.action_name:
+
 name
 ----
 
@@ -171,6 +183,7 @@ name
    Specifies the name of an anchor
 
 .. _link.action_rel:
+
 rel
 ---
 
@@ -183,6 +196,7 @@ rel
    Specifies the relationship between the current document and the linked document
 
 .. _link.action_rev:
+
 rev
 ---
 
@@ -195,6 +209,7 @@ rev
    Specifies the relationship between the linked document and the current document
 
 .. _link.action_target:
+
 target
 ------
 
@@ -207,6 +222,7 @@ target
    Specifies where to open the linked document
 
 .. _link.action_action:
+
 action
 ------
 
@@ -219,6 +235,7 @@ action
    Target action
 
 .. _link.action_controller:
+
 controller
 ----------
 
@@ -231,6 +248,7 @@ controller
    Target controller. If NULL current controllerName is used
 
 .. _link.action_extensionname:
+
 extensionName
 -------------
 
@@ -243,6 +261,7 @@ extensionName
    Target Extension Name (without "tx_" prefix and no underscores). If NULL the current extension name is used
 
 .. _link.action_pluginname:
+
 pluginName
 ----------
 
@@ -255,6 +274,7 @@ pluginName
    Target plugin. If empty, the current plugin name is used
 
 .. _link.action_pageuid:
+
 pageUid
 -------
 
@@ -267,6 +287,7 @@ pageUid
    Target page. See TypoLink destination
 
 .. _link.action_pagetype:
+
 pageType
 --------
 
@@ -279,6 +300,7 @@ pageType
    Type of the target page. See typolink.parameter
 
 .. _link.action_nocache:
+
 noCache
 -------
 
@@ -291,6 +313,7 @@ noCache
    Set this to disable caching for the target page. You should not need this.
 
 .. _link.action_nocachehash:
+
 noCacheHash
 -----------
 
@@ -303,6 +326,7 @@ noCacheHash
    Deprecated: Set this to suppress the cHash query parameter created by TypoLink. You should not need this.
 
 .. _link.action_section:
+
 section
 -------
 
@@ -315,6 +339,7 @@ section
    The anchor to be added to the URI
 
 .. _link.action_format:
+
 format
 ------
 
@@ -327,6 +352,7 @@ format
    The requested format, e.g. ".html
 
 .. _link.action_linkaccessrestrictedpages:
+
 linkAccessRestrictedPages
 -------------------------
 
@@ -339,6 +365,7 @@ linkAccessRestrictedPages
    If set, links pointing to access restricted pages will still link to the page even though the page cannot be accessed.
 
 .. _link.action_additionalparams:
+
 additionalParams
 ----------------
 
@@ -351,6 +378,7 @@ additionalParams
    Additional query parameters that won't be prefixed like $arguments (overrule $arguments)
 
 .. _link.action_absolute:
+
 absolute
 --------
 
@@ -363,6 +391,7 @@ absolute
    If set, the URI of the rendered link is absolute
 
 .. _link.action_addquerystring:
+
 addQueryString
 --------------
 
@@ -375,6 +404,7 @@ addQueryString
    If set, the current query parameters will be kept in the URI
 
 .. _link.action_argumentstobeexcludedfromquerystring:
+
 argumentsToBeExcludedFromQueryString
 ------------------------------------
 
@@ -387,6 +417,7 @@ argumentsToBeExcludedFromQueryString
    Arguments to be removed from the URI. Only active if $addQueryString = TRUE
 
 .. _link.action_addquerystringmethod:
+
 addQueryStringMethod
 --------------------
 
@@ -399,6 +430,7 @@ addQueryStringMethod
    Set which parameters will be kept. Only active if $addQueryString = TRUE
 
 .. _link.action_arguments:
+
 arguments
 ---------
 

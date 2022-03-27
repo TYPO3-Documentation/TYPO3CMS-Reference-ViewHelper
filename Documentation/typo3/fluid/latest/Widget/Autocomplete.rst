@@ -41,6 +41,7 @@ Arguments
 
 
 .. _widget.autocomplete_customwidgetid:
+
 customWidgetId
 --------------
 
@@ -53,6 +54,7 @@ customWidgetId
    Extend the widget identifier with a custom widget id
 
 .. _widget.autocomplete_storesession:
+
 storeSession
 ------------
 
@@ -68,6 +70,7 @@ storeSession
    Store the widgets session (utilizing a cookie).
 
 .. _widget.autocomplete_objects:
+
 objects
 -------
 
@@ -80,6 +83,7 @@ objects
    Objects to auto-complete
 
 .. _widget.autocomplete_for:
+
 for
 ---
 
@@ -92,6 +96,7 @@ for
    Property to fill
 
 .. _widget.autocomplete_searchproperty:
+
 searchProperty
 --------------
 

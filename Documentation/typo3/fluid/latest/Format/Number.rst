@@ -38,6 +38,7 @@ Arguments
 
 
 .. _format.number_decimals:
+
 decimals
 --------
 
@@ -53,6 +54,7 @@ decimals
    The number of digits after the decimal point
 
 .. _format.number_decimalseparator:
+
 decimalSeparator
 ----------------
 
@@ -68,6 +70,7 @@ decimalSeparator
    The decimal point character
 
 .. _format.number_thousandsseparator:
+
 thousandsSeparator
 ------------------
 

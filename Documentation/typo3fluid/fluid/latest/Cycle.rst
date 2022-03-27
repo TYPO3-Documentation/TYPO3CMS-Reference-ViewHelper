@@ -45,6 +45,7 @@ Arguments
 
 
 .. _cycle_values:
+
 values
 ------
 
@@ -57,6 +58,7 @@ values
    The array or object implementing \ArrayAccess (for example \SplObjectStorage) to iterated over
 
 .. _cycle_as:
+
 as
 --
 

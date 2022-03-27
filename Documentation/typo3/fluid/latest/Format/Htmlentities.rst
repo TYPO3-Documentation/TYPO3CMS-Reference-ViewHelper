@@ -40,6 +40,7 @@ Arguments
 
 
 .. _format.htmlentities_value:
+
 value
 -----
 
@@ -52,6 +53,7 @@ value
    String to format
 
 .. _format.htmlentities_keepquotes:
+
 keepQuotes
 ----------
 
@@ -64,6 +66,7 @@ keepQuotes
    If TRUE, single and double quotes won't be replaced (sets ENT_NOQUOTES flag).
 
 .. _format.htmlentities_encoding:
+
 encoding
 --------
 
@@ -76,6 +79,7 @@ encoding
    Define the encoding used when converting characters (Default: UTF-8
 
 .. _format.htmlentities_doubleencode:
+
 doubleEncode
 ------------
 

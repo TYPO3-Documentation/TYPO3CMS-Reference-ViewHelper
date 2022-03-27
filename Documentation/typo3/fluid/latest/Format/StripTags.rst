@@ -61,6 +61,7 @@ Arguments
 
 
 .. _format.striptags_value:
+
 value
 -----
 
@@ -73,6 +74,7 @@ value
    String to format
 
 .. _format.striptags_allowedtags:
+
 allowedTags
 -----------
 

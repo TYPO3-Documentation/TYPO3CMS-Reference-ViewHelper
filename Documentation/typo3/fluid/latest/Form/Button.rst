@@ -38,6 +38,7 @@ Arguments
 
 
 .. _form.button_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -50,6 +51,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _form.button_data:
+
 data
 ----
 
@@ -62,6 +64,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _form.button_name:
+
 name
 ----
 
@@ -74,6 +77,7 @@ name
    Name of input tag
 
 .. _form.button_value:
+
 value
 -----
 
@@ -86,6 +90,7 @@ value
    Value of input tag
 
 .. _form.button_property:
+
 property
 --------
 
@@ -98,6 +103,7 @@ property
    Name of Object Property. If used in conjunction with <f:form object="...">, "name" and "value" properties will be ignored.
 
 .. _form.button_autofocus:
+
 autofocus
 ---------
 
@@ -110,6 +116,7 @@ autofocus
    Specifies that a button should automatically get focus when the page loads
 
 .. _form.button_disabled:
+
 disabled
 --------
 
@@ -122,6 +129,7 @@ disabled
    Specifies that the input element should be disabled when the page loads
 
 .. _form.button_form:
+
 form
 ----
 
@@ -134,6 +142,7 @@ form
    Specifies one or more forms the button belongs to
 
 .. _form.button_formaction:
+
 formaction
 ----------
 
@@ -146,6 +155,7 @@ formaction
    Specifies where to send the form-data when a form is submitted. Only for type="submit"
 
 .. _form.button_formenctype:
+
 formenctype
 -----------
 
@@ -158,6 +168,7 @@ formenctype
    Specifies how form-data should be encoded before sending it to a server. Only for type="submit" (e.g. "application/x-www-form-urlencoded", "multipart/form-data" or "text/plain")
 
 .. _form.button_formmethod:
+
 formmethod
 ----------
 
@@ -170,6 +181,7 @@ formmethod
    Specifies how to send the form-data (which HTTP method to use). Only for type="submit" (e.g. "get" or "post")
 
 .. _form.button_formnovalidate:
+
 formnovalidate
 --------------
 
@@ -182,6 +194,7 @@ formnovalidate
    Specifies that the form-data should not be validated on submission. Only for type="submit"
 
 .. _form.button_formtarget:
+
 formtarget
 ----------
 
@@ -194,6 +207,7 @@ formtarget
    Specifies where to display the response after submitting the form. Only for type="submit" (e.g. "_blank", "_self", "_parent", "_top", "framename")
 
 .. _form.button_class:
+
 class
 -----
 
@@ -206,6 +220,7 @@ class
    CSS class(es) for this element
 
 .. _form.button_dir:
+
 dir
 ---
 
@@ -218,6 +233,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _form.button_id:
+
 id
 --
 
@@ -230,6 +246,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _form.button_lang:
+
 lang
 ----
 
@@ -242,6 +259,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _form.button_style:
+
 style
 -----
 
@@ -254,6 +272,7 @@ style
    Individual CSS styles for this element
 
 .. _form.button_title:
+
 title
 -----
 
@@ -266,6 +285,7 @@ title
    Tooltip text of element
 
 .. _form.button_accesskey:
+
 accesskey
 ---------
 
@@ -278,6 +298,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _form.button_tabindex:
+
 tabindex
 --------
 
@@ -290,6 +311,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _form.button_onclick:
+
 onclick
 -------
 
@@ -302,6 +324,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _form.button_type:
+
 type
 ----
 

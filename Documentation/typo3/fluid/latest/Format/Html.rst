@@ -56,6 +56,7 @@ Arguments
 
 
 .. _format.html_parsefunctspath:
+
 parseFuncTSPath
 ---------------
 

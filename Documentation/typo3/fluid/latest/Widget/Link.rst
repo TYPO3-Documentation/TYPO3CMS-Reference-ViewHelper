@@ -27,6 +27,7 @@ Arguments
 
 
 .. _widget.link_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -39,6 +40,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _widget.link_data:
+
 data
 ----
 
@@ -51,6 +53,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _widget.link_class:
+
 class
 -----
 
@@ -63,6 +66,7 @@ class
    CSS class(es) for this element
 
 .. _widget.link_dir:
+
 dir
 ---
 
@@ -75,6 +79,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _widget.link_id:
+
 id
 --
 
@@ -87,6 +92,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _widget.link_lang:
+
 lang
 ----
 
@@ -99,6 +105,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _widget.link_style:
+
 style
 -----
 
@@ -111,6 +118,7 @@ style
    Individual CSS styles for this element
 
 .. _widget.link_title:
+
 title
 -----
 
@@ -123,6 +131,7 @@ title
    Tooltip text of element
 
 .. _widget.link_accesskey:
+
 accesskey
 ---------
 
@@ -135,6 +144,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _widget.link_tabindex:
+
 tabindex
 --------
 
@@ -147,6 +157,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _widget.link_onclick:
+
 onclick
 -------
 
@@ -159,6 +170,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _widget.link_name:
+
 name
 ----
 
@@ -171,6 +183,7 @@ name
    Specifies the name of an anchor
 
 .. _widget.link_rel:
+
 rel
 ---
 
@@ -183,6 +196,7 @@ rel
    Specifies the relationship between the current document and the linked document
 
 .. _widget.link_rev:
+
 rev
 ---
 
@@ -195,6 +209,7 @@ rev
    Specifies the relationship between the linked document and the current document
 
 .. _widget.link_target:
+
 target
 ------
 
@@ -207,6 +222,7 @@ target
    Specifies where to open the linked document
 
 .. _widget.link_usecachehash:
+
 useCacheHash
 ------------
 
@@ -219,6 +235,7 @@ useCacheHash
    Deprecated: True whether the cache hash should be appended to the URL
 
 .. _widget.link_addquerystringmethod:
+
 addQueryStringMethod
 --------------------
 
@@ -231,6 +248,7 @@ addQueryStringMethod
    Method to be used for query string
 
 .. _widget.link_action:
+
 action
 ------
 
@@ -243,6 +261,7 @@ action
    Target action
 
 .. _widget.link_arguments:
+
 arguments
 ---------
 
@@ -258,6 +277,7 @@ arguments
    Arguments
 
 .. _widget.link_section:
+
 section
 -------
 
@@ -270,6 +290,7 @@ section
    The anchor to be added to the URI
 
 .. _widget.link_format:
+
 format
 ------
 
@@ -282,6 +303,7 @@ format
    The requested format, e.g. ".html
 
 .. _widget.link_ajax:
+
 ajax
 ----
 
@@ -294,6 +316,7 @@ ajax
    TRUE if the URI should be to an AJAX widget, FALSE otherwise.
 
 .. _widget.link_absolute:
+
 absolute
 --------
 

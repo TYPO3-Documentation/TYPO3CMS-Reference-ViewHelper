@@ -29,6 +29,7 @@ Arguments
 
 
 .. _be.uri_route:
+
 route
 -----
 
@@ -41,6 +42,7 @@ route
    The name of the route
 
 .. _be.uri_parameters:
+
 parameters
 ----------
 
@@ -56,6 +58,7 @@ parameters
    An array of parameters
 
 .. _be.uri_referencetype:
+
 referenceType
 -------------
 

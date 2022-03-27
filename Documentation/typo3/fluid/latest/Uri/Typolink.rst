@@ -45,6 +45,7 @@ Arguments
 
 
 .. _uri.typolink_parameter:
+
 parameter
 ---------
 
@@ -57,6 +58,7 @@ parameter
    StdWrap.typolink style parameter string
 
 .. _uri.typolink_additionalparams:
+
 additionalParams
 ----------------
 
@@ -69,6 +71,7 @@ additionalParams
    StdWrap.typolink additionalParams
 
 .. _uri.typolink_language:
+
 language
 --------
 
@@ -81,6 +84,7 @@ language
    Link to a specific language - defaults to the current language, use a language ID or "current" to enforce a specific language
 
 .. _uri.typolink_usecachehash:
+
 useCacheHash
 ------------
 
@@ -93,6 +97,7 @@ useCacheHash
    Deprecated: You should not need this.
 
 .. _uri.typolink_addquerystring:
+
 addQueryString
 --------------
 
@@ -105,6 +110,7 @@ addQueryString
    If set, the current query parameters will be kept in the URL
 
 .. _uri.typolink_addquerystringmethod:
+
 addQueryStringMethod
 --------------------
 
@@ -120,6 +126,7 @@ addQueryStringMethod
    Method to use when keeping query parameters (only active if addQueryString is set)
 
 .. _uri.typolink_addquerystringexclude:
+
 addQueryStringExclude
 ---------------------
 
@@ -132,6 +139,7 @@ addQueryStringExclude
    Define parameters to be excluded from the query string (only active if addQueryString is set)
 
 .. _uri.typolink_absolute:
+
 absolute
 --------
 

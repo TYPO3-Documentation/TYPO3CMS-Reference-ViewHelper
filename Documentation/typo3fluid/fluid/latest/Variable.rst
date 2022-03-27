@@ -29,6 +29,7 @@ Arguments
 
 
 .. _variable_value:
+
 value
 -----
 
@@ -41,6 +42,7 @@ value
    Value to assign. If not in arguments then taken from tag content
 
 .. _variable_name:
+
 name
 ----
 

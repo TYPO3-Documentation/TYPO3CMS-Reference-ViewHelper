@@ -70,6 +70,7 @@ Arguments
 
 
 .. _groupedfor_each:
+
 each
 ----
 
@@ -82,6 +83,7 @@ each
    The array or \SplObjectStorage to iterated over
 
 .. _groupedfor_as:
+
 as
 --
 
@@ -94,6 +96,7 @@ as
    The name of the iteration variable
 
 .. _groupedfor_groupby:
+
 groupBy
 -------
 
@@ -106,6 +109,7 @@ groupBy
    Group by this property
 
 .. _groupedfor_groupkey:
+
 groupKey
 --------
 

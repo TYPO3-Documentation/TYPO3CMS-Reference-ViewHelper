@@ -77,6 +77,7 @@ Arguments
 
 
 .. _image_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -89,6 +90,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _image_data:
+
 data
 ----
 
@@ -101,6 +103,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _image_class:
+
 class
 -----
 
@@ -113,6 +116,7 @@ class
    CSS class(es) for this element
 
 .. _image_dir:
+
 dir
 ---
 
@@ -125,6 +129,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _image_id:
+
 id
 --
 
@@ -137,6 +142,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _image_lang:
+
 lang
 ----
 
@@ -149,6 +155,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _image_style:
+
 style
 -----
 
@@ -161,6 +168,7 @@ style
    Individual CSS styles for this element
 
 .. _image_title:
+
 title
 -----
 
@@ -173,6 +181,7 @@ title
    Tooltip text of element
 
 .. _image_accesskey:
+
 accesskey
 ---------
 
@@ -185,6 +194,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _image_tabindex:
+
 tabindex
 --------
 
@@ -197,6 +207,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _image_onclick:
+
 onclick
 -------
 
@@ -209,6 +220,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _image_alt:
+
 alt
 ---
 
@@ -221,6 +233,7 @@ alt
    Specifies an alternate text for an image
 
 .. _image_ismap:
+
 ismap
 -----
 
@@ -233,6 +246,7 @@ ismap
    Specifies an image as a server-side image-map. Rarely used. Look at usemap instead
 
 .. _image_longdesc:
+
 longdesc
 --------
 
@@ -245,6 +259,7 @@ longdesc
    Specifies the URL to a document that contains a long description of an image
 
 .. _image_usemap:
+
 usemap
 ------
 
@@ -257,6 +272,7 @@ usemap
    Specifies an image as a client-side image-map
 
 .. _image_loading:
+
 loading
 -------
 
@@ -269,6 +285,7 @@ loading
    Native lazy-loading for images property. Can be "lazy", "eager" or "auto"
 
 .. _image_src:
+
 src
 ---
 
@@ -281,6 +298,7 @@ src
    A path to a file, a combined FAL identifier or an uid (int). If $treatIdAsReference is set, the integer is considered the uid of the sys_file_reference record. If you already got a FAL object, consider using the $image parameter instead
 
 .. _image_treatidasreference:
+
 treatIdAsReference
 ------------------
 
@@ -293,6 +311,7 @@ treatIdAsReference
    Given src argument is a sys_file_reference record
 
 .. _image_image:
+
 image
 -----
 
@@ -305,6 +324,7 @@ image
    A FAL object
 
 .. _image_crop:
+
 crop
 ----
 
@@ -317,6 +337,7 @@ crop
    Overrule cropping of image (setting to FALSE disables the cropping set in FileReference)
 
 .. _image_cropvariant:
+
 cropVariant
 -----------
 
@@ -332,6 +353,7 @@ cropVariant
    Select a cropping variant, in case multiple croppings have been specified or stored in FileReference
 
 .. _image_fileextension:
+
 fileExtension
 -------------
 
@@ -344,6 +366,7 @@ fileExtension
    Custom file extension to use
 
 .. _image_width:
+
 width
 -----
 
@@ -356,6 +379,7 @@ width
    Width of the image. This can be a numeric value representing the fixed width of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
 .. _image_height:
+
 height
 ------
 
@@ -368,6 +392,7 @@ height
    Height of the image. This can be a numeric value representing the fixed height of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
 .. _image_minwidth:
+
 minWidth
 --------
 
@@ -380,6 +405,7 @@ minWidth
    Minimum width of the image
 
 .. _image_minheight:
+
 minHeight
 ---------
 
@@ -392,6 +418,7 @@ minHeight
    Minimum height of the image
 
 .. _image_maxwidth:
+
 maxWidth
 --------
 
@@ -404,6 +431,7 @@ maxWidth
    Maximum width of the image
 
 .. _image_maxheight:
+
 maxHeight
 ---------
 
@@ -416,6 +444,7 @@ maxHeight
    Maximum height of the image
 
 .. _image_absolute:
+
 absolute
 --------
 

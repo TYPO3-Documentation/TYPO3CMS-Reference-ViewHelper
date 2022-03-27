@@ -50,6 +50,7 @@ Arguments
 
 
 .. _cache.warmup_variables:
+
 variables
 ---------
 

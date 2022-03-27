@@ -32,6 +32,7 @@ Arguments
 
 
 .. _be.menus.actionmenuitemgroup_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -44,6 +45,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _be.menus.actionmenuitemgroup_data:
+
 data
 ----
 
@@ -56,6 +58,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _be.menus.actionmenuitemgroup_defaultcontroller:
+
 defaultController
 -----------------
 
@@ -68,6 +71,7 @@ defaultController
    The default controller to be used
 
 .. _be.menus.actionmenuitemgroup_label:
+
 label
 -----
 

@@ -14,6 +14,7 @@ Arguments
 
 
 .. _form.select.option_class:
+
 class
 -----
 
@@ -26,6 +27,7 @@ class
    CSS class(es) for this element
 
 .. _form.select.option_dir:
+
 dir
 ---
 
@@ -38,6 +40,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _form.select.option_id:
+
 id
 --
 
@@ -50,6 +53,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _form.select.option_lang:
+
 lang
 ----
 
@@ -62,6 +66,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _form.select.option_style:
+
 style
 -----
 
@@ -74,6 +79,7 @@ style
    Individual CSS styles for this element
 
 .. _form.select.option_title:
+
 title
 -----
 
@@ -86,6 +92,7 @@ title
    Tooltip text of element
 
 .. _form.select.option_accesskey:
+
 accesskey
 ---------
 
@@ -98,6 +105,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _form.select.option_tabindex:
+
 tabindex
 --------
 
@@ -110,6 +118,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _form.select.option_onclick:
+
 onclick
 -------
 
@@ -122,6 +131,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _form.select.option_selected:
+
 selected
 --------
 
@@ -134,6 +144,7 @@ selected
    If set, overrides automatic detection of selected state for this option.
 
 .. _form.select.option_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -146,6 +157,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _form.select.option_data:
+
 data
 ----
 
@@ -158,6 +170,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _form.select.option_value:
+
 value
 -----
 

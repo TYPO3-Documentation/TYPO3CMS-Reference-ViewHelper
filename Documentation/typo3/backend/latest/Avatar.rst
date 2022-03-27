@@ -49,6 +49,7 @@ Arguments
 
 
 .. _avatar_backenduser:
+
 backendUser
 -----------
 
@@ -61,6 +62,7 @@ backendUser
    Uid of the backend user
 
 .. _avatar_size:
+
 size
 ----
 
@@ -76,6 +78,7 @@ size
    Width and height of the image
 
 .. _avatar_showicon:
+
 showIcon
 --------
 

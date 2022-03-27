@@ -34,6 +34,7 @@ Arguments
 
 
 .. _uri.editrecord_uid:
+
 uid
 ---
 
@@ -46,6 +47,7 @@ uid
    Uid of record to be edited, 0 for creation
 
 .. _uri.editrecord_table:
+
 table
 -----
 
@@ -58,6 +60,7 @@ table
    Target database table
 
 .. _uri.editrecord_fields:
+
 fields
 ------
 
@@ -70,6 +73,7 @@ fields
    Edit only these fields (comma separated list)
 
 .. _uri.editrecord_returnurl:
+
 returnUrl
 ---------
 

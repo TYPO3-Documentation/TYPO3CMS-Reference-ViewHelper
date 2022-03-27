@@ -76,6 +76,7 @@ Arguments
 
 
 .. _format.crop_maxcharacters:
+
 maxCharacters
 -------------
 
@@ -88,6 +89,7 @@ maxCharacters
    Place where to truncate the string
 
 .. _format.crop_append:
+
 append
 ------
 
@@ -103,6 +105,7 @@ append
    What to append, if truncation happened
 
 .. _format.crop_respectwordboundaries:
+
 respectWordBoundaries
 ---------------------
 
@@ -118,6 +121,7 @@ respectWordBoundaries
    If TRUE and division is in the middle of a word, the remains of that word is removed.
 
 .. _format.crop_respecthtml:
+
 respectHtml
 -----------
 

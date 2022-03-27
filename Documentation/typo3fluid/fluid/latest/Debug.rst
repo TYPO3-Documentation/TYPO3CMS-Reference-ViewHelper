@@ -28,6 +28,7 @@ Arguments
 
 
 .. _debug_typeonly:
+
 typeOnly
 --------
 
@@ -40,6 +41,7 @@ typeOnly
    If TRUE, debugs only the type of variables
 
 .. _debug_levels:
+
 levels
 ------
 
@@ -55,6 +57,7 @@ levels
    Levels to render when rendering nested objects/arrays
 
 .. _debug_html:
+
 html
 ----
 

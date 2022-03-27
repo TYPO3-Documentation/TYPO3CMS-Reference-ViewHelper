@@ -49,6 +49,7 @@ Arguments
 
 
 .. _format.bytes_value:
+
 value
 -----
 
@@ -61,6 +62,7 @@ value
    The incoming data to convert, or NULL if VH children should be used
 
 .. _format.bytes_decimals:
+
 decimals
 --------
 
@@ -73,6 +75,7 @@ decimals
    The number of digits after the decimal point
 
 .. _format.bytes_decimalseparator:
+
 decimalSeparator
 ----------------
 
@@ -88,6 +91,7 @@ decimalSeparator
    The decimal point character
 
 .. _format.bytes_thousandsseparator:
+
 thousandsSeparator
 ------------------
 
@@ -103,6 +107,7 @@ thousandsSeparator
    The character for grouping the thousand digits
 
 .. _format.bytes_units:
+
 units
 -----
 

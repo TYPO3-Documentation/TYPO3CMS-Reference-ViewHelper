@@ -69,6 +69,7 @@ Arguments
 
 
 .. _uri.image_src:
+
 src
 ---
 
@@ -81,6 +82,7 @@ src
    Src
 
 .. _uri.image_treatidasreference:
+
 treatIdAsReference
 ------------------
 
@@ -93,6 +95,7 @@ treatIdAsReference
    Given src argument is a sys_file_reference record
 
 .. _uri.image_image:
+
 image
 -----
 
@@ -105,6 +108,7 @@ image
    Image
 
 .. _uri.image_crop:
+
 crop
 ----
 
@@ -117,6 +121,7 @@ crop
    Overrule cropping of image (setting to FALSE disables the cropping set in FileReference)
 
 .. _uri.image_cropvariant:
+
 cropVariant
 -----------
 
@@ -132,6 +137,7 @@ cropVariant
    Select a cropping variant, in case multiple croppings have been specified or stored in FileReference
 
 .. _uri.image_fileextension:
+
 fileExtension
 -------------
 
@@ -144,6 +150,7 @@ fileExtension
    Custom file extension to use
 
 .. _uri.image_width:
+
 width
 -----
 
@@ -156,6 +163,7 @@ width
    Width of the image. This can be a numeric value representing the fixed width of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
 .. _uri.image_height:
+
 height
 ------
 
@@ -168,6 +176,7 @@ height
    Height of the image. This can be a numeric value representing the fixed height of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
 .. _uri.image_minwidth:
+
 minWidth
 --------
 
@@ -180,6 +189,7 @@ minWidth
    Minimum width of the image
 
 .. _uri.image_minheight:
+
 minHeight
 ---------
 
@@ -192,6 +202,7 @@ minHeight
    Minimum height of the image
 
 .. _uri.image_maxwidth:
+
 maxWidth
 --------
 
@@ -204,6 +215,7 @@ maxWidth
    Maximum width of the image
 
 .. _uri.image_maxheight:
+
 maxHeight
 ---------
 
@@ -216,6 +228,7 @@ maxHeight
    Maximum height of the image
 
 .. _uri.image_absolute:
+
 absolute
 --------
 

@@ -67,6 +67,7 @@ Arguments
 
 
 .. _link.newrecord_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -79,6 +80,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _link.newrecord_data:
+
 data
 ----
 
@@ -91,6 +93,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _link.newrecord_class:
+
 class
 -----
 
@@ -103,6 +106,7 @@ class
    CSS class(es) for this element
 
 .. _link.newrecord_dir:
+
 dir
 ---
 
@@ -115,6 +119,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _link.newrecord_id:
+
 id
 --
 
@@ -127,6 +132,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _link.newrecord_lang:
+
 lang
 ----
 
@@ -139,6 +145,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _link.newrecord_style:
+
 style
 -----
 
@@ -151,6 +158,7 @@ style
    Individual CSS styles for this element
 
 .. _link.newrecord_title:
+
 title
 -----
 
@@ -163,6 +171,7 @@ title
    Tooltip text of element
 
 .. _link.newrecord_accesskey:
+
 accesskey
 ---------
 
@@ -175,6 +184,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _link.newrecord_tabindex:
+
 tabindex
 --------
 
@@ -187,6 +197,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _link.newrecord_onclick:
+
 onclick
 -------
 
@@ -199,6 +210,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _link.newrecord_uid:
+
 uid
 ---
 
@@ -211,6 +223,7 @@ uid
    Uid < 0 will insert the record after the given uid
 
 .. _link.newrecord_pid:
+
 pid
 ---
 
@@ -223,6 +236,7 @@ pid
    The page id where the record will be created
 
 .. _link.newrecord_table:
+
 table
 -----
 
@@ -235,6 +249,7 @@ table
    Target database table
 
 .. _link.newrecord_returnurl:
+
 returnUrl
 ---------
 

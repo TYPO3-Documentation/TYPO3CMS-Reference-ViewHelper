@@ -28,6 +28,7 @@ Arguments
 
 
 .. _modulelayout.button.linkbutton_icon:
+
 icon
 ----
 
@@ -40,6 +41,7 @@ icon
    Icon identifier for the button
 
 .. _modulelayout.button.linkbutton_title:
+
 title
 -----
 
@@ -52,6 +54,7 @@ title
    Title of the button
 
 .. _modulelayout.button.linkbutton_disabled:
+
 disabled
 --------
 
@@ -64,6 +67,7 @@ disabled
    Whether the button is disabled
 
 .. _modulelayout.button.linkbutton_showlabel:
+
 showLabel
 ---------
 
@@ -76,6 +80,7 @@ showLabel
    Defines whether to show the title as a label within the button
 
 .. _modulelayout.button.linkbutton_position:
+
 position
 --------
 
@@ -88,6 +93,7 @@ position
    Position of the button (left or right)
 
 .. _modulelayout.button.linkbutton_group:
+
 group
 -----
 
@@ -100,6 +106,7 @@ group
    Button group of the button
 
 .. _modulelayout.button.linkbutton_link:
+
 link
 ----
 

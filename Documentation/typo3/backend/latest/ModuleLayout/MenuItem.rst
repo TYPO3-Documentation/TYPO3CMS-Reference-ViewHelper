@@ -26,6 +26,7 @@ Arguments
 
 
 .. _modulelayout.menuitem_label:
+
 label
 -----
 
@@ -38,6 +39,7 @@ label
    Label of the menu item
 
 .. _modulelayout.menuitem_uri:
+
 uri
 ---
 

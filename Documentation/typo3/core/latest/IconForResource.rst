@@ -29,6 +29,7 @@ Arguments
 
 
 .. _iconforresource_resource:
+
 resource
 --------
 
@@ -41,6 +42,7 @@ resource
    Resource
 
 .. _iconforresource_size:
+
 size
 ----
 
@@ -56,6 +58,7 @@ size
    The icon size
 
 .. _iconforresource_overlay:
+
 overlay
 -------
 
@@ -68,6 +71,7 @@ overlay
    Overlay identifier
 
 .. _iconforresource_options:
+
 options
 -------
 
@@ -83,6 +87,7 @@ options
    An associative array with additional options
 
 .. _iconforresource_alternativemarkupidentifier:
+
 alternativeMarkupIdentifier
 ---------------------------
 

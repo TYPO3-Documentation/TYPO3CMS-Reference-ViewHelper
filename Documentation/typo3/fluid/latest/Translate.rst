@@ -85,6 +85,7 @@ Arguments
 
 
 .. _translate_key:
+
 key
 ---
 
@@ -97,6 +98,7 @@ key
    Translation Key
 
 .. _translate_id:
+
 id
 --
 
@@ -109,6 +111,7 @@ id
    Translation ID. Same as key.
 
 .. _translate_default:
+
 default
 -------
 
@@ -121,6 +124,7 @@ default
    If the given locallang key could not be found, this value is used. If this argument is not set, child nodes will be used to render the default
 
 .. _translate_arguments:
+
 arguments
 ---------
 
@@ -133,6 +137,7 @@ arguments
    Arguments to be replaced in the resulting string
 
 .. _translate_extensionname:
+
 extensionName
 -------------
 
@@ -145,6 +150,7 @@ extensionName
    UpperCamelCased extension key (for example BlogExample)
 
 .. _translate_languagekey:
+
 languageKey
 -----------
 
@@ -157,6 +163,7 @@ languageKey
    Language key ("dk" for example) or "default" to use for this translation. If this argument is empty, we use the current language
 
 .. _translate_alternativelanguagekeys:
+
 alternativeLanguageKeys
 -----------------------
 

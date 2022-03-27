@@ -64,6 +64,7 @@ Arguments
 
 
 .. _cobject_data:
+
 data
 ----
 
@@ -76,6 +77,7 @@ data
    The data to be used for rendering the cObject. Can be an object, array or string. If this argument is not set, child nodes will be used
 
 .. _cobject_typoscriptobjectpath:
+
 typoscriptObjectPath
 --------------------
 
@@ -88,6 +90,7 @@ typoscriptObjectPath
    The TypoScript setup path of the TypoScript object to render
 
 .. _cobject_currentvaluekey:
+
 currentValueKey
 ---------------
 
@@ -100,6 +103,7 @@ currentValueKey
    CurrentValueKey
 
 .. _cobject_table:
+
 table
 -----
 

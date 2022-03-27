@@ -41,6 +41,7 @@ Arguments
 
 
 .. _uri.resource_path:
+
 path
 ----
 
@@ -53,6 +54,7 @@ path
    The path and filename of the resource (relative to Public resource directory of the extension).
 
 .. _uri.resource_extensionname:
+
 extensionName
 -------------
 
@@ -65,6 +67,7 @@ extensionName
    Target extension name. If not set, the current extension name will be used
 
 .. _uri.resource_absolute:
+
 absolute
 --------
 

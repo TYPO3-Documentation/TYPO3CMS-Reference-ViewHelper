@@ -50,6 +50,7 @@ Arguments
 
 
 .. _uri.page_pageuid:
+
 pageUid
 -------
 
@@ -62,6 +63,7 @@ pageUid
    Target PID
 
 .. _uri.page_additionalparams:
+
 additionalParams
 ----------------
 
@@ -77,6 +79,7 @@ additionalParams
    Query parameters to be attached to the resulting URI
 
 .. _uri.page_pagetype:
+
 pageType
 --------
 
@@ -89,6 +92,7 @@ pageType
    Type of the target page. See typolink.parameter
 
 .. _uri.page_nocache:
+
 noCache
 -------
 
@@ -101,6 +105,7 @@ noCache
    Set this to disable caching for the target page. You should not need this.
 
 .. _uri.page_language:
+
 language
 --------
 
@@ -113,6 +118,7 @@ language
    Link to a specific language - defaults to the current language, use a language ID or "current" to enforce a specific language
 
 .. _uri.page_nocachehash:
+
 noCacheHash
 -----------
 
@@ -125,6 +131,7 @@ noCacheHash
    Deprecated: Set this to suppress the cHash query parameter created by TypoLink. You should not need this.
 
 .. _uri.page_section:
+
 section
 -------
 
@@ -137,6 +144,7 @@ section
    The anchor to be added to the URI
 
 .. _uri.page_linkaccessrestrictedpages:
+
 linkAccessRestrictedPages
 -------------------------
 
@@ -149,6 +157,7 @@ linkAccessRestrictedPages
    If set, links pointing to access restricted pages will still link to the page even though the page cannot be accessed.
 
 .. _uri.page_absolute:
+
 absolute
 --------
 
@@ -161,6 +170,7 @@ absolute
    If set, the URI of the rendered link is absolute
 
 .. _uri.page_addquerystring:
+
 addQueryString
 --------------
 
@@ -173,6 +183,7 @@ addQueryString
    If set, the current query parameters will be kept in the URI
 
 .. _uri.page_argumentstobeexcludedfromquerystring:
+
 argumentsToBeExcludedFromQueryString
 ------------------------------------
 
@@ -188,6 +199,7 @@ argumentsToBeExcludedFromQueryString
    Arguments to be removed from the URI. Only active if $addQueryString = TRUE
 
 .. _uri.page_addquerystringmethod:
+
 addQueryStringMethod
 --------------------
 

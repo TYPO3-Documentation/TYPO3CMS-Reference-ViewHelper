@@ -46,6 +46,7 @@ Arguments
 
 
 .. _format.printf_value:
+
 value
 -----
 
@@ -58,6 +59,7 @@ value
    String to format
 
 .. _format.printf_arguments:
+
 arguments
 ---------
 

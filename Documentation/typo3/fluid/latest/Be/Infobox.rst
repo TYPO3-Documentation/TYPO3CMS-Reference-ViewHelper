@@ -46,6 +46,7 @@ Arguments
 
 
 .. _be.infobox_message:
+
 message
 -------
 
@@ -58,6 +59,7 @@ message
    The message of the info box, if NULL tag content is used
 
 .. _be.infobox_title:
+
 title
 -----
 
@@ -70,6 +72,7 @@ title
    The title of the info box
 
 .. _be.infobox_state:
+
 state
 -----
 
@@ -85,6 +88,7 @@ state
    The state of the box, InfoboxViewHelper::STATE_*
 
 .. _be.infobox_iconname:
+
 iconName
 --------
 
@@ -97,6 +101,7 @@ iconName
    The icon name from font awesome, NULL sets default icon
 
 .. _be.infobox_disableicon:
+
 disableIcon
 -----------
 

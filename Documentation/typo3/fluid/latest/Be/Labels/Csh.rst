@@ -37,6 +37,7 @@ Arguments
 
 
 .. _be.labels.csh_table:
+
 table
 -----
 
@@ -49,6 +50,7 @@ table
    Table name ('_MOD_'+module name). If not set, the current module name will be used
 
 .. _be.labels.csh_field:
+
 field
 -----
 
@@ -61,6 +63,7 @@ field
    Field name (CSH locallang main key)
 
 .. _be.labels.csh_label:
+
 label
 -----
 

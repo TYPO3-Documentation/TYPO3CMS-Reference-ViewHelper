@@ -26,6 +26,7 @@ Arguments
 
 
 .. _asset.css_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -38,6 +39,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _asset.css_data:
+
 data
 ----
 
@@ -50,6 +52,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _asset.css_class:
+
 class
 -----
 
@@ -62,6 +65,7 @@ class
    CSS class(es) for this element
 
 .. _asset.css_dir:
+
 dir
 ---
 
@@ -74,6 +78,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _asset.css_id:
+
 id
 --
 
@@ -86,6 +91,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _asset.css_lang:
+
 lang
 ----
 
@@ -98,6 +104,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _asset.css_style:
+
 style
 -----
 
@@ -110,6 +117,7 @@ style
    Individual CSS styles for this element
 
 .. _asset.css_title:
+
 title
 -----
 
@@ -122,6 +130,7 @@ title
    Tooltip text of element
 
 .. _asset.css_accesskey:
+
 accesskey
 ---------
 
@@ -134,6 +143,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _asset.css_tabindex:
+
 tabindex
 --------
 
@@ -146,6 +156,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _asset.css_onclick:
+
 onclick
 -------
 
@@ -158,6 +169,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _asset.css_as:
+
 as
 --
 
@@ -170,6 +182,7 @@ as
    Define the type of content being loaded (For rel="preload" or rel="prefetch" only).
 
 .. _asset.css_crossorigin:
+
 crossorigin
 -----------
 
@@ -182,6 +195,7 @@ crossorigin
    Define how to handle crossorigin requests.
 
 .. _asset.css_disabled:
+
 disabled
 --------
 
@@ -194,6 +208,7 @@ disabled
    Define whether or not the described stylesheet should be loaded and applied to the document.
 
 .. _asset.css_href:
+
 href
 ----
 
@@ -206,6 +221,7 @@ href
    Define the URL of the resource (absolute or relative).
 
 .. _asset.css_hreflang:
+
 hreflang
 --------
 
@@ -218,6 +234,7 @@ hreflang
    Define the language of the resource (Only to be used if 'href' is set).
 
 .. _asset.css_importance:
+
 importance
 ----------
 
@@ -230,6 +247,7 @@ importance
    Define the relative fetch priority of the resource.
 
 .. _asset.css_integrity:
+
 integrity
 ---------
 
@@ -242,6 +260,7 @@ integrity
    Define base64-encoded cryptographic hash of the resource that allows browsers to verify what they fetch.
 
 .. _asset.css_media:
+
 media
 -----
 
@@ -254,6 +273,7 @@ media
    Define which media type the resources applies to.
 
 .. _asset.css_referrerpolicy:
+
 referrerpolicy
 --------------
 
@@ -266,6 +286,7 @@ referrerpolicy
    Define which referrer is sent when fetching the resource.
 
 .. _asset.css_rel:
+
 rel
 ---
 
@@ -278,6 +299,7 @@ rel
    Define the relationship of the target object to the link object.
 
 .. _asset.css_sizes:
+
 sizes
 -----
 
@@ -290,6 +312,7 @@ sizes
    Define the icon size of the resource.
 
 .. _asset.css_type:
+
 type
 ----
 
@@ -302,6 +325,7 @@ type
    Define the MIME type (usually 'text/css').
 
 .. _asset.css_nonce:
+
 nonce
 -----
 
@@ -314,6 +338,7 @@ nonce
    Define a cryptographic nonce (number used once) used to whitelist inline styles in a style-src Content-Security-Policy.
 
 .. _asset.css_identifier:
+
 identifier
 ----------
 
@@ -326,6 +351,7 @@ identifier
    Use this identifier within templates to only inject your CSS once, even though it is added multiple times.
 
 .. _asset.css_priority:
+
 priority
 --------
 

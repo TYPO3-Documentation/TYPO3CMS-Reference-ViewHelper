@@ -47,6 +47,7 @@ Arguments
 
 
 .. _thumbnail_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -59,6 +60,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _thumbnail_data:
+
 data
 ----
 
@@ -71,6 +73,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _thumbnail_class:
+
 class
 -----
 
@@ -83,6 +86,7 @@ class
    CSS class(es) for this element
 
 .. _thumbnail_dir:
+
 dir
 ---
 
@@ -95,6 +99,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _thumbnail_id:
+
 id
 --
 
@@ -107,6 +112,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _thumbnail_lang:
+
 lang
 ----
 
@@ -119,6 +125,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _thumbnail_style:
+
 style
 -----
 
@@ -131,6 +138,7 @@ style
    Individual CSS styles for this element
 
 .. _thumbnail_title:
+
 title
 -----
 
@@ -143,6 +151,7 @@ title
    Tooltip text of element
 
 .. _thumbnail_accesskey:
+
 accesskey
 ---------
 
@@ -155,6 +164,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _thumbnail_tabindex:
+
 tabindex
 --------
 
@@ -167,6 +177,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _thumbnail_onclick:
+
 onclick
 -------
 
@@ -179,6 +190,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _thumbnail_alt:
+
 alt
 ---
 
@@ -191,6 +203,7 @@ alt
    Specifies an alternate text for an image
 
 .. _thumbnail_ismap:
+
 ismap
 -----
 
@@ -203,6 +216,7 @@ ismap
    Specifies an image as a server-side image-map. Rarely used. Look at usemap instead
 
 .. _thumbnail_longdesc:
+
 longdesc
 --------
 
@@ -215,6 +229,7 @@ longdesc
    Specifies the URL to a document that contains a long description of an image
 
 .. _thumbnail_usemap:
+
 usemap
 ------
 
@@ -227,6 +242,7 @@ usemap
    Specifies an image as a client-side image-map
 
 .. _thumbnail_loading:
+
 loading
 -------
 
@@ -239,6 +255,7 @@ loading
    Native lazy-loading for images property. Can be "lazy", "eager" or "auto"
 
 .. _thumbnail_src:
+
 src
 ---
 
@@ -251,6 +268,7 @@ src
    A path to a file, a combined FAL identifier or an uid (int). If $treatIdAsReference is set, the integer is considered the uid of the sys_file_reference record. If you already got a FAL object, consider using the $image parameter instead
 
 .. _thumbnail_treatidasreference:
+
 treatIdAsReference
 ------------------
 
@@ -263,6 +281,7 @@ treatIdAsReference
    Given src argument is a sys_file_reference record
 
 .. _thumbnail_image:
+
 image
 -----
 
@@ -275,6 +294,7 @@ image
    A FAL object
 
 .. _thumbnail_crop:
+
 crop
 ----
 
@@ -287,6 +307,7 @@ crop
    Overrule cropping of image (setting to FALSE disables the cropping set in FileReference)
 
 .. _thumbnail_cropvariant:
+
 cropVariant
 -----------
 
@@ -302,6 +323,7 @@ cropVariant
    Select a cropping variant, in case multiple croppings have been specified or stored in FileReference
 
 .. _thumbnail_fileextension:
+
 fileExtension
 -------------
 
@@ -314,6 +336,7 @@ fileExtension
    Custom file extension to use
 
 .. _thumbnail_width:
+
 width
 -----
 
@@ -326,6 +349,7 @@ width
    Width of the image. This can be a numeric value representing the fixed width of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
 .. _thumbnail_height:
+
 height
 ------
 
@@ -338,6 +362,7 @@ height
    Height of the image. This can be a numeric value representing the fixed height of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
 .. _thumbnail_minwidth:
+
 minWidth
 --------
 
@@ -350,6 +375,7 @@ minWidth
    Minimum width of the image
 
 .. _thumbnail_minheight:
+
 minHeight
 ---------
 
@@ -362,6 +388,7 @@ minHeight
    Minimum height of the image
 
 .. _thumbnail_maxwidth:
+
 maxWidth
 --------
 
@@ -374,6 +401,7 @@ maxWidth
    Maximum width of the image
 
 .. _thumbnail_maxheight:
+
 maxHeight
 ---------
 
@@ -386,6 +414,7 @@ maxHeight
    Maximum height of the image
 
 .. _thumbnail_absolute:
+
 absolute
 --------
 
@@ -398,6 +427,7 @@ absolute
    Force absolute URL
 
 .. _thumbnail_context:
+
 context
 -------
 

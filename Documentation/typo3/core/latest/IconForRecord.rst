@@ -29,6 +29,7 @@ Arguments
 
 
 .. _iconforrecord_table:
+
 table
 -----
 
@@ -41,6 +42,7 @@ table
    The table for the record icon
 
 .. _iconforrecord_row:
+
 row
 ---
 
@@ -53,6 +55,7 @@ row
    The record row
 
 .. _iconforrecord_size:
+
 size
 ----
 
@@ -68,6 +71,7 @@ size
    The icon size
 
 .. _iconforrecord_alternativemarkupidentifier:
+
 alternativeMarkupIdentifier
 ---------------------------
 

@@ -87,6 +87,7 @@ Arguments
 
 
 .. _format.date_date:
+
 date
 ----
 
@@ -99,6 +100,7 @@ date
    Either an object implementing DateTimeInterface or a string that is accepted by DateTime constructor
 
 .. _format.date_format:
+
 format
 ------
 
@@ -111,6 +113,7 @@ format
    Format String which is taken to format the Date/Time
 
 .. _format.date_base:
+
 base
 ----
 

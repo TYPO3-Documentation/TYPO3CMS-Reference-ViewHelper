@@ -15,6 +15,7 @@ Arguments
 
 
 .. _form.select.optgroup_class:
+
 class
 -----
 
@@ -27,6 +28,7 @@ class
    CSS class(es) for this element
 
 .. _form.select.optgroup_dir:
+
 dir
 ---
 
@@ -39,6 +41,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _form.select.optgroup_id:
+
 id
 --
 
@@ -51,6 +54,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _form.select.optgroup_lang:
+
 lang
 ----
 
@@ -63,6 +67,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _form.select.optgroup_style:
+
 style
 -----
 
@@ -75,6 +80,7 @@ style
    Individual CSS styles for this element
 
 .. _form.select.optgroup_title:
+
 title
 -----
 
@@ -87,6 +93,7 @@ title
    Tooltip text of element
 
 .. _form.select.optgroup_accesskey:
+
 accesskey
 ---------
 
@@ -99,6 +106,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _form.select.optgroup_tabindex:
+
 tabindex
 --------
 
@@ -111,6 +119,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _form.select.optgroup_onclick:
+
 onclick
 -------
 
@@ -123,6 +132,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _form.select.optgroup_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -135,6 +145,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _form.select.optgroup_data:
+
 data
 ----
 
@@ -147,6 +158,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _form.select.optgroup_label:
+
 label
 -----
 
@@ -159,6 +171,7 @@ label
    Human-readable label property for the generated optgroup tag
 
 .. _form.select.optgroup_disabled:
+
 disabled
 --------
 

@@ -32,6 +32,7 @@ Arguments
 
 
 .. _inline_code:
+
 code
 ----
 

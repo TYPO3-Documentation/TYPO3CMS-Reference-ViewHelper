@@ -25,6 +25,7 @@ Arguments
 
 
 .. _widget.uri_usecachehash:
+
 useCacheHash
 ------------
 
@@ -37,6 +38,7 @@ useCacheHash
    Deprecated: True whether the cache hash should be appended to the URL
 
 .. _widget.uri_addquerystringmethod:
+
 addQueryStringMethod
 --------------------
 
@@ -49,6 +51,7 @@ addQueryStringMethod
    Method to be used for query string
 
 .. _widget.uri_action:
+
 action
 ------
 
@@ -61,6 +64,7 @@ action
    Target action
 
 .. _widget.uri_arguments:
+
 arguments
 ---------
 
@@ -76,6 +80,7 @@ arguments
    Arguments
 
 .. _widget.uri_section:
+
 section
 -------
 
@@ -88,6 +93,7 @@ section
    The anchor to be added to the URI
 
 .. _widget.uri_format:
+
 format
 ------
 
@@ -100,6 +106,7 @@ format
    The requested format, e.g. ".html
 
 .. _widget.uri_ajax:
+
 ajax
 ----
 

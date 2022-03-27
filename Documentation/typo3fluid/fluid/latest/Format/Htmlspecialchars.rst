@@ -31,6 +31,7 @@ Arguments
 
 
 .. _format.htmlspecialchars_value:
+
 value
 -----
 
@@ -43,6 +44,7 @@ value
    Value to format
 
 .. _format.htmlspecialchars_keepquotes:
+
 keepQuotes
 ----------
 
@@ -55,6 +57,7 @@ keepQuotes
    If TRUE quotes will not be replaced (ENT_NOQUOTES)
 
 .. _format.htmlspecialchars_encoding:
+
 encoding
 --------
 
@@ -70,6 +73,7 @@ encoding
    Encoding
 
 .. _format.htmlspecialchars_doubleencode:
+
 doubleEncode
 ------------
 
