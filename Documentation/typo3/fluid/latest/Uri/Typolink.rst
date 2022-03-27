@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-uri-typolink:
 
@@ -78,7 +78,7 @@ useCacheHash
 :aspect:`Required`
    false
 :aspect:`Description`
-   
+
 
 .. _uri.typolink_addquerystring:
 addQueryString
@@ -90,7 +90,7 @@ addQueryString
 :aspect:`Required`
    false
 :aspect:`Description`
-   
+
 
 .. _uri.typolink_addquerystringmethod:
 addQueryStringMethod
@@ -105,7 +105,7 @@ addQueryStringMethod
 :aspect:`Required`
    false
 :aspect:`Description`
-   
+
 
 .. _uri.typolink_addquerystringexclude:
 addQueryStringExclude
@@ -117,7 +117,7 @@ addQueryStringExclude
 :aspect:`Required`
    false
 :aspect:`Description`
-   
+
 
 .. _uri.typolink_absolute:
 absolute

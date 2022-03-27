@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-link-typolink:
 
@@ -82,7 +82,7 @@ target
 :aspect:`Required`
    false
 :aspect:`Description`
-   
+
 
 .. _link.typolink_class:
 class
@@ -94,7 +94,7 @@ class
 :aspect:`Required`
    false
 :aspect:`Description`
-   
+
 
 .. _link.typolink_title:
 title
@@ -106,7 +106,7 @@ title
 :aspect:`Required`
    false
 :aspect:`Description`
-   
+
 
 .. _link.typolink_additionalparams:
 additionalParams
@@ -118,7 +118,7 @@ additionalParams
 :aspect:`Required`
    false
 :aspect:`Description`
-   
+
 
 .. _link.typolink_additionalattributes:
 additionalAttributes
@@ -133,7 +133,7 @@ additionalAttributes
 :aspect:`Required`
    false
 :aspect:`Description`
-   
+
 
 .. _link.typolink_usecachehash:
 useCacheHash
@@ -145,7 +145,7 @@ useCacheHash
 :aspect:`Required`
    false
 :aspect:`Description`
-   
+
 
 .. _link.typolink_addquerystring:
 addQueryString
@@ -157,7 +157,7 @@ addQueryString
 :aspect:`Required`
    false
 :aspect:`Description`
-   
+
 
 .. _link.typolink_addquerystringmethod:
 addQueryStringMethod
@@ -172,7 +172,7 @@ addQueryStringMethod
 :aspect:`Required`
    false
 :aspect:`Description`
-   
+
 
 .. _link.typolink_addquerystringexclude:
 addQueryStringExclude
@@ -184,7 +184,7 @@ addQueryStringExclude
 :aspect:`Required`
    false
 :aspect:`Description`
-   
+
 
 .. _link.typolink_absolute:
 absolute

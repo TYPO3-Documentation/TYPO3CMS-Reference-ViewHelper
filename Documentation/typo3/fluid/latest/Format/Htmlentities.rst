@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-htmlentities:
 
@@ -73,7 +73,7 @@ encoding
 :aspect:`Required`
    false
 :aspect:`Description`
-   
+
 
 .. _format.htmlentities_doubleencode:
 doubleEncode
