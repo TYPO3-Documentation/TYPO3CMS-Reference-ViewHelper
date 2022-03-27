@@ -1,12 +1,16 @@
-====================
-ViewHelper Reference
-====================
+==========================
+Fluid ViewHelper Reference
+==========================
 
-This manual is auto generated from source code (see https://github.com/TYPO3-Documentation/fluid-documentation-generator). For information regarding
-contribution, have a look at https://github.com/TYPO3-Documentation/TYPO3CMS-Reference-ViewHelper/blob/master/CONTRIBUTING.rst
+This is a complete reference of all available `Fluid`_ view helpers in TYPO3
+CMS.
 
-:Read online: https://docs.typo3.org/typo3cms/ViewHelperReference/
+*Note:* This documentation was `generated`_ from the PHP source code of TYPO3
+CMS and the package names do not correspond 1:1 to the Composer package names,
+as the ``cms-`` prefix has been removed.
 
-:Repository for Fluid: https://github.com/TYPO3/Fluid
-:Repository for TYPO3: https://github.com/typo3/typo3 (mirror)
-:Repository for generated VH reference:  https://github.com/TYPO3-Documentation/TYPO3CMS-Reference-ViewHelper
+.. _Fluid: https://docs.typo3.org/m/typo3/book-extbasefluid/main/en-us/8-Fluid/Index.html
+.. _generated: https://github.com/TYPO3-Documentation/fluid-documentation-generator
+
+:Repository:  https://github.com/TYPO3-Documentation/TYPO3CMS-Reference-ViewHelper
+:Read online: https://docs.typo3.org/other/typo3/view-helper-reference/main/en-us/
