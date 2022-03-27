@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-nl2br:
 

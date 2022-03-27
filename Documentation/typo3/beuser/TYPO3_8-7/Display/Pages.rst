@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-beuser-display-pages:
 
