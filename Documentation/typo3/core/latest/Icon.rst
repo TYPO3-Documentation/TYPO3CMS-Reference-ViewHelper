@@ -50,7 +50,7 @@ identifier
 :aspect:`Required`
    false
 :aspect:`Description`
-   Identifier of the icon as registered in the Icon Registry.
+   Identifier of the icon as registered in the Icon Registry. For full list of all icons available by default see https://typo3.github.io/TYPO3.Icons/index.html
 
 .. _icon_size:
 size
