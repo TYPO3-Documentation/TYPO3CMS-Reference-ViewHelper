@@ -1,28 +1,41 @@
 .. include:: /Includes.rst.txt
 
-.. _start:
+==========================
+Fluid ViewHelper Reference
+==========================
 
-==============================
-Fluid ViewHelper Documentation
-==============================
+:Version:
+   |release|
 
-:Rendered: |today|
+:Language:
+   en
 
-This is a complete reference of all available Fluid ViewHelpers within TYPO3 CMS.
-This documentation is generated from PHP Source code of TYPO3 CMS.
+:Author:
+   TYPO3 contributors
 
-This reference is auto generated from TYPO3 CMS source code. 
+:License:
+   This document is published under the
+   `Creative Commons BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`__
+   license.
 
-Right now this might look ugly in some places, e.g. ``= EXAMPLE =`` and rendered
-HTML markup like ``<code>``. This will be polished in the future. 
+:Rendered:
+   |today|
 
-Also notice that package names are not 1:1 Composer packages. ``cms-`` is
-stripped.
+----
 
-Content
--------
+This is a complete reference of all available :ref:`Fluid <t3extbasebook:fluid>`
+view helpers in TYPO3 CMS.
+
+*Note:* This documentation was `generated <https://github.com/TYPO3-Documentation/fluid-documentation-generator>`__
+from the PHP source code of TYPO3 CMS and the package names do not correspond
+1:1 to the Composer package names, as the ``cms-`` prefix has been removed.
+
+----
+
+**Table of Contents:**
 
 .. toctree::
+   :maxdepth: 2
    :titlesonly:
 
    typo3/backend/latest/Index
@@ -30,3 +43,10 @@ Content
    typo3/fluid/latest/Index
    typo3fluid/fluid/latest/Index
 
+.. Meta Menu
+
+.. toctree::
+   :hidden:
+
+   Sitemap
+   genindex
