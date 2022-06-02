@@ -111,6 +111,8 @@ format
    false
 :aspect:`Description`
    Format String which is taken to format the Date/Time
+   
+   A documentation with possible values can be found here: https://www.php.net/manual/de/datetime.format.php
 
 .. _format.date_base:
 
