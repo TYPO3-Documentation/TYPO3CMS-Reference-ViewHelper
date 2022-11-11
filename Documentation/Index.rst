@@ -35,7 +35,7 @@ from the PHP source code of TYPO3 CMS and the package names do not correspond
 **Table of Contents:**
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
    :titlesonly:
 
    typo3/backend/latest/Index
