@@ -23,8 +23,13 @@ Fluid ViewHelper Reference
 
 ----
 
-This is a complete reference of all available :ref:`Fluid <t3extbasebook:fluid>`
-view helpers in TYPO3 CMS.
+This is a complete reference of all available :ref:`Fluid <t3coreapi:fluid>`
+view helpers in the TYPO3 Core.
+
+Fluid is a PHP template engine and is the de facto standard for any
+HTML-based output in the TYPO3 CMS. However, it is not dependent on
+TYPO3 and can be used in any PHP project. See the :doc:`Fluid standalone
+documentation <other_typo3fluid:Index>`.
 
 *Note:* This documentation was `generated <https://github.com/TYPO3-Documentation/fluid-documentation-generator>`__
 from the PHP source code of TYPO3 CMS and the package names do not correspond
