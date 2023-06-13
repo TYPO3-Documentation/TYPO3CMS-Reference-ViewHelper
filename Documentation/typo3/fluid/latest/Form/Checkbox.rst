@@ -41,7 +41,7 @@ Bind to object property
 
 ::
 
-   <f:form.checkbox property="interests" value="TYPO3" />
+   <f:form.checkbox property="interests" value="TYPO3" multiple="1" />
 
 Output::
 
