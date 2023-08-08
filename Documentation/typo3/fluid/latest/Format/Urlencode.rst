@@ -22,7 +22,7 @@ Default notation
 
 ::
 
-   <f:format.rawurlencode>foo @+%/</f:format.rawurlencode>
+   <f:format.urlencode>foo @+%/</f:format.urlencode>
 
 ``foo%20%40%2B%25%2F`` :php:`rawurlencode()` applied.
 
