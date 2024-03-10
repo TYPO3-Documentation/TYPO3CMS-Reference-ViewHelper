@@ -56,4 +56,3 @@ from the PHP source code of TYPO3 CMS and the package names do not correspond
 
    Contribution/Index
    Sitemap
-   genindex
