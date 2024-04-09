@@ -82,7 +82,7 @@ as
 --
 
 :aspect:`DataType`
-   mixed
+   string
 
 :aspect:`Required`
    true

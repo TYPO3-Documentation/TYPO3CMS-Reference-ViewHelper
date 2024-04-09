@@ -9,24 +9,51 @@ if ViewHelper `<f:if>`
 
 This ViewHelper implements an if/else condition.
 
-Conditions:
+Fluid Boolean Rules / Conditions:
+=================================
 
-As a condition is a boolean value, you can just use a boolean argument.
-Alternatively, you can write a boolean expression there.
+A condition is evaluated as a boolean value, so you can use any
+boolean argument, like a variable.
+Alternatively, you can use a full boolean expression.
+The entered expression is evaluated as a PHP expression. You can
+combine multiple expressions via :php:`&&` (logical AND) and
+:php:`||` (logical OR).
+
+An expression can also be prepended with the :php:`!` ("not") character,
+which will negate that expression.
+
+Have a look into the Fluid section of the "TYPO3 Explained" Documentation
+for more details about complex conditions.
+
 Boolean expressions have the following form:
 
-XX Comparator YY
+`is true` variant: `{variable}`::
 
-Comparator is one of: ==, !=, <, <=, >, >= and %
-The % operator converts the result of the % operation to boolean.
+      <f:if condition="{foo}">
+          Will be shown if foo is truthy.
+      </f:if>
 
-XX and YY can be one of:
+or `is false` variant: `!{variable}`::
 
-- number
-- Object Accessor
+      <f:if condition="!{foo}">
+          Will be shown if foo is falsy.
+      </f:if>
+
+or comparisons with expressions::
+
+      XX Comparator YY
+
+Comparator is one of: :php:`==, !=, <, <=, >, >=` and :php:`%`
+The :php:`%` operator (modulo) converts the result of the operation to
+boolean.
+
+`XX` and `YY` can be one of:
+
+- Number
+- String
+- Object Accessor (`object.property`)
 - Array
 - a ViewHelper
-- string
 
 ::
 
@@ -39,8 +66,9 @@ XX and YY can be one of:
       <f:if condition="{rank} == {k:bar()}">
           Checks if rank is equal to the result of the ViewHelper "k:bar"
       </f:if>
-      <f:if condition="{foo.bar} == 'stringToCompare'">
-          Will result in true if {foo.bar}'s represented value equals 'stringToCompare'.
+      <f:if condition="{object.property} == 'stringToCompare'">
+          Will result in true if {object.property}'s represented value
+          equals 'stringToCompare'.
       </f:if>
 
 Examples
@@ -76,9 +104,9 @@ If / then / else
 Output::
 
     Everything inside the "then" tag is displayed if the condition evaluates to TRUE.
-    Otherwise, everything inside the "else"-tag is displayed.
+    Otherwise, everything inside the "else" tag is displayed.
 
-inline notation
+Inline notation
 ---------------
 
 ::
@@ -88,7 +116,30 @@ inline notation
 Output::
 
     The value of the "then" attribute is displayed if the condition evaluates to TRUE.
-    Otherwise, everything the value of the "else"-attribute is displayed.
+    Otherwise, everything the value of the "else" attribute is displayed.
+
+Combining multiple conditions
+-----------------------------
+
+::
+
+    <f:if condition="{user.rank} > 100 && {user.type} == 'contributor'">
+        <f:then>
+            This is being shown in case both conditions match.
+        </f:then>
+        <f:else if="{user.rank} > 200 && ({user.type} == 'contributor' || {user.type} == 'developer')">
+            This is being displayed in case the first block of the condition evaluates to TRUE and any condition in
+            the second condition block evaluates to TRUE.
+        </f:else>
+        <f:else>
+            This is being displayed when none of the above conditions evaluated to TRUE.
+        </f:else>
+    </f:if>
+
+Output::
+
+    Depending on which expression evaluated to TRUE, that value is displayed.
+    If no expression matched, the contents inside the final "else" tag are displayed.
 
 
 .. _typo3fluid-fluid-if_arguments:

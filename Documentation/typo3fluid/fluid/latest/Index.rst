@@ -4,7 +4,7 @@
 typo3fluid/fluid
 ================
 
-* 20 ViewHelpers documented
+* 25 ViewHelpers documented
 * 2 Sub namespaces
 
 .. toctree::
@@ -20,15 +20,20 @@ typo3fluid/fluid
    Debug
    DefaultCase
    Else
+   First
    For
    GroupedFor
    If
    Inline
+   Join
+   Last
    Layout
    Or
    Render
+   Replace
    Section
    Spaceless
+   Split
    Switch
    Then
    Variable
