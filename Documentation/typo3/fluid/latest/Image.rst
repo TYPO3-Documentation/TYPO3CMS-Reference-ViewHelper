@@ -333,7 +333,7 @@ treatIdAsReference
 ------------------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
@@ -479,7 +479,7 @@ absolute
 --------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false

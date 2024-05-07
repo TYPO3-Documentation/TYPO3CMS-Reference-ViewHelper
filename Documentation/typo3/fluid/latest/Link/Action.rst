@@ -322,7 +322,7 @@ noCache
 -------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
@@ -374,7 +374,7 @@ linkAccessRestrictedPages
 -------------------------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
@@ -400,7 +400,7 @@ absolute
 --------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
@@ -413,7 +413,7 @@ addQueryString
 --------------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false

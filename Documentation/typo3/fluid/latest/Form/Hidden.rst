@@ -232,7 +232,7 @@ respectSubmittedDataValue
 -------------------------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Default`
    true

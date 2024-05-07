@@ -62,7 +62,7 @@ keepQuotes
 ----------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
@@ -88,7 +88,7 @@ doubleEncode
 ------------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Default`
    true

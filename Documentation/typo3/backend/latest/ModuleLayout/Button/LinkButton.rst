@@ -63,7 +63,7 @@ disabled
 --------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
@@ -76,7 +76,7 @@ showLabel
 ---------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
