@@ -1,3 +1,4 @@
+:navigation-title: format.htmlentitiesDecode
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-htmlentitiesdecode:

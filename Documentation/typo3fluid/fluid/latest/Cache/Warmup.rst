@@ -1,3 +1,4 @@
+:navigation-title: cache.warmup
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-cache-warmup:

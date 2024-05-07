@@ -1,3 +1,4 @@
+:navigation-title: base
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-base:

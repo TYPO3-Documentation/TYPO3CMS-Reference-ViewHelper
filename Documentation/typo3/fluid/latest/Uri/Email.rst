@@ -1,3 +1,4 @@
+:navigation-title: uri.email
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-uri-email:

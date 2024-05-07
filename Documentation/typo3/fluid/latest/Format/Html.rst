@@ -1,3 +1,4 @@
+:navigation-title: format.html
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-html:

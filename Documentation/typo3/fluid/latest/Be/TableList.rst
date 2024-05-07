@@ -1,3 +1,4 @@
+:navigation-title: be.tableList
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-be-tablelist:

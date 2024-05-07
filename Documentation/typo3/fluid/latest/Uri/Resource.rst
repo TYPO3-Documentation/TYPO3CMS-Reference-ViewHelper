@@ -1,3 +1,4 @@
+:navigation-title: uri.resource
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-uri-resource:

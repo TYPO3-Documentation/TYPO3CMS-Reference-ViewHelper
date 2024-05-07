@@ -1,3 +1,4 @@
+:navigation-title: switch
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-switch:

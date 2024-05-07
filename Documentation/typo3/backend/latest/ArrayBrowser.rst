@@ -1,3 +1,4 @@
+:navigation-title: arrayBrowser
 .. include:: /Includes.rst.txt
 
 .. _typo3-backend-arraybrowser:

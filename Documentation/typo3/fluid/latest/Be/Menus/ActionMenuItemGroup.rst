@@ -1,3 +1,4 @@
+:navigation-title: be.menus.actionMenuItemGroup
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-be-menus-actionmenuitemgroup:

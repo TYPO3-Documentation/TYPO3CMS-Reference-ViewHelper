@@ -1,3 +1,4 @@
+:navigation-title: flashMessages
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-flashmessages:

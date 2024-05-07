@@ -1,3 +1,4 @@
+:navigation-title: case
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-case:

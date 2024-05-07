@@ -1,3 +1,4 @@
+:navigation-title: link.typolink
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-link-typolink:

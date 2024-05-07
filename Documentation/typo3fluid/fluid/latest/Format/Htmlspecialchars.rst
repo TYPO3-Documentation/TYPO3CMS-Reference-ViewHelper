@@ -1,3 +1,4 @@
+:navigation-title: format.htmlspecialchars
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-format-htmlspecialchars:

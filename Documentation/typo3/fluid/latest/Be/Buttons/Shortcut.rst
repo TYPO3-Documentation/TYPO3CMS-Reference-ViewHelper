@@ -1,3 +1,4 @@
+:navigation-title: be.buttons.shortcut
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-be-buttons-shortcut:

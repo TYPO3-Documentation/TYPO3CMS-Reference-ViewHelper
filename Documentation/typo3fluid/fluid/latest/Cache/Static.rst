@@ -1,3 +1,4 @@
+:navigation-title: cache.static
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-cache-static:
