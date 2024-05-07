@@ -225,7 +225,7 @@ disabled
 --------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
@@ -368,7 +368,7 @@ useNonce
 --------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false

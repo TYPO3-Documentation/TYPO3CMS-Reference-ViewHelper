@@ -68,7 +68,7 @@ forceObject
 -----------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false

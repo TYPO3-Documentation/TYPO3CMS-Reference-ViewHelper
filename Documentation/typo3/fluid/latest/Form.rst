@@ -200,7 +200,7 @@ noCache
 -------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
@@ -255,7 +255,7 @@ absolute
 --------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
@@ -456,7 +456,7 @@ novalidate
 ----------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
