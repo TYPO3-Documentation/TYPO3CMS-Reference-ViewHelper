@@ -1,3 +1,4 @@
+:navigation-title: be.buttons.csh
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-be-buttons-csh:

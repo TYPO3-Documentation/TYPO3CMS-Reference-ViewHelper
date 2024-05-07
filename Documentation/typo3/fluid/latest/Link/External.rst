@@ -1,3 +1,4 @@
+:navigation-title: link.external
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-link-external:

@@ -1,3 +1,4 @@
+:navigation-title: mfa.ifHasState
 .. include:: /Includes.rst.txt
 
 .. _typo3-backend-mfa-ifhasstate:

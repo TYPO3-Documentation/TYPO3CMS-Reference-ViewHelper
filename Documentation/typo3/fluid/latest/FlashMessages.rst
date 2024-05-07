@@ -1,3 +1,4 @@
+:navigation-title: flashMessages
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-flashmessages:
@@ -45,7 +46,7 @@ Output::
                </span>
             </div>
             <div class="media-body">
-               <h4 class="alert-title">Info - Title for Info message</h4>
+               <div class="alert-title">Info - Title for Info message</div>
                <p class="alert-message">Message text here.</p>
             </div>
          </div>

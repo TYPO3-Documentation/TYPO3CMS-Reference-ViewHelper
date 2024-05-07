@@ -1,3 +1,4 @@
+:navigation-title: form.hidden
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-form-hidden:

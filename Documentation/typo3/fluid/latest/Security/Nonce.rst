@@ -1,3 +1,4 @@
+:navigation-title: security.nonce
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-security-nonce:

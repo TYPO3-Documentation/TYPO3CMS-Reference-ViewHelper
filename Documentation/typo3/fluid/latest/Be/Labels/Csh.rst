@@ -1,3 +1,4 @@
+:navigation-title: be.labels.csh
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-be-labels-csh:

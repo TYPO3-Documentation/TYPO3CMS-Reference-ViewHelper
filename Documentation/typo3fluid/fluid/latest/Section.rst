@@ -1,3 +1,4 @@
+:navigation-title: section
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-section:

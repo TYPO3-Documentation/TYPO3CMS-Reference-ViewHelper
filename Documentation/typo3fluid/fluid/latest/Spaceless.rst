@@ -1,3 +1,4 @@
+:navigation-title: spaceless
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-spaceless:

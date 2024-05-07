@@ -1,3 +1,4 @@
+:navigation-title: alias
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-alias:

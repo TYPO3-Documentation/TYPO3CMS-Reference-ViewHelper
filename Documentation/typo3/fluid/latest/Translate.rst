@@ -1,3 +1,4 @@
+:navigation-title: translate
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-translate:
