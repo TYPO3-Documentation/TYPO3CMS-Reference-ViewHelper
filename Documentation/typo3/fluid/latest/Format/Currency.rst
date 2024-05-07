@@ -121,7 +121,7 @@ prependCurrency
 ---------------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
@@ -134,7 +134,7 @@ separateCurrency
 ----------------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Default`
    true
@@ -166,7 +166,7 @@ useDash
 -------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false

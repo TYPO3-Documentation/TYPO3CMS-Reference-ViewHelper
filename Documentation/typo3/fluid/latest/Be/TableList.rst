@@ -152,7 +152,7 @@ sortDescending
 --------------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
@@ -165,7 +165,7 @@ readOnly
 --------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
@@ -178,7 +178,7 @@ enableClickMenu
 ---------------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Default`
    true
@@ -194,7 +194,7 @@ enableControlPanels
 -------------------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false

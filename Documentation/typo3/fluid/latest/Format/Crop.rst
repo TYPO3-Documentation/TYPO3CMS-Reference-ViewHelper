@@ -114,7 +114,7 @@ respectWordBoundaries
 ---------------------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Default`
    true
@@ -130,7 +130,7 @@ respectHtml
 -----------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Default`
    true

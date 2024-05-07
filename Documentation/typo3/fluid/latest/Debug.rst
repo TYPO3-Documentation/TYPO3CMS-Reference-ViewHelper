@@ -80,7 +80,7 @@ plainText
 ---------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
@@ -93,7 +93,7 @@ ansiColors
 ----------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
@@ -106,7 +106,7 @@ inline
 ------
 
 :aspect:`DataType`
-   mixed
+   boolean
 
 :aspect:`Required`
    false
