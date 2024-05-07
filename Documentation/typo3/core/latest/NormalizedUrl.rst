@@ -1,3 +1,4 @@
+:navigation-title: normalizedUrl
 .. include:: /Includes.rst.txt
 
 .. _typo3-core-normalizedurl:

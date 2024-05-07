@@ -1,3 +1,4 @@
+:navigation-title: cycle
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-cycle:

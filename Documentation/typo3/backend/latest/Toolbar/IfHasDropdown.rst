@@ -1,3 +1,4 @@
+:navigation-title: toolbar.ifHasDropdown
 .. include:: /Includes.rst.txt
 
 .. _typo3-backend-toolbar-ifhasdropdown:

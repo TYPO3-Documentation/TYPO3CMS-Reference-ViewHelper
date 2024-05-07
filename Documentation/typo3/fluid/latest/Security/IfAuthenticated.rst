@@ -1,3 +1,4 @@
+:navigation-title: security.ifAuthenticated
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-security-ifauthenticated:

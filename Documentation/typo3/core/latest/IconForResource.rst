@@ -1,3 +1,4 @@
+:navigation-title: iconForResource
 .. include:: /Includes.rst.txt
 
 .. _typo3-core-iconforresource:

@@ -1,3 +1,4 @@
+:navigation-title: inline
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-inline:

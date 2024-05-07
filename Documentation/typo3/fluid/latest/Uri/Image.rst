@@ -1,3 +1,4 @@
+:navigation-title: uri.image
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-uri-image:

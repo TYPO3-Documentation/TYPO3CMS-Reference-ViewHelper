@@ -1,3 +1,4 @@
+:navigation-title: format.json
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-format-json:

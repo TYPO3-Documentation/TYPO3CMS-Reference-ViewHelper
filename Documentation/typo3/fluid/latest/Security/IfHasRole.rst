@@ -1,3 +1,4 @@
+:navigation-title: security.ifHasRole
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-security-ifhasrole:

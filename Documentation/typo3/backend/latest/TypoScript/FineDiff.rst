@@ -1,3 +1,4 @@
+:navigation-title: typoScript.fineDiff
 .. include:: /Includes.rst.txt
 
 .. _typo3-backend-typoscript-finediff:

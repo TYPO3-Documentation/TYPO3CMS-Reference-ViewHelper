@@ -1,3 +1,4 @@
+:navigation-title: thumbnail
 .. include:: /Includes.rst.txt
 
 .. _typo3-backend-thumbnail:

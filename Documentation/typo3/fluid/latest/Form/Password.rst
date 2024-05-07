@@ -1,3 +1,4 @@
+:navigation-title: form.password
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-form-password:

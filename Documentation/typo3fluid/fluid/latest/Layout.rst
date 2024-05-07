@@ -1,3 +1,4 @@
+:navigation-title: layout
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-layout:

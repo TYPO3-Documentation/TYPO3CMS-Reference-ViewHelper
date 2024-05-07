@@ -1,3 +1,4 @@
+:navigation-title: toolbar.attributes
 .. include:: /Includes.rst.txt
 
 .. _typo3-backend-toolbar-attributes:

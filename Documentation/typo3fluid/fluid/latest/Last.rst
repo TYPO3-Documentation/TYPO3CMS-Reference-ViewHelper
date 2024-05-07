@@ -1,3 +1,4 @@
+:navigation-title: last
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-last:

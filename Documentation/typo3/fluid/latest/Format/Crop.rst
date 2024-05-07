@@ -1,3 +1,4 @@
+:navigation-title: format.crop
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-crop:

@@ -1,3 +1,4 @@
+:navigation-title: format.nl2br
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-format-nl2br:

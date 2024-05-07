@@ -1,3 +1,4 @@
+:navigation-title: form.submit
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-form-submit:

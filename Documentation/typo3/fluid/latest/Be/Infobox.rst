@@ -1,3 +1,4 @@
+:navigation-title: be.infobox
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-be-infobox:

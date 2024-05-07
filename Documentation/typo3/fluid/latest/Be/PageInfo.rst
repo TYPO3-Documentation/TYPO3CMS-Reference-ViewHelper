@@ -1,3 +1,4 @@
+:navigation-title: be.pageInfo
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-be-pageinfo:
