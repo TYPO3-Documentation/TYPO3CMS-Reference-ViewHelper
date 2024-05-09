@@ -1,12 +1,15 @@
+..  This reStructured text file has been automatically generated, do not change.
+..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLayout/Button/LinkButtonViewHelper.php
+
+:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLayout/Button/LinkButtonViewHelper.php
 :navigation-title: moduleLayout.button.linkButton
 .. include:: /Includes.rst.txt
 
 .. _typo3-backend-modulelayout-button-linkbutton:
 
 ====================================================================================
-moduleLayout.button.linkButton ViewHelper `<backend:moduleLayout.button.linkButton>`
+ModuleLayout.button.linkButton ViewHelper `<backend:moduleLayout.button.linkButton>`
 ====================================================================================
-
 
 A ViewHelper for adding a link button to the doc header area.
 It must be a child of :ref:`<be:moduleLayout> <typo3-backend-modulelayout>`.
@@ -24,100 +27,104 @@ Default::
        />
    </be:moduleLayout>
 
+.. _typo3-backend-modulelayout-button-linkbutton_source:
+
+Source code
+===========
+
+Go to the source code of this ViewHelper: `LinkButtonViewHelper.php (GitHub) <https://github.com/TYPO3/typo3/blob/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLayout/Button/LinkButtonViewHelper.php>`__.
 
 .. _typo3-backend-modulelayout-button-linkbutton_arguments:
 
 Arguments
 =========
 
+The following arguments are available for `<backend:moduleLayout.button.linkButton>`:
 
-.. _typo3-backend-modulelayout-button-linkbutton-icon:
+..  contents::
+    :local:
+
+
+.. _typo3-backend-modulelayout-button-linkbutton-icon_argument:
 
 icon
 ----
 
-:aspect:`DataType`
-   string
+..  confval:: icon
+    :name: typo3-backend-modulelayout-button-linkbutton-icon
+    :type: string
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Icon identifier for the button
+    Icon identifier for the button
 
-.. _typo3-backend-modulelayout-button-linkbutton-title:
+.. _typo3-backend-modulelayout-button-linkbutton-title_argument:
 
 title
 -----
 
-:aspect:`DataType`
-   string
+..  confval:: title
+    :name: typo3-backend-modulelayout-button-linkbutton-title
+    :type: string
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Title of the button
+    Title of the button
 
-.. _typo3-backend-modulelayout-button-linkbutton-disabled:
+.. _typo3-backend-modulelayout-button-linkbutton-disabled_argument:
 
 disabled
 --------
 
-:aspect:`DataType`
-   boolean
+..  confval:: disabled
+    :name: typo3-backend-modulelayout-button-linkbutton-disabled
+    :type: boolean
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Whether the button is disabled
+    Whether the button is disabled
 
-.. _typo3-backend-modulelayout-button-linkbutton-showlabel:
+.. _typo3-backend-modulelayout-button-linkbutton-showlabel_argument:
 
 showLabel
 ---------
 
-:aspect:`DataType`
-   boolean
+..  confval:: showLabel
+    :name: typo3-backend-modulelayout-button-linkbutton-showlabel
+    :type: boolean
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Defines whether to show the title as a label within the button
+    Defines whether to show the title as a label within the button
 
-.. _typo3-backend-modulelayout-button-linkbutton-position:
+.. _typo3-backend-modulelayout-button-linkbutton-position_argument:
 
 position
 --------
 
-:aspect:`DataType`
-   string
+..  confval:: position
+    :name: typo3-backend-modulelayout-button-linkbutton-position
+    :type: string
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Position of the button (left or right)
+    Position of the button (left or right)
 
-.. _typo3-backend-modulelayout-button-linkbutton-group:
+.. _typo3-backend-modulelayout-button-linkbutton-group_argument:
 
 group
 -----
 
-:aspect:`DataType`
-   integer
+..  confval:: group
+    :name: typo3-backend-modulelayout-button-linkbutton-group
+    :type: integer
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Button group of the button
+    Button group of the button
 
-.. _typo3-backend-modulelayout-button-linkbutton-link:
+.. _typo3-backend-modulelayout-button-linkbutton-link_argument:
 
 link
 ----
 
-:aspect:`DataType`
-   string
+..  confval:: link
+    :name: typo3-backend-modulelayout-button-linkbutton-link
+    :type: string
+    :required: true
 
-:aspect:`Required`
-   true
-:aspect:`Description`
-   Link for the button
+    Link for the button

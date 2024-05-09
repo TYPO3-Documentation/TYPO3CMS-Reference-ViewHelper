@@ -1,12 +1,15 @@
+..  This reStructured text file has been automatically generated, do not change.
+..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/fluid/Classes/ViewHelpers/Format/DateViewHelper.php
+
+:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Format/DateViewHelper.php
 :navigation-title: format.date
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-date:
 
 ========================================
-format.date ViewHelper `<f:format.date>`
+Format.date ViewHelper `<f:format.date>`
 ========================================
-
 
 Formats an object implementing :php:`\DateTimeInterface`.
 
@@ -83,48 +86,56 @@ Inline notation (2nd variant)
 ``1980-12-13``
 Depending on the value of ``{dateObject}``.
 
+.. _typo3-fluid-format-date_source:
+
+Source code
+===========
+
+Go to the source code of this ViewHelper: `DateViewHelper.php (GitHub) <https://github.com/TYPO3/typo3/blob/main/typo3/sysext/fluid/Classes/ViewHelpers/Format/DateViewHelper.php>`__.
 
 .. _typo3-fluid-format-date_arguments:
 
 Arguments
 =========
 
+The following arguments are available for `<f:format.date>`:
 
-.. _typo3-fluid-format-date-date:
+..  contents::
+    :local:
+
+
+.. _typo3-fluid-format-date-date_argument:
 
 date
 ----
 
-:aspect:`DataType`
-   mixed
+..  confval:: date
+    :name: typo3-fluid-format-date-date
+    :type: mixed
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Either an object implementing DateTimeInterface or a string that is accepted by DateTime constructor
+    Either an object implementing DateTimeInterface or a string that is accepted by DateTime constructor
 
-.. _typo3-fluid-format-date-format:
+.. _typo3-fluid-format-date-format_argument:
 
 format
 ------
 
-:aspect:`DataType`
-   string
+..  confval:: format
+    :name: typo3-fluid-format-date-format
+    :type: string
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Format String which is taken to format the Date/Time
+    Format String which is taken to format the Date/Time
 
-.. _typo3-fluid-format-date-base:
+.. _typo3-fluid-format-date-base_argument:
 
 base
 ----
 
-:aspect:`DataType`
-   mixed
+..  confval:: base
+    :name: typo3-fluid-format-date-base
+    :type: mixed
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   A base time (an object implementing DateTimeInterface or a string) used if $date is a relative date specification. Defaults to current time.
+    A base time (an object implementing DateTimeInterface or a string) used if $date is a relative date specification. Defaults to current time.

@@ -1,12 +1,15 @@
+..  This reStructured text file has been automatically generated, do not change.
+..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/fluid/Classes/ViewHelpers/BaseViewHelper.php
+
+:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/BaseViewHelper.php
 :navigation-title: base
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-base:
 
 ==========================
-base ViewHelper `<f:base>`
+Base ViewHelper `<f:base>`
 ==========================
-
 
 ViewHelper which creates a :html:`<base href="..."></base>` tag.
 
@@ -25,11 +28,11 @@ Output::
 
 Depending on your domain.
 
+.. _typo3-fluid-base_source:
 
-.. _typo3-fluid-base_arguments:
+Source code
+===========
 
-Arguments
-=========
+Go to the source code of this ViewHelper: `BaseViewHelper.php (GitHub) <https://github.com/TYPO3/typo3/blob/main/typo3/sysext/fluid/Classes/ViewHelpers/BaseViewHelper.php>`__.
 
-
-This ViewHelper has no arguments.
+..  note:: `<f:base>` has no arguments.

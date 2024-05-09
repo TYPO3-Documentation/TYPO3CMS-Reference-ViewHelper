@@ -1,12 +1,15 @@
+..  This reStructured text file has been automatically generated, do not change.
+..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLayout/Button/ShortcutButtonViewHelper.php
+
+:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLayout/Button/ShortcutButtonViewHelper.php
 :navigation-title: moduleLayout.button.shortcutButton
 .. include:: /Includes.rst.txt
 
 .. _typo3-backend-modulelayout-button-shortcutbutton:
 
 ============================================================================================
-moduleLayout.button.shortcutButton ViewHelper `<backend:moduleLayout.button.shortcutButton>`
+ModuleLayout.button.shortcutButton ViewHelper `<backend:moduleLayout.button.shortcutButton>`
 ============================================================================================
-
 
 A ViewHelper for adding a shortcut button to the doc header area.
 It must be a child of :ref:`<be:moduleLayout> <typo3-backend-modulelayout>`.
@@ -23,132 +26,130 @@ Default::
        <be:moduleLayout.button.shortcutButton displayName="Shortcut label" arguments="{parameter: '{someValue}'}"/>
    </be:moduleLayout>
 
+.. _typo3-backend-modulelayout-button-shortcutbutton_source:
+
+Source code
+===========
+
+Go to the source code of this ViewHelper: `ShortcutButtonViewHelper.php (GitHub) <https://github.com/TYPO3/typo3/blob/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLayout/Button/ShortcutButtonViewHelper.php>`__.
 
 .. _typo3-backend-modulelayout-button-shortcutbutton_arguments:
 
 Arguments
 =========
 
+The following arguments are available for `<backend:moduleLayout.button.shortcutButton>`:
 
-.. _typo3-backend-modulelayout-button-shortcutbutton-icon:
+..  contents::
+    :local:
+
+
+.. _typo3-backend-modulelayout-button-shortcutbutton-icon_argument:
 
 icon
 ----
 
-:aspect:`DataType`
-   string
+..  confval:: icon
+    :name: typo3-backend-modulelayout-button-shortcutbutton-icon
+    :type: string
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Icon identifier for the button
+    Icon identifier for the button
 
-.. _typo3-backend-modulelayout-button-shortcutbutton-title:
+.. _typo3-backend-modulelayout-button-shortcutbutton-title_argument:
 
 title
 -----
 
-:aspect:`DataType`
-   string
+..  confval:: title
+    :name: typo3-backend-modulelayout-button-shortcutbutton-title
+    :type: string
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Title of the button
+    Title of the button
 
-.. _typo3-backend-modulelayout-button-shortcutbutton-disabled:
+.. _typo3-backend-modulelayout-button-shortcutbutton-disabled_argument:
 
 disabled
 --------
 
-:aspect:`DataType`
-   boolean
+..  confval:: disabled
+    :name: typo3-backend-modulelayout-button-shortcutbutton-disabled
+    :type: boolean
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Whether the button is disabled
+    Whether the button is disabled
 
-.. _typo3-backend-modulelayout-button-shortcutbutton-showlabel:
+.. _typo3-backend-modulelayout-button-shortcutbutton-showlabel_argument:
 
 showLabel
 ---------
 
-:aspect:`DataType`
-   boolean
+..  confval:: showLabel
+    :name: typo3-backend-modulelayout-button-shortcutbutton-showlabel
+    :type: boolean
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Defines whether to show the title as a label within the button
+    Defines whether to show the title as a label within the button
 
-.. _typo3-backend-modulelayout-button-shortcutbutton-position:
+.. _typo3-backend-modulelayout-button-shortcutbutton-position_argument:
 
 position
 --------
 
-:aspect:`DataType`
-   string
+..  confval:: position
+    :name: typo3-backend-modulelayout-button-shortcutbutton-position
+    :type: string
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Position of the button (left or right)
+    Position of the button (left or right)
 
-.. _typo3-backend-modulelayout-button-shortcutbutton-group:
+.. _typo3-backend-modulelayout-button-shortcutbutton-group_argument:
 
 group
 -----
 
-:aspect:`DataType`
-   integer
+..  confval:: group
+    :name: typo3-backend-modulelayout-button-shortcutbutton-group
+    :type: integer
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Button group of the button
+    Button group of the button
 
-.. _typo3-backend-modulelayout-button-shortcutbutton-displayname:
+.. _typo3-backend-modulelayout-button-shortcutbutton-displayname_argument:
 
 displayName
 -----------
 
-:aspect:`DataType`
-   string
+..  confval:: displayName
+    :name: typo3-backend-modulelayout-button-shortcutbutton-displayname
+    :type: string
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Name for the shortcut
+    Name for the shortcut
 
-.. _typo3-backend-modulelayout-button-shortcutbutton-arguments:
+.. _typo3-backend-modulelayout-button-shortcutbutton-arguments_argument:
 
 arguments
 ---------
 
-:aspect:`DataType`
-   mixed
+..  confval:: arguments
+    :name: typo3-backend-modulelayout-button-shortcutbutton-arguments
+    :type: mixed
+    :Default: array ()
+    :required: false
 
-:aspect:`Default`
-   array ()
+    List of relevant GET variables as key/values list to store
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   List of relevant GET variables as key/values list to store
-
-.. _typo3-backend-modulelayout-button-shortcutbutton-getvars:
+.. _typo3-backend-modulelayout-button-shortcutbutton-getvars_argument:
 
 getVars
 -------
 
-:aspect:`DataType`
-   mixed
+..  confval:: getVars
+    :name: typo3-backend-modulelayout-button-shortcutbutton-getvars
+    :type: mixed
+    :Default: array ()
+    :required: false
 
-:aspect:`Default`
-   array ()
-
-:aspect:`Required`
-   false
-:aspect:`Description`
-   List of additional GET variables to store. The current id, module and all module arguments will always be stored
+    List of additional GET variables to store. The current id, module and all module arguments will always be stored

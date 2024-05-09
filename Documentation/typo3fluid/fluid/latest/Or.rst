@@ -1,57 +1,68 @@
+..  This reStructured text file has been automatically generated, do not change.
+..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/OrViewHelper.php
+
+:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/tree/main/src/ViewHelpers/OrViewHelper.php
 :navigation-title: or
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-or:
 
 ======================
-or ViewHelper `<f:or>`
+Or ViewHelper `<f:or>`
 ======================
-
 
 If content is empty use alternative text
 
+.. _typo3fluid-fluid-or_source:
+
+Source code
+===========
+
+Go to the source code of this ViewHelper: `OrViewHelper.php (GitHub) <https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/OrViewHelper.php>`__.
 
 .. _typo3fluid-fluid-or_arguments:
 
 Arguments
 =========
 
+The following arguments are available for `<f:or>`:
 
-.. _typo3fluid-fluid-or-content:
+..  contents::
+    :local:
+
+
+.. _typo3fluid-fluid-or-content_argument:
 
 content
 -------
 
-:aspect:`DataType`
-   mixed
+..  confval:: content
+    :name: typo3fluid-fluid-or-content
+    :type: mixed
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Content to check if empty
+    Content to check if empty
 
-.. _typo3fluid-fluid-or-alternative:
+.. _typo3fluid-fluid-or-alternative_argument:
 
 alternative
 -----------
 
-:aspect:`DataType`
-   mixed
+..  confval:: alternative
+    :name: typo3fluid-fluid-or-alternative
+    :type: mixed
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Alternative if content is empty
+    Alternative if content is empty
 
-.. _typo3fluid-fluid-or-arguments:
+.. _typo3fluid-fluid-or-arguments_argument:
 
 arguments
 ---------
 
-:aspect:`DataType`
-   mixed
+..  confval:: arguments
+    :name: typo3fluid-fluid-or-arguments
+    :type: mixed
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Arguments to be replaced in the resulting string, using sprintf
+    Arguments to be replaced in the resulting string, using sprintf

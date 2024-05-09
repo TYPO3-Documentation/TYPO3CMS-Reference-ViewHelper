@@ -1,12 +1,15 @@
+..  This reStructured text file has been automatically generated, do not change.
+..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/fluid/Classes/ViewHelpers/Format/HtmlViewHelper.php
+
+:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Format/HtmlViewHelper.php
 :navigation-title: format.html
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-html:
 
 ========================================
-format.html ViewHelper `<f:format.html>`
+Format.html ViewHelper `<f:format.html>`
 ========================================
-
 
 Renders a string by passing it to a TYPO3 `parseFunc`_.
 You can either specify a path to the TypoScript setting or set the `parseFunc`_ options directly.
@@ -56,25 +59,33 @@ Output::
 
 .. _parseFunc: https://docs.typo3.org/m/typo3/reference-typoscript/main/en-us/Functions/Parsefunc.html
 
+.. _typo3-fluid-format-html_source:
+
+Source code
+===========
+
+Go to the source code of this ViewHelper: `HtmlViewHelper.php (GitHub) <https://github.com/TYPO3/typo3/blob/main/typo3/sysext/fluid/Classes/ViewHelpers/Format/HtmlViewHelper.php>`__.
 
 .. _typo3-fluid-format-html_arguments:
 
 Arguments
 =========
 
+The following arguments are available for `<f:format.html>`:
 
-.. _typo3-fluid-format-html-parsefunctspath:
+..  contents::
+    :local:
+
+
+.. _typo3-fluid-format-html-parsefunctspath_argument:
 
 parseFuncTSPath
 ---------------
 
-:aspect:`DataType`
-   string
+..  confval:: parseFuncTSPath
+    :name: typo3-fluid-format-html-parsefunctspath
+    :type: string
+    :Default: 'lib.parseFunc_RTE'
+    :required: false
 
-:aspect:`Default`
-   'lib.parseFunc_RTE'
-
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Path to TypoScript parseFunc setup.
+    Path to TypoScript parseFunc setup.

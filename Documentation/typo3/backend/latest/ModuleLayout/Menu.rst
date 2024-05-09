@@ -1,12 +1,15 @@
+..  This reStructured text file has been automatically generated, do not change.
+..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLayout/MenuViewHelper.php
+
+:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLayout/MenuViewHelper.php
 :navigation-title: moduleLayout.menu
 .. include:: /Includes.rst.txt
 
 .. _typo3-backend-modulelayout-menu:
 
 ==========================================================
-moduleLayout.menu ViewHelper `<backend:moduleLayout.menu>`
+ModuleLayout.menu ViewHelper `<backend:moduleLayout.menu>`
 ==========================================================
-
 
 A ViewHelper for adding a menu to the doc header area
 of :ref:`<be:moduleLayout> <typo3-backend-modulelayout>`. It accepts only
@@ -24,22 +27,32 @@ Default::
        </be:moduleLayout.menu>
    </be:moduleLayout>
 
+.. _typo3-backend-modulelayout-menu_source:
+
+Source code
+===========
+
+Go to the source code of this ViewHelper: `MenuViewHelper.php (GitHub) <https://github.com/TYPO3/typo3/blob/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLayout/MenuViewHelper.php>`__.
 
 .. _typo3-backend-modulelayout-menu_arguments:
 
 Arguments
 =========
 
+The following arguments are available for `<backend:moduleLayout.menu>`:
 
-.. _typo3-backend-modulelayout-menu-identifier:
+..  contents::
+    :local:
+
+
+.. _typo3-backend-modulelayout-menu-identifier_argument:
 
 identifier
 ----------
 
-:aspect:`DataType`
-   string
+..  confval:: identifier
+    :name: typo3-backend-modulelayout-menu-identifier
+    :type: string
+    :required: true
 
-:aspect:`Required`
-   true
-:aspect:`Description`
-   Identifier of the menu
+    Identifier of the menu

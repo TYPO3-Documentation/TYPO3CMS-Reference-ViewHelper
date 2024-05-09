@@ -1,12 +1,15 @@
+..  This reStructured text file has been automatically generated, do not change.
+..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/fluid/Classes/ViewHelpers/Be/Labels/CshViewHelper.php
+
+:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Be/Labels/CshViewHelper.php
 :navigation-title: be.labels.csh
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-be-labels-csh:
 
 ============================================
-be.labels.csh ViewHelper `<f:be.labels.csh>`
+Be.labels.csh ViewHelper `<f:be.labels.csh>`
 ============================================
-
 
 ViewHelper which returns CSH (context sensitive help) label with icon hover.
 
@@ -33,48 +36,56 @@ Full configuration::
 
 CSH label as known from the TYPO3 backend with some custom settings.
 
+.. _typo3-fluid-be-labels-csh_source:
+
+Source code
+===========
+
+Go to the source code of this ViewHelper: `CshViewHelper.php (GitHub) <https://github.com/TYPO3/typo3/blob/main/typo3/sysext/fluid/Classes/ViewHelpers/Be/Labels/CshViewHelper.php>`__.
 
 .. _typo3-fluid-be-labels-csh_arguments:
 
 Arguments
 =========
 
+The following arguments are available for `<f:be.labels.csh>`:
 
-.. _typo3-fluid-be-labels-csh-table:
+..  contents::
+    :local:
+
+
+.. _typo3-fluid-be-labels-csh-table_argument:
 
 table
 -----
 
-:aspect:`DataType`
-   string
+..  confval:: table
+    :name: typo3-fluid-be-labels-csh-table
+    :type: string
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Table name ('_MOD_'+module name). If not set, the current module name will be used
+    Table name ('_MOD_'+module name). If not set, the current module name will be used
 
-.. _typo3-fluid-be-labels-csh-field:
+.. _typo3-fluid-be-labels-csh-field_argument:
 
 field
 -----
 
-:aspect:`DataType`
-   string
+..  confval:: field
+    :name: typo3-fluid-be-labels-csh-field
+    :type: string
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Field name (CSH locallang main key)
+    Field name (CSH locallang main key)
 
-.. _typo3-fluid-be-labels-csh-label:
+.. _typo3-fluid-be-labels-csh-label_argument:
 
 label
 -----
 
-:aspect:`DataType`
-   string
+..  confval:: label
+    :name: typo3-fluid-be-labels-csh-label
+    :type: string
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Language label which is wrapped with the CSH
+    Language label which is wrapped with the CSH
