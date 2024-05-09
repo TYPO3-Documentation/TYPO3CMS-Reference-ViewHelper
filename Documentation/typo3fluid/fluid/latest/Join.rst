@@ -57,7 +57,7 @@ Arguments
 =========
 
 
-.. _join_value:
+.. _typo3fluid-fluid-join-value:
 
 value
 -----
@@ -70,7 +70,7 @@ value
 :aspect:`Description`
    An array
 
-.. _join_separator:
+.. _typo3fluid-fluid-join-separator:
 
 separator
 ---------
@@ -83,7 +83,7 @@ separator
 :aspect:`Description`
    The separator
 
-.. _join_separatorlast:
+.. _typo3fluid-fluid-join-separatorlast:
 
 separatorLast
 -------------

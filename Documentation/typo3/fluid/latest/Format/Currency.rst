@@ -70,7 +70,7 @@ Arguments
 =========
 
 
-.. _format.currency_currencysign:
+.. _typo3-fluid-format-currency-currencysign:
 
 currencySign
 ------------
@@ -83,7 +83,7 @@ currencySign
 :aspect:`Description`
    The currency sign, eg $ or .
 
-.. _format.currency_decimalseparator:
+.. _typo3-fluid-format-currency-decimalseparator:
 
 decimalSeparator
 ----------------
@@ -99,7 +99,7 @@ decimalSeparator
 :aspect:`Description`
    The separator for the decimal point.
 
-.. _format.currency_thousandsseparator:
+.. _typo3-fluid-format-currency-thousandsseparator:
 
 thousandsSeparator
 ------------------
@@ -115,7 +115,7 @@ thousandsSeparator
 :aspect:`Description`
    The thousands separator.
 
-.. _format.currency_prependcurrency:
+.. _typo3-fluid-format-currency-prependcurrency:
 
 prependCurrency
 ---------------
@@ -128,7 +128,7 @@ prependCurrency
 :aspect:`Description`
    Select if the currency sign should be prepended
 
-.. _format.currency_separatecurrency:
+.. _typo3-fluid-format-currency-separatecurrency:
 
 separateCurrency
 ----------------
@@ -144,7 +144,7 @@ separateCurrency
 :aspect:`Description`
    Separate the currency sign from the number by a single space, defaults to true due to backwards compatibility
 
-.. _format.currency_decimals:
+.. _typo3-fluid-format-currency-decimals:
 
 decimals
 --------
@@ -160,7 +160,7 @@ decimals
 :aspect:`Description`
    Set decimals places.
 
-.. _format.currency_usedash:
+.. _typo3-fluid-format-currency-usedash:
 
 useDash
 -------

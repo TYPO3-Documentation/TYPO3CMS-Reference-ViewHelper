@@ -65,7 +65,7 @@ Arguments
 =========
 
 
-.. _format.case_value:
+.. _typo3fluid-fluid-format-case-value:
 
 value
 -----
@@ -78,7 +78,7 @@ value
 :aspect:`Description`
    The input value. If not given, the evaluated child nodes will be used.
 
-.. _format.case_mode:
+.. _typo3fluid-fluid-format-case-mode:
 
 mode
 ----

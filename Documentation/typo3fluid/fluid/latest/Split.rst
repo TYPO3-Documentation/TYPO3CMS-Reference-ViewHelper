@@ -60,7 +60,7 @@ Arguments
 =========
 
 
-.. _split_value:
+.. _typo3fluid-fluid-split-value:
 
 value
 -----
@@ -73,7 +73,7 @@ value
 :aspect:`Description`
    The string to explode
 
-.. _split_separator:
+.. _typo3fluid-fluid-split-separator:
 
 separator
 ---------
@@ -86,7 +86,7 @@ separator
 :aspect:`Description`
    Separator string to explode with
 
-.. _split_limit:
+.. _typo3fluid-fluid-split-limit:
 
 limit
 -----

@@ -28,7 +28,7 @@ Arguments
 =========
 
 
-.. _last_value:
+.. _typo3fluid-fluid-last-value:
 
 value
 -----

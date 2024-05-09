@@ -56,7 +56,7 @@ Arguments
 =========
 
 
-.. _replace_value:
+.. _typo3fluid-fluid-replace-value:
 
 value
 -----
@@ -69,7 +69,7 @@ value
 :aspect:`Description`
    
 
-.. _replace_search:
+.. _typo3fluid-fluid-replace-search:
 
 search
 ------
@@ -82,7 +82,7 @@ search
 :aspect:`Description`
    
 
-.. _replace_replace:
+.. _typo3fluid-fluid-replace-replace:
 
 replace
 -------

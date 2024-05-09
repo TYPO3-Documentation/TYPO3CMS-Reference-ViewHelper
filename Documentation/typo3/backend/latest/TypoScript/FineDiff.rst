@@ -17,7 +17,7 @@ Arguments
 =========
 
 
-.. _typoscript.finediff_from:
+.. _typo3-backend-typoscript-finediff-from:
 
 from
 ----
@@ -30,7 +30,7 @@ from
 :aspect:`Description`
    Source string
 
-.. _typoscript.finediff_to:
+.. _typo3-backend-typoscript-finediff-to:
 
 to
 --

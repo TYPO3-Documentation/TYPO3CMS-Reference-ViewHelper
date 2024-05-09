@@ -64,7 +64,7 @@ Arguments
 =========
 
 
-.. _cycle_values:
+.. _typo3fluid-fluid-cycle-values:
 
 values
 ------
@@ -77,7 +77,7 @@ values
 :aspect:`Description`
    The array or object implementing \ArrayAccess (for example \SplObjectStorage) to iterated over
 
-.. _cycle_as:
+.. _typo3fluid-fluid-cycle-as:
 
 as
 --

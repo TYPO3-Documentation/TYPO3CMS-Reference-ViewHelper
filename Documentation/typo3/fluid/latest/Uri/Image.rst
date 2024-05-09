@@ -88,7 +88,7 @@ Arguments
 =========
 
 
-.. _uri.image_src:
+.. _typo3-fluid-uri-image-src:
 
 src
 ---
@@ -101,7 +101,7 @@ src
 :aspect:`Description`
    Src
 
-.. _uri.image_treatidasreference:
+.. _typo3-fluid-uri-image-treatidasreference:
 
 treatIdAsReference
 ------------------
@@ -114,7 +114,7 @@ treatIdAsReference
 :aspect:`Description`
    Given src argument is a sys_file_reference record
 
-.. _uri.image_image:
+.. _typo3-fluid-uri-image-image:
 
 image
 -----
@@ -127,7 +127,7 @@ image
 :aspect:`Description`
    Image
 
-.. _uri.image_crop:
+.. _typo3-fluid-uri-image-crop:
 
 crop
 ----
@@ -140,7 +140,7 @@ crop
 :aspect:`Description`
    Overrule cropping of image (setting to FALSE disables the cropping set in FileReference)
 
-.. _uri.image_cropvariant:
+.. _typo3-fluid-uri-image-cropvariant:
 
 cropVariant
 -----------
@@ -156,7 +156,7 @@ cropVariant
 :aspect:`Description`
    Select a cropping variant, in case multiple croppings have been specified or stored in FileReference
 
-.. _uri.image_fileextension:
+.. _typo3-fluid-uri-image-fileextension:
 
 fileExtension
 -------------
@@ -169,7 +169,7 @@ fileExtension
 :aspect:`Description`
    Custom file extension to use
 
-.. _uri.image_width:
+.. _typo3-fluid-uri-image-width:
 
 width
 -----
@@ -182,7 +182,7 @@ width
 :aspect:`Description`
    Width of the image. This can be a numeric value representing the fixed width of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
-.. _uri.image_height:
+.. _typo3-fluid-uri-image-height:
 
 height
 ------
@@ -195,7 +195,7 @@ height
 :aspect:`Description`
    Height of the image. This can be a numeric value representing the fixed height of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
-.. _uri.image_minwidth:
+.. _typo3-fluid-uri-image-minwidth:
 
 minWidth
 --------
@@ -208,7 +208,7 @@ minWidth
 :aspect:`Description`
    Minimum width of the image
 
-.. _uri.image_minheight:
+.. _typo3-fluid-uri-image-minheight:
 
 minHeight
 ---------
@@ -221,7 +221,7 @@ minHeight
 :aspect:`Description`
    Minimum height of the image
 
-.. _uri.image_maxwidth:
+.. _typo3-fluid-uri-image-maxwidth:
 
 maxWidth
 --------
@@ -234,7 +234,7 @@ maxWidth
 :aspect:`Description`
    Maximum width of the image
 
-.. _uri.image_maxheight:
+.. _typo3-fluid-uri-image-maxheight:
 
 maxHeight
 ---------
@@ -247,7 +247,7 @@ maxHeight
 :aspect:`Description`
    Maximum height of the image
 
-.. _uri.image_absolute:
+.. _typo3-fluid-uri-image-absolute:
 
 absolute
 --------

@@ -85,7 +85,7 @@ Arguments
 =========
 
 
-.. _groupedfor_each:
+.. _typo3fluid-fluid-groupedfor-each:
 
 each
 ----
@@ -98,7 +98,7 @@ each
 :aspect:`Description`
    The array or \SplObjectStorage to iterated over
 
-.. _groupedfor_as:
+.. _typo3fluid-fluid-groupedfor-as:
 
 as
 --
@@ -111,7 +111,7 @@ as
 :aspect:`Description`
    The name of the iteration variable
 
-.. _groupedfor_groupby:
+.. _typo3fluid-fluid-groupedfor-groupby:
 
 groupBy
 -------
@@ -124,7 +124,7 @@ groupBy
 :aspect:`Description`
    Group by this property
 
-.. _groupedfor_groupkey:
+.. _typo3fluid-fluid-groupedfor-groupkey:
 
 groupKey
 --------

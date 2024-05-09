@@ -32,7 +32,7 @@ Arguments
 =========
 
 
-.. _iconforresource_resource:
+.. _typo3-core-iconforresource-resource:
 
 resource
 --------
@@ -45,7 +45,7 @@ resource
 :aspect:`Description`
    Resource
 
-.. _iconforresource_size:
+.. _typo3-core-iconforresource-size:
 
 size
 ----
@@ -61,7 +61,7 @@ size
 :aspect:`Description`
    The icon size
 
-.. _iconforresource_overlay:
+.. _typo3-core-iconforresource-overlay:
 
 overlay
 -------
@@ -74,7 +74,7 @@ overlay
 :aspect:`Description`
    Overlay identifier
 
-.. _iconforresource_options:
+.. _typo3-core-iconforresource-options:
 
 options
 -------
@@ -90,7 +90,7 @@ options
 :aspect:`Description`
    An associative array with additional options
 
-.. _iconforresource_alternativemarkupidentifier:
+.. _typo3-core-iconforresource-alternativemarkupidentifier:
 
 alternativeMarkupIdentifier
 ---------------------------

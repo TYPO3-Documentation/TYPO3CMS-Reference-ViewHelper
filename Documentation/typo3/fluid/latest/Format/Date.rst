@@ -113,7 +113,7 @@ Arguments
 =========
 
 
-.. _format.date_date:
+.. _typo3-fluid-format-date-date:
 
 date
 ----
@@ -126,7 +126,7 @@ date
 :aspect:`Description`
    Either an object implementing DateTimeInterface or a string that is accepted by DateTime constructor
 
-.. _format.date_format:
+.. _typo3-fluid-format-date-format:
 
 format
 ------
@@ -139,7 +139,7 @@ format
 :aspect:`Description`
    Format String which is taken to format the Date/Time
 
-.. _format.date_pattern:
+.. _typo3-fluid-format-date-pattern:
 
 pattern
 -------
@@ -152,7 +152,7 @@ pattern
 :aspect:`Description`
    Format date based on unicode ICO format pattern given see https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax. If both "pattern" and "format" arguments are given, pattern will be used.
 
-.. _format.date_locale:
+.. _typo3-fluid-format-date-locale:
 
 locale
 ------
@@ -165,7 +165,7 @@ locale
 :aspect:`Description`
    A locale format such as "nl-NL" to format the date in a specific locale, if none given, uses the current locale of the current request. Only works when pattern argument is given
 
-.. _format.date_base:
+.. _typo3-fluid-format-date-base:
 
 base
 ----

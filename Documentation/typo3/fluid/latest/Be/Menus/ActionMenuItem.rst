@@ -44,7 +44,7 @@ Arguments
 =========
 
 
-.. _be.menus.actionmenuitem_additionalattributes:
+.. _typo3-fluid-be-menus-actionmenuitem-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -57,7 +57,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _be.menus.actionmenuitem_data:
+.. _typo3-fluid-be-menus-actionmenuitem-data:
 
 data
 ----
@@ -70,7 +70,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _be.menus.actionmenuitem_aria:
+.. _typo3-fluid-be-menus-actionmenuitem-aria:
 
 aria
 ----
@@ -83,7 +83,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _be.menus.actionmenuitem_label:
+.. _typo3-fluid-be-menus-actionmenuitem-label:
 
 label
 -----
@@ -96,7 +96,7 @@ label
 :aspect:`Description`
    Label of the option tag
 
-.. _be.menus.actionmenuitem_controller:
+.. _typo3-fluid-be-menus-actionmenuitem-controller:
 
 controller
 ----------
@@ -109,7 +109,7 @@ controller
 :aspect:`Description`
    Controller to be associated with this ActionMenuItem
 
-.. _be.menus.actionmenuitem_action:
+.. _typo3-fluid-be-menus-actionmenuitem-action:
 
 action
 ------
@@ -122,7 +122,7 @@ action
 :aspect:`Description`
    The action to be associated with this ActionMenuItem
 
-.. _be.menus.actionmenuitem_arguments:
+.. _typo3-fluid-be-menus-actionmenuitem-arguments:
 
 arguments
 ---------

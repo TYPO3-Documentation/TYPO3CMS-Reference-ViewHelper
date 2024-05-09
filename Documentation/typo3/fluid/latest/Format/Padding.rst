@@ -52,7 +52,7 @@ Arguments
 =========
 
 
-.. _format.padding_value:
+.. _typo3-fluid-format-padding-value:
 
 value
 -----
@@ -65,7 +65,7 @@ value
 :aspect:`Description`
    String to format
 
-.. _format.padding_padlength:
+.. _typo3-fluid-format-padding-padlength:
 
 padLength
 ---------
@@ -78,7 +78,7 @@ padLength
 :aspect:`Description`
    Length of the resulting string. If the value of pad_length is negative or less than the length of the input string, no padding takes place.
 
-.. _format.padding_padstring:
+.. _typo3-fluid-format-padding-padstring:
 
 padString
 ---------
@@ -94,7 +94,7 @@ padString
 :aspect:`Description`
    The padding string
 
-.. _format.padding_padtype:
+.. _typo3-fluid-format-padding-padtype:
 
 padType
 -------

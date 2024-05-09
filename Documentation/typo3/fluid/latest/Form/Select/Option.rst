@@ -17,7 +17,7 @@ Arguments
 =========
 
 
-.. _form.select.option_class:
+.. _typo3-fluid-form-select-option-class:
 
 class
 -----
@@ -30,7 +30,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _form.select.option_dir:
+.. _typo3-fluid-form-select-option-dir:
 
 dir
 ---
@@ -43,7 +43,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _form.select.option_id:
+.. _typo3-fluid-form-select-option-id:
 
 id
 --
@@ -56,7 +56,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _form.select.option_lang:
+.. _typo3-fluid-form-select-option-lang:
 
 lang
 ----
@@ -69,7 +69,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _form.select.option_style:
+.. _typo3-fluid-form-select-option-style:
 
 style
 -----
@@ -82,7 +82,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _form.select.option_title:
+.. _typo3-fluid-form-select-option-title:
 
 title
 -----
@@ -95,7 +95,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _form.select.option_accesskey:
+.. _typo3-fluid-form-select-option-accesskey:
 
 accesskey
 ---------
@@ -108,7 +108,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _form.select.option_tabindex:
+.. _typo3-fluid-form-select-option-tabindex:
 
 tabindex
 --------
@@ -121,7 +121,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _form.select.option_onclick:
+.. _typo3-fluid-form-select-option-onclick:
 
 onclick
 -------
@@ -134,7 +134,7 @@ onclick
 :aspect:`Description`
    JavaScript evaluated for the onclick event
 
-.. _form.select.option_selected:
+.. _typo3-fluid-form-select-option-selected:
 
 selected
 --------
@@ -147,7 +147,7 @@ selected
 :aspect:`Description`
    If set, overrides automatic detection of selected state for this option.
 
-.. _form.select.option_additionalattributes:
+.. _typo3-fluid-form-select-option-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -160,7 +160,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _form.select.option_data:
+.. _typo3-fluid-form-select-option-data:
 
 data
 ----
@@ -173,7 +173,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _form.select.option_value:
+.. _typo3-fluid-form-select-option-value:
 
 value
 -----

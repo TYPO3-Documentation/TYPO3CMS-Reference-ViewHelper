@@ -54,7 +54,7 @@ Arguments
 =========
 
 
-.. _alias_map:
+.. _typo3fluid-fluid-alias-map:
 
 map
 ---

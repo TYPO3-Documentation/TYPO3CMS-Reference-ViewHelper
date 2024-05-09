@@ -32,7 +32,7 @@ Arguments
 =========
 
 
-.. _modulelink_route:
+.. _typo3-backend-modulelink-route:
 
 route
 -----
@@ -45,7 +45,7 @@ route
 :aspect:`Description`
    The route to link to
 
-.. _modulelink_arguments:
+.. _typo3-backend-modulelink-arguments:
 
 arguments
 ---------
@@ -61,7 +61,7 @@ arguments
 :aspect:`Description`
    Additional link arguments
 
-.. _modulelink_query:
+.. _typo3-backend-modulelink-query:
 
 query
 -----
@@ -74,7 +74,7 @@ query
 :aspect:`Description`
    Additional link arguments as string
 
-.. _modulelink_currenturlparametername:
+.. _typo3-backend-modulelink-currenturlparametername:
 
 currentUrlParameterName
 -----------------------

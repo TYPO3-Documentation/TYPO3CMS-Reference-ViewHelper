@@ -149,7 +149,7 @@ Arguments
 =========
 
 
-.. _if_then:
+.. _typo3fluid-fluid-if-then:
 
 then
 ----
@@ -162,7 +162,7 @@ then
 :aspect:`Description`
    Value to be returned if the condition if met.
 
-.. _if_else:
+.. _typo3fluid-fluid-if-else:
 
 else
 ----
@@ -175,7 +175,7 @@ else
 :aspect:`Description`
    Value to be returned if the condition if not met.
 
-.. _if_condition:
+.. _typo3fluid-fluid-if-condition:
 
 condition
 ---------

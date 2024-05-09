@@ -39,7 +39,7 @@ Arguments
 =========
 
 
-.. _format.nl2br_value:
+.. _typo3fluid-fluid-format-nl2br-value:
 
 value
 -----

@@ -103,7 +103,7 @@ Arguments
 =========
 
 
-.. _format.html_parsefunctspath:
+.. _typo3-fluid-format-html-parsefunctspath:
 
 parseFuncTSPath
 ---------------
@@ -119,7 +119,7 @@ parseFuncTSPath
 :aspect:`Description`
    Path to the TypoScript parseFunc setup.
 
-.. _format.html_data:
+.. _typo3-fluid-format-html-data:
 
 data
 ----
@@ -132,7 +132,7 @@ data
 :aspect:`Description`
    Initialize the content object with this set of data. Either an array or object.
 
-.. _format.html_current:
+.. _typo3-fluid-format-html-current:
 
 current
 -------
@@ -145,7 +145,7 @@ current
 :aspect:`Description`
    Initialize the content object with this value for current property.
 
-.. _format.html_currentvaluekey:
+.. _typo3-fluid-format-html-currentvaluekey:
 
 currentValueKey
 ---------------
@@ -158,7 +158,7 @@ currentValueKey
 :aspect:`Description`
    Define the value key, used to locate the current value for the content object
 
-.. _format.html_table:
+.. _typo3-fluid-format-html-table:
 
 table
 -----

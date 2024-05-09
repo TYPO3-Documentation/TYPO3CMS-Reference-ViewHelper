@@ -37,7 +37,7 @@ Arguments
 =========
 
 
-.. _else_if:
+.. _typo3fluid-fluid-else-if:
 
 if
 --

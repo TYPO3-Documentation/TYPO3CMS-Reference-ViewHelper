@@ -53,7 +53,7 @@ Arguments
 =========
 
 
-.. _uri.page_pageuid:
+.. _typo3-fluid-uri-page-pageuid:
 
 pageUid
 -------
@@ -66,7 +66,7 @@ pageUid
 :aspect:`Description`
    Target PID
 
-.. _uri.page_additionalparams:
+.. _typo3-fluid-uri-page-additionalparams:
 
 additionalParams
 ----------------
@@ -82,7 +82,7 @@ additionalParams
 :aspect:`Description`
    Query parameters to be attached to the resulting URI
 
-.. _uri.page_pagetype:
+.. _typo3-fluid-uri-page-pagetype:
 
 pageType
 --------
@@ -95,7 +95,7 @@ pageType
 :aspect:`Description`
    Type of the target page. See typolink.parameter
 
-.. _uri.page_nocache:
+.. _typo3-fluid-uri-page-nocache:
 
 noCache
 -------
@@ -108,7 +108,7 @@ noCache
 :aspect:`Description`
    Set this to disable caching for the target page. You should not need this.
 
-.. _uri.page_language:
+.. _typo3-fluid-uri-page-language:
 
 language
 --------
@@ -121,7 +121,7 @@ language
 :aspect:`Description`
    Link to a specific language - defaults to the current language, use a language ID or "current" to enforce a specific language
 
-.. _uri.page_section:
+.. _typo3-fluid-uri-page-section:
 
 section
 -------
@@ -134,7 +134,7 @@ section
 :aspect:`Description`
    The anchor to be added to the URI
 
-.. _uri.page_linkaccessrestrictedpages:
+.. _typo3-fluid-uri-page-linkaccessrestrictedpages:
 
 linkAccessRestrictedPages
 -------------------------
@@ -147,7 +147,7 @@ linkAccessRestrictedPages
 :aspect:`Description`
    If set, links pointing to access restricted pages will still link to the page even though the page cannot be accessed.
 
-.. _uri.page_absolute:
+.. _typo3-fluid-uri-page-absolute:
 
 absolute
 --------
@@ -160,7 +160,7 @@ absolute
 :aspect:`Description`
    If set, the URI of the rendered link is absolute
 
-.. _uri.page_addquerystring:
+.. _typo3-fluid-uri-page-addquerystring:
 
 addQueryString
 --------------
@@ -173,7 +173,7 @@ addQueryString
 :aspect:`Description`
    If set, the current query parameters will be kept in the URL. If set to "untrusted", then ALL query parameters will be added. Be aware, that this might lead to problems when the generated link is cached.
 
-.. _uri.page_argumentstobeexcludedfromquerystring:
+.. _typo3-fluid-uri-page-argumentstobeexcludedfromquerystring:
 
 argumentsToBeExcludedFromQueryString
 ------------------------------------

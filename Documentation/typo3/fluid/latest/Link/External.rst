@@ -42,7 +42,7 @@ Arguments
 =========
 
 
-.. _link.external_additionalattributes:
+.. _typo3-fluid-link-external-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -55,7 +55,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _link.external_data:
+.. _typo3-fluid-link-external-data:
 
 data
 ----
@@ -68,7 +68,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _link.external_aria:
+.. _typo3-fluid-link-external-aria:
 
 aria
 ----
@@ -81,7 +81,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _link.external_uri:
+.. _typo3-fluid-link-external-uri:
 
 uri
 ---
@@ -94,7 +94,7 @@ uri
 :aspect:`Description`
    The URI that will be put in the href attribute of the rendered link tag
 
-.. _link.external_defaultscheme:
+.. _typo3-fluid-link-external-defaultscheme:
 
 defaultScheme
 -------------
@@ -110,7 +110,7 @@ defaultScheme
 :aspect:`Description`
    Scheme the href attribute will be prefixed with if specified $uri does not contain a scheme already
 
-.. _link.external_class:
+.. _typo3-fluid-link-external-class:
 
 class
 -----
@@ -123,7 +123,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _link.external_dir:
+.. _typo3-fluid-link-external-dir:
 
 dir
 ---
@@ -136,7 +136,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _link.external_id:
+.. _typo3-fluid-link-external-id:
 
 id
 --
@@ -149,7 +149,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _link.external_lang:
+.. _typo3-fluid-link-external-lang:
 
 lang
 ----
@@ -162,7 +162,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _link.external_style:
+.. _typo3-fluid-link-external-style:
 
 style
 -----
@@ -175,7 +175,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _link.external_title:
+.. _typo3-fluid-link-external-title:
 
 title
 -----
@@ -188,7 +188,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _link.external_accesskey:
+.. _typo3-fluid-link-external-accesskey:
 
 accesskey
 ---------
@@ -201,7 +201,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _link.external_tabindex:
+.. _typo3-fluid-link-external-tabindex:
 
 tabindex
 --------
@@ -214,7 +214,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _link.external_onclick:
+.. _typo3-fluid-link-external-onclick:
 
 onclick
 -------
@@ -227,7 +227,7 @@ onclick
 :aspect:`Description`
    JavaScript evaluated for the onclick event
 
-.. _link.external_name:
+.. _typo3-fluid-link-external-name:
 
 name
 ----
@@ -240,7 +240,7 @@ name
 :aspect:`Description`
    Specifies the name of an anchor
 
-.. _link.external_rel:
+.. _typo3-fluid-link-external-rel:
 
 rel
 ---
@@ -253,7 +253,7 @@ rel
 :aspect:`Description`
    Specifies the relationship between the current document and the linked document
 
-.. _link.external_rev:
+.. _typo3-fluid-link-external-rev:
 
 rev
 ---
@@ -266,7 +266,7 @@ rev
 :aspect:`Description`
    Specifies the relationship between the linked document and the current document
 
-.. _link.external_target:
+.. _typo3-fluid-link-external-target:
 
 target
 ------

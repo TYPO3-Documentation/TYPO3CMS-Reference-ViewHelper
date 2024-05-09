@@ -64,7 +64,7 @@ Arguments
 =========
 
 
-.. _uri.resource_path:
+.. _typo3-fluid-uri-resource-path:
 
 path
 ----
@@ -77,7 +77,7 @@ path
 :aspect:`Description`
    The path and filename of the resource (relative to Public resource directory of the extension).
 
-.. _uri.resource_extensionname:
+.. _typo3-fluid-uri-resource-extensionname:
 
 extensionName
 -------------
@@ -90,7 +90,7 @@ extensionName
 :aspect:`Description`
    Target extension name. If not set, the current extension name will be used
 
-.. _uri.resource_absolute:
+.. _typo3-fluid-uri-resource-absolute:
 
 absolute
 --------

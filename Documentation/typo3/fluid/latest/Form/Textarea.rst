@@ -30,7 +30,7 @@ Arguments
 =========
 
 
-.. _form.textarea_additionalattributes:
+.. _typo3-fluid-form-textarea-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -43,7 +43,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _form.textarea_data:
+.. _typo3-fluid-form-textarea-data:
 
 data
 ----
@@ -56,7 +56,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _form.textarea_aria:
+.. _typo3-fluid-form-textarea-aria:
 
 aria
 ----
@@ -69,7 +69,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _form.textarea_name:
+.. _typo3-fluid-form-textarea-name:
 
 name
 ----
@@ -82,7 +82,7 @@ name
 :aspect:`Description`
    Name of input tag
 
-.. _form.textarea_value:
+.. _typo3-fluid-form-textarea-value:
 
 value
 -----
@@ -95,7 +95,7 @@ value
 :aspect:`Description`
    Value of input tag
 
-.. _form.textarea_property:
+.. _typo3-fluid-form-textarea-property:
 
 property
 --------
@@ -108,7 +108,7 @@ property
 :aspect:`Description`
    Name of Object Property. If used in conjunction with <f:form object="...">, the "name" property will be ignored, while "value" can be used to specify a default field value instead of the object property value.
 
-.. _form.textarea_autofocus:
+.. _typo3-fluid-form-textarea-autofocus:
 
 autofocus
 ---------
@@ -121,7 +121,7 @@ autofocus
 :aspect:`Description`
    Specifies that a text area should automatically get focus when the page loads
 
-.. _form.textarea_rows:
+.. _typo3-fluid-form-textarea-rows:
 
 rows
 ----
@@ -134,7 +134,7 @@ rows
 :aspect:`Description`
    The number of rows of a text area
 
-.. _form.textarea_cols:
+.. _typo3-fluid-form-textarea-cols:
 
 cols
 ----
@@ -147,7 +147,7 @@ cols
 :aspect:`Description`
    The number of columns of a text area
 
-.. _form.textarea_disabled:
+.. _typo3-fluid-form-textarea-disabled:
 
 disabled
 --------
@@ -160,7 +160,7 @@ disabled
 :aspect:`Description`
    Specifies that the input element should be disabled when the page loads
 
-.. _form.textarea_placeholder:
+.. _typo3-fluid-form-textarea-placeholder:
 
 placeholder
 -----------
@@ -173,7 +173,7 @@ placeholder
 :aspect:`Description`
    The placeholder of the textarea
 
-.. _form.textarea_errorclass:
+.. _typo3-fluid-form-textarea-errorclass:
 
 errorClass
 ----------
@@ -189,7 +189,7 @@ errorClass
 :aspect:`Description`
    CSS class to set if there are errors for this ViewHelper
 
-.. _form.textarea_readonly:
+.. _typo3-fluid-form-textarea-readonly:
 
 readonly
 --------
@@ -202,7 +202,7 @@ readonly
 :aspect:`Description`
    The readonly attribute of the textarea
 
-.. _form.textarea_required:
+.. _typo3-fluid-form-textarea-required:
 
 required
 --------
@@ -215,7 +215,7 @@ required
 :aspect:`Description`
    Specifies whether the textarea is required
 
-.. _form.textarea_class:
+.. _typo3-fluid-form-textarea-class:
 
 class
 -----
@@ -228,7 +228,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _form.textarea_dir:
+.. _typo3-fluid-form-textarea-dir:
 
 dir
 ---
@@ -241,7 +241,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _form.textarea_id:
+.. _typo3-fluid-form-textarea-id:
 
 id
 --
@@ -254,7 +254,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _form.textarea_lang:
+.. _typo3-fluid-form-textarea-lang:
 
 lang
 ----
@@ -267,7 +267,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _form.textarea_style:
+.. _typo3-fluid-form-textarea-style:
 
 style
 -----
@@ -280,7 +280,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _form.textarea_title:
+.. _typo3-fluid-form-textarea-title:
 
 title
 -----
@@ -293,7 +293,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _form.textarea_accesskey:
+.. _typo3-fluid-form-textarea-accesskey:
 
 accesskey
 ---------
@@ -306,7 +306,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _form.textarea_tabindex:
+.. _typo3-fluid-form-textarea-tabindex:
 
 tabindex
 --------
@@ -319,7 +319,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _form.textarea_onclick:
+.. _typo3-fluid-form-textarea-onclick:
 
 onclick
 -------

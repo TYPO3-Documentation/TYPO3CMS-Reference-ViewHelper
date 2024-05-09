@@ -17,7 +17,7 @@ Arguments
 =========
 
 
-.. _toolbar.attributes_class:
+.. _typo3-backend-toolbar-attributes-class:
 
 class
 -----

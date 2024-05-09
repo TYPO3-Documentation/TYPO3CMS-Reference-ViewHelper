@@ -45,7 +45,7 @@ Arguments
 =========
 
 
-.. _switch_expression:
+.. _typo3fluid-fluid-switch-expression:
 
 expression
 ----------

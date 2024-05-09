@@ -17,7 +17,7 @@ Arguments
 =========
 
 
-.. _languagecolumn_languagecolumn:
+.. _typo3-backend-languagecolumn-languagecolumn:
 
 languageColumn
 --------------
@@ -30,7 +30,7 @@ languageColumn
 :aspect:`Description`
    Language column object which is context for column
 
-.. _languagecolumn_columnnumber:
+.. _typo3-backend-languagecolumn-columnnumber:
 
 columnNumber
 ------------

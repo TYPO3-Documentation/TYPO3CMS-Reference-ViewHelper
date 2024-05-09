@@ -66,7 +66,7 @@ Arguments
 =========
 
 
-.. _format.trim_value:
+.. _typo3fluid-fluid-format-trim-value:
 
 value
 -----
@@ -79,7 +79,7 @@ value
 :aspect:`Description`
    The string value to be trimmed. If not given, the evaluated child nodes will be used.
 
-.. _format.trim_characters:
+.. _typo3fluid-fluid-format-trim-characters:
 
 characters
 ----------
@@ -92,7 +92,7 @@ characters
 :aspect:`Description`
    Optionally, the stripped characters can also be specified using the characters parameter. Simply list all characters that you want to be stripped. With .. you can specify a range of characters.
 
-.. _format.trim_side:
+.. _typo3fluid-fluid-format-trim-side:
 
 side
 ----

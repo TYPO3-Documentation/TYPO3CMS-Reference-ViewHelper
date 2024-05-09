@@ -59,7 +59,7 @@ Arguments
 =========
 
 
-.. _cache.warmup_variables:
+.. _typo3fluid-fluid-cache-warmup-variables:
 
 variables
 ---------

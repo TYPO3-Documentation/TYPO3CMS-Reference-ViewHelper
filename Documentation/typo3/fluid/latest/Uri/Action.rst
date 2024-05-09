@@ -28,7 +28,7 @@ Arguments
 =========
 
 
-.. _uri.action_action:
+.. _typo3-fluid-uri-action-action:
 
 action
 ------
@@ -41,7 +41,7 @@ action
 :aspect:`Description`
    Target action
 
-.. _uri.action_arguments:
+.. _typo3-fluid-uri-action-arguments:
 
 arguments
 ---------
@@ -57,7 +57,7 @@ arguments
 :aspect:`Description`
    Arguments
 
-.. _uri.action_controller:
+.. _typo3-fluid-uri-action-controller:
 
 controller
 ----------
@@ -70,7 +70,7 @@ controller
 :aspect:`Description`
    Target controller. If NULL current controllerName is used
 
-.. _uri.action_extensionname:
+.. _typo3-fluid-uri-action-extensionname:
 
 extensionName
 -------------
@@ -83,7 +83,7 @@ extensionName
 :aspect:`Description`
    Target Extension Name (without `tx_` prefix and no underscores). If NULL the current extension name is used
 
-.. _uri.action_pluginname:
+.. _typo3-fluid-uri-action-pluginname:
 
 pluginName
 ----------
@@ -96,7 +96,7 @@ pluginName
 :aspect:`Description`
    Target plugin. If empty, the current plugin name is used
 
-.. _uri.action_pageuid:
+.. _typo3-fluid-uri-action-pageuid:
 
 pageUid
 -------
@@ -109,7 +109,7 @@ pageUid
 :aspect:`Description`
    Target page. See TypoLink destination
 
-.. _uri.action_pagetype:
+.. _typo3-fluid-uri-action-pagetype:
 
 pageType
 --------
@@ -122,7 +122,7 @@ pageType
 :aspect:`Description`
    Type of the target page. See typolink.parameter
 
-.. _uri.action_nocache:
+.. _typo3-fluid-uri-action-nocache:
 
 noCache
 -------
@@ -135,7 +135,7 @@ noCache
 :aspect:`Description`
    Set this to disable caching for the target page. You should not need this.
 
-.. _uri.action_language:
+.. _typo3-fluid-uri-action-language:
 
 language
 --------
@@ -148,7 +148,7 @@ language
 :aspect:`Description`
    Link to a specific language - defaults to the current language, use a language ID or "current" to enforce a specific language
 
-.. _uri.action_section:
+.. _typo3-fluid-uri-action-section:
 
 section
 -------
@@ -161,7 +161,7 @@ section
 :aspect:`Description`
    The anchor to be added to the URI
 
-.. _uri.action_format:
+.. _typo3-fluid-uri-action-format:
 
 format
 ------
@@ -174,7 +174,7 @@ format
 :aspect:`Description`
    The requested format, e.g. ".html
 
-.. _uri.action_linkaccessrestrictedpages:
+.. _typo3-fluid-uri-action-linkaccessrestrictedpages:
 
 linkAccessRestrictedPages
 -------------------------
@@ -187,7 +187,7 @@ linkAccessRestrictedPages
 :aspect:`Description`
    If set, links pointing to access restricted pages will still link to the page even though the page cannot be accessed.
 
-.. _uri.action_additionalparams:
+.. _typo3-fluid-uri-action-additionalparams:
 
 additionalParams
 ----------------
@@ -203,7 +203,7 @@ additionalParams
 :aspect:`Description`
    Additional query parameters that won't be prefixed like $arguments (overrule $arguments)
 
-.. _uri.action_absolute:
+.. _typo3-fluid-uri-action-absolute:
 
 absolute
 --------
@@ -216,7 +216,7 @@ absolute
 :aspect:`Description`
    If set, an absolute URI is rendered
 
-.. _uri.action_addquerystring:
+.. _typo3-fluid-uri-action-addquerystring:
 
 addQueryString
 --------------
@@ -229,7 +229,7 @@ addQueryString
 :aspect:`Description`
    If set, the current query parameters will be kept in the URL. If set to "untrusted", then ALL query parameters will be added. Be aware, that this might lead to problems when the generated link is cached.
 
-.. _uri.action_argumentstobeexcludedfromquerystring:
+.. _typo3-fluid-uri-action-argumentstobeexcludedfromquerystring:
 
 argumentsToBeExcludedFromQueryString
 ------------------------------------

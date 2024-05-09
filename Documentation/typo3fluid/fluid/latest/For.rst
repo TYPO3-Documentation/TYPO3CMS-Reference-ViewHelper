@@ -74,7 +74,7 @@ Arguments
 =========
 
 
-.. _for_each:
+.. _typo3fluid-fluid-for-each:
 
 each
 ----
@@ -87,7 +87,7 @@ each
 :aspect:`Description`
    The array or \SplObjectStorage to iterated over
 
-.. _for_as:
+.. _typo3fluid-fluid-for-as:
 
 as
 --
@@ -100,7 +100,7 @@ as
 :aspect:`Description`
    The name of the iteration variable
 
-.. _for_key:
+.. _typo3fluid-fluid-for-key:
 
 key
 ---
@@ -113,7 +113,7 @@ key
 :aspect:`Description`
    Variable to assign array key to
 
-.. _for_reverse:
+.. _typo3fluid-fluid-for-reverse:
 
 reverse
 -------
@@ -126,7 +126,7 @@ reverse
 :aspect:`Description`
    If TRUE, iterates in reverse
 
-.. _for_iteration:
+.. _typo3fluid-fluid-for-iteration:
 
 iteration
 ---------

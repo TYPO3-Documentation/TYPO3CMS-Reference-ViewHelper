@@ -36,7 +36,7 @@ Arguments
 =========
 
 
-.. _normalizedurl_pathorurl:
+.. _typo3-core-normalizedurl-pathorurl:
 
 pathOrUrl
 ---------
