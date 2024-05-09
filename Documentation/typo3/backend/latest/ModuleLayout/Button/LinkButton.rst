@@ -31,7 +31,7 @@ Arguments
 =========
 
 
-.. _modulelayout.button.linkbutton_icon:
+.. _typo3-backend-modulelayout-button-linkbutton-icon:
 
 icon
 ----
@@ -44,7 +44,7 @@ icon
 :aspect:`Description`
    Icon identifier for the button
 
-.. _modulelayout.button.linkbutton_title:
+.. _typo3-backend-modulelayout-button-linkbutton-title:
 
 title
 -----
@@ -57,7 +57,7 @@ title
 :aspect:`Description`
    Title of the button
 
-.. _modulelayout.button.linkbutton_disabled:
+.. _typo3-backend-modulelayout-button-linkbutton-disabled:
 
 disabled
 --------
@@ -70,7 +70,7 @@ disabled
 :aspect:`Description`
    Whether the button is disabled
 
-.. _modulelayout.button.linkbutton_showlabel:
+.. _typo3-backend-modulelayout-button-linkbutton-showlabel:
 
 showLabel
 ---------
@@ -83,7 +83,7 @@ showLabel
 :aspect:`Description`
    Defines whether to show the title as a label within the button
 
-.. _modulelayout.button.linkbutton_position:
+.. _typo3-backend-modulelayout-button-linkbutton-position:
 
 position
 --------
@@ -96,7 +96,7 @@ position
 :aspect:`Description`
    Position of the button (left or right)
 
-.. _modulelayout.button.linkbutton_group:
+.. _typo3-backend-modulelayout-button-linkbutton-group:
 
 group
 -----
@@ -109,7 +109,7 @@ group
 :aspect:`Description`
    Button group of the button
 
-.. _modulelayout.button.linkbutton_link:
+.. _typo3-backend-modulelayout-button-linkbutton-link:
 
 link
 ----

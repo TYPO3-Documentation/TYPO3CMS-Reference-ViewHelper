@@ -52,7 +52,7 @@ Arguments
 =========
 
 
-.. _format.bytes_value:
+.. _typo3-fluid-format-bytes-value:
 
 value
 -----
@@ -65,7 +65,7 @@ value
 :aspect:`Description`
    The incoming data to convert, or NULL if VH children should be used
 
-.. _format.bytes_decimals:
+.. _typo3-fluid-format-bytes-decimals:
 
 decimals
 --------
@@ -78,7 +78,7 @@ decimals
 :aspect:`Description`
    The number of digits after the decimal point
 
-.. _format.bytes_decimalseparator:
+.. _typo3-fluid-format-bytes-decimalseparator:
 
 decimalSeparator
 ----------------
@@ -94,7 +94,7 @@ decimalSeparator
 :aspect:`Description`
    The decimal point character
 
-.. _format.bytes_thousandsseparator:
+.. _typo3-fluid-format-bytes-thousandsseparator:
 
 thousandsSeparator
 ------------------
@@ -110,7 +110,7 @@ thousandsSeparator
 :aspect:`Description`
    The character for grouping the thousand digits
 
-.. _format.bytes_units:
+.. _typo3-fluid-format-bytes-units:
 
 units
 -----

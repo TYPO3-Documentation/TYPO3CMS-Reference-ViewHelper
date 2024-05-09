@@ -43,7 +43,7 @@ Arguments
 =========
 
 
-.. _be.container_pagetitle:
+.. _typo3-fluid-be-container-pagetitle:
 
 pageTitle
 ---------
@@ -56,7 +56,7 @@ pageTitle
 :aspect:`Description`
    Title tag of the module. Not required by default, as BE modules are shown in a frame
 
-.. _be.container_includecssfiles:
+.. _typo3-fluid-be-container-includecssfiles:
 
 includeCssFiles
 ---------------
@@ -69,7 +69,7 @@ includeCssFiles
 :aspect:`Description`
    List of custom CSS file to be loaded
 
-.. _be.container_includejsfiles:
+.. _typo3-fluid-be-container-includejsfiles:
 
 includeJsFiles
 --------------
@@ -82,7 +82,7 @@ includeJsFiles
 :aspect:`Description`
    List of custom JavaScript file to be loaded
 
-.. _be.container_addjsinlinelabels:
+.. _typo3-fluid-be-container-addjsinlinelabels:
 
 addJsInlineLabels
 -----------------
@@ -95,7 +95,7 @@ addJsInlineLabels
 :aspect:`Description`
    Custom labels to add to JavaScript inline labels
 
-.. _be.container_includerequirejsmodules:
+.. _typo3-fluid-be-container-includerequirejsmodules:
 
 includeRequireJsModules
 -----------------------
@@ -108,7 +108,7 @@ includeRequireJsModules
 :aspect:`Description`
    List of RequireJS modules to be loaded
 
-.. _be.container_enabledocheader:
+.. _typo3-fluid-be-container-enabledocheader:
 
 enableDocHeader
 ---------------

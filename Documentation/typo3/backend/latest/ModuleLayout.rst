@@ -34,7 +34,7 @@ Arguments
 =========
 
 
-.. _modulelayout_name:
+.. _typo3-backend-modulelayout-name:
 
 name
 ----
@@ -47,7 +47,7 @@ name
 :aspect:`Description`
    Name of the module, defaults to the current plugin name, if available
 
-.. _modulelayout_title:
+.. _typo3-backend-modulelayout-title:
 
 title
 -----

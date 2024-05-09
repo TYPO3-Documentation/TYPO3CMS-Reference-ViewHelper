@@ -52,7 +52,7 @@ Arguments
 =========
 
 
-.. _be.tablelist_tablename:
+.. _typo3-fluid-be-tablelist-tablename:
 
 tableName
 ---------
@@ -65,7 +65,7 @@ tableName
 :aspect:`Description`
    Name of the database table
 
-.. _be.tablelist_fieldlist:
+.. _typo3-fluid-be-tablelist-fieldlist:
 
 fieldList
 ---------
@@ -81,7 +81,7 @@ fieldList
 :aspect:`Description`
    List of fields to be displayed. If empty, only the title column (configured in $TCA[$tableName]['ctrl']['title']) is shown
 
-.. _be.tablelist_storagepid:
+.. _typo3-fluid-be-tablelist-storagepid:
 
 storagePid
 ----------
@@ -94,7 +94,7 @@ storagePid
 :aspect:`Description`
    By default, records are fetched from the storage PID configured in persistence.storagePid. With this argument, the storage PID can be overwritten
 
-.. _be.tablelist_levels:
+.. _typo3-fluid-be-tablelist-levels:
 
 levels
 ------
@@ -107,7 +107,7 @@ levels
 :aspect:`Description`
    Corresponds to the level selector of the TYPO3 list module. By default only records from the current storagePid are fetched
 
-.. _be.tablelist_filter:
+.. _typo3-fluid-be-tablelist-filter:
 
 filter
 ------
@@ -120,7 +120,7 @@ filter
 :aspect:`Description`
    Corresponds to the "Search String" textbox of the TYPO3 list module. If not empty, only records matching the string will be fetched
 
-.. _be.tablelist_recordsperpage:
+.. _typo3-fluid-be-tablelist-recordsperpage:
 
 recordsPerPage
 --------------
@@ -133,7 +133,7 @@ recordsPerPage
 :aspect:`Description`
    Amount of records to be displayed at once. Defaults to $TCA[$tableName]['interface']['maxSingleDBListItems'] or (if that's not set) to 100
 
-.. _be.tablelist_sortfield:
+.. _typo3-fluid-be-tablelist-sortfield:
 
 sortField
 ---------
@@ -146,7 +146,7 @@ sortField
 :aspect:`Description`
    Table field to sort the results by
 
-.. _be.tablelist_sortdescending:
+.. _typo3-fluid-be-tablelist-sortdescending:
 
 sortDescending
 --------------
@@ -159,7 +159,7 @@ sortDescending
 :aspect:`Description`
    If TRUE records will be sorted in descending order
 
-.. _be.tablelist_readonly:
+.. _typo3-fluid-be-tablelist-readonly:
 
 readOnly
 --------
@@ -172,7 +172,7 @@ readOnly
 :aspect:`Description`
    If TRUE, the edit icons won't be shown. Otherwise edit icons will be shown, if the current BE user has edit rights for the specified table!
 
-.. _be.tablelist_enableclickmenu:
+.. _typo3-fluid-be-tablelist-enableclickmenu:
 
 enableClickMenu
 ---------------
@@ -188,7 +188,7 @@ enableClickMenu
 :aspect:`Description`
    Enables context menu
 
-.. _be.tablelist_enablecontrolpanels:
+.. _typo3-fluid-be-tablelist-enablecontrolpanels:
 
 enableControlPanels
 -------------------
@@ -201,7 +201,7 @@ enableControlPanels
 :aspect:`Description`
    Enables control panels
 
-.. _be.tablelist_clicktitlemode:
+.. _typo3-fluid-be-tablelist-clicktitlemode:
 
 clickTitleMode
 --------------

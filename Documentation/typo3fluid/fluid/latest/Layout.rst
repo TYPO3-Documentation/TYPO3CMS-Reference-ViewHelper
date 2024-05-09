@@ -28,7 +28,7 @@ Arguments
 =========
 
 
-.. _layout_name:
+.. _typo3fluid-fluid-layout-name:
 
 name
 ----

@@ -41,7 +41,7 @@ Arguments
 =========
 
 
-.. _be.buttons.shortcut_getvars:
+.. _typo3-fluid-be-buttons-shortcut-getvars:
 
 getVars
 -------
@@ -57,7 +57,7 @@ getVars
 :aspect:`Description`
    List of GET variables to store. By default the current id, module and all module arguments will be stored
 
-.. _be.buttons.shortcut_setvars:
+.. _typo3-fluid-be-buttons-shortcut-setvars:
 
 setVars
 -------

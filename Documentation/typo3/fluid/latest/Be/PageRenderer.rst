@@ -32,7 +32,7 @@ Arguments
 =========
 
 
-.. _be.pagerenderer_pagetitle:
+.. _typo3-fluid-be-pagerenderer-pagetitle:
 
 pageTitle
 ---------
@@ -45,7 +45,7 @@ pageTitle
 :aspect:`Description`
    Title tag of the module. Not required by default, as BE modules are shown in a frame
 
-.. _be.pagerenderer_includecssfiles:
+.. _typo3-fluid-be-pagerenderer-includecssfiles:
 
 includeCssFiles
 ---------------
@@ -58,7 +58,7 @@ includeCssFiles
 :aspect:`Description`
    List of custom CSS file to be loaded
 
-.. _be.pagerenderer_includejsfiles:
+.. _typo3-fluid-be-pagerenderer-includejsfiles:
 
 includeJsFiles
 --------------
@@ -71,7 +71,7 @@ includeJsFiles
 :aspect:`Description`
    List of custom JavaScript file to be loaded
 
-.. _be.pagerenderer_addjsinlinelabels:
+.. _typo3-fluid-be-pagerenderer-addjsinlinelabels:
 
 addJsInlineLabels
 -----------------
@@ -84,7 +84,7 @@ addJsInlineLabels
 :aspect:`Description`
    Custom labels to add to JavaScript inline labels
 
-.. _be.pagerenderer_includerequirejsmodules:
+.. _typo3-fluid-be-pagerenderer-includerequirejsmodules:
 
 includeRequireJsModules
 -----------------------
@@ -97,7 +97,7 @@ includeRequireJsModules
 :aspect:`Description`
    List of RequireJS modules to be loaded
 
-.. _be.pagerenderer_addinlinesettings:
+.. _typo3-fluid-be-pagerenderer-addinlinesettings:
 
 addInlineSettings
 -----------------

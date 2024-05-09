@@ -43,7 +43,7 @@ Arguments
 =========
 
 
-.. _be.menus.actionmenu_additionalattributes:
+.. _typo3-fluid-be-menus-actionmenu-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -56,7 +56,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _be.menus.actionmenu_data:
+.. _typo3-fluid-be-menus-actionmenu-data:
 
 data
 ----
@@ -69,7 +69,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _be.menus.actionmenu_aria:
+.. _typo3-fluid-be-menus-actionmenu-aria:
 
 aria
 ----
@@ -82,7 +82,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _be.menus.actionmenu_defaultcontroller:
+.. _typo3-fluid-be-menus-actionmenu-defaultcontroller:
 
 defaultController
 -----------------

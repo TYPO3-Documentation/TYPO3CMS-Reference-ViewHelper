@@ -49,7 +49,7 @@ Arguments
 =========
 
 
-.. _be.infobox_message:
+.. _typo3-fluid-be-infobox-message:
 
 message
 -------
@@ -62,7 +62,7 @@ message
 :aspect:`Description`
    The message of the info box, if NULL tag content is used
 
-.. _be.infobox_title:
+.. _typo3-fluid-be-infobox-title:
 
 title
 -----
@@ -75,7 +75,7 @@ title
 :aspect:`Description`
    The title of the info box
 
-.. _be.infobox_state:
+.. _typo3-fluid-be-infobox-state:
 
 state
 -----
@@ -91,7 +91,7 @@ state
 :aspect:`Description`
    The state of the box, InfoboxViewHelper::STATE_*
 
-.. _be.infobox_iconname:
+.. _typo3-fluid-be-infobox-iconname:
 
 iconName
 --------
@@ -104,7 +104,7 @@ iconName
 :aspect:`Description`
    The icon name from font awesome, NULL sets default icon
 
-.. _be.infobox_disableicon:
+.. _typo3-fluid-be-infobox-disableicon:
 
 disableIcon
 -----------

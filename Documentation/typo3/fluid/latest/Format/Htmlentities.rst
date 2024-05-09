@@ -43,7 +43,7 @@ Arguments
 =========
 
 
-.. _format.htmlentities_value:
+.. _typo3-fluid-format-htmlentities-value:
 
 value
 -----
@@ -56,7 +56,7 @@ value
 :aspect:`Description`
    String to format
 
-.. _format.htmlentities_keepquotes:
+.. _typo3-fluid-format-htmlentities-keepquotes:
 
 keepQuotes
 ----------
@@ -69,7 +69,7 @@ keepQuotes
 :aspect:`Description`
    If TRUE, single and double quotes won't be replaced (sets ENT_NOQUOTES flag).
 
-.. _format.htmlentities_encoding:
+.. _typo3-fluid-format-htmlentities-encoding:
 
 encoding
 --------
@@ -82,7 +82,7 @@ encoding
 :aspect:`Description`
    Define the encoding used when converting characters (Default: UTF-8
 
-.. _format.htmlentities_doubleencode:
+.. _typo3-fluid-format-htmlentities-doubleencode:
 
 doubleEncode
 ------------

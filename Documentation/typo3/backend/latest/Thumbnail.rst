@@ -50,7 +50,7 @@ Arguments
 =========
 
 
-.. _thumbnail_additionalattributes:
+.. _typo3-backend-thumbnail-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -63,7 +63,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _thumbnail_data:
+.. _typo3-backend-thumbnail-data:
 
 data
 ----
@@ -76,7 +76,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _thumbnail_aria:
+.. _typo3-backend-thumbnail-aria:
 
 aria
 ----
@@ -89,7 +89,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _thumbnail_class:
+.. _typo3-backend-thumbnail-class:
 
 class
 -----
@@ -102,7 +102,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _thumbnail_dir:
+.. _typo3-backend-thumbnail-dir:
 
 dir
 ---
@@ -115,7 +115,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _thumbnail_id:
+.. _typo3-backend-thumbnail-id:
 
 id
 --
@@ -128,7 +128,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _thumbnail_lang:
+.. _typo3-backend-thumbnail-lang:
 
 lang
 ----
@@ -141,7 +141,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _thumbnail_style:
+.. _typo3-backend-thumbnail-style:
 
 style
 -----
@@ -154,7 +154,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _thumbnail_title:
+.. _typo3-backend-thumbnail-title:
 
 title
 -----
@@ -167,7 +167,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _thumbnail_accesskey:
+.. _typo3-backend-thumbnail-accesskey:
 
 accesskey
 ---------
@@ -180,7 +180,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _thumbnail_tabindex:
+.. _typo3-backend-thumbnail-tabindex:
 
 tabindex
 --------
@@ -193,7 +193,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _thumbnail_onclick:
+.. _typo3-backend-thumbnail-onclick:
 
 onclick
 -------
@@ -206,7 +206,7 @@ onclick
 :aspect:`Description`
    JavaScript evaluated for the onclick event
 
-.. _thumbnail_alt:
+.. _typo3-backend-thumbnail-alt:
 
 alt
 ---
@@ -219,7 +219,7 @@ alt
 :aspect:`Description`
    Specifies an alternate text for an image
 
-.. _thumbnail_ismap:
+.. _typo3-backend-thumbnail-ismap:
 
 ismap
 -----
@@ -232,7 +232,7 @@ ismap
 :aspect:`Description`
    Specifies an image as a server-side image-map. Rarely used. Look at usemap instead
 
-.. _thumbnail_longdesc:
+.. _typo3-backend-thumbnail-longdesc:
 
 longdesc
 --------
@@ -245,7 +245,7 @@ longdesc
 :aspect:`Description`
    Specifies the URL to a document that contains a long description of an image
 
-.. _thumbnail_usemap:
+.. _typo3-backend-thumbnail-usemap:
 
 usemap
 ------
@@ -258,7 +258,7 @@ usemap
 :aspect:`Description`
    Specifies an image as a client-side image-map
 
-.. _thumbnail_loading:
+.. _typo3-backend-thumbnail-loading:
 
 loading
 -------
@@ -271,7 +271,7 @@ loading
 :aspect:`Description`
    Native lazy-loading for images property. Can be "lazy", "eager" or "auto"
 
-.. _thumbnail_decoding:
+.. _typo3-backend-thumbnail-decoding:
 
 decoding
 --------
@@ -284,7 +284,7 @@ decoding
 :aspect:`Description`
    Provides an image decoding hint to the browser. Can be "sync", "async" or "auto"
 
-.. _thumbnail_src:
+.. _typo3-backend-thumbnail-src:
 
 src
 ---
@@ -297,7 +297,7 @@ src
 :aspect:`Description`
    A path to a file, a combined FAL identifier or an uid (int). If $treatIdAsReference is set, the integer is considered the uid of the sys_file_reference record. If you already got a FAL object, consider using the $image parameter instead
 
-.. _thumbnail_treatidasreference:
+.. _typo3-backend-thumbnail-treatidasreference:
 
 treatIdAsReference
 ------------------
@@ -310,7 +310,7 @@ treatIdAsReference
 :aspect:`Description`
    Given src argument is a sys_file_reference record
 
-.. _thumbnail_image:
+.. _typo3-backend-thumbnail-image:
 
 image
 -----
@@ -323,7 +323,7 @@ image
 :aspect:`Description`
    A FAL object (\TYPO3\CMS\Core\Resource\File or \TYPO3\CMS\Core\Resource\FileReference)
 
-.. _thumbnail_crop:
+.. _typo3-backend-thumbnail-crop:
 
 crop
 ----
@@ -336,7 +336,7 @@ crop
 :aspect:`Description`
    Overrule cropping of image (setting to FALSE disables the cropping set in FileReference)
 
-.. _thumbnail_cropvariant:
+.. _typo3-backend-thumbnail-cropvariant:
 
 cropVariant
 -----------
@@ -352,7 +352,7 @@ cropVariant
 :aspect:`Description`
    Select a cropping variant, in case multiple croppings have been specified or stored in FileReference
 
-.. _thumbnail_fileextension:
+.. _typo3-backend-thumbnail-fileextension:
 
 fileExtension
 -------------
@@ -365,7 +365,7 @@ fileExtension
 :aspect:`Description`
    Custom file extension to use
 
-.. _thumbnail_width:
+.. _typo3-backend-thumbnail-width:
 
 width
 -----
@@ -378,7 +378,7 @@ width
 :aspect:`Description`
    Width of the image. This can be a numeric value representing the fixed width of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
-.. _thumbnail_height:
+.. _typo3-backend-thumbnail-height:
 
 height
 ------
@@ -391,7 +391,7 @@ height
 :aspect:`Description`
    Height of the image. This can be a numeric value representing the fixed height of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
-.. _thumbnail_minwidth:
+.. _typo3-backend-thumbnail-minwidth:
 
 minWidth
 --------
@@ -404,7 +404,7 @@ minWidth
 :aspect:`Description`
    Minimum width of the image
 
-.. _thumbnail_minheight:
+.. _typo3-backend-thumbnail-minheight:
 
 minHeight
 ---------
@@ -417,7 +417,7 @@ minHeight
 :aspect:`Description`
    Minimum height of the image
 
-.. _thumbnail_maxwidth:
+.. _typo3-backend-thumbnail-maxwidth:
 
 maxWidth
 --------
@@ -430,7 +430,7 @@ maxWidth
 :aspect:`Description`
    Maximum width of the image
 
-.. _thumbnail_maxheight:
+.. _typo3-backend-thumbnail-maxheight:
 
 maxHeight
 ---------
@@ -443,7 +443,7 @@ maxHeight
 :aspect:`Description`
    Maximum height of the image
 
-.. _thumbnail_absolute:
+.. _typo3-backend-thumbnail-absolute:
 
 absolute
 --------
@@ -456,7 +456,7 @@ absolute
 :aspect:`Description`
    Force absolute URL
 
-.. _thumbnail_context:
+.. _typo3-backend-thumbnail-context:
 
 context
 -------

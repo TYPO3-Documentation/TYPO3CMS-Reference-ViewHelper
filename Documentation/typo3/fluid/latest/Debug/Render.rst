@@ -23,7 +23,7 @@ Arguments
 =========
 
 
-.. _debug.render_debug:
+.. _typo3-fluid-debug-render-debug:
 
 debug
 -----
@@ -39,7 +39,7 @@ debug
 :aspect:`Description`
    If true, the admin panel shows debug information if activated,
 
-.. _debug.render_section:
+.. _typo3-fluid-debug-render-section:
 
 section
 -------
@@ -52,7 +52,7 @@ section
 :aspect:`Description`
    Section to render - combine with partial to render section in partial
 
-.. _debug.render_partial:
+.. _typo3-fluid-debug-render-partial:
 
 partial
 -------
@@ -65,7 +65,7 @@ partial
 :aspect:`Description`
    Partial to render, with or without section
 
-.. _debug.render_arguments:
+.. _typo3-fluid-debug-render-arguments:
 
 arguments
 ---------
@@ -81,7 +81,7 @@ arguments
 :aspect:`Description`
    Array of variables to be transferred. Use {_all} for all variables
 
-.. _debug.render_optional:
+.. _typo3-fluid-debug-render-optional:
 
 optional
 --------
@@ -94,7 +94,7 @@ optional
 :aspect:`Description`
    If TRUE, considers the *section* optional. Partial never is.
 
-.. _debug.render_default:
+.. _typo3-fluid-debug-render-default:
 
 default
 -------
@@ -107,7 +107,7 @@ default
 :aspect:`Description`
    Value (usually string) to be displayed if the section or partial does not exist
 
-.. _debug.render_contentas:
+.. _typo3-fluid-debug-render-contentas:
 
 contentAs
 ---------

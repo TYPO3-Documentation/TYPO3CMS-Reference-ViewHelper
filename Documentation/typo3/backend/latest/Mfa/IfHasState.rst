@@ -17,7 +17,7 @@ Arguments
 =========
 
 
-.. _mfa.ifhasstate_then:
+.. _typo3-backend-mfa-ifhasstate-then:
 
 then
 ----
@@ -30,7 +30,7 @@ then
 :aspect:`Description`
    Value to be returned if the condition if met.
 
-.. _mfa.ifhasstate_else:
+.. _typo3-backend-mfa-ifhasstate-else:
 
 else
 ----
@@ -43,7 +43,7 @@ else
 :aspect:`Description`
    Value to be returned if the condition if not met.
 
-.. _mfa.ifhasstate_state:
+.. _typo3-backend-mfa-ifhasstate-state:
 
 state
 -----
@@ -56,7 +56,7 @@ state
 :aspect:`Description`
    The state to check for (e.g. active or locked)
 
-.. _mfa.ifhasstate_provider:
+.. _typo3-backend-mfa-ifhasstate-provider:
 
 provider
 --------

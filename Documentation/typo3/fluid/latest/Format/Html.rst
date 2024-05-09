@@ -63,7 +63,7 @@ Arguments
 =========
 
 
-.. _format.html_parsefunctspath:
+.. _typo3-fluid-format-html-parsefunctspath:
 
 parseFuncTSPath
 ---------------

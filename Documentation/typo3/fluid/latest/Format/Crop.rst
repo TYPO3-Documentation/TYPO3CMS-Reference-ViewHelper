@@ -79,7 +79,7 @@ Arguments
 =========
 
 
-.. _format.crop_maxcharacters:
+.. _typo3-fluid-format-crop-maxcharacters:
 
 maxCharacters
 -------------
@@ -92,7 +92,7 @@ maxCharacters
 :aspect:`Description`
    Place where to truncate the string
 
-.. _format.crop_append:
+.. _typo3-fluid-format-crop-append:
 
 append
 ------
@@ -108,7 +108,7 @@ append
 :aspect:`Description`
    What to append, if truncation happened
 
-.. _format.crop_respectwordboundaries:
+.. _typo3-fluid-format-crop-respectwordboundaries:
 
 respectWordBoundaries
 ---------------------
@@ -124,7 +124,7 @@ respectWordBoundaries
 :aspect:`Description`
    If TRUE and division is in the middle of a word, the remains of that word is removed.
 
-.. _format.crop_respecthtml:
+.. _typo3-fluid-format-crop-respecthtml:
 
 respectHtml
 -----------

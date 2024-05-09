@@ -30,7 +30,7 @@ Arguments
 =========
 
 
-.. _modulelayout.button.shortcutbutton_icon:
+.. _typo3-backend-modulelayout-button-shortcutbutton-icon:
 
 icon
 ----
@@ -43,7 +43,7 @@ icon
 :aspect:`Description`
    Icon identifier for the button
 
-.. _modulelayout.button.shortcutbutton_title:
+.. _typo3-backend-modulelayout-button-shortcutbutton-title:
 
 title
 -----
@@ -56,7 +56,7 @@ title
 :aspect:`Description`
    Title of the button
 
-.. _modulelayout.button.shortcutbutton_disabled:
+.. _typo3-backend-modulelayout-button-shortcutbutton-disabled:
 
 disabled
 --------
@@ -69,7 +69,7 @@ disabled
 :aspect:`Description`
    Whether the button is disabled
 
-.. _modulelayout.button.shortcutbutton_showlabel:
+.. _typo3-backend-modulelayout-button-shortcutbutton-showlabel:
 
 showLabel
 ---------
@@ -82,7 +82,7 @@ showLabel
 :aspect:`Description`
    Defines whether to show the title as a label within the button
 
-.. _modulelayout.button.shortcutbutton_position:
+.. _typo3-backend-modulelayout-button-shortcutbutton-position:
 
 position
 --------
@@ -95,7 +95,7 @@ position
 :aspect:`Description`
    Position of the button (left or right)
 
-.. _modulelayout.button.shortcutbutton_group:
+.. _typo3-backend-modulelayout-button-shortcutbutton-group:
 
 group
 -----
@@ -108,7 +108,7 @@ group
 :aspect:`Description`
    Button group of the button
 
-.. _modulelayout.button.shortcutbutton_displayname:
+.. _typo3-backend-modulelayout-button-shortcutbutton-displayname:
 
 displayName
 -----------
@@ -121,7 +121,7 @@ displayName
 :aspect:`Description`
    Name for the shortcut
 
-.. _modulelayout.button.shortcutbutton_arguments:
+.. _typo3-backend-modulelayout-button-shortcutbutton-arguments:
 
 arguments
 ---------
@@ -137,7 +137,7 @@ arguments
 :aspect:`Description`
    List of relevant GET variables as key/values list to store
 
-.. _modulelayout.button.shortcutbutton_getvars:
+.. _typo3-backend-modulelayout-button-shortcutbutton-getvars:
 
 getVars
 -------

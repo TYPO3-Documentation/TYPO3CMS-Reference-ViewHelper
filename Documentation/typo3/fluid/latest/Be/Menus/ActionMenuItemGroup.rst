@@ -35,7 +35,7 @@ Arguments
 =========
 
 
-.. _be.menus.actionmenuitemgroup_additionalattributes:
+.. _typo3-fluid-be-menus-actionmenuitemgroup-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -48,7 +48,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _be.menus.actionmenuitemgroup_data:
+.. _typo3-fluid-be-menus-actionmenuitemgroup-data:
 
 data
 ----
@@ -61,7 +61,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _be.menus.actionmenuitemgroup_aria:
+.. _typo3-fluid-be-menus-actionmenuitemgroup-aria:
 
 aria
 ----
@@ -74,7 +74,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _be.menus.actionmenuitemgroup_defaultcontroller:
+.. _typo3-fluid-be-menus-actionmenuitemgroup-defaultcontroller:
 
 defaultController
 -----------------
@@ -87,7 +87,7 @@ defaultController
 :aspect:`Description`
    The default controller to be used
 
-.. _be.menus.actionmenuitemgroup_label:
+.. _typo3-fluid-be-menus-actionmenuitemgroup-label:
 
 label
 -----

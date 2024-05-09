@@ -42,7 +42,7 @@ Arguments
 =========
 
 
-.. _debug_typeonly:
+.. _typo3fluid-fluid-debug-typeonly:
 
 typeOnly
 --------
@@ -55,7 +55,7 @@ typeOnly
 :aspect:`Description`
    If TRUE, debugs only the type of variables
 
-.. _debug_levels:
+.. _typo3fluid-fluid-debug-levels:
 
 levels
 ------
@@ -71,7 +71,7 @@ levels
 :aspect:`Description`
    Levels to render when rendering nested objects/arrays
 
-.. _debug_html:
+.. _typo3fluid-fluid-debug-html:
 
 html
 ----

@@ -69,7 +69,7 @@ Arguments
 =========
 
 
-.. _format.printf_value:
+.. _typo3fluid-fluid-format-printf-value:
 
 value
 -----
@@ -82,7 +82,7 @@ value
 :aspect:`Description`
    String to format
 
-.. _format.printf_arguments:
+.. _typo3fluid-fluid-format-printf-arguments:
 
 arguments
 ---------

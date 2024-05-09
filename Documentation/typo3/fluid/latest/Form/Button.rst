@@ -41,7 +41,7 @@ Arguments
 =========
 
 
-.. _form.button_additionalattributes:
+.. _typo3-fluid-form-button-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -54,7 +54,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _form.button_data:
+.. _typo3-fluid-form-button-data:
 
 data
 ----
@@ -67,7 +67,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _form.button_aria:
+.. _typo3-fluid-form-button-aria:
 
 aria
 ----
@@ -80,7 +80,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _form.button_name:
+.. _typo3-fluid-form-button-name:
 
 name
 ----
@@ -93,7 +93,7 @@ name
 :aspect:`Description`
    Name of input tag
 
-.. _form.button_value:
+.. _typo3-fluid-form-button-value:
 
 value
 -----
@@ -106,7 +106,7 @@ value
 :aspect:`Description`
    Value of input tag
 
-.. _form.button_property:
+.. _typo3-fluid-form-button-property:
 
 property
 --------
@@ -119,7 +119,7 @@ property
 :aspect:`Description`
    Name of Object Property. If used in conjunction with <f:form object="...">, the "name" property will be ignored, while "value" can be used to specify a default field value instead of the object property value.
 
-.. _form.button_autofocus:
+.. _typo3-fluid-form-button-autofocus:
 
 autofocus
 ---------
@@ -132,7 +132,7 @@ autofocus
 :aspect:`Description`
    Specifies that a button should automatically get focus when the page loads
 
-.. _form.button_disabled:
+.. _typo3-fluid-form-button-disabled:
 
 disabled
 --------
@@ -145,7 +145,7 @@ disabled
 :aspect:`Description`
    Specifies that the input element should be disabled when the page loads
 
-.. _form.button_form:
+.. _typo3-fluid-form-button-form:
 
 form
 ----
@@ -158,7 +158,7 @@ form
 :aspect:`Description`
    Specifies one or more forms the button belongs to
 
-.. _form.button_formaction:
+.. _typo3-fluid-form-button-formaction:
 
 formaction
 ----------
@@ -171,7 +171,7 @@ formaction
 :aspect:`Description`
    Specifies where to send the form-data when a form is submitted. Only for type="submit"
 
-.. _form.button_formenctype:
+.. _typo3-fluid-form-button-formenctype:
 
 formenctype
 -----------
@@ -184,7 +184,7 @@ formenctype
 :aspect:`Description`
    Specifies how form-data should be encoded before sending it to a server. Only for type="submit" (e.g. "application/x-www-form-urlencoded", "multipart/form-data" or "text/plain")
 
-.. _form.button_formmethod:
+.. _typo3-fluid-form-button-formmethod:
 
 formmethod
 ----------
@@ -197,7 +197,7 @@ formmethod
 :aspect:`Description`
    Specifies how to send the form-data (which HTTP method to use). Only for type="submit" (e.g. "get" or "post")
 
-.. _form.button_formnovalidate:
+.. _typo3-fluid-form-button-formnovalidate:
 
 formnovalidate
 --------------
@@ -210,7 +210,7 @@ formnovalidate
 :aspect:`Description`
    Specifies that the form-data should not be validated on submission. Only for type="submit"
 
-.. _form.button_formtarget:
+.. _typo3-fluid-form-button-formtarget:
 
 formtarget
 ----------
@@ -223,7 +223,7 @@ formtarget
 :aspect:`Description`
    Specifies where to display the response after submitting the form. Only for type="submit" (e.g. "_blank", "_self", "_parent", "_top", "framename")
 
-.. _form.button_class:
+.. _typo3-fluid-form-button-class:
 
 class
 -----
@@ -236,7 +236,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _form.button_dir:
+.. _typo3-fluid-form-button-dir:
 
 dir
 ---
@@ -249,7 +249,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _form.button_id:
+.. _typo3-fluid-form-button-id:
 
 id
 --
@@ -262,7 +262,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _form.button_lang:
+.. _typo3-fluid-form-button-lang:
 
 lang
 ----
@@ -275,7 +275,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _form.button_style:
+.. _typo3-fluid-form-button-style:
 
 style
 -----
@@ -288,7 +288,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _form.button_title:
+.. _typo3-fluid-form-button-title:
 
 title
 -----
@@ -301,7 +301,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _form.button_accesskey:
+.. _typo3-fluid-form-button-accesskey:
 
 accesskey
 ---------
@@ -314,7 +314,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _form.button_tabindex:
+.. _typo3-fluid-form-button-tabindex:
 
 tabindex
 --------
@@ -327,7 +327,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _form.button_onclick:
+.. _typo3-fluid-form-button-onclick:
 
 onclick
 -------
@@ -340,7 +340,7 @@ onclick
 :aspect:`Description`
    JavaScript evaluated for the onclick event
 
-.. _form.button_type:
+.. _typo3-fluid-form-button-type:
 
 type
 ----

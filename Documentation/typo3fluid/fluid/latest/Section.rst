@@ -63,7 +63,7 @@ Arguments
 =========
 
 
-.. _section_name:
+.. _typo3fluid-fluid-section-name:
 
 name
 ----

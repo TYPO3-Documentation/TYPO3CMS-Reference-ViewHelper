@@ -17,7 +17,7 @@ Arguments
 =========
 
 
-.. _arraybrowser_data:
+.. _typo3-backend-arraybrowser-data:
 
 data
 ----

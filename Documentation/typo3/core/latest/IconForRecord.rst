@@ -32,7 +32,7 @@ Arguments
 =========
 
 
-.. _iconforrecord_table:
+.. _typo3-core-iconforrecord-table:
 
 table
 -----
@@ -45,7 +45,7 @@ table
 :aspect:`Description`
    The table for the record icon
 
-.. _iconforrecord_row:
+.. _typo3-core-iconforrecord-row:
 
 row
 ---
@@ -58,7 +58,7 @@ row
 :aspect:`Description`
    The record row
 
-.. _iconforrecord_size:
+.. _typo3-core-iconforrecord-size:
 
 size
 ----
@@ -74,7 +74,7 @@ size
 :aspect:`Description`
    The icon size
 
-.. _iconforrecord_alternativemarkupidentifier:
+.. _typo3-core-iconforrecord-alternativemarkupidentifier:
 
 alternativeMarkupIdentifier
 ---------------------------

@@ -29,7 +29,7 @@ Arguments
 =========
 
 
-.. _modulelayout.menuitem_label:
+.. _typo3-backend-modulelayout-menuitem-label:
 
 label
 -----
@@ -42,7 +42,7 @@ label
 :aspect:`Description`
    Label of the menu item
 
-.. _modulelayout.menuitem_uri:
+.. _typo3-backend-modulelayout-menuitem-uri:
 
 uri
 ---

@@ -19,7 +19,7 @@ Arguments
 =========
 
 
-.. _form.typoscriptconstants_additionalattributes:
+.. _typo3-core-form-typoscriptconstants-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -32,7 +32,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _form.typoscriptconstants_data:
+.. _typo3-core-form-typoscriptconstants-data:
 
 data
 ----
@@ -45,7 +45,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _form.typoscriptconstants_aria:
+.. _typo3-core-form-typoscriptconstants-aria:
 
 aria
 ----
@@ -58,7 +58,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _form.typoscriptconstants_name:
+.. _typo3-core-form-typoscriptconstants-name:
 
 name
 ----
@@ -71,7 +71,7 @@ name
 :aspect:`Description`
    Name of input tag
 
-.. _form.typoscriptconstants_value:
+.. _typo3-core-form-typoscriptconstants-value:
 
 value
 -----
@@ -84,7 +84,7 @@ value
 :aspect:`Description`
    Value of input tag
 
-.. _form.typoscriptconstants_configuration:
+.. _typo3-core-form-typoscriptconstants-configuration:
 
 configuration
 -------------
@@ -97,7 +97,7 @@ configuration
 :aspect:`Description`
    The TypoScript constant configuration, e.g. labels, category, type and value.
 
-.. _form.typoscriptconstants_class:
+.. _typo3-core-form-typoscriptconstants-class:
 
 class
 -----
@@ -110,7 +110,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _form.typoscriptconstants_dir:
+.. _typo3-core-form-typoscriptconstants-dir:
 
 dir
 ---
@@ -123,7 +123,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _form.typoscriptconstants_id:
+.. _typo3-core-form-typoscriptconstants-id:
 
 id
 --
@@ -136,7 +136,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _form.typoscriptconstants_lang:
+.. _typo3-core-form-typoscriptconstants-lang:
 
 lang
 ----
@@ -149,7 +149,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _form.typoscriptconstants_style:
+.. _typo3-core-form-typoscriptconstants-style:
 
 style
 -----
@@ -162,7 +162,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _form.typoscriptconstants_title:
+.. _typo3-core-form-typoscriptconstants-title:
 
 title
 -----
@@ -175,7 +175,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _form.typoscriptconstants_accesskey:
+.. _typo3-core-form-typoscriptconstants-accesskey:
 
 accesskey
 ---------
@@ -188,7 +188,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _form.typoscriptconstants_tabindex:
+.. _typo3-core-form-typoscriptconstants-tabindex:
 
 tabindex
 --------
@@ -201,7 +201,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _form.typoscriptconstants_onclick:
+.. _typo3-core-form-typoscriptconstants-onclick:
 
 onclick
 -------

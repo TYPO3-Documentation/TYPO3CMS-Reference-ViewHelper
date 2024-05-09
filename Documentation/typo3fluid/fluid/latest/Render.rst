@@ -104,7 +104,7 @@ Arguments
 =========
 
 
-.. _render_section:
+.. _typo3fluid-fluid-render-section:
 
 section
 -------
@@ -117,7 +117,7 @@ section
 :aspect:`Description`
    Section to render - combine with partial to render section in partial
 
-.. _render_partial:
+.. _typo3fluid-fluid-render-partial:
 
 partial
 -------
@@ -130,7 +130,7 @@ partial
 :aspect:`Description`
    Partial to render, with or without section
 
-.. _render_delegate:
+.. _typo3fluid-fluid-render-delegate:
 
 delegate
 --------
@@ -143,7 +143,7 @@ delegate
 :aspect:`Description`
    Optional PHP class name of a permanent, included-in-app ParsedTemplateInterface implementation to override partial/section
 
-.. _render_renderable:
+.. _typo3fluid-fluid-render-renderable:
 
 renderable
 ----------
@@ -156,7 +156,7 @@ renderable
 :aspect:`Description`
    Instance of a RenderableInterface implementation to be rendered
 
-.. _render_arguments:
+.. _typo3fluid-fluid-render-arguments:
 
 arguments
 ---------
@@ -172,7 +172,7 @@ arguments
 :aspect:`Description`
    Array of variables to be transferred. Use {_all} for all variables
 
-.. _render_optional:
+.. _typo3fluid-fluid-render-optional:
 
 optional
 --------
@@ -185,7 +185,7 @@ optional
 :aspect:`Description`
    If TRUE, considers the *section* optional. Partial never is.
 
-.. _render_default:
+.. _typo3fluid-fluid-render-default:
 
 default
 -------
@@ -198,7 +198,7 @@ default
 :aspect:`Description`
    Value (usually string) to be displayed if the section or partial does not exist
 
-.. _render_contentas:
+.. _typo3fluid-fluid-render-contentas:
 
 contentAs
 ---------

@@ -90,7 +90,7 @@ Arguments
 =========
 
 
-.. _format.date_date:
+.. _typo3-fluid-format-date-date:
 
 date
 ----
@@ -103,7 +103,7 @@ date
 :aspect:`Description`
    Either an object implementing DateTimeInterface or a string that is accepted by DateTime constructor
 
-.. _format.date_format:
+.. _typo3-fluid-format-date-format:
 
 format
 ------
@@ -116,7 +116,7 @@ format
 :aspect:`Description`
    Format String which is taken to format the Date/Time
 
-.. _format.date_base:
+.. _typo3-fluid-format-date-base:
 
 base
 ----

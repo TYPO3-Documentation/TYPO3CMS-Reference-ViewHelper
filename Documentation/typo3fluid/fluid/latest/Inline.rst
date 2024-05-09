@@ -35,7 +35,7 @@ Arguments
 =========
 
 
-.. _inline_code:
+.. _typo3fluid-fluid-inline-code:
 
 code
 ----

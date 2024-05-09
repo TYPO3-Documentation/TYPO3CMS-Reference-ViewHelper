@@ -34,7 +34,7 @@ Arguments
 =========
 
 
-.. _variable_value:
+.. _typo3fluid-fluid-variable-value:
 
 value
 -----
@@ -47,7 +47,7 @@ value
 :aspect:`Description`
    Value to assign. If not in arguments then taken from tag content
 
-.. _variable_name:
+.. _typo3fluid-fluid-variable-name:
 
 name
 ----

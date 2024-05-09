@@ -43,7 +43,7 @@ Arguments
 =========
 
 
-.. _format.urlencode_value:
+.. _typo3-fluid-format-urlencode-value:
 
 value
 -----

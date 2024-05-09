@@ -32,7 +32,7 @@ Arguments
 =========
 
 
-.. _be.uri_route:
+.. _typo3-fluid-be-uri-route:
 
 route
 -----
@@ -45,7 +45,7 @@ route
 :aspect:`Description`
    The name of the route
 
-.. _be.uri_parameters:
+.. _typo3-fluid-be-uri-parameters:
 
 parameters
 ----------
@@ -61,7 +61,7 @@ parameters
 :aspect:`Description`
    An array of parameters
 
-.. _be.uri_referencetype:
+.. _typo3-fluid-be-uri-referencetype:
 
 referenceType
 -------------

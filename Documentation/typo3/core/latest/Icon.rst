@@ -44,7 +44,7 @@ Arguments
 =========
 
 
-.. _icon_identifier:
+.. _typo3-core-icon-identifier:
 
 identifier
 ----------
@@ -57,7 +57,7 @@ identifier
 :aspect:`Description`
    Identifier of the icon as registered in the Icon Registry.
 
-.. _icon_size:
+.. _typo3-core-icon-size:
 
 size
 ----
@@ -73,7 +73,7 @@ size
 :aspect:`Description`
    Desired size of the icon. All values of the Icons.sizes enum are allowed, these are: "small", "default", "large" and "overlay".
 
-.. _icon_overlay:
+.. _typo3-core-icon-overlay:
 
 overlay
 -------
@@ -86,7 +86,7 @@ overlay
 :aspect:`Description`
    Identifier of an overlay icon as registered in the Icon Registry.
 
-.. _icon_state:
+.. _typo3-core-icon-state:
 
 state
 -----
@@ -102,7 +102,7 @@ state
 :aspect:`Description`
    Sets the state of the icon. All values of the Icons.states enum are allowed, these are: "default" and "disabled".
 
-.. _icon_alternativemarkupidentifier:
+.. _typo3-core-icon-alternativemarkupidentifier:
 
 alternativeMarkupIdentifier
 ---------------------------

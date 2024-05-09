@@ -30,7 +30,7 @@ Arguments
 =========
 
 
-.. _link.action_additionalattributes:
+.. _typo3-fluid-link-action-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -43,7 +43,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _link.action_data:
+.. _typo3-fluid-link-action-data:
 
 data
 ----
@@ -56,7 +56,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _link.action_aria:
+.. _typo3-fluid-link-action-aria:
 
 aria
 ----
@@ -69,7 +69,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _link.action_class:
+.. _typo3-fluid-link-action-class:
 
 class
 -----
@@ -82,7 +82,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _link.action_dir:
+.. _typo3-fluid-link-action-dir:
 
 dir
 ---
@@ -95,7 +95,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _link.action_id:
+.. _typo3-fluid-link-action-id:
 
 id
 --
@@ -108,7 +108,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _link.action_lang:
+.. _typo3-fluid-link-action-lang:
 
 lang
 ----
@@ -121,7 +121,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _link.action_style:
+.. _typo3-fluid-link-action-style:
 
 style
 -----
@@ -134,7 +134,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _link.action_title:
+.. _typo3-fluid-link-action-title:
 
 title
 -----
@@ -147,7 +147,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _link.action_accesskey:
+.. _typo3-fluid-link-action-accesskey:
 
 accesskey
 ---------
@@ -160,7 +160,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _link.action_tabindex:
+.. _typo3-fluid-link-action-tabindex:
 
 tabindex
 --------
@@ -173,7 +173,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _link.action_onclick:
+.. _typo3-fluid-link-action-onclick:
 
 onclick
 -------
@@ -186,7 +186,7 @@ onclick
 :aspect:`Description`
    JavaScript evaluated for the onclick event
 
-.. _link.action_name:
+.. _typo3-fluid-link-action-name:
 
 name
 ----
@@ -199,7 +199,7 @@ name
 :aspect:`Description`
    Specifies the name of an anchor
 
-.. _link.action_rel:
+.. _typo3-fluid-link-action-rel:
 
 rel
 ---
@@ -212,7 +212,7 @@ rel
 :aspect:`Description`
    Specifies the relationship between the current document and the linked document
 
-.. _link.action_rev:
+.. _typo3-fluid-link-action-rev:
 
 rev
 ---
@@ -225,7 +225,7 @@ rev
 :aspect:`Description`
    Specifies the relationship between the linked document and the current document
 
-.. _link.action_target:
+.. _typo3-fluid-link-action-target:
 
 target
 ------
@@ -238,7 +238,7 @@ target
 :aspect:`Description`
    Specifies where to open the linked document
 
-.. _link.action_action:
+.. _typo3-fluid-link-action-action:
 
 action
 ------
@@ -251,7 +251,7 @@ action
 :aspect:`Description`
    Target action
 
-.. _link.action_controller:
+.. _typo3-fluid-link-action-controller:
 
 controller
 ----------
@@ -264,7 +264,7 @@ controller
 :aspect:`Description`
    Target controller. If NULL current controllerName is used
 
-.. _link.action_extensionname:
+.. _typo3-fluid-link-action-extensionname:
 
 extensionName
 -------------
@@ -277,7 +277,7 @@ extensionName
 :aspect:`Description`
    Target Extension Name (without `tx_` prefix and no underscores). If NULL the current extension name is used
 
-.. _link.action_pluginname:
+.. _typo3-fluid-link-action-pluginname:
 
 pluginName
 ----------
@@ -290,7 +290,7 @@ pluginName
 :aspect:`Description`
    Target plugin. If empty, the current plugin name is used
 
-.. _link.action_pageuid:
+.. _typo3-fluid-link-action-pageuid:
 
 pageUid
 -------
@@ -303,7 +303,7 @@ pageUid
 :aspect:`Description`
    Target page. See TypoLink destination
 
-.. _link.action_pagetype:
+.. _typo3-fluid-link-action-pagetype:
 
 pageType
 --------
@@ -316,7 +316,7 @@ pageType
 :aspect:`Description`
    Type of the target page. See typolink.parameter
 
-.. _link.action_nocache:
+.. _typo3-fluid-link-action-nocache:
 
 noCache
 -------
@@ -329,7 +329,7 @@ noCache
 :aspect:`Description`
    Set this to disable caching for the target page. You should not need this.
 
-.. _link.action_language:
+.. _typo3-fluid-link-action-language:
 
 language
 --------
@@ -342,7 +342,7 @@ language
 :aspect:`Description`
    Link to a specific language - defaults to the current language, use a language ID or "current" to enforce a specific language
 
-.. _link.action_section:
+.. _typo3-fluid-link-action-section:
 
 section
 -------
@@ -355,7 +355,7 @@ section
 :aspect:`Description`
    The anchor to be added to the URI
 
-.. _link.action_format:
+.. _typo3-fluid-link-action-format:
 
 format
 ------
@@ -368,7 +368,7 @@ format
 :aspect:`Description`
    The requested format, e.g. ".html
 
-.. _link.action_linkaccessrestrictedpages:
+.. _typo3-fluid-link-action-linkaccessrestrictedpages:
 
 linkAccessRestrictedPages
 -------------------------
@@ -381,7 +381,7 @@ linkAccessRestrictedPages
 :aspect:`Description`
    If set, links pointing to access restricted pages will still link to the page even though the page cannot be accessed.
 
-.. _link.action_additionalparams:
+.. _typo3-fluid-link-action-additionalparams:
 
 additionalParams
 ----------------
@@ -394,7 +394,7 @@ additionalParams
 :aspect:`Description`
    Additional query parameters that won't be prefixed like $arguments (overrule $arguments)
 
-.. _link.action_absolute:
+.. _typo3-fluid-link-action-absolute:
 
 absolute
 --------
@@ -407,7 +407,7 @@ absolute
 :aspect:`Description`
    If set, the URI of the rendered link is absolute
 
-.. _link.action_addquerystring:
+.. _typo3-fluid-link-action-addquerystring:
 
 addQueryString
 --------------
@@ -420,7 +420,7 @@ addQueryString
 :aspect:`Description`
    If set, the current query parameters will be kept in the URI
 
-.. _link.action_argumentstobeexcludedfromquerystring:
+.. _typo3-fluid-link-action-argumentstobeexcludedfromquerystring:
 
 argumentsToBeExcludedFromQueryString
 ------------------------------------
@@ -433,7 +433,7 @@ argumentsToBeExcludedFromQueryString
 :aspect:`Description`
    Arguments to be removed from the URI. Only active if $addQueryString = TRUE
 
-.. _link.action_addquerystringmethod:
+.. _typo3-fluid-link-action-addquerystringmethod:
 
 addQueryStringMethod
 --------------------
@@ -446,7 +446,7 @@ addQueryStringMethod
 :aspect:`Description`
    This argument is not evaluated anymore and will be removed in TYPO3 v12.
 
-.. _link.action_arguments:
+.. _typo3-fluid-link-action-arguments:
 
 arguments
 ---------

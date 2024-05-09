@@ -27,7 +27,7 @@ Arguments
 =========
 
 
-.. _asset.css_additionalattributes:
+.. _typo3-fluid-asset-css-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -40,7 +40,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _asset.css_data:
+.. _typo3-fluid-asset-css-data:
 
 data
 ----
@@ -53,7 +53,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _asset.css_aria:
+.. _typo3-fluid-asset-css-aria:
 
 aria
 ----
@@ -66,7 +66,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _asset.css_class:
+.. _typo3-fluid-asset-css-class:
 
 class
 -----
@@ -79,7 +79,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _asset.css_dir:
+.. _typo3-fluid-asset-css-dir:
 
 dir
 ---
@@ -92,7 +92,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _asset.css_id:
+.. _typo3-fluid-asset-css-id:
 
 id
 --
@@ -105,7 +105,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _asset.css_lang:
+.. _typo3-fluid-asset-css-lang:
 
 lang
 ----
@@ -118,7 +118,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _asset.css_style:
+.. _typo3-fluid-asset-css-style:
 
 style
 -----
@@ -131,7 +131,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _asset.css_title:
+.. _typo3-fluid-asset-css-title:
 
 title
 -----
@@ -144,7 +144,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _asset.css_accesskey:
+.. _typo3-fluid-asset-css-accesskey:
 
 accesskey
 ---------
@@ -157,7 +157,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _asset.css_tabindex:
+.. _typo3-fluid-asset-css-tabindex:
 
 tabindex
 --------
@@ -170,7 +170,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _asset.css_onclick:
+.. _typo3-fluid-asset-css-onclick:
 
 onclick
 -------
@@ -183,7 +183,7 @@ onclick
 :aspect:`Description`
    JavaScript evaluated for the onclick event
 
-.. _asset.css_as:
+.. _typo3-fluid-asset-css-as:
 
 as
 --
@@ -196,7 +196,7 @@ as
 :aspect:`Description`
    Define the type of content being loaded (For rel="preload" or rel="prefetch" only).
 
-.. _asset.css_crossorigin:
+.. _typo3-fluid-asset-css-crossorigin:
 
 crossorigin
 -----------
@@ -209,7 +209,7 @@ crossorigin
 :aspect:`Description`
    Define how to handle crossorigin requests.
 
-.. _asset.css_disabled:
+.. _typo3-fluid-asset-css-disabled:
 
 disabled
 --------
@@ -222,7 +222,7 @@ disabled
 :aspect:`Description`
    Define whether or not the described stylesheet should be loaded and applied to the document.
 
-.. _asset.css_href:
+.. _typo3-fluid-asset-css-href:
 
 href
 ----
@@ -235,7 +235,7 @@ href
 :aspect:`Description`
    Define the URL of the resource (absolute or relative).
 
-.. _asset.css_hreflang:
+.. _typo3-fluid-asset-css-hreflang:
 
 hreflang
 --------
@@ -248,7 +248,7 @@ hreflang
 :aspect:`Description`
    Define the language of the resource (Only to be used if 'href' is set).
 
-.. _asset.css_importance:
+.. _typo3-fluid-asset-css-importance:
 
 importance
 ----------
@@ -261,7 +261,7 @@ importance
 :aspect:`Description`
    Define the relative fetch priority of the resource.
 
-.. _asset.css_integrity:
+.. _typo3-fluid-asset-css-integrity:
 
 integrity
 ---------
@@ -274,7 +274,7 @@ integrity
 :aspect:`Description`
    Define base64-encoded cryptographic hash of the resource that allows browsers to verify what they fetch.
 
-.. _asset.css_media:
+.. _typo3-fluid-asset-css-media:
 
 media
 -----
@@ -287,7 +287,7 @@ media
 :aspect:`Description`
    Define which media type the resources applies to.
 
-.. _asset.css_referrerpolicy:
+.. _typo3-fluid-asset-css-referrerpolicy:
 
 referrerpolicy
 --------------
@@ -300,7 +300,7 @@ referrerpolicy
 :aspect:`Description`
    Define which referrer is sent when fetching the resource.
 
-.. _asset.css_rel:
+.. _typo3-fluid-asset-css-rel:
 
 rel
 ---
@@ -313,7 +313,7 @@ rel
 :aspect:`Description`
    Define the relationship of the target object to the link object.
 
-.. _asset.css_sizes:
+.. _typo3-fluid-asset-css-sizes:
 
 sizes
 -----
@@ -326,7 +326,7 @@ sizes
 :aspect:`Description`
    Define the icon size of the resource.
 
-.. _asset.css_type:
+.. _typo3-fluid-asset-css-type:
 
 type
 ----
@@ -339,7 +339,7 @@ type
 :aspect:`Description`
    Define the MIME type (usually 'text/css').
 
-.. _asset.css_nonce:
+.. _typo3-fluid-asset-css-nonce:
 
 nonce
 -----
@@ -352,7 +352,7 @@ nonce
 :aspect:`Description`
    Define a cryptographic nonce (number used once) used to whitelist inline styles in a style-src Content-Security-Policy.
 
-.. _asset.css_identifier:
+.. _typo3-fluid-asset-css-identifier:
 
 identifier
 ----------
@@ -365,7 +365,7 @@ identifier
 :aspect:`Description`
    Use this identifier within templates to only inject your CSS once, even though it is added multiple times.
 
-.. _asset.css_priority:
+.. _typo3-fluid-asset-css-priority:
 
 priority
 --------

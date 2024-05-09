@@ -43,7 +43,7 @@ Arguments
 =========
 
 
-.. _sanitize.html_build:
+.. _typo3-fluid-sanitize-html-build:
 
 build
 -----

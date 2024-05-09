@@ -29,7 +29,7 @@ Arguments
 =========
 
 
-.. _form.upload_additionalattributes:
+.. _typo3-fluid-form-upload-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -42,7 +42,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _form.upload_data:
+.. _typo3-fluid-form-upload-data:
 
 data
 ----
@@ -55,7 +55,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _form.upload_aria:
+.. _typo3-fluid-form-upload-aria:
 
 aria
 ----
@@ -68,7 +68,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _form.upload_name:
+.. _typo3-fluid-form-upload-name:
 
 name
 ----
@@ -81,7 +81,7 @@ name
 :aspect:`Description`
    Name of input tag
 
-.. _form.upload_value:
+.. _typo3-fluid-form-upload-value:
 
 value
 -----
@@ -94,7 +94,7 @@ value
 :aspect:`Description`
    Value of input tag
 
-.. _form.upload_property:
+.. _typo3-fluid-form-upload-property:
 
 property
 --------
@@ -107,7 +107,7 @@ property
 :aspect:`Description`
    Name of Object Property. If used in conjunction with <f:form object="...">, the "name" property will be ignored, while "value" can be used to specify a default field value instead of the object property value.
 
-.. _form.upload_disabled:
+.. _typo3-fluid-form-upload-disabled:
 
 disabled
 --------
@@ -120,7 +120,7 @@ disabled
 :aspect:`Description`
    Specifies that the input element should be disabled when the page loads
 
-.. _form.upload_multiple:
+.. _typo3-fluid-form-upload-multiple:
 
 multiple
 --------
@@ -133,7 +133,7 @@ multiple
 :aspect:`Description`
    Specifies that the file input element should allow multiple selection of files
 
-.. _form.upload_errorclass:
+.. _typo3-fluid-form-upload-errorclass:
 
 errorClass
 ----------
@@ -149,7 +149,7 @@ errorClass
 :aspect:`Description`
    CSS class to set if there are errors for this ViewHelper
 
-.. _form.upload_class:
+.. _typo3-fluid-form-upload-class:
 
 class
 -----
@@ -162,7 +162,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _form.upload_dir:
+.. _typo3-fluid-form-upload-dir:
 
 dir
 ---
@@ -175,7 +175,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _form.upload_id:
+.. _typo3-fluid-form-upload-id:
 
 id
 --
@@ -188,7 +188,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _form.upload_lang:
+.. _typo3-fluid-form-upload-lang:
 
 lang
 ----
@@ -201,7 +201,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _form.upload_style:
+.. _typo3-fluid-form-upload-style:
 
 style
 -----
@@ -214,7 +214,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _form.upload_title:
+.. _typo3-fluid-form-upload-title:
 
 title
 -----
@@ -227,7 +227,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _form.upload_accesskey:
+.. _typo3-fluid-form-upload-accesskey:
 
 accesskey
 ---------
@@ -240,7 +240,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _form.upload_tabindex:
+.. _typo3-fluid-form-upload-tabindex:
 
 tabindex
 --------
@@ -253,7 +253,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _form.upload_onclick:
+.. _typo3-fluid-form-upload-onclick:
 
 onclick
 -------

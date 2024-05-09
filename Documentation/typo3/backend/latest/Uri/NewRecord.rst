@@ -60,7 +60,7 @@ Arguments
 =========
 
 
-.. _uri.newrecord_uid:
+.. _typo3-backend-uri-newrecord-uid:
 
 uid
 ---
@@ -73,7 +73,7 @@ uid
 :aspect:`Description`
    Uid < 0 will insert the record after the given uid
 
-.. _uri.newrecord_pid:
+.. _typo3-backend-uri-newrecord-pid:
 
 pid
 ---
@@ -86,7 +86,7 @@ pid
 :aspect:`Description`
    The page id where the record will be created
 
-.. _uri.newrecord_table:
+.. _typo3-backend-uri-newrecord-table:
 
 table
 -----
@@ -99,7 +99,7 @@ table
 :aspect:`Description`
    Target database table
 
-.. _uri.newrecord_returnurl:
+.. _typo3-backend-uri-newrecord-returnurl:
 
 returnUrl
 ---------
@@ -112,7 +112,7 @@ returnUrl
 :aspect:`Description`
    Return to this URL after closing the edit dialog
 
-.. _uri.newrecord_defaultvalues:
+.. _typo3-backend-uri-newrecord-defaultvalues:
 
 defaultValues
 -------------

@@ -31,7 +31,7 @@ Arguments
 =========
 
 
-.. _modulelayout.menu_identifier:
+.. _typo3-backend-modulelayout-menu-identifier:
 
 identifier
 ----------

@@ -17,7 +17,7 @@ Arguments
 =========
 
 
-.. _or_content:
+.. _typo3fluid-fluid-or-content:
 
 content
 -------
@@ -30,7 +30,7 @@ content
 :aspect:`Description`
    Content to check if empty
 
-.. _or_alternative:
+.. _typo3fluid-fluid-or-alternative:
 
 alternative
 -----------
@@ -43,7 +43,7 @@ alternative
 :aspect:`Description`
    Alternative if content is empty
 
-.. _or_arguments:
+.. _typo3fluid-fluid-or-arguments:
 
 arguments
 ---------

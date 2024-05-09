@@ -48,7 +48,7 @@ Arguments
 =========
 
 
-.. _uri.typolink_parameter:
+.. _typo3-fluid-uri-typolink-parameter:
 
 parameter
 ---------
@@ -61,7 +61,7 @@ parameter
 :aspect:`Description`
    StdWrap.typolink style parameter string
 
-.. _uri.typolink_additionalparams:
+.. _typo3-fluid-uri-typolink-additionalparams:
 
 additionalParams
 ----------------
@@ -74,7 +74,7 @@ additionalParams
 :aspect:`Description`
    StdWrap.typolink additionalParams
 
-.. _uri.typolink_language:
+.. _typo3-fluid-uri-typolink-language:
 
 language
 --------
@@ -87,7 +87,7 @@ language
 :aspect:`Description`
    Link to a specific language - defaults to the current language, use a language ID or "current" to enforce a specific language
 
-.. _uri.typolink_addquerystring:
+.. _typo3-fluid-uri-typolink-addquerystring:
 
 addQueryString
 --------------
@@ -100,7 +100,7 @@ addQueryString
 :aspect:`Description`
    If set, the current query parameters will be kept in the URL
 
-.. _uri.typolink_addquerystringmethod:
+.. _typo3-fluid-uri-typolink-addquerystringmethod:
 
 addQueryStringMethod
 --------------------
@@ -113,7 +113,7 @@ addQueryStringMethod
 :aspect:`Description`
    This argument is not evaluated anymore and will be removed in TYPO3 v12.
 
-.. _uri.typolink_addquerystringexclude:
+.. _typo3-fluid-uri-typolink-addquerystringexclude:
 
 addQueryStringExclude
 ---------------------
@@ -126,7 +126,7 @@ addQueryStringExclude
 :aspect:`Description`
    Define parameters to be excluded from the query string (only active if addQueryString is set)
 
-.. _uri.typolink_absolute:
+.. _typo3-fluid-uri-typolink-absolute:
 
 absolute
 --------

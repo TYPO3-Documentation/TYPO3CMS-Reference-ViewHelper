@@ -87,7 +87,7 @@ Arguments
 =========
 
 
-.. _form.select_additionalattributes:
+.. _typo3-fluid-form-select-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -100,7 +100,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _form.select_data:
+.. _typo3-fluid-form-select-data:
 
 data
 ----
@@ -113,7 +113,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _form.select_aria:
+.. _typo3-fluid-form-select-aria:
 
 aria
 ----
@@ -126,7 +126,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _form.select_name:
+.. _typo3-fluid-form-select-name:
 
 name
 ----
@@ -139,7 +139,7 @@ name
 :aspect:`Description`
    Name of input tag
 
-.. _form.select_value:
+.. _typo3-fluid-form-select-value:
 
 value
 -----
@@ -152,7 +152,7 @@ value
 :aspect:`Description`
    Value of input tag
 
-.. _form.select_property:
+.. _typo3-fluid-form-select-property:
 
 property
 --------
@@ -165,7 +165,7 @@ property
 :aspect:`Description`
    Name of Object Property. If used in conjunction with <f:form object="...">, the "name" property will be ignored, while "value" can be used to specify a default field value instead of the object property value.
 
-.. _form.select_class:
+.. _typo3-fluid-form-select-class:
 
 class
 -----
@@ -178,7 +178,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _form.select_dir:
+.. _typo3-fluid-form-select-dir:
 
 dir
 ---
@@ -191,7 +191,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _form.select_id:
+.. _typo3-fluid-form-select-id:
 
 id
 --
@@ -204,7 +204,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _form.select_lang:
+.. _typo3-fluid-form-select-lang:
 
 lang
 ----
@@ -217,7 +217,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _form.select_style:
+.. _typo3-fluid-form-select-style:
 
 style
 -----
@@ -230,7 +230,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _form.select_title:
+.. _typo3-fluid-form-select-title:
 
 title
 -----
@@ -243,7 +243,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _form.select_accesskey:
+.. _typo3-fluid-form-select-accesskey:
 
 accesskey
 ---------
@@ -256,7 +256,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _form.select_tabindex:
+.. _typo3-fluid-form-select-tabindex:
 
 tabindex
 --------
@@ -269,7 +269,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _form.select_onclick:
+.. _typo3-fluid-form-select-onclick:
 
 onclick
 -------
@@ -282,7 +282,7 @@ onclick
 :aspect:`Description`
    JavaScript evaluated for the onclick event
 
-.. _form.select_size:
+.. _typo3-fluid-form-select-size:
 
 size
 ----
@@ -295,7 +295,7 @@ size
 :aspect:`Description`
    Size of input field
 
-.. _form.select_disabled:
+.. _typo3-fluid-form-select-disabled:
 
 disabled
 --------
@@ -308,7 +308,7 @@ disabled
 :aspect:`Description`
    Specifies that the input element should be disabled when the page loads
 
-.. _form.select_options:
+.. _typo3-fluid-form-select-options:
 
 options
 -------
@@ -321,7 +321,7 @@ options
 :aspect:`Description`
    Associative array with internal IDs as key, and the values are displayed in the select box. Can be combined with or replaced by child f:form.select.* nodes.
 
-.. _form.select_optionsaftercontent:
+.. _typo3-fluid-form-select-optionsaftercontent:
 
 optionsAfterContent
 -------------------
@@ -334,7 +334,7 @@ optionsAfterContent
 :aspect:`Description`
    If true, places auto-generated option tags after those rendered in the tag content. If false, automatic options come first.
 
-.. _form.select_optionvaluefield:
+.. _typo3-fluid-form-select-optionvaluefield:
 
 optionValueField
 ----------------
@@ -347,7 +347,7 @@ optionValueField
 :aspect:`Description`
    If specified, will call the appropriate getter on each object to determine the value.
 
-.. _form.select_optionlabelfield:
+.. _typo3-fluid-form-select-optionlabelfield:
 
 optionLabelField
 ----------------
@@ -360,7 +360,7 @@ optionLabelField
 :aspect:`Description`
    If specified, will call the appropriate getter on each object to determine the label.
 
-.. _form.select_sortbyoptionlabel:
+.. _typo3-fluid-form-select-sortbyoptionlabel:
 
 sortByOptionLabel
 -----------------
@@ -373,7 +373,7 @@ sortByOptionLabel
 :aspect:`Description`
    If true, List will be sorted by label.
 
-.. _form.select_selectallbydefault:
+.. _typo3-fluid-form-select-selectallbydefault:
 
 selectAllByDefault
 ------------------
@@ -386,7 +386,7 @@ selectAllByDefault
 :aspect:`Description`
    If specified options are selected if none was set before.
 
-.. _form.select_errorclass:
+.. _typo3-fluid-form-select-errorclass:
 
 errorClass
 ----------
@@ -402,7 +402,7 @@ errorClass
 :aspect:`Description`
    CSS class to set if there are errors for this ViewHelper
 
-.. _form.select_prependoptionlabel:
+.. _typo3-fluid-form-select-prependoptionlabel:
 
 prependOptionLabel
 ------------------
@@ -415,7 +415,7 @@ prependOptionLabel
 :aspect:`Description`
    If specified, will provide an option at first position with the specified label.
 
-.. _form.select_prependoptionvalue:
+.. _typo3-fluid-form-select-prependoptionvalue:
 
 prependOptionValue
 ------------------
@@ -428,7 +428,7 @@ prependOptionValue
 :aspect:`Description`
    If specified, will provide an option at first position with the specified value.
 
-.. _form.select_multiple:
+.. _typo3-fluid-form-select-multiple:
 
 multiple
 --------
@@ -441,7 +441,7 @@ multiple
 :aspect:`Description`
    If set multiple options may be selected.
 
-.. _form.select_required:
+.. _typo3-fluid-form-select-required:
 
 required
 --------

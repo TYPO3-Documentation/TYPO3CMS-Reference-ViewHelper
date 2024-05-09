@@ -88,7 +88,7 @@ Arguments
 =========
 
 
-.. _translate_key:
+.. _typo3-fluid-translate-key:
 
 key
 ---
@@ -101,7 +101,7 @@ key
 :aspect:`Description`
    Translation Key
 
-.. _translate_id:
+.. _typo3-fluid-translate-id:
 
 id
 --
@@ -114,7 +114,7 @@ id
 :aspect:`Description`
    Translation ID. Same as key.
 
-.. _translate_default:
+.. _typo3-fluid-translate-default:
 
 default
 -------
@@ -127,7 +127,7 @@ default
 :aspect:`Description`
    If the given locallang key could not be found, this value is used. If this argument is not set, child nodes will be used to render the default
 
-.. _translate_arguments:
+.. _typo3-fluid-translate-arguments:
 
 arguments
 ---------
@@ -140,7 +140,7 @@ arguments
 :aspect:`Description`
    Arguments to be replaced in the resulting string
 
-.. _translate_extensionname:
+.. _typo3-fluid-translate-extensionname:
 
 extensionName
 -------------
@@ -153,7 +153,7 @@ extensionName
 :aspect:`Description`
    UpperCamelCased extension key (for example BlogExample)
 
-.. _translate_languagekey:
+.. _typo3-fluid-translate-languagekey:
 
 languageKey
 -----------
@@ -166,7 +166,7 @@ languageKey
 :aspect:`Description`
    Language key ("dk" for example) or "default" to use for this translation. If this argument is empty, we use the current language
 
-.. _translate_alternativelanguagekeys:
+.. _typo3-fluid-translate-alternativelanguagekeys:
 
 alternativeLanguageKeys
 -----------------------

@@ -52,7 +52,7 @@ Arguments
 =========
 
 
-.. _avatar_backenduser:
+.. _typo3-backend-avatar-backenduser:
 
 backendUser
 -----------
@@ -65,7 +65,7 @@ backendUser
 :aspect:`Description`
    Uid of the backend user
 
-.. _avatar_size:
+.. _typo3-backend-avatar-size:
 
 size
 ----
@@ -81,7 +81,7 @@ size
 :aspect:`Description`
    Width and height of the image
 
-.. _avatar_showicon:
+.. _typo3-backend-avatar-showicon:
 
 showIcon
 --------

@@ -49,7 +49,7 @@ Arguments
 =========
 
 
-.. _security.ifauthenticated_then:
+.. _typo3-fluid-security-ifauthenticated-then:
 
 then
 ----
@@ -62,7 +62,7 @@ then
 :aspect:`Description`
    Value to be returned if the condition if met.
 
-.. _security.ifauthenticated_else:
+.. _typo3-fluid-security-ifauthenticated-else:
 
 else
 ----

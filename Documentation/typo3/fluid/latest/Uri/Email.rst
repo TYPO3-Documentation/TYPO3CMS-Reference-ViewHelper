@@ -33,7 +33,7 @@ Arguments
 =========
 
 
-.. _uri.email_email:
+.. _typo3-fluid-uri-email-email:
 
 email
 -----

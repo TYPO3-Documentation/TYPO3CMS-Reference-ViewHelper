@@ -44,7 +44,7 @@ Arguments
 =========
 
 
-.. _format.htmlspecialchars_value:
+.. _typo3fluid-fluid-format-htmlspecialchars-value:
 
 value
 -----
@@ -57,7 +57,7 @@ value
 :aspect:`Description`
    Value to format
 
-.. _format.htmlspecialchars_keepquotes:
+.. _typo3fluid-fluid-format-htmlspecialchars-keepquotes:
 
 keepQuotes
 ----------
@@ -70,7 +70,7 @@ keepQuotes
 :aspect:`Description`
    If TRUE quotes will not be replaced (ENT_NOQUOTES)
 
-.. _format.htmlspecialchars_encoding:
+.. _typo3fluid-fluid-format-htmlspecialchars-encoding:
 
 encoding
 --------
@@ -86,7 +86,7 @@ encoding
 :aspect:`Description`
    Encoding
 
-.. _format.htmlspecialchars_doubleencode:
+.. _typo3fluid-fluid-format-htmlspecialchars-doubleencode:
 
 doubleEncode
 ------------
