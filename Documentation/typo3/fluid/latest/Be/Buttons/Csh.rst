@@ -1,12 +1,15 @@
+..  This reStructured text file has been automatically generated, do not change.
+..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/fluid/Classes/ViewHelpers/Be/Buttons/CshViewHelper.php
+
+:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Be/Buttons/CshViewHelper.php
 :navigation-title: be.buttons.csh
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-be-buttons-csh:
 
 ==============================================
-be.buttons.csh ViewHelper `<f:be.buttons.csh>`
+Be.buttons.csh ViewHelper `<f:be.buttons.csh>`
 ==============================================
-
 
 ViewHelper which returns CSH (context sensitive help) button with icon.
 
@@ -41,48 +44,56 @@ Full configuration with content::
 
 A link with text "some text to link" to link the help.
 
+.. _typo3-fluid-be-buttons-csh_source:
+
+Source code
+===========
+
+Go to the source code of this ViewHelper: `CshViewHelper.php (GitHub) <https://github.com/TYPO3/typo3/blob/main/typo3/sysext/fluid/Classes/ViewHelpers/Be/Buttons/CshViewHelper.php>`__.
 
 .. _typo3-fluid-be-buttons-csh_arguments:
 
 Arguments
 =========
 
+The following arguments are available for `<f:be.buttons.csh>`:
 
-.. _typo3-fluid-be-buttons-csh-table:
+..  contents::
+    :local:
+
+
+.. _typo3-fluid-be-buttons-csh-table_argument:
 
 table
 -----
 
-:aspect:`DataType`
-   string
+..  confval:: table
+    :name: typo3-fluid-be-buttons-csh-table
+    :type: string
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Table name ('_MOD_'+module name). If not set, the current module name will be used
+    Table name ('_MOD_'+module name). If not set, the current module name will be used
 
-.. _typo3-fluid-be-buttons-csh-field:
+.. _typo3-fluid-be-buttons-csh-field_argument:
 
 field
 -----
 
-:aspect:`DataType`
-   string
+..  confval:: field
+    :name: typo3-fluid-be-buttons-csh-field
+    :type: string
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Field name (CSH locallang main key)
+    Field name (CSH locallang main key)
 
-.. _typo3-fluid-be-buttons-csh-wrap:
+.. _typo3-fluid-be-buttons-csh-wrap_argument:
 
 wrap
 ----
 
-:aspect:`DataType`
-   string
+..  confval:: wrap
+    :name: typo3-fluid-be-buttons-csh-wrap
+    :type: string
+    :required: false
 
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Markup to wrap around the CSH, split by "|"
+    Markup to wrap around the CSH, split by "|"
