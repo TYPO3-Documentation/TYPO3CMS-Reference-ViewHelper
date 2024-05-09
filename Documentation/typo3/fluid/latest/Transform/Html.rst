@@ -40,7 +40,7 @@ Arguments
 =========
 
 
-.. _transform.html_selector:
+.. _typo3-fluid-transform-html-selector:
 
 selector
 --------
@@ -56,7 +56,7 @@ selector
 :aspect:`Description`
    Comma separated list of node attributes to be considered
 
-.. _transform.html_onfailure:
+.. _typo3-fluid-transform-html-onfailure:
 
 onFailure
 ---------

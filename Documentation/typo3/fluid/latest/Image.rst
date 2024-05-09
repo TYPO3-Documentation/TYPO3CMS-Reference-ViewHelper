@@ -85,7 +85,7 @@ Arguments
 =========
 
 
-.. _image_additionalattributes:
+.. _typo3-fluid-image-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -98,7 +98,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _image_data:
+.. _typo3-fluid-image-data:
 
 data
 ----
@@ -111,7 +111,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _image_aria:
+.. _typo3-fluid-image-aria:
 
 aria
 ----
@@ -124,7 +124,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _image_class:
+.. _typo3-fluid-image-class:
 
 class
 -----
@@ -137,7 +137,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _image_dir:
+.. _typo3-fluid-image-dir:
 
 dir
 ---
@@ -150,7 +150,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _image_id:
+.. _typo3-fluid-image-id:
 
 id
 --
@@ -163,7 +163,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _image_lang:
+.. _typo3-fluid-image-lang:
 
 lang
 ----
@@ -176,7 +176,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _image_style:
+.. _typo3-fluid-image-style:
 
 style
 -----
@@ -189,7 +189,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _image_title:
+.. _typo3-fluid-image-title:
 
 title
 -----
@@ -202,7 +202,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _image_accesskey:
+.. _typo3-fluid-image-accesskey:
 
 accesskey
 ---------
@@ -215,7 +215,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _image_tabindex:
+.. _typo3-fluid-image-tabindex:
 
 tabindex
 --------
@@ -228,7 +228,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _image_onclick:
+.. _typo3-fluid-image-onclick:
 
 onclick
 -------
@@ -241,7 +241,7 @@ onclick
 :aspect:`Description`
    JavaScript evaluated for the onclick event
 
-.. _image_alt:
+.. _typo3-fluid-image-alt:
 
 alt
 ---
@@ -254,7 +254,7 @@ alt
 :aspect:`Description`
    Specifies an alternate text for an image
 
-.. _image_ismap:
+.. _typo3-fluid-image-ismap:
 
 ismap
 -----
@@ -267,7 +267,7 @@ ismap
 :aspect:`Description`
    Specifies an image as a server-side image-map. Rarely used. Look at usemap instead
 
-.. _image_longdesc:
+.. _typo3-fluid-image-longdesc:
 
 longdesc
 --------
@@ -280,7 +280,7 @@ longdesc
 :aspect:`Description`
    Specifies the URL to a document that contains a long description of an image
 
-.. _image_usemap:
+.. _typo3-fluid-image-usemap:
 
 usemap
 ------
@@ -293,7 +293,7 @@ usemap
 :aspect:`Description`
    Specifies an image as a client-side image-map
 
-.. _image_loading:
+.. _typo3-fluid-image-loading:
 
 loading
 -------
@@ -306,7 +306,7 @@ loading
 :aspect:`Description`
    Native lazy-loading for images property. Can be "lazy", "eager" or "auto"
 
-.. _image_decoding:
+.. _typo3-fluid-image-decoding:
 
 decoding
 --------
@@ -319,7 +319,7 @@ decoding
 :aspect:`Description`
    Provides an image decoding hint to the browser. Can be "sync", "async" or "auto"
 
-.. _image_src:
+.. _typo3-fluid-image-src:
 
 src
 ---
@@ -332,7 +332,7 @@ src
 :aspect:`Description`
    A path to a file, a combined FAL identifier or an uid (int). If $treatIdAsReference is set, the integer is considered the uid of the sys_file_reference record. If you already got a FAL object, consider using the $image parameter instead
 
-.. _image_treatidasreference:
+.. _typo3-fluid-image-treatidasreference:
 
 treatIdAsReference
 ------------------
@@ -345,7 +345,7 @@ treatIdAsReference
 :aspect:`Description`
    Given src argument is a sys_file_reference record
 
-.. _image_image:
+.. _typo3-fluid-image-image:
 
 image
 -----
@@ -358,7 +358,7 @@ image
 :aspect:`Description`
    A FAL object (\TYPO3\CMS\Core\Resource\File or \TYPO3\CMS\Core\Resource\FileReference)
 
-.. _image_crop:
+.. _typo3-fluid-image-crop:
 
 crop
 ----
@@ -371,7 +371,7 @@ crop
 :aspect:`Description`
    Overrule cropping of image (setting to FALSE disables the cropping set in FileReference)
 
-.. _image_cropvariant:
+.. _typo3-fluid-image-cropvariant:
 
 cropVariant
 -----------
@@ -387,7 +387,7 @@ cropVariant
 :aspect:`Description`
    Select a cropping variant, in case multiple croppings have been specified or stored in FileReference
 
-.. _image_fileextension:
+.. _typo3-fluid-image-fileextension:
 
 fileExtension
 -------------
@@ -400,7 +400,7 @@ fileExtension
 :aspect:`Description`
    Custom file extension to use
 
-.. _image_width:
+.. _typo3-fluid-image-width:
 
 width
 -----
@@ -413,7 +413,7 @@ width
 :aspect:`Description`
    Width of the image. This can be a numeric value representing the fixed width of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
-.. _image_height:
+.. _typo3-fluid-image-height:
 
 height
 ------
@@ -426,7 +426,7 @@ height
 :aspect:`Description`
    Height of the image. This can be a numeric value representing the fixed height of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
-.. _image_minwidth:
+.. _typo3-fluid-image-minwidth:
 
 minWidth
 --------
@@ -439,7 +439,7 @@ minWidth
 :aspect:`Description`
    Minimum width of the image
 
-.. _image_minheight:
+.. _typo3-fluid-image-minheight:
 
 minHeight
 ---------
@@ -452,7 +452,7 @@ minHeight
 :aspect:`Description`
    Minimum height of the image
 
-.. _image_maxwidth:
+.. _typo3-fluid-image-maxwidth:
 
 maxWidth
 --------
@@ -465,7 +465,7 @@ maxWidth
 :aspect:`Description`
    Maximum width of the image
 
-.. _image_maxheight:
+.. _typo3-fluid-image-maxheight:
 
 maxHeight
 ---------
@@ -478,7 +478,7 @@ maxHeight
 :aspect:`Description`
    Maximum height of the image
 
-.. _image_absolute:
+.. _typo3-fluid-image-absolute:
 
 absolute
 --------

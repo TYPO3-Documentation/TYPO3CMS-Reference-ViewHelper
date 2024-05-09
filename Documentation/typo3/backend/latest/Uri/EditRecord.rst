@@ -37,7 +37,7 @@ Arguments
 =========
 
 
-.. _uri.editrecord_uid:
+.. _typo3-backend-uri-editrecord-uid:
 
 uid
 ---
@@ -50,7 +50,7 @@ uid
 :aspect:`Description`
    Uid of record to be edited, 0 for creation
 
-.. _uri.editrecord_table:
+.. _typo3-backend-uri-editrecord-table:
 
 table
 -----
@@ -63,7 +63,7 @@ table
 :aspect:`Description`
    Target database table
 
-.. _uri.editrecord_fields:
+.. _typo3-backend-uri-editrecord-fields:
 
 fields
 ------
@@ -76,7 +76,7 @@ fields
 :aspect:`Description`
    Edit only these fields (comma separated list)
 
-.. _uri.editrecord_returnurl:
+.. _typo3-backend-uri-editrecord-returnurl:
 
 returnUrl
 ---------

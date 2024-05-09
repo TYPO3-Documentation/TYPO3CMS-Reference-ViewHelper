@@ -17,7 +17,7 @@ Arguments
 =========
 
 
-.. _toolbar.ifhasdropdown_then:
+.. _typo3-backend-toolbar-ifhasdropdown-then:
 
 then
 ----
@@ -30,7 +30,7 @@ then
 :aspect:`Description`
    Value to be returned if the condition if met.
 
-.. _toolbar.ifhasdropdown_else:
+.. _typo3-backend-toolbar-ifhasdropdown-else:
 
 else
 ----
@@ -43,7 +43,7 @@ else
 :aspect:`Description`
    Value to be returned if the condition if not met.
 
-.. _toolbar.ifhasdropdown_class:
+.. _typo3-backend-toolbar-ifhasdropdown-class:
 
 class
 -----

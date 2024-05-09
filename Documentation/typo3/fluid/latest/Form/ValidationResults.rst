@@ -62,7 +62,7 @@ Arguments
 =========
 
 
-.. _form.validationresults_for:
+.. _typo3-fluid-form-validationresults-for:
 
 for
 ---
@@ -75,7 +75,7 @@ for
 :aspect:`Description`
    The name of the error name (e.g. argument name or property name). This can also be a property path (like blog.title), and will then only display the validation errors of that property.
 
-.. _form.validationresults_as:
+.. _typo3-fluid-form-validationresults-as:
 
 as
 --

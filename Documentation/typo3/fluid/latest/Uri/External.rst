@@ -39,7 +39,7 @@ Arguments
 =========
 
 
-.. _uri.external_uri:
+.. _typo3-fluid-uri-external-uri:
 
 uri
 ---
@@ -52,7 +52,7 @@ uri
 :aspect:`Description`
    Target URI
 
-.. _uri.external_defaultscheme:
+.. _typo3-fluid-uri-external-defaultscheme:
 
 defaultScheme
 -------------

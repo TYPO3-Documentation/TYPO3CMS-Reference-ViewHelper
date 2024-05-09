@@ -17,7 +17,7 @@ Arguments
 =========
 
 
-.. _case_value:
+.. _typo3fluid-fluid-case-value:
 
 value
 -----

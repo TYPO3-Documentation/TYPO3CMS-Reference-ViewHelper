@@ -86,7 +86,7 @@ Arguments
 =========
 
 
-.. _link.newrecord_additionalattributes:
+.. _typo3-backend-link-newrecord-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -99,7 +99,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _link.newrecord_data:
+.. _typo3-backend-link-newrecord-data:
 
 data
 ----
@@ -112,7 +112,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _link.newrecord_aria:
+.. _typo3-backend-link-newrecord-aria:
 
 aria
 ----
@@ -125,7 +125,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _link.newrecord_class:
+.. _typo3-backend-link-newrecord-class:
 
 class
 -----
@@ -138,7 +138,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _link.newrecord_dir:
+.. _typo3-backend-link-newrecord-dir:
 
 dir
 ---
@@ -151,7 +151,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _link.newrecord_id:
+.. _typo3-backend-link-newrecord-id:
 
 id
 --
@@ -164,7 +164,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _link.newrecord_lang:
+.. _typo3-backend-link-newrecord-lang:
 
 lang
 ----
@@ -177,7 +177,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _link.newrecord_style:
+.. _typo3-backend-link-newrecord-style:
 
 style
 -----
@@ -190,7 +190,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _link.newrecord_title:
+.. _typo3-backend-link-newrecord-title:
 
 title
 -----
@@ -203,7 +203,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _link.newrecord_accesskey:
+.. _typo3-backend-link-newrecord-accesskey:
 
 accesskey
 ---------
@@ -216,7 +216,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _link.newrecord_tabindex:
+.. _typo3-backend-link-newrecord-tabindex:
 
 tabindex
 --------
@@ -229,7 +229,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _link.newrecord_onclick:
+.. _typo3-backend-link-newrecord-onclick:
 
 onclick
 -------
@@ -242,7 +242,7 @@ onclick
 :aspect:`Description`
    JavaScript evaluated for the onclick event
 
-.. _link.newrecord_uid:
+.. _typo3-backend-link-newrecord-uid:
 
 uid
 ---
@@ -255,7 +255,7 @@ uid
 :aspect:`Description`
    Uid < 0 will insert the record after the given uid
 
-.. _link.newrecord_pid:
+.. _typo3-backend-link-newrecord-pid:
 
 pid
 ---
@@ -268,7 +268,7 @@ pid
 :aspect:`Description`
    The page id where the record will be created
 
-.. _link.newrecord_table:
+.. _typo3-backend-link-newrecord-table:
 
 table
 -----
@@ -281,7 +281,7 @@ table
 :aspect:`Description`
    Target database table
 
-.. _link.newrecord_returnurl:
+.. _typo3-backend-link-newrecord-returnurl:
 
 returnUrl
 ---------
@@ -294,7 +294,7 @@ returnUrl
 :aspect:`Description`
    Return to this URL after closing the new record dialog
 
-.. _link.newrecord_defaultvalues:
+.. _typo3-backend-link-newrecord-defaultvalues:
 
 defaultValues
 -------------

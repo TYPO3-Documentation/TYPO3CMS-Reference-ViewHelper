@@ -88,7 +88,7 @@ Arguments
 =========
 
 
-.. _flashmessages_queueidentifier:
+.. _typo3-fluid-flashmessages-queueidentifier:
 
 queueIdentifier
 ---------------
@@ -101,7 +101,7 @@ queueIdentifier
 :aspect:`Description`
    Flash-message queue to use
 
-.. _flashmessages_as:
+.. _typo3-fluid-flashmessages-as:
 
 as
 --

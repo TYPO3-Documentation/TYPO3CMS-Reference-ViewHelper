@@ -45,7 +45,7 @@ Arguments
 =========
 
 
-.. _debug_title:
+.. _typo3-fluid-debug-title:
 
 title
 -----
@@ -58,7 +58,7 @@ title
 :aspect:`Description`
    Optional custom title for the debug output
 
-.. _debug_maxdepth:
+.. _typo3-fluid-debug-maxdepth:
 
 maxDepth
 --------
@@ -74,7 +74,7 @@ maxDepth
 :aspect:`Description`
    Sets the max recursion depth of the dump (defaults to 8). De- or increase the number according to your needs and memory limit.
 
-.. _debug_plaintext:
+.. _typo3-fluid-debug-plaintext:
 
 plainText
 ---------
@@ -87,7 +87,7 @@ plainText
 :aspect:`Description`
    If TRUE, the dump is in plain text, if FALSE the debug output is in HTML format.
 
-.. _debug_ansicolors:
+.. _typo3-fluid-debug-ansicolors:
 
 ansiColors
 ----------
@@ -100,7 +100,7 @@ ansiColors
 :aspect:`Description`
    If TRUE, ANSI color codes is added to the plaintext output, if FALSE (default) the plaintext debug output not colored.
 
-.. _debug_inline:
+.. _typo3-fluid-debug-inline:
 
 inline
 ------
@@ -113,7 +113,7 @@ inline
 :aspect:`Description`
    If TRUE, the dump is rendered at the position of the <f:debug> tag. If FALSE (default), the dump is displayed at the top of the page.
 
-.. _debug_blacklistedclassnames:
+.. _typo3-fluid-debug-blacklistedclassnames:
 
 blacklistedClassNames
 ---------------------
@@ -126,7 +126,7 @@ blacklistedClassNames
 :aspect:`Description`
    An array of class names (RegEx) to be filtered. Default is an array of some common class names.
 
-.. _debug_blacklistedpropertynames:
+.. _typo3-fluid-debug-blacklistedpropertynames:
 
 blacklistedPropertyNames
 ------------------------

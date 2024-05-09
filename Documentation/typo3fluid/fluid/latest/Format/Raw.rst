@@ -57,7 +57,7 @@ Arguments
 =========
 
 
-.. _format.raw_value:
+.. _typo3fluid-fluid-format-raw-value:
 
 value
 -----

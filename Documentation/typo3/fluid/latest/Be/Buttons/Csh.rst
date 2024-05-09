@@ -48,7 +48,7 @@ Arguments
 =========
 
 
-.. _be.buttons.csh_table:
+.. _typo3-fluid-be-buttons-csh-table:
 
 table
 -----
@@ -61,7 +61,7 @@ table
 :aspect:`Description`
    Table name ('_MOD_'+module name). If not set, the current module name will be used
 
-.. _be.buttons.csh_field:
+.. _typo3-fluid-be-buttons-csh-field:
 
 field
 -----
@@ -74,7 +74,7 @@ field
 :aspect:`Description`
    Field name (CSH locallang main key)
 
-.. _be.buttons.csh_wrap:
+.. _typo3-fluid-be-buttons-csh-wrap:
 
 wrap
 ----

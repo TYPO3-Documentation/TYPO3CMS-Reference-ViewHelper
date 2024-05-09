@@ -42,7 +42,7 @@ Arguments
 =========
 
 
-.. _form.submit_additionalattributes:
+.. _typo3-fluid-form-submit-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -55,7 +55,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _form.submit_data:
+.. _typo3-fluid-form-submit-data:
 
 data
 ----
@@ -68,7 +68,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _form.submit_aria:
+.. _typo3-fluid-form-submit-aria:
 
 aria
 ----
@@ -81,7 +81,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _form.submit_name:
+.. _typo3-fluid-form-submit-name:
 
 name
 ----
@@ -94,7 +94,7 @@ name
 :aspect:`Description`
    Name of input tag
 
-.. _form.submit_value:
+.. _typo3-fluid-form-submit-value:
 
 value
 -----
@@ -107,7 +107,7 @@ value
 :aspect:`Description`
    Value of input tag
 
-.. _form.submit_property:
+.. _typo3-fluid-form-submit-property:
 
 property
 --------
@@ -120,7 +120,7 @@ property
 :aspect:`Description`
    Name of Object Property. If used in conjunction with <f:form object="...">, the "name" property will be ignored, while "value" can be used to specify a default field value instead of the object property value.
 
-.. _form.submit_disabled:
+.. _typo3-fluid-form-submit-disabled:
 
 disabled
 --------
@@ -133,7 +133,7 @@ disabled
 :aspect:`Description`
    Specifies that the input element should be disabled when the page loads
 
-.. _form.submit_class:
+.. _typo3-fluid-form-submit-class:
 
 class
 -----
@@ -146,7 +146,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _form.submit_dir:
+.. _typo3-fluid-form-submit-dir:
 
 dir
 ---
@@ -159,7 +159,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _form.submit_id:
+.. _typo3-fluid-form-submit-id:
 
 id
 --
@@ -172,7 +172,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _form.submit_lang:
+.. _typo3-fluid-form-submit-lang:
 
 lang
 ----
@@ -185,7 +185,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _form.submit_style:
+.. _typo3-fluid-form-submit-style:
 
 style
 -----
@@ -198,7 +198,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _form.submit_title:
+.. _typo3-fluid-form-submit-title:
 
 title
 -----
@@ -211,7 +211,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _form.submit_accesskey:
+.. _typo3-fluid-form-submit-accesskey:
 
 accesskey
 ---------
@@ -224,7 +224,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _form.submit_tabindex:
+.. _typo3-fluid-form-submit-tabindex:
 
 tabindex
 --------
@@ -237,7 +237,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _form.submit_onclick:
+.. _typo3-fluid-form-submit-onclick:
 
 onclick
 -------

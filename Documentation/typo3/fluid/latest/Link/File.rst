@@ -50,7 +50,7 @@ Arguments
 =========
 
 
-.. _link.file_additionalattributes:
+.. _typo3-fluid-link-file-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -63,7 +63,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _link.file_data:
+.. _typo3-fluid-link-file-data:
 
 data
 ----
@@ -76,7 +76,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _link.file_aria:
+.. _typo3-fluid-link-file-aria:
 
 aria
 ----
@@ -89,7 +89,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _link.file_file:
+.. _typo3-fluid-link-file-file:
 
 file
 ----
@@ -102,7 +102,7 @@ file
 :aspect:`Description`
    Specifies the file to create a link to
 
-.. _link.file_download:
+.. _typo3-fluid-link-file-download:
 
 download
 --------
@@ -115,7 +115,7 @@ download
 :aspect:`Description`
    Specifies if file should be downloaded instead of displayed
 
-.. _link.file_filename:
+.. _typo3-fluid-link-file-filename:
 
 filename
 --------
@@ -128,7 +128,7 @@ filename
 :aspect:`Description`
    Specifies an alternative filename. If filename contains a file extension, this must be the same as from 'file'.
 
-.. _link.file_class:
+.. _typo3-fluid-link-file-class:
 
 class
 -----
@@ -141,7 +141,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _link.file_dir:
+.. _typo3-fluid-link-file-dir:
 
 dir
 ---
@@ -154,7 +154,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _link.file_id:
+.. _typo3-fluid-link-file-id:
 
 id
 --
@@ -167,7 +167,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _link.file_lang:
+.. _typo3-fluid-link-file-lang:
 
 lang
 ----
@@ -180,7 +180,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _link.file_style:
+.. _typo3-fluid-link-file-style:
 
 style
 -----
@@ -193,7 +193,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _link.file_title:
+.. _typo3-fluid-link-file-title:
 
 title
 -----
@@ -206,7 +206,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _link.file_accesskey:
+.. _typo3-fluid-link-file-accesskey:
 
 accesskey
 ---------
@@ -219,7 +219,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _link.file_tabindex:
+.. _typo3-fluid-link-file-tabindex:
 
 tabindex
 --------
@@ -232,7 +232,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _link.file_onclick:
+.. _typo3-fluid-link-file-onclick:
 
 onclick
 -------
@@ -245,7 +245,7 @@ onclick
 :aspect:`Description`
    JavaScript evaluated for the onclick event
 
-.. _link.file_name:
+.. _typo3-fluid-link-file-name:
 
 name
 ----
@@ -258,7 +258,7 @@ name
 :aspect:`Description`
    Specifies the name of an anchor
 
-.. _link.file_rel:
+.. _typo3-fluid-link-file-rel:
 
 rel
 ---
@@ -271,7 +271,7 @@ rel
 :aspect:`Description`
    Specifies the relationship between the current document and the linked document
 
-.. _link.file_rev:
+.. _typo3-fluid-link-file-rev:
 
 rev
 ---
@@ -284,7 +284,7 @@ rev
 :aspect:`Description`
    Specifies the relationship between the linked document and the current document
 
-.. _link.file_target:
+.. _typo3-fluid-link-file-target:
 
 target
 ------

@@ -41,7 +41,7 @@ Arguments
 =========
 
 
-.. _format.number_decimals:
+.. _typo3-fluid-format-number-decimals:
 
 decimals
 --------
@@ -57,7 +57,7 @@ decimals
 :aspect:`Description`
    The number of digits after the decimal point
 
-.. _format.number_decimalseparator:
+.. _typo3-fluid-format-number-decimalseparator:
 
 decimalSeparator
 ----------------
@@ -73,7 +73,7 @@ decimalSeparator
 :aspect:`Description`
    The decimal point character
 
-.. _format.number_thousandsseparator:
+.. _typo3-fluid-format-number-thousandsseparator:
 
 thousandsSeparator
 ------------------

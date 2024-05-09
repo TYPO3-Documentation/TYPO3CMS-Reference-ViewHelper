@@ -59,7 +59,7 @@ Arguments
 =========
 
 
-.. _link.email_additionalattributes:
+.. _typo3-fluid-link-email-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -72,7 +72,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _link.email_data:
+.. _typo3-fluid-link-email-data:
 
 data
 ----
@@ -85,7 +85,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _link.email_aria:
+.. _typo3-fluid-link-email-aria:
 
 aria
 ----
@@ -98,7 +98,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _link.email_email:
+.. _typo3-fluid-link-email-email:
 
 email
 -----
@@ -111,7 +111,7 @@ email
 :aspect:`Description`
    The email address to be turned into a link
 
-.. _link.email_cc:
+.. _typo3-fluid-link-email-cc:
 
 cc
 --
@@ -124,7 +124,7 @@ cc
 :aspect:`Description`
    The email address(es) for CC of the email link
 
-.. _link.email_bcc:
+.. _typo3-fluid-link-email-bcc:
 
 bcc
 ---
@@ -137,7 +137,7 @@ bcc
 :aspect:`Description`
    The email address(es) for BCC of the email link
 
-.. _link.email_subject:
+.. _typo3-fluid-link-email-subject:
 
 subject
 -------
@@ -150,7 +150,7 @@ subject
 :aspect:`Description`
    A prefilled subject for the email link
 
-.. _link.email_body:
+.. _typo3-fluid-link-email-body:
 
 body
 ----
@@ -163,7 +163,7 @@ body
 :aspect:`Description`
    A prefilled body for the email link
 
-.. _link.email_class:
+.. _typo3-fluid-link-email-class:
 
 class
 -----
@@ -176,7 +176,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _link.email_dir:
+.. _typo3-fluid-link-email-dir:
 
 dir
 ---
@@ -189,7 +189,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _link.email_id:
+.. _typo3-fluid-link-email-id:
 
 id
 --
@@ -202,7 +202,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _link.email_lang:
+.. _typo3-fluid-link-email-lang:
 
 lang
 ----
@@ -215,7 +215,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _link.email_style:
+.. _typo3-fluid-link-email-style:
 
 style
 -----
@@ -228,7 +228,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _link.email_title:
+.. _typo3-fluid-link-email-title:
 
 title
 -----
@@ -241,7 +241,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _link.email_accesskey:
+.. _typo3-fluid-link-email-accesskey:
 
 accesskey
 ---------
@@ -254,7 +254,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _link.email_tabindex:
+.. _typo3-fluid-link-email-tabindex:
 
 tabindex
 --------
@@ -267,7 +267,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _link.email_onclick:
+.. _typo3-fluid-link-email-onclick:
 
 onclick
 -------
@@ -280,7 +280,7 @@ onclick
 :aspect:`Description`
    JavaScript evaluated for the onclick event
 
-.. _link.email_name:
+.. _typo3-fluid-link-email-name:
 
 name
 ----
@@ -293,7 +293,7 @@ name
 :aspect:`Description`
    Specifies the name of an anchor
 
-.. _link.email_rel:
+.. _typo3-fluid-link-email-rel:
 
 rel
 ---
@@ -306,7 +306,7 @@ rel
 :aspect:`Description`
    Specifies the relationship between the current document and the linked document
 
-.. _link.email_rev:
+.. _typo3-fluid-link-email-rev:
 
 rev
 ---
@@ -319,7 +319,7 @@ rev
 :aspect:`Description`
    Specifies the relationship between the linked document and the current document
 
-.. _link.email_target:
+.. _typo3-fluid-link-email-target:
 
 target
 ------

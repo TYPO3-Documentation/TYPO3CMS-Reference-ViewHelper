@@ -49,7 +49,7 @@ Arguments
 =========
 
 
-.. _format.json_value:
+.. _typo3-fluid-format-json-value:
 
 value
 -----
@@ -62,7 +62,7 @@ value
 :aspect:`Description`
    The incoming data to convert, or null if VH children should be used
 
-.. _format.json_forceobject:
+.. _typo3-fluid-format-json-forceobject:
 
 forceObject
 -----------

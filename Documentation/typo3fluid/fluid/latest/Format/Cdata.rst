@@ -56,7 +56,7 @@ Arguments
 =========
 
 
-.. _format.cdata_value:
+.. _typo3fluid-fluid-format-cdata-value:
 
 value
 -----

@@ -59,7 +59,7 @@ Arguments
 =========
 
 
-.. _form.radio_additionalattributes:
+.. _typo3-fluid-form-radio-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -72,7 +72,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _form.radio_data:
+.. _typo3-fluid-form-radio-data:
 
 data
 ----
@@ -85,7 +85,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _form.radio_aria:
+.. _typo3-fluid-form-radio-aria:
 
 aria
 ----
@@ -98,7 +98,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _form.radio_name:
+.. _typo3-fluid-form-radio-name:
 
 name
 ----
@@ -111,7 +111,7 @@ name
 :aspect:`Description`
    Name of input tag
 
-.. _form.radio_value:
+.. _typo3-fluid-form-radio-value:
 
 value
 -----
@@ -124,7 +124,7 @@ value
 :aspect:`Description`
    Value of input tag. Required for radio buttons
 
-.. _form.radio_property:
+.. _typo3-fluid-form-radio-property:
 
 property
 --------
@@ -137,7 +137,7 @@ property
 :aspect:`Description`
    Name of Object Property. If used in conjunction with <f:form object="...">, the "name" property will be ignored, while "value" can be used to specify a default field value instead of the object property value.
 
-.. _form.radio_errorclass:
+.. _typo3-fluid-form-radio-errorclass:
 
 errorClass
 ----------
@@ -153,7 +153,7 @@ errorClass
 :aspect:`Description`
    CSS class to set if there are errors for this ViewHelper
 
-.. _form.radio_checked:
+.. _typo3-fluid-form-radio-checked:
 
 checked
 -------
@@ -166,7 +166,7 @@ checked
 :aspect:`Description`
    Specifies that the input element should be preselected
 
-.. _form.radio_class:
+.. _typo3-fluid-form-radio-class:
 
 class
 -----
@@ -179,7 +179,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _form.radio_dir:
+.. _typo3-fluid-form-radio-dir:
 
 dir
 ---
@@ -192,7 +192,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _form.radio_id:
+.. _typo3-fluid-form-radio-id:
 
 id
 --
@@ -205,7 +205,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _form.radio_lang:
+.. _typo3-fluid-form-radio-lang:
 
 lang
 ----
@@ -218,7 +218,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _form.radio_style:
+.. _typo3-fluid-form-radio-style:
 
 style
 -----
@@ -231,7 +231,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _form.radio_title:
+.. _typo3-fluid-form-radio-title:
 
 title
 -----
@@ -244,7 +244,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _form.radio_accesskey:
+.. _typo3-fluid-form-radio-accesskey:
 
 accesskey
 ---------
@@ -257,7 +257,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _form.radio_tabindex:
+.. _typo3-fluid-form-radio-tabindex:
 
 tabindex
 --------
@@ -270,7 +270,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _form.radio_onclick:
+.. _typo3-fluid-form-radio-onclick:
 
 onclick
 -------
@@ -283,7 +283,7 @@ onclick
 :aspect:`Description`
    JavaScript evaluated for the onclick event
 
-.. _form.radio_disabled:
+.. _typo3-fluid-form-radio-disabled:
 
 disabled
 --------

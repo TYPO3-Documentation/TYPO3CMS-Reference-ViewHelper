@@ -78,7 +78,7 @@ Arguments
 =========
 
 
-.. _link.typolink_parameter:
+.. _typo3-fluid-link-typolink-parameter:
 
 parameter
 ---------
@@ -91,7 +91,7 @@ parameter
 :aspect:`Description`
    StdWrap.typolink style parameter string
 
-.. _link.typolink_target:
+.. _typo3-fluid-link-typolink-target:
 
 target
 ------
@@ -104,7 +104,7 @@ target
 :aspect:`Description`
    Define where to display the linked URL
 
-.. _link.typolink_class:
+.. _typo3-fluid-link-typolink-class:
 
 class
 -----
@@ -117,7 +117,7 @@ class
 :aspect:`Description`
    Define classes for the link element
 
-.. _link.typolink_title:
+.. _typo3-fluid-link-typolink-title:
 
 title
 -----
@@ -130,7 +130,7 @@ title
 :aspect:`Description`
    Define the title for the link element
 
-.. _link.typolink_language:
+.. _typo3-fluid-link-typolink-language:
 
 language
 --------
@@ -143,7 +143,7 @@ language
 :aspect:`Description`
    Link to a specific language - defaults to the current language, use a language ID or "current" to enforce a specific language
 
-.. _link.typolink_additionalparams:
+.. _typo3-fluid-link-typolink-additionalparams:
 
 additionalParams
 ----------------
@@ -156,7 +156,7 @@ additionalParams
 :aspect:`Description`
    Additional query parameters to be attached to the resulting URL
 
-.. _link.typolink_additionalattributes:
+.. _typo3-fluid-link-typolink-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -172,7 +172,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes to be added directly to the resulting HTML tag
 
-.. _link.typolink_addquerystring:
+.. _typo3-fluid-link-typolink-addquerystring:
 
 addQueryString
 --------------
@@ -185,7 +185,7 @@ addQueryString
 :aspect:`Description`
    If set, the current query parameters will be kept in the URL. If set to "untrusted", then ALL query parameters will be added. Be aware, that this might lead to problems when the generated link is cached.
 
-.. _link.typolink_addquerystringexclude:
+.. _typo3-fluid-link-typolink-addquerystringexclude:
 
 addQueryStringExclude
 ---------------------
@@ -198,7 +198,7 @@ addQueryStringExclude
 :aspect:`Description`
    Define parameters to be excluded from the query string (only active if addQueryString is set)
 
-.. _link.typolink_absolute:
+.. _typo3-fluid-link-typolink-absolute:
 
 absolute
 --------
@@ -211,7 +211,7 @@ absolute
 :aspect:`Description`
    Ensure the resulting URL is an absolute URL
 
-.. _link.typolink_parts-as:
+.. _typo3-fluid-link-typolink-parts-as:
 
 parts-as
 --------
@@ -227,7 +227,7 @@ parts-as
 :aspect:`Description`
    Variable name containing typoLink parts (if any)
 
-.. _link.typolink_textwrap:
+.. _typo3-fluid-link-typolink-textwrap:
 
 textWrap
 --------

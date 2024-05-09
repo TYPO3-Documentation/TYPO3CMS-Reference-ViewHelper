@@ -57,7 +57,7 @@ Arguments
 =========
 
 
-.. _be.security.ifhasrole_then:
+.. _typo3-fluid-be-security-ifhasrole-then:
 
 then
 ----
@@ -70,7 +70,7 @@ then
 :aspect:`Description`
    Value to be returned if the condition if met.
 
-.. _be.security.ifhasrole_else:
+.. _typo3-fluid-be-security-ifhasrole-else:
 
 else
 ----
@@ -83,7 +83,7 @@ else
 :aspect:`Description`
    Value to be returned if the condition if not met.
 
-.. _be.security.ifhasrole_role:
+.. _typo3-fluid-be-security-ifhasrole-role:
 
 role
 ----

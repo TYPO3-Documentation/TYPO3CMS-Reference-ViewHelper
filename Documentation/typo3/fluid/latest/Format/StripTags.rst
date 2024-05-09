@@ -64,7 +64,7 @@ Arguments
 =========
 
 
-.. _format.striptags_value:
+.. _typo3-fluid-format-striptags-value:
 
 value
 -----
@@ -77,7 +77,7 @@ value
 :aspect:`Description`
    String to format
 
-.. _format.striptags_allowedtags:
+.. _typo3-fluid-format-striptags-allowedtags:
 
 allowedTags
 -----------

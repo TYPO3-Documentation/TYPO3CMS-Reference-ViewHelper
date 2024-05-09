@@ -67,7 +67,7 @@ Arguments
 =========
 
 
-.. _cobject_data:
+.. _typo3-fluid-cobject-data:
 
 data
 ----
@@ -80,7 +80,7 @@ data
 :aspect:`Description`
    The data to be used for rendering the cObject. Can be an object, array or string. If this argument is not set, child nodes will be used
 
-.. _cobject_typoscriptobjectpath:
+.. _typo3-fluid-cobject-typoscriptobjectpath:
 
 typoscriptObjectPath
 --------------------
@@ -93,7 +93,7 @@ typoscriptObjectPath
 :aspect:`Description`
    The TypoScript setup path of the TypoScript object to render
 
-.. _cobject_currentvaluekey:
+.. _typo3-fluid-cobject-currentvaluekey:
 
 currentValueKey
 ---------------
@@ -106,7 +106,7 @@ currentValueKey
 :aspect:`Description`
    CurrentValueKey
 
-.. _cobject_table:
+.. _typo3-fluid-cobject-table:
 
 table
 -----

@@ -59,7 +59,7 @@ Arguments
 =========
 
 
-.. _link.page_additionalattributes:
+.. _typo3-fluid-link-page-additionalattributes:
 
 additionalAttributes
 --------------------
@@ -72,7 +72,7 @@ additionalAttributes
 :aspect:`Description`
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-.. _link.page_data:
+.. _typo3-fluid-link-page-data:
 
 data
 ----
@@ -85,7 +85,7 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
-.. _link.page_aria:
+.. _typo3-fluid-link-page-aria:
 
 aria
 ----
@@ -98,7 +98,7 @@ aria
 :aspect:`Description`
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
-.. _link.page_class:
+.. _typo3-fluid-link-page-class:
 
 class
 -----
@@ -111,7 +111,7 @@ class
 :aspect:`Description`
    CSS class(es) for this element
 
-.. _link.page_dir:
+.. _typo3-fluid-link-page-dir:
 
 dir
 ---
@@ -124,7 +124,7 @@ dir
 :aspect:`Description`
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-.. _link.page_id:
+.. _typo3-fluid-link-page-id:
 
 id
 --
@@ -137,7 +137,7 @@ id
 :aspect:`Description`
    Unique (in this file) identifier for this HTML element.
 
-.. _link.page_lang:
+.. _typo3-fluid-link-page-lang:
 
 lang
 ----
@@ -150,7 +150,7 @@ lang
 :aspect:`Description`
    Language for this element. Use short names specified in RFC 1766
 
-.. _link.page_style:
+.. _typo3-fluid-link-page-style:
 
 style
 -----
@@ -163,7 +163,7 @@ style
 :aspect:`Description`
    Individual CSS styles for this element
 
-.. _link.page_title:
+.. _typo3-fluid-link-page-title:
 
 title
 -----
@@ -176,7 +176,7 @@ title
 :aspect:`Description`
    Tooltip text of element
 
-.. _link.page_accesskey:
+.. _typo3-fluid-link-page-accesskey:
 
 accesskey
 ---------
@@ -189,7 +189,7 @@ accesskey
 :aspect:`Description`
    Keyboard shortcut to access this element
 
-.. _link.page_tabindex:
+.. _typo3-fluid-link-page-tabindex:
 
 tabindex
 --------
@@ -202,7 +202,7 @@ tabindex
 :aspect:`Description`
    Specifies the tab order of this element
 
-.. _link.page_onclick:
+.. _typo3-fluid-link-page-onclick:
 
 onclick
 -------
@@ -215,7 +215,7 @@ onclick
 :aspect:`Description`
    JavaScript evaluated for the onclick event
 
-.. _link.page_target:
+.. _typo3-fluid-link-page-target:
 
 target
 ------
@@ -228,7 +228,7 @@ target
 :aspect:`Description`
    Target of link
 
-.. _link.page_rel:
+.. _typo3-fluid-link-page-rel:
 
 rel
 ---
@@ -241,7 +241,7 @@ rel
 :aspect:`Description`
    Specifies the relationship between the current document and the linked document
 
-.. _link.page_pageuid:
+.. _typo3-fluid-link-page-pageuid:
 
 pageUid
 -------
@@ -254,7 +254,7 @@ pageUid
 :aspect:`Description`
    Target page. See TypoLink destination
 
-.. _link.page_pagetype:
+.. _typo3-fluid-link-page-pagetype:
 
 pageType
 --------
@@ -267,7 +267,7 @@ pageType
 :aspect:`Description`
    Type of the target page. See typolink.parameter
 
-.. _link.page_nocache:
+.. _typo3-fluid-link-page-nocache:
 
 noCache
 -------
@@ -280,7 +280,7 @@ noCache
 :aspect:`Description`
    Set this to disable caching for the target page. You should not need this.
 
-.. _link.page_language:
+.. _typo3-fluid-link-page-language:
 
 language
 --------
@@ -293,7 +293,7 @@ language
 :aspect:`Description`
    Link to a specific language - defaults to the current language, use a language ID or "current" to enforce a specific language
 
-.. _link.page_section:
+.. _typo3-fluid-link-page-section:
 
 section
 -------
@@ -306,7 +306,7 @@ section
 :aspect:`Description`
    The anchor to be added to the URI
 
-.. _link.page_linkaccessrestrictedpages:
+.. _typo3-fluid-link-page-linkaccessrestrictedpages:
 
 linkAccessRestrictedPages
 -------------------------
@@ -319,7 +319,7 @@ linkAccessRestrictedPages
 :aspect:`Description`
    If set, links pointing to access restricted pages will still link to the page even though the page cannot be accessed.
 
-.. _link.page_additionalparams:
+.. _typo3-fluid-link-page-additionalparams:
 
 additionalParams
 ----------------
@@ -332,7 +332,7 @@ additionalParams
 :aspect:`Description`
    Additional query parameters that won't be prefixed like $arguments (overrule $arguments)
 
-.. _link.page_absolute:
+.. _typo3-fluid-link-page-absolute:
 
 absolute
 --------
@@ -345,7 +345,7 @@ absolute
 :aspect:`Description`
    If set, the URI of the rendered link is absolute
 
-.. _link.page_addquerystring:
+.. _typo3-fluid-link-page-addquerystring:
 
 addQueryString
 --------------
@@ -358,7 +358,7 @@ addQueryString
 :aspect:`Description`
    If set, the current query parameters will be kept in the URL. If set to "untrusted", then ALL query parameters will be added. Be aware, that this might lead to problems when the generated link is cached.
 
-.. _link.page_argumentstobeexcludedfromquerystring:
+.. _typo3-fluid-link-page-argumentstobeexcludedfromquerystring:
 
 argumentsToBeExcludedFromQueryString
 ------------------------------------

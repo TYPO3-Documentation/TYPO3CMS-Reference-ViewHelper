@@ -42,7 +42,7 @@ Arguments
 =========
 
 
-.. _count_subject:
+.. _typo3fluid-fluid-count-subject:
 
 subject
 -------
