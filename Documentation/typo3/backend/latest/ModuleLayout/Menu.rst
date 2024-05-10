@@ -7,9 +7,17 @@
 
 .. _typo3-backend-modulelayout-menu:
 
-==========================================================
-ModuleLayout.menu ViewHelper `<backend:moduleLayout.menu>`
-==========================================================
+=====================================================
+ModuleLayout.menu ViewHelper `<be:moduleLayout.menu>`
+=====================================================
+
+..  note::
+    This ViewHelper is not available by default.
+
+    :ref:`Import its namespace <t3coreapi:fluid-syntax-viewhelpers-import-namespaces>`
+    :fluid:`{namespace be=TYPO3\CMS\Backend\ViewHelpers\}` in the Fluid file or
+    :fluid:`xmlns:be="http://typo3.org/ns/TYPO3/CMS/Backend/ViewHelpers/"` in the opening HTML tag.
+
 
 A ViewHelper for adding a menu to the doc header area
 of :ref:`<be:moduleLayout> <typo3-backend-modulelayout>`. It accepts only
@@ -39,7 +47,7 @@ Go to the source code of this ViewHelper: `MenuViewHelper.php (GitHub) <https://
 Arguments
 =========
 
-The following arguments are available for `<backend:moduleLayout.menu>`:
+The following arguments are available for `<be:moduleLayout.menu>`:
 
 ..  contents::
     :local:

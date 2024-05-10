@@ -11,6 +11,8 @@
 Uri.image ViewHelper `<f:uri.image>`
 ====================================
 
+
+
 Resizes a given image (if required) and returns its relative path.
 
 External URLs are not processed and just returned as is.

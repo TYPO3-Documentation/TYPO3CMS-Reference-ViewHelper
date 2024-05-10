@@ -11,6 +11,8 @@
 Be.buttons.shortcut ViewHelper `<f:be.buttons.shortcut>`
 ========================================================
 
+
+
 ViewHelper which returns shortcut button with icon.
 
 .. note::

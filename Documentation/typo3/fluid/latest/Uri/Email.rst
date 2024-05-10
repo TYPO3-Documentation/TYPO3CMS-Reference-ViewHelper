@@ -11,6 +11,8 @@
 Uri.email ViewHelper `<f:uri.email>`
 ====================================
 
+
+
 Email URI ViewHelper.
 Generates an email URI incorporating TYPO3s `spamProtectEmailAddresses`_ TypoScript setting.
 

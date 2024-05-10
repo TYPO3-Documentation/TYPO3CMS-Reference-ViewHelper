@@ -11,6 +11,8 @@
 Base ViewHelper `<f:base>`
 ==========================
 
+
+
 ViewHelper which creates a :html:`<base href="..."></base>` tag.
 
 The Base URI is taken from the current request.

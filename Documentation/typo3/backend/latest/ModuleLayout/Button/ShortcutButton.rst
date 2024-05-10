@@ -7,9 +7,17 @@
 
 .. _typo3-backend-modulelayout-button-shortcutbutton:
 
-============================================================================================
-ModuleLayout.button.shortcutButton ViewHelper `<backend:moduleLayout.button.shortcutButton>`
-============================================================================================
+=======================================================================================
+ModuleLayout.button.shortcutButton ViewHelper `<be:moduleLayout.button.shortcutButton>`
+=======================================================================================
+
+..  note::
+    This ViewHelper is not available by default.
+
+    :ref:`Import its namespace <t3coreapi:fluid-syntax-viewhelpers-import-namespaces>`
+    :fluid:`{namespace be=TYPO3\CMS\Backend\ViewHelpers\}` in the Fluid file or
+    :fluid:`xmlns:be="http://typo3.org/ns/TYPO3/CMS/Backend/ViewHelpers/"` in the opening HTML tag.
+
 
 A ViewHelper for adding a shortcut button to the doc header area.
 It must be a child of :ref:`<be:moduleLayout> <typo3-backend-modulelayout>`.
@@ -38,7 +46,7 @@ Go to the source code of this ViewHelper: `ShortcutButtonViewHelper.php (GitHub)
 Arguments
 =========
 
-The following arguments are available for `<backend:moduleLayout.button.shortcutButton>`:
+The following arguments are available for `<be:moduleLayout.button.shortcutButton>`:
 
 ..  contents::
     :local:

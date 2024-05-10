@@ -7,9 +7,17 @@
 
 .. _typo3-backend-modulelayout-menuitem:
 
-==================================================================
-ModuleLayout.menuItem ViewHelper `<backend:moduleLayout.menuItem>`
-==================================================================
+=============================================================
+ModuleLayout.menuItem ViewHelper `<be:moduleLayout.menuItem>`
+=============================================================
+
+..  note::
+    This ViewHelper is not available by default.
+
+    :ref:`Import its namespace <t3coreapi:fluid-syntax-viewhelpers-import-namespaces>`
+    :fluid:`{namespace be=TYPO3\CMS\Backend\ViewHelpers\}` in the Fluid file or
+    :fluid:`xmlns:be="http://typo3.org/ns/TYPO3/CMS/Backend/ViewHelpers/"` in the opening HTML tag.
+
 
 A ViewHelper for adding a menu item to a doc header menu.
 It must be a child of :ref:`<be:moduleLayout.menu> <typo3-backend-modulelayout-menu>`.
@@ -37,7 +45,7 @@ Go to the source code of this ViewHelper: `MenuItemViewHelper.php (GitHub) <http
 Arguments
 =========
 
-The following arguments are available for `<backend:moduleLayout.menuItem>`:
+The following arguments are available for `<be:moduleLayout.menuItem>`:
 
 ..  contents::
     :local:

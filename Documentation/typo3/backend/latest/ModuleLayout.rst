@@ -7,9 +7,17 @@
 
 .. _typo3-backend-modulelayout:
 
-================================================
-ModuleLayout ViewHelper `<backend:moduleLayout>`
-================================================
+===========================================
+ModuleLayout ViewHelper `<be:moduleLayout>`
+===========================================
+
+..  note::
+    This ViewHelper is not available by default.
+
+    :ref:`Import its namespace <t3coreapi:fluid-syntax-viewhelpers-import-namespaces>`
+    :fluid:`{namespace be=TYPO3\CMS\Backend\ViewHelpers\}` in the Fluid file or
+    :fluid:`xmlns:be="http://typo3.org/ns/TYPO3/CMS/Backend/ViewHelpers/"` in the opening HTML tag.
+
 
 A ViewHelper for having properly styled backend modules.
 It is recommended to use it in Fluid Layouts.
@@ -42,7 +50,7 @@ Go to the source code of this ViewHelper: `ModuleLayoutViewHelper.php (GitHub) <
 Arguments
 =========
 
-The following arguments are available for `<backend:moduleLayout>`:
+The following arguments are available for `<be:moduleLayout>`:
 
 ..  contents::
     :local:

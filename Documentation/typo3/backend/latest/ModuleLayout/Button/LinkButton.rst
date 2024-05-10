@@ -7,9 +7,17 @@
 
 .. _typo3-backend-modulelayout-button-linkbutton:
 
-====================================================================================
-ModuleLayout.button.linkButton ViewHelper `<backend:moduleLayout.button.linkButton>`
-====================================================================================
+===============================================================================
+ModuleLayout.button.linkButton ViewHelper `<be:moduleLayout.button.linkButton>`
+===============================================================================
+
+..  note::
+    This ViewHelper is not available by default.
+
+    :ref:`Import its namespace <t3coreapi:fluid-syntax-viewhelpers-import-namespaces>`
+    :fluid:`{namespace be=TYPO3\CMS\Backend\ViewHelpers\}` in the Fluid file or
+    :fluid:`xmlns:be="http://typo3.org/ns/TYPO3/CMS/Backend/ViewHelpers/"` in the opening HTML tag.
+
 
 A ViewHelper for adding a link button to the doc header area.
 It must be a child of :ref:`<be:moduleLayout> <typo3-backend-modulelayout>`.
@@ -39,7 +47,7 @@ Go to the source code of this ViewHelper: `LinkButtonViewHelper.php (GitHub) <ht
 Arguments
 =========
 
-The following arguments are available for `<backend:moduleLayout.button.linkButton>`:
+The following arguments are available for `<be:moduleLayout.button.linkButton>`:
 
 ..  contents::
     :local:

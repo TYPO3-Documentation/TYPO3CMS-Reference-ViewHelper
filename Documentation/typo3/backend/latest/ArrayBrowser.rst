@@ -7,9 +7,17 @@
 
 .. _typo3-backend-arraybrowser:
 
-================================================
-ArrayBrowser ViewHelper `<backend:arrayBrowser>`
-================================================
+===========================================
+ArrayBrowser ViewHelper `<be:arrayBrowser>`
+===========================================
+
+..  note::
+    This ViewHelper is not available by default.
+
+    :ref:`Import its namespace <t3coreapi:fluid-syntax-viewhelpers-import-namespaces>`
+    :fluid:`{namespace be=TYPO3\CMS\Backend\ViewHelpers\}` in the Fluid file or
+    :fluid:`xmlns:be="http://typo3.org/ns/TYPO3/CMS/Backend/ViewHelpers/"` in the opening HTML tag.
+
 
 Renders a given array as tree
 
@@ -25,7 +33,7 @@ Go to the source code of this ViewHelper: `ArrayBrowserViewHelper.php (GitHub) <
 Arguments
 =========
 
-The following arguments are available for `<backend:arrayBrowser>`:
+The following arguments are available for `<be:arrayBrowser>`:
 
 ..  contents::
     :local:
