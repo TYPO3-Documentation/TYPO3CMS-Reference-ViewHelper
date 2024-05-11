@@ -92,7 +92,7 @@ Inline notation with extension name
 Value of key ``someKey`` in the current website language.
 The locallang file of extension "some_extension_name" will be used.
 
-.. _parseFunc: https://www.php.net/sprintf
+.. _sprintf: https://www.php.net/sprintf
 
 .. _typo3-fluid-translate_source:
 
