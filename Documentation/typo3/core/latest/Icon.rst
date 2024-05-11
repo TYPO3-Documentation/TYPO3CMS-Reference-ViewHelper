@@ -62,14 +62,13 @@ Arguments
 
 The following arguments are available for `<core:icon>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-core-icon-identifier_argument:
-
-identifier
-----------
 
 ..  confval:: identifier
     :name: typo3-core-icon-identifier
@@ -79,9 +78,6 @@ identifier
     Identifier of the icon as registered in the Icon Registry.
 
 .. _typo3-core-icon-size_argument:
-
-size
-----
 
 ..  confval:: size
     :name: typo3-core-icon-size
@@ -93,9 +89,6 @@ size
 
 .. _typo3-core-icon-overlay_argument:
 
-overlay
--------
-
 ..  confval:: overlay
     :name: typo3-core-icon-overlay
     :type: string
@@ -104,9 +97,6 @@ overlay
     Identifier of an overlay icon as registered in the Icon Registry.
 
 .. _typo3-core-icon-state_argument:
-
-state
------
 
 ..  confval:: state
     :name: typo3-core-icon-state
@@ -117,9 +107,6 @@ state
     Sets the state of the icon. All values of the Icons.states enum are allowed, these are: "default" and "disabled".
 
 .. _typo3-core-icon-alternativemarkupidentifier_argument:
-
-alternativeMarkupIdentifier
----------------------------
 
 ..  confval:: alternativeMarkupIdentifier
     :name: typo3-core-icon-alternativemarkupidentifier

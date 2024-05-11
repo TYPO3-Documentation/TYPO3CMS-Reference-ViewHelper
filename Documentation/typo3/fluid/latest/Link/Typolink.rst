@@ -90,14 +90,13 @@ Arguments
 
 The following arguments are available for `<f:link.typolink>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-link-typolink-parameter_argument:
-
-parameter
----------
 
 ..  confval:: parameter
     :name: typo3-fluid-link-typolink-parameter
@@ -108,9 +107,6 @@ parameter
 
 .. _typo3-fluid-link-typolink-target_argument:
 
-target
-------
-
 ..  confval:: target
     :name: typo3-fluid-link-typolink-target
     :type: string
@@ -119,9 +115,6 @@ target
     Define where to display the linked URL
 
 .. _typo3-fluid-link-typolink-class_argument:
-
-class
------
 
 ..  confval:: class
     :name: typo3-fluid-link-typolink-class
@@ -132,9 +125,6 @@ class
 
 .. _typo3-fluid-link-typolink-title_argument:
 
-title
------
-
 ..  confval:: title
     :name: typo3-fluid-link-typolink-title
     :type: string
@@ -143,9 +133,6 @@ title
     Define the title for the link element
 
 .. _typo3-fluid-link-typolink-language_argument:
-
-language
---------
 
 ..  confval:: language
     :name: typo3-fluid-link-typolink-language
@@ -156,9 +143,6 @@ language
 
 .. _typo3-fluid-link-typolink-additionalparams_argument:
 
-additionalParams
-----------------
-
 ..  confval:: additionalParams
     :name: typo3-fluid-link-typolink-additionalparams
     :type: string
@@ -167,9 +151,6 @@ additionalParams
     Additional query parameters to be attached to the resulting URL
 
 .. _typo3-fluid-link-typolink-additionalattributes_argument:
-
-additionalAttributes
---------------------
 
 ..  confval:: additionalAttributes
     :name: typo3-fluid-link-typolink-additionalattributes
@@ -181,9 +162,6 @@ additionalAttributes
 
 .. _typo3-fluid-link-typolink-addquerystring_argument:
 
-addQueryString
---------------
-
 ..  confval:: addQueryString
     :name: typo3-fluid-link-typolink-addquerystring
     :type: boolean
@@ -192,9 +170,6 @@ addQueryString
     If set, the current query parameters will be kept in the URL
 
 .. _typo3-fluid-link-typolink-addquerystringmethod_argument:
-
-addQueryStringMethod
---------------------
 
 ..  confval:: addQueryStringMethod
     :name: typo3-fluid-link-typolink-addquerystringmethod
@@ -205,9 +180,6 @@ addQueryStringMethod
 
 .. _typo3-fluid-link-typolink-addquerystringexclude_argument:
 
-addQueryStringExclude
----------------------
-
 ..  confval:: addQueryStringExclude
     :name: typo3-fluid-link-typolink-addquerystringexclude
     :type: string
@@ -216,9 +188,6 @@ addQueryStringExclude
     Define parameters to be excluded from the query string (only active if addQueryString is set)
 
 .. _typo3-fluid-link-typolink-absolute_argument:
-
-absolute
---------
 
 ..  confval:: absolute
     :name: typo3-fluid-link-typolink-absolute
@@ -229,9 +198,6 @@ absolute
 
 .. _typo3-fluid-link-typolink-parts-as_argument:
 
-parts-as
---------
-
 ..  confval:: parts-as
     :name: typo3-fluid-link-typolink-parts-as
     :type: string
@@ -241,9 +207,6 @@ parts-as
     Variable name containing typoLink parts (if any)
 
 .. _typo3-fluid-link-typolink-textwrap_argument:
-
-textWrap
---------
 
 ..  confval:: textWrap
     :name: typo3-fluid-link-typolink-textwrap

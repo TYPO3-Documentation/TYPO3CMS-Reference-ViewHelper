@@ -39,14 +39,13 @@ Arguments
 
 The following arguments are available for `<f:asset.script>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-asset-script-additionalattributes_argument:
-
-additionalAttributes
---------------------
 
 ..  confval:: additionalAttributes
     :name: typo3-fluid-asset-script-additionalattributes
@@ -57,9 +56,6 @@ additionalAttributes
 
 .. _typo3-fluid-asset-script-data_argument:
 
-data
-----
-
 ..  confval:: data
     :name: typo3-fluid-asset-script-data
     :type: mixed
@@ -68,9 +64,6 @@ data
     Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _typo3-fluid-asset-script-aria_argument:
-
-aria
-----
 
 ..  confval:: aria
     :name: typo3-fluid-asset-script-aria
@@ -81,9 +74,6 @@ aria
 
 .. _typo3-fluid-asset-script-class_argument:
 
-class
------
-
 ..  confval:: class
     :name: typo3-fluid-asset-script-class
     :type: string
@@ -92,9 +82,6 @@ class
     CSS class(es) for this element
 
 .. _typo3-fluid-asset-script-dir_argument:
-
-dir
----
 
 ..  confval:: dir
     :name: typo3-fluid-asset-script-dir
@@ -105,9 +92,6 @@ dir
 
 .. _typo3-fluid-asset-script-id_argument:
 
-id
---
-
 ..  confval:: id
     :name: typo3-fluid-asset-script-id
     :type: string
@@ -116,9 +100,6 @@ id
     Unique (in this file) identifier for this HTML element.
 
 .. _typo3-fluid-asset-script-lang_argument:
-
-lang
-----
 
 ..  confval:: lang
     :name: typo3-fluid-asset-script-lang
@@ -129,9 +110,6 @@ lang
 
 .. _typo3-fluid-asset-script-style_argument:
 
-style
------
-
 ..  confval:: style
     :name: typo3-fluid-asset-script-style
     :type: string
@@ -140,9 +118,6 @@ style
     Individual CSS styles for this element
 
 .. _typo3-fluid-asset-script-title_argument:
-
-title
------
 
 ..  confval:: title
     :name: typo3-fluid-asset-script-title
@@ -153,9 +128,6 @@ title
 
 .. _typo3-fluid-asset-script-accesskey_argument:
 
-accesskey
----------
-
 ..  confval:: accesskey
     :name: typo3-fluid-asset-script-accesskey
     :type: string
@@ -164,9 +136,6 @@ accesskey
     Keyboard shortcut to access this element
 
 .. _typo3-fluid-asset-script-tabindex_argument:
-
-tabindex
---------
 
 ..  confval:: tabindex
     :name: typo3-fluid-asset-script-tabindex
@@ -177,9 +146,6 @@ tabindex
 
 .. _typo3-fluid-asset-script-onclick_argument:
 
-onclick
--------
-
 ..  confval:: onclick
     :name: typo3-fluid-asset-script-onclick
     :type: string
@@ -188,9 +154,6 @@ onclick
     JavaScript evaluated for the onclick event
 
 .. _typo3-fluid-asset-script-async_argument:
-
-async
------
 
 ..  confval:: async
     :name: typo3-fluid-asset-script-async
@@ -201,9 +164,6 @@ async
 
 .. _typo3-fluid-asset-script-crossorigin_argument:
 
-crossorigin
------------
-
 ..  confval:: crossorigin
     :name: typo3-fluid-asset-script-crossorigin
     :type: string
@@ -212,9 +172,6 @@ crossorigin
     Define how to handle crossorigin requests.
 
 .. _typo3-fluid-asset-script-defer_argument:
-
-defer
------
 
 ..  confval:: defer
     :name: typo3-fluid-asset-script-defer
@@ -225,9 +182,6 @@ defer
 
 .. _typo3-fluid-asset-script-integrity_argument:
 
-integrity
----------
-
 ..  confval:: integrity
     :name: typo3-fluid-asset-script-integrity
     :type: string
@@ -236,9 +190,6 @@ integrity
     Define base64-encoded cryptographic hash of the resource that allows browsers to verify what they fetch.
 
 .. _typo3-fluid-asset-script-nomodule_argument:
-
-nomodule
---------
 
 ..  confval:: nomodule
     :name: typo3-fluid-asset-script-nomodule
@@ -249,9 +200,6 @@ nomodule
 
 .. _typo3-fluid-asset-script-nonce_argument:
 
-nonce
------
-
 ..  confval:: nonce
     :name: typo3-fluid-asset-script-nonce
     :type: string
@@ -260,9 +208,6 @@ nonce
     Define a cryptographic nonce (number used once) used to whitelist inline styles in a style-src Content-Security-Policy.
 
 .. _typo3-fluid-asset-script-referrerpolicy_argument:
-
-referrerpolicy
---------------
 
 ..  confval:: referrerpolicy
     :name: typo3-fluid-asset-script-referrerpolicy
@@ -273,9 +218,6 @@ referrerpolicy
 
 .. _typo3-fluid-asset-script-src_argument:
 
-src
----
-
 ..  confval:: src
     :name: typo3-fluid-asset-script-src
     :type: string
@@ -284,9 +226,6 @@ src
     Define the URI of the external resource.
 
 .. _typo3-fluid-asset-script-type_argument:
-
-type
-----
 
 ..  confval:: type
     :name: typo3-fluid-asset-script-type
@@ -297,9 +236,6 @@ type
 
 .. _typo3-fluid-asset-script-identifier_argument:
 
-identifier
-----------
-
 ..  confval:: identifier
     :name: typo3-fluid-asset-script-identifier
     :type: string
@@ -308,9 +244,6 @@ identifier
     Use this identifier within templates to only inject your JS once, even though it is added multiple times.
 
 .. _typo3-fluid-asset-script-priority_argument:
-
-priority
---------
 
 ..  confval:: priority
     :name: typo3-fluid-asset-script-priority

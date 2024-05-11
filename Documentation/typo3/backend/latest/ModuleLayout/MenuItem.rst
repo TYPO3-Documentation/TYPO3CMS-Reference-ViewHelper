@@ -47,14 +47,13 @@ Arguments
 
 The following arguments are available for `<be:moduleLayout.menuItem>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-backend-modulelayout-menuitem-label_argument:
-
-label
------
 
 ..  confval:: label
     :name: typo3-backend-modulelayout-menuitem-label
@@ -64,9 +63,6 @@ label
     Label of the menu item
 
 .. _typo3-backend-modulelayout-menuitem-uri_argument:
-
-uri
----
 
 ..  confval:: uri
     :name: typo3-backend-modulelayout-menuitem-uri

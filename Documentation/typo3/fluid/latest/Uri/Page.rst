@@ -65,14 +65,13 @@ Arguments
 
 The following arguments are available for `<f:uri.page>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-uri-page-pageuid_argument:
-
-pageUid
--------
 
 ..  confval:: pageUid
     :name: typo3-fluid-uri-page-pageuid
@@ -82,9 +81,6 @@ pageUid
     Target PID
 
 .. _typo3-fluid-uri-page-additionalparams_argument:
-
-additionalParams
-----------------
 
 ..  confval:: additionalParams
     :name: typo3-fluid-uri-page-additionalparams
@@ -96,9 +92,6 @@ additionalParams
 
 .. _typo3-fluid-uri-page-pagetype_argument:
 
-pageType
---------
-
 ..  confval:: pageType
     :name: typo3-fluid-uri-page-pagetype
     :type: mixed
@@ -107,9 +100,6 @@ pageType
     Type of the target page. See typolink.parameter
 
 .. _typo3-fluid-uri-page-nocache_argument:
-
-noCache
--------
 
 ..  confval:: noCache
     :name: typo3-fluid-uri-page-nocache
@@ -120,9 +110,6 @@ noCache
 
 .. _typo3-fluid-uri-page-language_argument:
 
-language
---------
-
 ..  confval:: language
     :name: typo3-fluid-uri-page-language
     :type: string
@@ -131,9 +118,6 @@ language
     Link to a specific language - defaults to the current language, use a language ID or "current" to enforce a specific language
 
 .. _typo3-fluid-uri-page-section_argument:
-
-section
--------
 
 ..  confval:: section
     :name: typo3-fluid-uri-page-section
@@ -144,9 +128,6 @@ section
 
 .. _typo3-fluid-uri-page-linkaccessrestrictedpages_argument:
 
-linkAccessRestrictedPages
--------------------------
-
 ..  confval:: linkAccessRestrictedPages
     :name: typo3-fluid-uri-page-linkaccessrestrictedpages
     :type: boolean
@@ -155,9 +136,6 @@ linkAccessRestrictedPages
     If set, links pointing to access restricted pages will still link to the page even though the page cannot be accessed.
 
 .. _typo3-fluid-uri-page-absolute_argument:
-
-absolute
---------
 
 ..  confval:: absolute
     :name: typo3-fluid-uri-page-absolute
@@ -168,9 +146,6 @@ absolute
 
 .. _typo3-fluid-uri-page-addquerystring_argument:
 
-addQueryString
---------------
-
 ..  confval:: addQueryString
     :name: typo3-fluid-uri-page-addquerystring
     :type: boolean
@@ -179,9 +154,6 @@ addQueryString
     If set, the current query parameters will be kept in the URI
 
 .. _typo3-fluid-uri-page-argumentstobeexcludedfromquerystring_argument:
-
-argumentsToBeExcludedFromQueryString
-------------------------------------
 
 ..  confval:: argumentsToBeExcludedFromQueryString
     :name: typo3-fluid-uri-page-argumentstobeexcludedfromquerystring
@@ -192,9 +164,6 @@ argumentsToBeExcludedFromQueryString
     Arguments to be removed from the URI. Only active if $addQueryString = TRUE
 
 .. _typo3-fluid-uri-page-addquerystringmethod_argument:
-
-addQueryStringMethod
---------------------
 
 ..  confval:: addQueryStringMethod
     :name: typo3-fluid-uri-page-addquerystringmethod

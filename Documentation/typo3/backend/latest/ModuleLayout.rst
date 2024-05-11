@@ -52,14 +52,13 @@ Arguments
 
 The following arguments are available for `<be:moduleLayout>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-backend-modulelayout-name_argument:
-
-name
-----
 
 ..  confval:: name
     :name: typo3-backend-modulelayout-name
@@ -69,9 +68,6 @@ name
     Name of the module, defaults to the current plugin name, if available
 
 .. _typo3-backend-modulelayout-title_argument:
-
-title
------
 
 ..  confval:: title
     :name: typo3-backend-modulelayout-title

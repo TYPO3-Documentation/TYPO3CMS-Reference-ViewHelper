@@ -45,14 +45,13 @@ Arguments
 
 The following arguments are available for `<f:uri.email>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-uri-email-email_argument:
-
-email
------
 
 ..  confval:: email
     :name: typo3-fluid-uri-email-email

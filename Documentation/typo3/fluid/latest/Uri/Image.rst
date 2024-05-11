@@ -84,14 +84,13 @@ Arguments
 
 The following arguments are available for `<f:uri.image>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-uri-image-src_argument:
-
-src
----
 
 ..  confval:: src
     :name: typo3-fluid-uri-image-src
@@ -102,9 +101,6 @@ src
 
 .. _typo3-fluid-uri-image-treatidasreference_argument:
 
-treatIdAsReference
-------------------
-
 ..  confval:: treatIdAsReference
     :name: typo3-fluid-uri-image-treatidasreference
     :type: boolean
@@ -113,9 +109,6 @@ treatIdAsReference
     Given src argument is a sys_file_reference record
 
 .. _typo3-fluid-uri-image-image_argument:
-
-image
------
 
 ..  confval:: image
     :name: typo3-fluid-uri-image-image
@@ -126,9 +119,6 @@ image
 
 .. _typo3-fluid-uri-image-crop_argument:
 
-crop
-----
-
 ..  confval:: crop
     :name: typo3-fluid-uri-image-crop
     :type: mixed
@@ -137,9 +127,6 @@ crop
     Overrule cropping of image (setting to FALSE disables the cropping set in FileReference)
 
 .. _typo3-fluid-uri-image-cropvariant_argument:
-
-cropVariant
------------
 
 ..  confval:: cropVariant
     :name: typo3-fluid-uri-image-cropvariant
@@ -151,9 +138,6 @@ cropVariant
 
 .. _typo3-fluid-uri-image-fileextension_argument:
 
-fileExtension
--------------
-
 ..  confval:: fileExtension
     :name: typo3-fluid-uri-image-fileextension
     :type: string
@@ -162,9 +146,6 @@ fileExtension
     Custom file extension to use
 
 .. _typo3-fluid-uri-image-width_argument:
-
-width
------
 
 ..  confval:: width
     :name: typo3-fluid-uri-image-width
@@ -175,9 +156,6 @@ width
 
 .. _typo3-fluid-uri-image-height_argument:
 
-height
-------
-
 ..  confval:: height
     :name: typo3-fluid-uri-image-height
     :type: string
@@ -186,9 +164,6 @@ height
     Height of the image. This can be a numeric value representing the fixed height of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
 .. _typo3-fluid-uri-image-minwidth_argument:
-
-minWidth
---------
 
 ..  confval:: minWidth
     :name: typo3-fluid-uri-image-minwidth
@@ -199,9 +174,6 @@ minWidth
 
 .. _typo3-fluid-uri-image-minheight_argument:
 
-minHeight
----------
-
 ..  confval:: minHeight
     :name: typo3-fluid-uri-image-minheight
     :type: mixed
@@ -210,9 +182,6 @@ minHeight
     Minimum height of the image
 
 .. _typo3-fluid-uri-image-maxwidth_argument:
-
-maxWidth
---------
 
 ..  confval:: maxWidth
     :name: typo3-fluid-uri-image-maxwidth
@@ -223,9 +192,6 @@ maxWidth
 
 .. _typo3-fluid-uri-image-maxheight_argument:
 
-maxHeight
----------
-
 ..  confval:: maxHeight
     :name: typo3-fluid-uri-image-maxheight
     :type: mixed
@@ -234,9 +200,6 @@ maxHeight
     Maximum height of the image
 
 .. _typo3-fluid-uri-image-absolute_argument:
-
-absolute
---------
 
 ..  confval:: absolute
     :name: typo3-fluid-uri-image-absolute

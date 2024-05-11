@@ -49,14 +49,13 @@ Arguments
 
 The following arguments are available for `<be:moduleLayout.menu>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-backend-modulelayout-menu-identifier_argument:
-
-identifier
-----------
 
 ..  confval:: identifier
     :name: typo3-backend-modulelayout-menu-identifier

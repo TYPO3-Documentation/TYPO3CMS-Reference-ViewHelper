@@ -37,14 +37,13 @@ Arguments
 
 The following arguments are available for `<core:form.typoScriptConstants>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-core-form-typoscriptconstants-additionalattributes_argument:
-
-additionalAttributes
---------------------
 
 ..  confval:: additionalAttributes
     :name: typo3-core-form-typoscriptconstants-additionalattributes
@@ -55,9 +54,6 @@ additionalAttributes
 
 .. _typo3-core-form-typoscriptconstants-data_argument:
 
-data
-----
-
 ..  confval:: data
     :name: typo3-core-form-typoscriptconstants-data
     :type: mixed
@@ -66,9 +62,6 @@ data
     Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _typo3-core-form-typoscriptconstants-aria_argument:
-
-aria
-----
 
 ..  confval:: aria
     :name: typo3-core-form-typoscriptconstants-aria
@@ -79,9 +72,6 @@ aria
 
 .. _typo3-core-form-typoscriptconstants-name_argument:
 
-name
-----
-
 ..  confval:: name
     :name: typo3-core-form-typoscriptconstants-name
     :type: string
@@ -90,9 +80,6 @@ name
     Name of input tag
 
 .. _typo3-core-form-typoscriptconstants-value_argument:
-
-value
------
 
 ..  confval:: value
     :name: typo3-core-form-typoscriptconstants-value
@@ -103,9 +90,6 @@ value
 
 .. _typo3-core-form-typoscriptconstants-configuration_argument:
 
-configuration
--------------
-
 ..  confval:: configuration
     :name: typo3-core-form-typoscriptconstants-configuration
     :type: mixed
@@ -114,9 +98,6 @@ configuration
     The TypoScript constant configuration, e.g. labels, category, type and value.
 
 .. _typo3-core-form-typoscriptconstants-class_argument:
-
-class
------
 
 ..  confval:: class
     :name: typo3-core-form-typoscriptconstants-class
@@ -127,9 +108,6 @@ class
 
 .. _typo3-core-form-typoscriptconstants-dir_argument:
 
-dir
----
-
 ..  confval:: dir
     :name: typo3-core-form-typoscriptconstants-dir
     :type: string
@@ -138,9 +116,6 @@ dir
     Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _typo3-core-form-typoscriptconstants-id_argument:
-
-id
---
 
 ..  confval:: id
     :name: typo3-core-form-typoscriptconstants-id
@@ -151,9 +126,6 @@ id
 
 .. _typo3-core-form-typoscriptconstants-lang_argument:
 
-lang
-----
-
 ..  confval:: lang
     :name: typo3-core-form-typoscriptconstants-lang
     :type: string
@@ -162,9 +134,6 @@ lang
     Language for this element. Use short names specified in RFC 1766
 
 .. _typo3-core-form-typoscriptconstants-style_argument:
-
-style
------
 
 ..  confval:: style
     :name: typo3-core-form-typoscriptconstants-style
@@ -175,9 +144,6 @@ style
 
 .. _typo3-core-form-typoscriptconstants-title_argument:
 
-title
------
-
 ..  confval:: title
     :name: typo3-core-form-typoscriptconstants-title
     :type: string
@@ -186,9 +152,6 @@ title
     Tooltip text of element
 
 .. _typo3-core-form-typoscriptconstants-accesskey_argument:
-
-accesskey
----------
 
 ..  confval:: accesskey
     :name: typo3-core-form-typoscriptconstants-accesskey
@@ -199,9 +162,6 @@ accesskey
 
 .. _typo3-core-form-typoscriptconstants-tabindex_argument:
 
-tabindex
---------
-
 ..  confval:: tabindex
     :name: typo3-core-form-typoscriptconstants-tabindex
     :type: integer
@@ -210,9 +170,6 @@ tabindex
     Specifies the tab order of this element
 
 .. _typo3-core-form-typoscriptconstants-onclick_argument:
-
-onclick
--------
 
 ..  confval:: onclick
     :name: typo3-core-form-typoscriptconstants-onclick

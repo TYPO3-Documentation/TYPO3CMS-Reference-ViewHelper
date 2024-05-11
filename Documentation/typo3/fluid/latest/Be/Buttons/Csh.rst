@@ -60,14 +60,13 @@ Arguments
 
 The following arguments are available for `<f:be.buttons.csh>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-be-buttons-csh-table_argument:
-
-table
------
 
 ..  confval:: table
     :name: typo3-fluid-be-buttons-csh-table
@@ -78,9 +77,6 @@ table
 
 .. _typo3-fluid-be-buttons-csh-field_argument:
 
-field
------
-
 ..  confval:: field
     :name: typo3-fluid-be-buttons-csh-field
     :type: string
@@ -89,9 +85,6 @@ field
     Field name (CSH locallang main key)
 
 .. _typo3-fluid-be-buttons-csh-wrap_argument:
-
-wrap
-----
 
 ..  confval:: wrap
     :name: typo3-fluid-be-buttons-csh-wrap

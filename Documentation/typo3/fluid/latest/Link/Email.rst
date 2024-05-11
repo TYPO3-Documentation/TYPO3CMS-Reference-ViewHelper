@@ -61,14 +61,13 @@ Arguments
 
 The following arguments are available for `<f:link.email>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-link-email-additionalattributes_argument:
-
-additionalAttributes
---------------------
 
 ..  confval:: additionalAttributes
     :name: typo3-fluid-link-email-additionalattributes
@@ -79,9 +78,6 @@ additionalAttributes
 
 .. _typo3-fluid-link-email-data_argument:
 
-data
-----
-
 ..  confval:: data
     :name: typo3-fluid-link-email-data
     :type: mixed
@@ -90,9 +86,6 @@ data
     Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _typo3-fluid-link-email-aria_argument:
-
-aria
-----
 
 ..  confval:: aria
     :name: typo3-fluid-link-email-aria
@@ -103,9 +96,6 @@ aria
 
 .. _typo3-fluid-link-email-email_argument:
 
-email
------
-
 ..  confval:: email
     :name: typo3-fluid-link-email-email
     :type: string
@@ -114,9 +104,6 @@ email
     The email address to be turned into a link
 
 .. _typo3-fluid-link-email-class_argument:
-
-class
------
 
 ..  confval:: class
     :name: typo3-fluid-link-email-class
@@ -127,9 +114,6 @@ class
 
 .. _typo3-fluid-link-email-dir_argument:
 
-dir
----
-
 ..  confval:: dir
     :name: typo3-fluid-link-email-dir
     :type: string
@@ -138,9 +122,6 @@ dir
     Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _typo3-fluid-link-email-id_argument:
-
-id
---
 
 ..  confval:: id
     :name: typo3-fluid-link-email-id
@@ -151,9 +132,6 @@ id
 
 .. _typo3-fluid-link-email-lang_argument:
 
-lang
-----
-
 ..  confval:: lang
     :name: typo3-fluid-link-email-lang
     :type: string
@@ -162,9 +140,6 @@ lang
     Language for this element. Use short names specified in RFC 1766
 
 .. _typo3-fluid-link-email-style_argument:
-
-style
------
 
 ..  confval:: style
     :name: typo3-fluid-link-email-style
@@ -175,9 +150,6 @@ style
 
 .. _typo3-fluid-link-email-title_argument:
 
-title
------
-
 ..  confval:: title
     :name: typo3-fluid-link-email-title
     :type: string
@@ -186,9 +158,6 @@ title
     Tooltip text of element
 
 .. _typo3-fluid-link-email-accesskey_argument:
-
-accesskey
----------
 
 ..  confval:: accesskey
     :name: typo3-fluid-link-email-accesskey
@@ -199,9 +168,6 @@ accesskey
 
 .. _typo3-fluid-link-email-tabindex_argument:
 
-tabindex
---------
-
 ..  confval:: tabindex
     :name: typo3-fluid-link-email-tabindex
     :type: integer
@@ -210,9 +176,6 @@ tabindex
     Specifies the tab order of this element
 
 .. _typo3-fluid-link-email-onclick_argument:
-
-onclick
--------
 
 ..  confval:: onclick
     :name: typo3-fluid-link-email-onclick
@@ -223,9 +186,6 @@ onclick
 
 .. _typo3-fluid-link-email-name_argument:
 
-name
-----
-
 ..  confval:: name
     :name: typo3-fluid-link-email-name
     :type: string
@@ -234,9 +194,6 @@ name
     Specifies the name of an anchor
 
 .. _typo3-fluid-link-email-rel_argument:
-
-rel
----
 
 ..  confval:: rel
     :name: typo3-fluid-link-email-rel
@@ -247,9 +204,6 @@ rel
 
 .. _typo3-fluid-link-email-rev_argument:
 
-rev
----
-
 ..  confval:: rev
     :name: typo3-fluid-link-email-rev
     :type: string
@@ -258,9 +212,6 @@ rev
     Specifies the relationship between the linked document and the current document
 
 .. _typo3-fluid-link-email-target_argument:
-
-target
-------
 
 ..  confval:: target
     :name: typo3-fluid-link-email-target

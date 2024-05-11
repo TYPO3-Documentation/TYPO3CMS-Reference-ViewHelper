@@ -116,14 +116,13 @@ Arguments
 
 The following arguments are available for `<f:render>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3fluid-fluid-render-section_argument:
-
-section
--------
 
 ..  confval:: section
     :name: typo3fluid-fluid-render-section
@@ -134,9 +133,6 @@ section
 
 .. _typo3fluid-fluid-render-partial_argument:
 
-partial
--------
-
 ..  confval:: partial
     :name: typo3fluid-fluid-render-partial
     :type: string
@@ -145,9 +141,6 @@ partial
     Partial to render, with or without section
 
 .. _typo3fluid-fluid-render-delegate_argument:
-
-delegate
---------
 
 ..  confval:: delegate
     :name: typo3fluid-fluid-render-delegate
@@ -158,9 +151,6 @@ delegate
 
 .. _typo3fluid-fluid-render-renderable_argument:
 
-renderable
-----------
-
 ..  confval:: renderable
     :name: typo3fluid-fluid-render-renderable
     :type: mixed
@@ -169,9 +159,6 @@ renderable
     Instance of a RenderableInterface implementation to be rendered
 
 .. _typo3fluid-fluid-render-arguments_argument:
-
-arguments
----------
 
 ..  confval:: arguments
     :name: typo3fluid-fluid-render-arguments
@@ -183,9 +170,6 @@ arguments
 
 .. _typo3fluid-fluid-render-optional_argument:
 
-optional
---------
-
 ..  confval:: optional
     :name: typo3fluid-fluid-render-optional
     :type: boolean
@@ -195,9 +179,6 @@ optional
 
 .. _typo3fluid-fluid-render-default_argument:
 
-default
--------
-
 ..  confval:: default
     :name: typo3fluid-fluid-render-default
     :type: mixed
@@ -206,9 +187,6 @@ default
     Value (usually string) to be displayed if the section or partial does not exist
 
 .. _typo3fluid-fluid-render-contentas_argument:
-
-contentAs
----------
 
 ..  confval:: contentAs
     :name: typo3fluid-fluid-render-contentas

@@ -55,14 +55,13 @@ Arguments
 
 The following arguments are available for `<f:be.container>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-be-container-pagetitle_argument:
-
-pageTitle
----------
 
 ..  confval:: pageTitle
     :name: typo3-fluid-be-container-pagetitle
@@ -73,9 +72,6 @@ pageTitle
 
 .. _typo3-fluid-be-container-includecssfiles_argument:
 
-includeCssFiles
----------------
-
 ..  confval:: includeCssFiles
     :name: typo3-fluid-be-container-includecssfiles
     :type: mixed
@@ -84,9 +80,6 @@ includeCssFiles
     List of custom CSS file to be loaded
 
 .. _typo3-fluid-be-container-includejsfiles_argument:
-
-includeJsFiles
---------------
 
 ..  confval:: includeJsFiles
     :name: typo3-fluid-be-container-includejsfiles
@@ -97,9 +90,6 @@ includeJsFiles
 
 .. _typo3-fluid-be-container-addjsinlinelabels_argument:
 
-addJsInlineLabels
------------------
-
 ..  confval:: addJsInlineLabels
     :name: typo3-fluid-be-container-addjsinlinelabels
     :type: mixed
@@ -109,9 +99,6 @@ addJsInlineLabels
 
 .. _typo3-fluid-be-container-includerequirejsmodules_argument:
 
-includeRequireJsModules
------------------------
-
 ..  confval:: includeRequireJsModules
     :name: typo3-fluid-be-container-includerequirejsmodules
     :type: mixed
@@ -120,9 +107,6 @@ includeRequireJsModules
     List of RequireJS modules to be loaded
 
 .. _typo3-fluid-be-container-enabledocheader_argument:
-
-enableDocHeader
----------------
 
 ..  confval:: enableDocHeader
     :name: typo3-fluid-be-container-enabledocheader

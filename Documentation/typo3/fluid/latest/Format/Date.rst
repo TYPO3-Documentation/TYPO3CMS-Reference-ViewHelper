@@ -102,14 +102,13 @@ Arguments
 
 The following arguments are available for `<f:format.date>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-format-date-date_argument:
-
-date
-----
 
 ..  confval:: date
     :name: typo3-fluid-format-date-date
@@ -120,9 +119,6 @@ date
 
 .. _typo3-fluid-format-date-format_argument:
 
-format
-------
-
 ..  confval:: format
     :name: typo3-fluid-format-date-format
     :type: string
@@ -131,9 +127,6 @@ format
     Format String which is taken to format the Date/Time
 
 .. _typo3-fluid-format-date-base_argument:
-
-base
-----
 
 ..  confval:: base
     :name: typo3-fluid-format-date-base

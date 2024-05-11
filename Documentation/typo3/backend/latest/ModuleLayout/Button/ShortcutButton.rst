@@ -48,14 +48,13 @@ Arguments
 
 The following arguments are available for `<be:moduleLayout.button.shortcutButton>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-backend-modulelayout-button-shortcutbutton-icon_argument:
-
-icon
-----
 
 ..  confval:: icon
     :name: typo3-backend-modulelayout-button-shortcutbutton-icon
@@ -66,9 +65,6 @@ icon
 
 .. _typo3-backend-modulelayout-button-shortcutbutton-title_argument:
 
-title
------
-
 ..  confval:: title
     :name: typo3-backend-modulelayout-button-shortcutbutton-title
     :type: string
@@ -77,9 +73,6 @@ title
     Title of the button
 
 .. _typo3-backend-modulelayout-button-shortcutbutton-disabled_argument:
-
-disabled
---------
 
 ..  confval:: disabled
     :name: typo3-backend-modulelayout-button-shortcutbutton-disabled
@@ -90,9 +83,6 @@ disabled
 
 .. _typo3-backend-modulelayout-button-shortcutbutton-showlabel_argument:
 
-showLabel
----------
-
 ..  confval:: showLabel
     :name: typo3-backend-modulelayout-button-shortcutbutton-showlabel
     :type: boolean
@@ -101,9 +91,6 @@ showLabel
     Defines whether to show the title as a label within the button
 
 .. _typo3-backend-modulelayout-button-shortcutbutton-position_argument:
-
-position
---------
 
 ..  confval:: position
     :name: typo3-backend-modulelayout-button-shortcutbutton-position
@@ -114,9 +101,6 @@ position
 
 .. _typo3-backend-modulelayout-button-shortcutbutton-group_argument:
 
-group
------
-
 ..  confval:: group
     :name: typo3-backend-modulelayout-button-shortcutbutton-group
     :type: integer
@@ -125,9 +109,6 @@ group
     Button group of the button
 
 .. _typo3-backend-modulelayout-button-shortcutbutton-displayname_argument:
-
-displayName
------------
 
 ..  confval:: displayName
     :name: typo3-backend-modulelayout-button-shortcutbutton-displayname
@@ -138,9 +119,6 @@ displayName
 
 .. _typo3-backend-modulelayout-button-shortcutbutton-arguments_argument:
 
-arguments
----------
-
 ..  confval:: arguments
     :name: typo3-backend-modulelayout-button-shortcutbutton-arguments
     :type: mixed
@@ -150,9 +128,6 @@ arguments
     List of relevant GET variables as key/values list to store
 
 .. _typo3-backend-modulelayout-button-shortcutbutton-getvars_argument:
-
-getVars
--------
 
 ..  confval:: getVars
     :name: typo3-backend-modulelayout-button-shortcutbutton-getvars

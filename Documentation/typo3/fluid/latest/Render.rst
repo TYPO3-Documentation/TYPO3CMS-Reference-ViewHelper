@@ -29,14 +29,13 @@ Arguments
 
 The following arguments are available for `<f:render>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-render-section_argument:
-
-section
--------
 
 ..  confval:: section
     :name: typo3-fluid-render-section
@@ -47,9 +46,6 @@ section
 
 .. _typo3-fluid-render-partial_argument:
 
-partial
--------
-
 ..  confval:: partial
     :name: typo3-fluid-render-partial
     :type: string
@@ -58,9 +54,6 @@ partial
     Partial to render, with or without section
 
 .. _typo3-fluid-render-delegate_argument:
-
-delegate
---------
 
 ..  confval:: delegate
     :name: typo3-fluid-render-delegate
@@ -71,9 +64,6 @@ delegate
 
 .. _typo3-fluid-render-renderable_argument:
 
-renderable
-----------
-
 ..  confval:: renderable
     :name: typo3-fluid-render-renderable
     :type: mixed
@@ -82,9 +72,6 @@ renderable
     Instance of a RenderableInterface implementation to be rendered
 
 .. _typo3-fluid-render-arguments_argument:
-
-arguments
----------
 
 ..  confval:: arguments
     :name: typo3-fluid-render-arguments
@@ -96,9 +83,6 @@ arguments
 
 .. _typo3-fluid-render-optional_argument:
 
-optional
---------
-
 ..  confval:: optional
     :name: typo3-fluid-render-optional
     :type: boolean
@@ -107,9 +91,6 @@ optional
     If TRUE, considers the *section* optional. Partial never is.
 
 .. _typo3-fluid-render-default_argument:
-
-default
--------
 
 ..  confval:: default
     :name: typo3-fluid-render-default
@@ -120,9 +101,6 @@ default
 
 .. _typo3-fluid-render-contentas_argument:
 
-contentAs
----------
-
 ..  confval:: contentAs
     :name: typo3-fluid-render-contentas
     :type: string
@@ -131,9 +109,6 @@ contentAs
     If used, renders the child content and adds it as a template variable with this name for use in the partial/section
 
 .. _typo3-fluid-render-debug_argument:
-
-debug
------
 
 ..  confval:: debug
     :name: typo3-fluid-render-debug

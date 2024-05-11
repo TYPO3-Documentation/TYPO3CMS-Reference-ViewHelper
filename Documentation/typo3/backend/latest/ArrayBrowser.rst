@@ -35,14 +35,13 @@ Arguments
 
 The following arguments are available for `<be:arrayBrowser>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-backend-arraybrowser-data_argument:
-
-data
-----
 
 ..  confval:: data
     :name: typo3-backend-arraybrowser-data

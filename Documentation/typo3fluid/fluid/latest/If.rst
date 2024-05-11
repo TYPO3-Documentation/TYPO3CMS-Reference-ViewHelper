@@ -110,14 +110,13 @@ Arguments
 
 The following arguments are available for `<f:if>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3fluid-fluid-if-then_argument:
-
-then
-----
 
 ..  confval:: then
     :name: typo3fluid-fluid-if-then
@@ -128,9 +127,6 @@ then
 
 .. _typo3fluid-fluid-if-else_argument:
 
-else
-----
-
 ..  confval:: else
     :name: typo3fluid-fluid-if-else
     :type: mixed
@@ -139,9 +135,6 @@ else
     Value to be returned if the condition if not met.
 
 .. _typo3fluid-fluid-if-condition_argument:
-
-condition
----------
 
 ..  confval:: condition
     :name: typo3fluid-fluid-if-condition

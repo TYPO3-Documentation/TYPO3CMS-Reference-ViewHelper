@@ -53,14 +53,13 @@ Arguments
 
 The following arguments are available for `<f:be.buttons.shortcut>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-be-buttons-shortcut-getvars_argument:
-
-getVars
--------
 
 ..  confval:: getVars
     :name: typo3-fluid-be-buttons-shortcut-getvars
@@ -71,9 +70,6 @@ getVars
     List of GET variables to store. By default the current id, module and all module arguments will be stored
 
 .. _typo3-fluid-be-buttons-shortcut-setvars_argument:
-
-setVars
--------
 
 ..  confval:: setVars
     :name: typo3-fluid-be-buttons-shortcut-setvars

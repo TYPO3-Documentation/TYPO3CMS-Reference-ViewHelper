@@ -49,14 +49,13 @@ Arguments
 
 The following arguments are available for `<be:moduleLayout.button.linkButton>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-backend-modulelayout-button-linkbutton-icon_argument:
-
-icon
-----
 
 ..  confval:: icon
     :name: typo3-backend-modulelayout-button-linkbutton-icon
@@ -67,9 +66,6 @@ icon
 
 .. _typo3-backend-modulelayout-button-linkbutton-title_argument:
 
-title
------
-
 ..  confval:: title
     :name: typo3-backend-modulelayout-button-linkbutton-title
     :type: string
@@ -78,9 +74,6 @@ title
     Title of the button
 
 .. _typo3-backend-modulelayout-button-linkbutton-disabled_argument:
-
-disabled
---------
 
 ..  confval:: disabled
     :name: typo3-backend-modulelayout-button-linkbutton-disabled
@@ -91,9 +84,6 @@ disabled
 
 .. _typo3-backend-modulelayout-button-linkbutton-showlabel_argument:
 
-showLabel
----------
-
 ..  confval:: showLabel
     :name: typo3-backend-modulelayout-button-linkbutton-showlabel
     :type: boolean
@@ -102,9 +92,6 @@ showLabel
     Defines whether to show the title as a label within the button
 
 .. _typo3-backend-modulelayout-button-linkbutton-position_argument:
-
-position
---------
 
 ..  confval:: position
     :name: typo3-backend-modulelayout-button-linkbutton-position
@@ -115,9 +102,6 @@ position
 
 .. _typo3-backend-modulelayout-button-linkbutton-group_argument:
 
-group
------
-
 ..  confval:: group
     :name: typo3-backend-modulelayout-button-linkbutton-group
     :type: integer
@@ -126,9 +110,6 @@ group
     Button group of the button
 
 .. _typo3-backend-modulelayout-button-linkbutton-link_argument:
-
-link
-----
 
 ..  confval:: link
     :name: typo3-backend-modulelayout-button-linkbutton-link

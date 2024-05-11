@@ -75,14 +75,13 @@ Arguments
 
 The following arguments are available for `<f:format.html>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-format-html-parsefunctspath_argument:
-
-parseFuncTSPath
----------------
 
 ..  confval:: parseFuncTSPath
     :name: typo3-fluid-format-html-parsefunctspath

@@ -39,14 +39,13 @@ Arguments
 
 The following arguments are available for `<f:asset.css>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-asset-css-additionalattributes_argument:
-
-additionalAttributes
---------------------
 
 ..  confval:: additionalAttributes
     :name: typo3-fluid-asset-css-additionalattributes
@@ -57,9 +56,6 @@ additionalAttributes
 
 .. _typo3-fluid-asset-css-data_argument:
 
-data
-----
-
 ..  confval:: data
     :name: typo3-fluid-asset-css-data
     :type: mixed
@@ -68,9 +64,6 @@ data
     Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _typo3-fluid-asset-css-aria_argument:
-
-aria
-----
 
 ..  confval:: aria
     :name: typo3-fluid-asset-css-aria
@@ -81,9 +74,6 @@ aria
 
 .. _typo3-fluid-asset-css-class_argument:
 
-class
------
-
 ..  confval:: class
     :name: typo3-fluid-asset-css-class
     :type: string
@@ -92,9 +82,6 @@ class
     CSS class(es) for this element
 
 .. _typo3-fluid-asset-css-dir_argument:
-
-dir
----
 
 ..  confval:: dir
     :name: typo3-fluid-asset-css-dir
@@ -105,9 +92,6 @@ dir
 
 .. _typo3-fluid-asset-css-id_argument:
 
-id
---
-
 ..  confval:: id
     :name: typo3-fluid-asset-css-id
     :type: string
@@ -116,9 +100,6 @@ id
     Unique (in this file) identifier for this HTML element.
 
 .. _typo3-fluid-asset-css-lang_argument:
-
-lang
-----
 
 ..  confval:: lang
     :name: typo3-fluid-asset-css-lang
@@ -129,9 +110,6 @@ lang
 
 .. _typo3-fluid-asset-css-style_argument:
 
-style
------
-
 ..  confval:: style
     :name: typo3-fluid-asset-css-style
     :type: string
@@ -140,9 +118,6 @@ style
     Individual CSS styles for this element
 
 .. _typo3-fluid-asset-css-title_argument:
-
-title
------
 
 ..  confval:: title
     :name: typo3-fluid-asset-css-title
@@ -153,9 +128,6 @@ title
 
 .. _typo3-fluid-asset-css-accesskey_argument:
 
-accesskey
----------
-
 ..  confval:: accesskey
     :name: typo3-fluid-asset-css-accesskey
     :type: string
@@ -164,9 +136,6 @@ accesskey
     Keyboard shortcut to access this element
 
 .. _typo3-fluid-asset-css-tabindex_argument:
-
-tabindex
---------
 
 ..  confval:: tabindex
     :name: typo3-fluid-asset-css-tabindex
@@ -177,9 +146,6 @@ tabindex
 
 .. _typo3-fluid-asset-css-onclick_argument:
 
-onclick
--------
-
 ..  confval:: onclick
     :name: typo3-fluid-asset-css-onclick
     :type: string
@@ -188,9 +154,6 @@ onclick
     JavaScript evaluated for the onclick event
 
 .. _typo3-fluid-asset-css-as_argument:
-
-as
---
 
 ..  confval:: as
     :name: typo3-fluid-asset-css-as
@@ -201,9 +164,6 @@ as
 
 .. _typo3-fluid-asset-css-crossorigin_argument:
 
-crossorigin
------------
-
 ..  confval:: crossorigin
     :name: typo3-fluid-asset-css-crossorigin
     :type: string
@@ -212,9 +172,6 @@ crossorigin
     Define how to handle crossorigin requests.
 
 .. _typo3-fluid-asset-css-disabled_argument:
-
-disabled
---------
 
 ..  confval:: disabled
     :name: typo3-fluid-asset-css-disabled
@@ -225,9 +182,6 @@ disabled
 
 .. _typo3-fluid-asset-css-href_argument:
 
-href
-----
-
 ..  confval:: href
     :name: typo3-fluid-asset-css-href
     :type: string
@@ -236,9 +190,6 @@ href
     Define the URL of the resource (absolute or relative).
 
 .. _typo3-fluid-asset-css-hreflang_argument:
-
-hreflang
---------
 
 ..  confval:: hreflang
     :name: typo3-fluid-asset-css-hreflang
@@ -249,9 +200,6 @@ hreflang
 
 .. _typo3-fluid-asset-css-importance_argument:
 
-importance
-----------
-
 ..  confval:: importance
     :name: typo3-fluid-asset-css-importance
     :type: string
@@ -260,9 +208,6 @@ importance
     Define the relative fetch priority of the resource.
 
 .. _typo3-fluid-asset-css-integrity_argument:
-
-integrity
----------
 
 ..  confval:: integrity
     :name: typo3-fluid-asset-css-integrity
@@ -273,9 +218,6 @@ integrity
 
 .. _typo3-fluid-asset-css-media_argument:
 
-media
------
-
 ..  confval:: media
     :name: typo3-fluid-asset-css-media
     :type: string
@@ -284,9 +226,6 @@ media
     Define which media type the resources applies to.
 
 .. _typo3-fluid-asset-css-referrerpolicy_argument:
-
-referrerpolicy
---------------
 
 ..  confval:: referrerpolicy
     :name: typo3-fluid-asset-css-referrerpolicy
@@ -297,9 +236,6 @@ referrerpolicy
 
 .. _typo3-fluid-asset-css-rel_argument:
 
-rel
----
-
 ..  confval:: rel
     :name: typo3-fluid-asset-css-rel
     :type: string
@@ -308,9 +244,6 @@ rel
     Define the relationship of the target object to the link object.
 
 .. _typo3-fluid-asset-css-sizes_argument:
-
-sizes
------
 
 ..  confval:: sizes
     :name: typo3-fluid-asset-css-sizes
@@ -321,9 +254,6 @@ sizes
 
 .. _typo3-fluid-asset-css-type_argument:
 
-type
-----
-
 ..  confval:: type
     :name: typo3-fluid-asset-css-type
     :type: string
@@ -332,9 +262,6 @@ type
     Define the MIME type (usually 'text/css').
 
 .. _typo3-fluid-asset-css-nonce_argument:
-
-nonce
------
 
 ..  confval:: nonce
     :name: typo3-fluid-asset-css-nonce
@@ -345,9 +272,6 @@ nonce
 
 .. _typo3-fluid-asset-css-identifier_argument:
 
-identifier
-----------
-
 ..  confval:: identifier
     :name: typo3-fluid-asset-css-identifier
     :type: string
@@ -356,9 +280,6 @@ identifier
     Use this identifier within templates to only inject your CSS once, even though it is added multiple times.
 
 .. _typo3-fluid-asset-css-priority_argument:
-
-priority
---------
 
 ..  confval:: priority
     :name: typo3-fluid-asset-css-priority
