@@ -52,14 +52,13 @@ Arguments
 
 The following arguments are available for `<f:be.labels.csh>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-be-labels-csh-table_argument:
-
-table
------
 
 ..  confval:: table
     :name: typo3-fluid-be-labels-csh-table
@@ -70,9 +69,6 @@ table
 
 .. _typo3-fluid-be-labels-csh-field_argument:
 
-field
------
-
 ..  confval:: field
     :name: typo3-fluid-be-labels-csh-field
     :type: string
@@ -81,9 +77,6 @@ field
     Field name (CSH locallang main key)
 
 .. _typo3-fluid-be-labels-csh-label_argument:
-
-label
------
 
 ..  confval:: label
     :name: typo3-fluid-be-labels-csh-label

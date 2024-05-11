@@ -47,14 +47,13 @@ Arguments
 
 The following arguments are available for `<f:be.pageRenderer>`:
 
-..  contents::
-    :local:
+..  confval-menu::
+    :display: table
+    :type:
+    :Default:
 
 
 .. _typo3-fluid-be-pagerenderer-pagetitle_argument:
-
-pageTitle
----------
 
 ..  confval:: pageTitle
     :name: typo3-fluid-be-pagerenderer-pagetitle
@@ -65,9 +64,6 @@ pageTitle
 
 .. _typo3-fluid-be-pagerenderer-includecssfiles_argument:
 
-includeCssFiles
----------------
-
 ..  confval:: includeCssFiles
     :name: typo3-fluid-be-pagerenderer-includecssfiles
     :type: mixed
@@ -76,9 +72,6 @@ includeCssFiles
     List of custom CSS file to be loaded
 
 .. _typo3-fluid-be-pagerenderer-includejsfiles_argument:
-
-includeJsFiles
---------------
 
 ..  confval:: includeJsFiles
     :name: typo3-fluid-be-pagerenderer-includejsfiles
@@ -89,9 +82,6 @@ includeJsFiles
 
 .. _typo3-fluid-be-pagerenderer-addjsinlinelabels_argument:
 
-addJsInlineLabels
------------------
-
 ..  confval:: addJsInlineLabels
     :name: typo3-fluid-be-pagerenderer-addjsinlinelabels
     :type: mixed
@@ -100,9 +90,6 @@ addJsInlineLabels
     Custom labels to add to JavaScript inline labels
 
 .. _typo3-fluid-be-pagerenderer-includejavascriptmodules_argument:
-
-includeJavaScriptModules
-------------------------
 
 ..  confval:: includeJavaScriptModules
     :name: typo3-fluid-be-pagerenderer-includejavascriptmodules
@@ -113,9 +100,6 @@ includeJavaScriptModules
 
 .. _typo3-fluid-be-pagerenderer-includerequirejsmodules_argument:
 
-includeRequireJsModules
------------------------
-
 ..  confval:: includeRequireJsModules
     :name: typo3-fluid-be-pagerenderer-includerequirejsmodules
     :type: mixed
@@ -124,9 +108,6 @@ includeRequireJsModules
     List of RequireJS modules to be loaded
 
 .. _typo3-fluid-be-pagerenderer-addinlinesettings_argument:
-
-addInlineSettings
------------------
 
 ..  confval:: addInlineSettings
     :name: typo3-fluid-be-pagerenderer-addinlinesettings
