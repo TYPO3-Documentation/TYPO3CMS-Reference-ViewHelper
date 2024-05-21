@@ -1,8 +1,9 @@
 ..  This reStructured text file has been automatically generated, do not change.
 ..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/Format/Nl2brViewHelper.php
 
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/tree/main/src/ViewHelpers/Format/Nl2brViewHelper.php
+:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/Format/Nl2brViewHelper.php
 :navigation-title: format.nl2br
+
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-format-nl2br:
@@ -54,7 +55,7 @@ The following arguments are available for `<f:format.nl2br>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3fluid-fluid-format-nl2br-value_argument:

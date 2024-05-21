@@ -1,8 +1,9 @@
 ..  This reStructured text file has been automatically generated, do not change.
 ..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/Format/JsonViewHelper.php
 
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/tree/main/src/ViewHelpers/Format/JsonViewHelper.php
+:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/Format/JsonViewHelper.php
 :navigation-title: format.json
+
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-format-json:
@@ -64,7 +65,7 @@ The following arguments are available for `<f:format.json>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3fluid-fluid-format-json-value_argument:

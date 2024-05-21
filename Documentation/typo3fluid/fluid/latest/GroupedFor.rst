@@ -1,8 +1,9 @@
 ..  This reStructured text file has been automatically generated, do not change.
 ..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/GroupedForViewHelper.php
 
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/tree/main/src/ViewHelpers/GroupedForViewHelper.php
+:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/GroupedForViewHelper.php
 :navigation-title: groupedFor
+
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-groupedfor:
@@ -100,7 +101,7 @@ The following arguments are available for `<f:groupedFor>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3fluid-fluid-groupedfor-each_argument:
@@ -135,7 +136,7 @@ The following arguments are available for `<f:groupedFor>`:
 ..  confval:: groupKey
     :name: typo3fluid-fluid-groupedfor-groupkey
     :type: string
-    :Default: 'groupKey'
+    :default: `'groupKey'`
     :required: false
 
     The name of the variable to store the current group

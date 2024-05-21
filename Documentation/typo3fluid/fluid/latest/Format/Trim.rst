@@ -1,8 +1,9 @@
 ..  This reStructured text file has been automatically generated, do not change.
 ..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/Format/TrimViewHelper.php
 
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/tree/main/src/ViewHelpers/Format/TrimViewHelper.php
+:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/Format/TrimViewHelper.php
 :navigation-title: format.trim
+
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-format-trim:
@@ -81,7 +82,7 @@ The following arguments are available for `<f:format.trim>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3fluid-fluid-format-trim-value_argument:
@@ -107,7 +108,7 @@ The following arguments are available for `<f:format.trim>`:
 ..  confval:: side
     :name: typo3fluid-fluid-format-trim-side
     :type: string
-    :Default: 'both'
+    :default: `'both'`
     :required: false
 
     The side to apply, must be one of this' CASE_* constants. Defaults to both application.
