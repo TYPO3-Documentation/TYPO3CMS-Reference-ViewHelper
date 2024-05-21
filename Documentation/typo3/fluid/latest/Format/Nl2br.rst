@@ -3,6 +3,7 @@
 
 :edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Format/Nl2brViewHelper.php
 :navigation-title: format.nl2br
+
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-nl2br:
@@ -54,7 +55,7 @@ The following arguments are available for `<f:format.nl2br>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3-fluid-format-nl2br-value_argument:

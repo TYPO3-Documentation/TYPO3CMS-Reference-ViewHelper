@@ -3,6 +3,7 @@
 
 :edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Format/UrlencodeViewHelper.php
 :navigation-title: format.urlencode
+
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-urlencode:
@@ -58,7 +59,7 @@ The following arguments are available for `<f:format.urlencode>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3-fluid-format-urlencode-value_argument:

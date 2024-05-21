@@ -1,8 +1,9 @@
 ..  This reStructured text file has been automatically generated, do not change.
 ..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/SwitchViewHelper.php
 
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/tree/main/src/ViewHelpers/SwitchViewHelper.php
+:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/SwitchViewHelper.php
 :navigation-title: switch
+
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-switch:
@@ -60,7 +61,7 @@ The following arguments are available for `<f:switch>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3fluid-fluid-switch-expression_argument:

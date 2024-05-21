@@ -1,8 +1,9 @@
 ..  This reStructured text file has been automatically generated, do not change.
 ..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/CaseViewHelper.php
 
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/tree/main/src/ViewHelpers/CaseViewHelper.php
+:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/CaseViewHelper.php
 :navigation-title: case
+
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-case:
@@ -32,7 +33,7 @@ The following arguments are available for `<f:case>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3fluid-fluid-case-value_argument:

@@ -3,6 +3,7 @@
 
 :edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Be/Buttons/CshViewHelper.php
 :navigation-title: be.buttons.csh
+
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-be-buttons-csh:
@@ -63,7 +64,7 @@ The following arguments are available for `<f:be.buttons.csh>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3-fluid-be-buttons-csh-table_argument:
