@@ -3,6 +3,7 @@
 
 :edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/core/Classes/ViewHelpers/Form/TypoScriptConstantsViewHelper.php
 :navigation-title: form.typoScriptConstants
+
 .. include:: /Includes.rst.txt
 
 .. _typo3-core-form-typoscriptconstants:
@@ -40,7 +41,7 @@ The following arguments are available for `<core:form.typoScriptConstants>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3-core-form-typoscriptconstants-additionalattributes_argument:

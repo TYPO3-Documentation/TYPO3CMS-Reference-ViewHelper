@@ -3,6 +3,7 @@
 
 :edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Be/Labels/CshViewHelper.php
 :navigation-title: be.labels.csh
+
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-be-labels-csh:
@@ -55,7 +56,7 @@ The following arguments are available for `<f:be.labels.csh>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3-fluid-be-labels-csh-table_argument:

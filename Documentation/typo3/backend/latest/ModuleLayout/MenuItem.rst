@@ -3,6 +3,7 @@
 
 :edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLayout/MenuItemViewHelper.php
 :navigation-title: moduleLayout.menuItem
+
 .. include:: /Includes.rst.txt
 
 .. _typo3-backend-modulelayout-menuitem:
@@ -50,7 +51,7 @@ The following arguments are available for `<be:moduleLayout.menuItem>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3-backend-modulelayout-menuitem-label_argument:

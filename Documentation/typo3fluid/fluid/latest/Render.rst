@@ -1,8 +1,9 @@
 ..  This reStructured text file has been automatically generated, do not change.
 ..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/RenderViewHelper.php
 
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/tree/main/src/ViewHelpers/RenderViewHelper.php
+:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/RenderViewHelper.php
 :navigation-title: render
+
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-render:
@@ -119,7 +120,7 @@ The following arguments are available for `<f:render>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3fluid-fluid-render-section_argument:
@@ -163,7 +164,7 @@ The following arguments are available for `<f:render>`:
 ..  confval:: arguments
     :name: typo3fluid-fluid-render-arguments
     :type: mixed
-    :Default: array ()
+    :default: `array ()`
     :required: false
 
     Array of variables to be transferred. Use {_all} for all variables

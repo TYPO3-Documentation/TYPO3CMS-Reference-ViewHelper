@@ -3,6 +3,7 @@
 
 :edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLayout/Button/ShortcutButtonViewHelper.php
 :navigation-title: moduleLayout.button.shortcutButton
+
 .. include:: /Includes.rst.txt
 
 .. _typo3-backend-modulelayout-button-shortcutbutton:
@@ -51,7 +52,7 @@ The following arguments are available for `<be:moduleLayout.button.shortcutButto
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3-backend-modulelayout-button-shortcutbutton-icon_argument:
@@ -122,7 +123,7 @@ The following arguments are available for `<be:moduleLayout.button.shortcutButto
 ..  confval:: arguments
     :name: typo3-backend-modulelayout-button-shortcutbutton-arguments
     :type: mixed
-    :Default: array ()
+    :default: `array ()`
     :required: false
 
     List of relevant GET variables as key/values list to store
@@ -132,7 +133,7 @@ The following arguments are available for `<be:moduleLayout.button.shortcutButto
 ..  confval:: getVars
     :name: typo3-backend-modulelayout-button-shortcutbutton-getvars
     :type: mixed
-    :Default: array ()
+    :default: `array ()`
     :required: false
 
     List of additional GET variables to store. The current id, module and all module arguments will always be stored

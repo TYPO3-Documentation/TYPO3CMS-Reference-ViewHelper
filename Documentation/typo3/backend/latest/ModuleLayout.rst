@@ -3,6 +3,7 @@
 
 :edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLayoutViewHelper.php
 :navigation-title: moduleLayout
+
 .. include:: /Includes.rst.txt
 
 .. _typo3-backend-modulelayout:
@@ -55,7 +56,7 @@ The following arguments are available for `<be:moduleLayout>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3-backend-modulelayout-name_argument:

@@ -3,6 +3,7 @@
 
 :edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Be/Buttons/ShortcutViewHelper.php
 :navigation-title: be.buttons.shortcut
+
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-be-buttons-shortcut:
@@ -56,7 +57,7 @@ The following arguments are available for `<f:be.buttons.shortcut>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3-fluid-be-buttons-shortcut-getvars_argument:
@@ -64,7 +65,7 @@ The following arguments are available for `<f:be.buttons.shortcut>`:
 ..  confval:: getVars
     :name: typo3-fluid-be-buttons-shortcut-getvars
     :type: mixed
-    :Default: array ()
+    :default: `array ()`
     :required: false
 
     List of GET variables to store. By default the current id, module and all module arguments will be stored
@@ -74,7 +75,7 @@ The following arguments are available for `<f:be.buttons.shortcut>`:
 ..  confval:: setVars
     :name: typo3-fluid-be-buttons-shortcut-setvars
     :type: mixed
-    :Default: array ()
+    :default: `array ()`
     :required: false
 
     List of SET[] variables to store. See ModuleTemplate::makeShortcutIcon(). Normally won't be used by Extbase modules

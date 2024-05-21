@@ -3,6 +3,7 @@
 
 :edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/ArrayBrowserViewHelper.php
 :navigation-title: arrayBrowser
+
 .. include:: /Includes.rst.txt
 
 .. _typo3-backend-arraybrowser:
@@ -38,7 +39,7 @@ The following arguments are available for `<be:arrayBrowser>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3-backend-arraybrowser-data_argument:

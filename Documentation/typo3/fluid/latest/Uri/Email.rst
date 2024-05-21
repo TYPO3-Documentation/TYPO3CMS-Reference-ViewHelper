@@ -3,6 +3,7 @@
 
 :edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Uri/EmailViewHelper.php
 :navigation-title: uri.email
+
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-uri-email:
@@ -48,7 +49,7 @@ The following arguments are available for `<f:uri.email>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3-fluid-uri-email-email_argument:

@@ -3,6 +3,7 @@
 
 :edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLayout/Button/LinkButtonViewHelper.php
 :navigation-title: moduleLayout.button.linkButton
+
 .. include:: /Includes.rst.txt
 
 .. _typo3-backend-modulelayout-button-linkbutton:
@@ -52,7 +53,7 @@ The following arguments are available for `<be:moduleLayout.button.linkButton>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3-backend-modulelayout-button-linkbutton-icon_argument:

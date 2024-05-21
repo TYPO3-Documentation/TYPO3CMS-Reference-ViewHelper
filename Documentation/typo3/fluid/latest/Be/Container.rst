@@ -3,6 +3,7 @@
 
 :edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Be/ContainerViewHelper.php
 :navigation-title: be.container
+
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-be-container:
@@ -58,7 +59,7 @@ The following arguments are available for `<f:be.container>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3-fluid-be-container-pagetitle_argument:

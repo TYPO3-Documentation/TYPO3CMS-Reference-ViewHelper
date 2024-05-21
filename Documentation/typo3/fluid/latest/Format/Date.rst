@@ -3,6 +3,7 @@
 
 :edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Format/DateViewHelper.php
 :navigation-title: format.date
+
 .. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-date:
@@ -105,7 +106,7 @@ The following arguments are available for `<f:format.date>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3-fluid-format-date-date_argument:

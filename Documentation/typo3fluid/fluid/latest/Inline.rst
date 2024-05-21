@@ -1,8 +1,9 @@
 ..  This reStructured text file has been automatically generated, do not change.
 ..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/InlineViewHelper.php
 
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/tree/main/src/ViewHelpers/InlineViewHelper.php
+:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/InlineViewHelper.php
 :navigation-title: inline
+
 .. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-inline:
@@ -50,7 +51,7 @@ The following arguments are available for `<f:inline>`:
 ..  confval-menu::
     :display: table
     :type:
-    :Default:
+    :default:
 
 
 .. _typo3fluid-fluid-inline-code_argument:
