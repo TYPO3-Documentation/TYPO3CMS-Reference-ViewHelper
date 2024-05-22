@@ -39,6 +39,9 @@ Full configuration::
 
 CSH label as known from the TYPO3 backend with some custom settings.
 
+..  attention::
+    **Deprecated**
+
 .. _typo3-fluid-be-labels-csh_source:
 
 Source code

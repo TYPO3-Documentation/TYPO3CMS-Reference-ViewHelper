@@ -47,6 +47,9 @@ Full configuration with content::
 
 A link with text "some text to link" to link the help.
 
+..  attention::
+    **Deprecated**
+
 .. _typo3-fluid-be-buttons-csh_source:
 
 Source code
