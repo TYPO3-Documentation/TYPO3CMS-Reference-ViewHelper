@@ -111,7 +111,7 @@ The following arguments are available for `<f:form>`:
     :default: `array ()`
     :required: false
 
-    Arguments
+    Arguments (do not use reserved keywords "action", "controller" or "format" if not referring to these internal variables specifically)
 
 .. _typo3-fluid-form-controller_argument:
 
