@@ -335,4 +335,4 @@ The following arguments are available for `<f:link.action>`:
     :type: mixed
     :required: false
 
-    Arguments for the controller action, associative array
+    Arguments for the controller action, associative array (do not use reserved keywords "action", "controller" or "format" if not referring to these internal variables specifically)
