@@ -5,7 +5,7 @@
 typo3/fluid
 ===========
 
-* 8 ViewHelpers documented
+* 9 ViewHelpers documented
 * 10 Sub namespaces
 
 .. toctree::
@@ -15,6 +15,7 @@ typo3/fluid
    */Index
    CObject
    Debug
+   Feature
    FlashMessages
    Form
    Image

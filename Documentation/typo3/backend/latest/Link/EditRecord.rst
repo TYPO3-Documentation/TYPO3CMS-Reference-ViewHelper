@@ -51,7 +51,7 @@ Link to edit only the fields title and subtitle of page uid=42 and return to foo
 
 Output::
 
-   <a href="/typo3/record/edit?edit[pages][42]=edit&returnUrl=foo/bar&columnsOnly=title,subtitle">
+   <a href="/typo3/record/edit?edit[pages][42]=edit&returnUrl=foo/bar&columnsOnly[pages]=title,subtitle">
        Edit record
    </a>
 

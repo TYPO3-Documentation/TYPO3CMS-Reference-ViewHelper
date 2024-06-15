@@ -109,3 +109,13 @@ The following arguments are available for `<f:uri.resource>`:
     :required: false
 
     If set, an absolute URI is rendered
+
+.. _typo3-fluid-uri-resource-usecachebusting_argument:
+
+..  confval:: useCacheBusting
+    :name: typo3-fluid-uri-resource-usecachebusting
+    :type: boolean
+    :default: `true`
+    :required: false
+
+    If set, the URI is rendered with a cache buster
