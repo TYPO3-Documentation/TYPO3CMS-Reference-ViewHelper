@@ -40,7 +40,7 @@ page uid=42 and return to foo/bar::
 
    <be:uri.editRecord uid="42" table="pages" fields="title,subtitle" returnUrl="foo/bar" />
 
-``<a href="/typo3/record/edit&edit[pages][42]=edit&returnUrl=foo/bar&columnsOnly=title,subtitle">``
+``<a href="/typo3/record/edit&edit[pages][42]=edit&returnUrl=foo/bar&columnsOnly[pages]=title,subtitle">``
 
 .. _typo3-backend-uri-editrecord_source:
 
