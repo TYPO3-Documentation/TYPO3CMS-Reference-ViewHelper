@@ -5,7 +5,7 @@
 typo3fluid/fluid
 ================
 
-* 25 ViewHelpers documented
+* 26 ViewHelpers documented
 * 2 Sub namespaces
 
 .. toctree::
@@ -16,6 +16,7 @@ typo3fluid/fluid
    Alias
    Case
    Comment
+   Constant
    Count
    Cycle
    Debug
