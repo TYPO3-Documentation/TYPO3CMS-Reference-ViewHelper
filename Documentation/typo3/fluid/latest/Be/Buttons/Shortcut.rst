@@ -12,12 +12,10 @@
 Be.buttons.shortcut ViewHelper `<f:be.buttons.shortcut>`
 ========================================================
 
-
+.. deprecated:: TYPO3 v11.5
+   Will be removed in TYPO3 v12. It was only introduced as "experimental".
 
 ViewHelper which returns shortcut button with icon.
-
-.. note::
-   This ViewHelper is experimental!
 
 Examples
 ========
@@ -36,7 +34,7 @@ Explicitly set parameters to be stored in the shortcut::
 Shortcut button as known from the TYPO3 backend.
 This time only the specified GET parameters and SET[]-settings will be stored.
 
-.. note:
+.. note::
 
    Normally you won't need to set getVars & setVars parameters in Extbase modules.
 

@@ -12,9 +12,30 @@
 Be.container ViewHelper `<f:be.container>`
 ==========================================
 
+.. deprecated:: 11.5
 
+   This backend module related ViewHelper mostly provides the same functionality
+   as :ref:`typo3-fluid-be-pagerenderer`,
+   with the additional opportunity to render an empty doc header.
 
 ViewHelper which allows you to create extbase based modules in the style of TYPO3 default modules.
+
+.. _typo3-fluid-be-containermigration:
+
+Migration
+=========
+
+When this ViewHelper is used to register additional backend module
+resources like CSS or JavaScript, :ref:`typo3-fluid-be-pagerenderer` can be
+used as drop-in replacement.
+
+If the ViewHelper is used to additionally render an empty ModuleTemplate,
+this part should be moved to a controller instead. Simple example:
+
+.. code-block:: php
+
+    $moduleTemplate->setContent($view->render());
+    return new HtmlResponse($moduleTemplate->renderContent());
 
 Examples
 ========
