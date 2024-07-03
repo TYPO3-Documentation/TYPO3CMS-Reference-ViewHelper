@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-core-iconforrecord:
+..  _typo3-core-iconforrecord:
 
 ===============================================
 IconForRecord ViewHelper `<core:iconForRecord>`

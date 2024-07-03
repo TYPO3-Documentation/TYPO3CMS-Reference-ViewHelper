@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-format-date:
+..  _typo3-fluid-format-date:
 
 ========================================
 Format.date ViewHelper `<f:format.date>`

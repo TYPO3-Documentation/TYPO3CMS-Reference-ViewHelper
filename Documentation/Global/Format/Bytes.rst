@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-format-bytes:
+..  _typo3-fluid-format-bytes:
 
 ==========================================
 Format.bytes ViewHelper `<f:format.bytes>`

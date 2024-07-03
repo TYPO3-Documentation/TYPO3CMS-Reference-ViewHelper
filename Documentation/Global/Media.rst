@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-media:
+..  _typo3-fluid-media:
 
 ============================
 Media ViewHelper `<f:media>`

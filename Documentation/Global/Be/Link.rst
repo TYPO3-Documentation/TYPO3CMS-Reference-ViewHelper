@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-be-link:
+..  _typo3-fluid-be-link:
 
 ================================
 Be.link ViewHelper `<f:be.link>`

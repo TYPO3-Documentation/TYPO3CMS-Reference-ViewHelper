@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-sanitize-html:
+..  _typo3-fluid-sanitize-html:
 
 ============================================
 Sanitize.html ViewHelper `<f:sanitize.html>`

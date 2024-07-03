@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-feature:
+..  _typo3-fluid-feature:
 
 ================================
 Feature ViewHelper `<f:feature>`

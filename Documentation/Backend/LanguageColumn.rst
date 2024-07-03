@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-backend-languagecolumn:
+..  _typo3-backend-languagecolumn:
 
 ===============================================
 LanguageColumn ViewHelper `<be:languageColumn>`

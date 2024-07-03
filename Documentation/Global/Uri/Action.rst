@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-uri-action:
+..  _typo3-fluid-uri-action:
 
 ======================================
 Uri.action ViewHelper `<f:uri.action>`

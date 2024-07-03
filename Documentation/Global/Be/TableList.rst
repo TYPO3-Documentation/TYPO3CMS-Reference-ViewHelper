@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-be-tablelist:
+..  _typo3-fluid-be-tablelist:
 
 ==========================================
 Be.tableList ViewHelper `<f:be.tableList>`

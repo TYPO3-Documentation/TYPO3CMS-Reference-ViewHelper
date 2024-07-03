@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-asset-script:
+..  _typo3-fluid-asset-script:
 
 ==========================================
 Asset.script ViewHelper `<f:asset.script>`

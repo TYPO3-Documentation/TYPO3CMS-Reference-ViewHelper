@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-form-submit:
+..  _typo3-fluid-form-submit:
 
 ========================================
 Form.submit ViewHelper `<f:form.submit>`

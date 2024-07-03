@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-link-page:
+..  _typo3-fluid-link-page:
 
 ====================================
 Link.page ViewHelper `<f:link.page>`

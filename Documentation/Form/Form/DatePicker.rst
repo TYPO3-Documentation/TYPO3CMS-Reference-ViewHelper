@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-form-form-datepicker:
+..  _typo3-form-form-datepicker:
 
 =====================================================
 Form.datePicker ViewHelper `<formvh:form.datePicker>`

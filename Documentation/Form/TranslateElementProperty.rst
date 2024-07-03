@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-form-translateelementproperty:
+..  _typo3-form-translateelementproperty:
 
 =======================================================================
 TranslateElementProperty ViewHelper `<formvh:translateElementProperty>`

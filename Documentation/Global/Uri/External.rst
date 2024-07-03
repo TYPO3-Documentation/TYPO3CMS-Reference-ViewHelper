@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-uri-external:
+..  _typo3-fluid-uri-external:
 
 ==========================================
 Uri.external ViewHelper `<f:uri.external>`

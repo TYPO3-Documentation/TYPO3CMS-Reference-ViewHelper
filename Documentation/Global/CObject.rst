@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-cobject:
+..  _typo3-fluid-cobject:
 
 ================================
 CObject ViewHelper `<f:cObject>`

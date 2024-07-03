@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-be-menus-actionmenuitemgroup:
+..  _typo3-fluid-be-menus-actionmenuitemgroup:
 
 ==========================================================================
 Be.menus.actionMenuItemGroup ViewHelper `<f:be.menus.actionMenuItemGroup>`

@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-render:
+..  _typo3-fluid-render:
 
 ==============================
 Render ViewHelper `<f:render>`

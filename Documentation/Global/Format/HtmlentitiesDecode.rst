@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-format-htmlentitiesdecode:
+..  _typo3-fluid-format-htmlentitiesdecode:
 
 ====================================================================
 Format.htmlentitiesDecode ViewHelper `<f:format.htmlentitiesDecode>`

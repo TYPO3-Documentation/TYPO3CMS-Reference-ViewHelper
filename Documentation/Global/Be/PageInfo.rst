@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-be-pageinfo:
+..  _typo3-fluid-be-pageinfo:
 
 ========================================
 Be.pageInfo ViewHelper `<f:be.pageInfo>`

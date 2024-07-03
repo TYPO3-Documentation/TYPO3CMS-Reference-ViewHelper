@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-be-security-ifauthenticated:
+..  _typo3-fluid-be-security-ifauthenticated:
 
 ========================================================================
 Be.security.ifAuthenticated ViewHelper `<f:be.security.ifAuthenticated>`

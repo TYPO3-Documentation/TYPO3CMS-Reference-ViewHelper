@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-backend-avatar:
+..  _typo3-backend-avatar:
 
 ===============================
 Avatar ViewHelper `<be:avatar>`

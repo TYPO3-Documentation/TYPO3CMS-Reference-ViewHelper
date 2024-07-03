@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-form-translateelementerror:
+..  _typo3-form-translateelementerror:
 
 =================================================================
 TranslateElementError ViewHelper `<formvh:translateElementError>`

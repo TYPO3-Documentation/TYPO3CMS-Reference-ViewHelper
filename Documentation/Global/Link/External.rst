@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-link-external:
+..  _typo3-fluid-link-external:
 
 ============================================
 Link.external ViewHelper `<f:link.external>`

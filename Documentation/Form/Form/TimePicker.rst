@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-form-form-timepicker:
+..  _typo3-form-form-timepicker:
 
 =====================================================
 Form.timePicker ViewHelper `<formvh:form.timePicker>`

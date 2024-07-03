@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-backend-modulelink:
+..  _typo3-backend-modulelink:
 
 =======================================
 ModuleLink ViewHelper `<be:moduleLink>`

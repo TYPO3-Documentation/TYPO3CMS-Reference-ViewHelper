@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-form-renderformvalue:
+..  _typo3-form-renderformvalue:
 
 =====================================================
 RenderFormValue ViewHelper `<formvh:renderFormValue>`
