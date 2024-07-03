@@ -1,4 +1,4 @@
-.. include:: /Includes.rst.txt
+..  include:: /Includes.rst.txt
 ..  _start:
 
 ==========================
@@ -6,21 +6,21 @@ Fluid ViewHelper Reference
 ==========================
 
 :Version:
-   |release|
+    |release|
 
 :Language:
-   en
+    en
 
 :Author:
-   TYPO3 contributors
+    TYPO3 contributors
 
 :License:
-   This document is published under the
-   `Creative Commons BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`__
-   license.
+    This document is published under the
+    `Creative Commons BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`__
+    license.
 
 :Rendered:
-   |today|
+    |today|
 
 ----
 
@@ -33,26 +33,23 @@ TYPO3 and can be used in any PHP project. See the :doc:`Fluid standalone
 documentation <other_typo3fluid:Index>`.
 
 *Note:* This documentation was `generated <https://github.com/TYPO3-Documentation/fluid-documentation-generator>`__
-from the PHP source code of TYPO3 CMS and the package names do not correspond
-1:1 to the Composer package names, as the ``cms-`` prefix has been removed.
+from the PHP source code of TYPO3.
 
 ----
 
 **Table of Contents:**
 
-.. toctree::
-   :maxdepth: 5
-   :titlesonly:
+..  toctree::
+    :maxdepth: 5
+    :titlesonly:
 
-   typo3/backend/latest/Index
-   typo3/core/latest/Index
-   typo3/fluid/latest/Index
-   typo3fluid/fluid/latest/Index
+    Global/Index
+    Backend/Index
+    Core/Index
+    Form/Index
 
-.. Meta Menu
+..  toctree::
+    :hidden:
 
-.. toctree::
-   :hidden:
-
-   Contribution/Index
-   Sitemap
+    Contribution/Index
+    Sitemap
