@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-backend-thumbnail:
+..  _typo3-backend-thumbnail:
 
 =====================================
 Thumbnail ViewHelper `<be:thumbnail>`

@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-form-button:
+..  _typo3-fluid-form-button:
 
 ========================================
 Form.button ViewHelper `<f:form.button>`

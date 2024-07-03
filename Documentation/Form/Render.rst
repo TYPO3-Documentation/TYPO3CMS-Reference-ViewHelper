@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-form-render:
+..  _typo3-form-render:
 
 ===================================
 Render ViewHelper `<formvh:render>`

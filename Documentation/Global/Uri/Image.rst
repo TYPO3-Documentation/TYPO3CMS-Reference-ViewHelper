@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-uri-image:
+..  _typo3-fluid-uri-image:
 
 ====================================
 Uri.image ViewHelper `<f:uri.image>`

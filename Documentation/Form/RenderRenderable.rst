@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-form-renderrenderable:
+..  _typo3-form-renderrenderable:
 
 =======================================================
 RenderRenderable ViewHelper `<formvh:renderRenderable>`

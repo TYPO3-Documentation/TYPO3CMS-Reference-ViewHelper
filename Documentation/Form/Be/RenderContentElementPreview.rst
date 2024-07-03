@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-form-be-rendercontentelementpreview:
+..  _typo3-form-be-rendercontentelementpreview:
 
 ===================================================================================
 Be.renderContentElementPreview ViewHelper `<formvh:be.renderContentElementPreview>`

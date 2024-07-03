@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-be-pagerenderer:
+..  _typo3-fluid-be-pagerenderer:
 
 ================================================
 Be.pageRenderer ViewHelper `<f:be.pageRenderer>`

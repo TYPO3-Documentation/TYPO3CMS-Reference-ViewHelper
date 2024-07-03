@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-format-padding:
+..  _typo3-fluid-format-padding:
 
 ==============================================
 Format.padding ViewHelper `<f:format.padding>`

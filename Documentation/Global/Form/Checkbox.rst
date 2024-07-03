@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-form-checkbox:
+..  _typo3-fluid-form-checkbox:
 
 ============================================
 Form.checkbox ViewHelper `<f:form.checkbox>`

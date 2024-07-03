@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-uri-page:
+..  _typo3-fluid-uri-page:
 
 ==================================
 Uri.page ViewHelper `<f:uri.page>`

@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-format-currency:
+..  _typo3-fluid-format-currency:
 
 ================================================
 Format.currency ViewHelper `<f:format.currency>`

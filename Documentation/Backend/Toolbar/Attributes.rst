@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-backend-toolbar-attributes:
+..  _typo3-backend-toolbar-attributes:
 
 =======================================================
 Toolbar.attributes ViewHelper `<be:toolbar.attributes>`

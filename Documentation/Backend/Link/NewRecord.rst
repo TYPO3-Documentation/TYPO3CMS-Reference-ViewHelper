@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-backend-link-newrecord:
+..  _typo3-backend-link-newrecord:
 
 ===============================================
 Link.newRecord ViewHelper `<be:link.newRecord>`

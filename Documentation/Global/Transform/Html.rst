@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-transform-html:
+..  _typo3-fluid-transform-html:
 
 ==============================================
 Transform.html ViewHelper `<f:transform.html>`

@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-format-html:
+..  _typo3-fluid-format-html:
 
 ========================================
 Format.html ViewHelper `<f:format.html>`

@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-link-typolink:
+..  _typo3-fluid-link-typolink:
 
 ============================================
 Link.typolink ViewHelper `<f:link.typolink>`

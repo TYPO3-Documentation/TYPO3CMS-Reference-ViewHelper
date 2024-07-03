@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-security-nonce:
+..  _typo3-fluid-security-nonce:
 
 ==============================================
 Security.nonce ViewHelper `<f:security.nonce>`

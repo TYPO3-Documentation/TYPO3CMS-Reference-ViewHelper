@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-flashmessages:
+..  _typo3-fluid-flashmessages:
 
 ============================================
 FlashMessages ViewHelper `<f:flashMessages>`

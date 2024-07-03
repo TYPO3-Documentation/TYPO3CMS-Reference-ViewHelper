@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-core-iconforresource:
+..  _typo3-core-iconforresource:
 
 ===================================================
 IconForResource ViewHelper `<core:iconForResource>`

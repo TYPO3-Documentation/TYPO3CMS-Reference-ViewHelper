@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-backend-typoscript-finediff:
+..  _typo3-backend-typoscript-finediff:
 
 =========================================================
 TypoScript.fineDiff ViewHelper `<be:typoScript.fineDiff>`

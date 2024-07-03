@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-core-normalizedurl:
+..  _typo3-core-normalizedurl:
 
 ===============================================
 NormalizedUrl ViewHelper `<core:normalizedUrl>`

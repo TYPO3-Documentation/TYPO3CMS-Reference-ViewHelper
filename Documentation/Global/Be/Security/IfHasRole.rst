@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-be-security-ifhasrole:
+..  _typo3-fluid-be-security-ifhasrole:
 
 ============================================================
 Be.security.ifHasRole ViewHelper `<f:be.security.ifHasRole>`

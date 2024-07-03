@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-debug:
+..  _typo3-fluid-debug:
 
 ============================
 Debug ViewHelper `<f:debug>`

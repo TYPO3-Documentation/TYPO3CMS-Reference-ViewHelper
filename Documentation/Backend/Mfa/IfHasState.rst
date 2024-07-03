@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-backend-mfa-ifhasstate:
+..  _typo3-backend-mfa-ifhasstate:
 
 ===============================================
 Mfa.ifHasState ViewHelper `<be:mfa.ifHasState>`

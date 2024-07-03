@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-form-gridcolumnclassautoconfiguration:
+..  _typo3-form-gridcolumnclassautoconfiguration:
 
 =======================================================================================
 GridColumnClassAutoConfiguration ViewHelper `<formvh:gridColumnClassAutoConfiguration>`

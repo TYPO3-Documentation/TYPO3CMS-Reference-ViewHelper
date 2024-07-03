@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-form-upload:
+..  _typo3-fluid-form-upload:
 
 ========================================
 Form.upload ViewHelper `<f:form.upload>`

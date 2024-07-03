@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-backend-link-editrecord:
+..  _typo3-backend-link-editrecord:
 
 =================================================
 Link.editRecord ViewHelper `<be:link.editRecord>`

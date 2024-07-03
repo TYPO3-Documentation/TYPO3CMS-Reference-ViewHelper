@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-be-infobox:
+..  _typo3-fluid-be-infobox:
 
 ======================================
 Be.infobox ViewHelper `<f:be.infobox>`

@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-form-validationresults:
+..  _typo3-fluid-form-validationresults:
 
 ==============================================================
 Form.validationResults ViewHelper `<f:form.validationResults>`

@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-backend-toolbar-ifhasdropdown:
+..  _typo3-backend-toolbar-ifhasdropdown:
 
 =============================================================
 Toolbar.ifHasDropdown ViewHelper `<be:toolbar.ifHasDropdown>`

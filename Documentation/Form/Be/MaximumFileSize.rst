@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-form-be-maximumfilesize:
+..  _typo3-form-be-maximumfilesize:
 
 ===========================================================
 Be.maximumFileSize ViewHelper `<formvh:be.maximumFileSize>`

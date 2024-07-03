@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-form-radio:
+..  _typo3-fluid-form-radio:
 
 ======================================
 Form.radio ViewHelper `<f:form.radio>`

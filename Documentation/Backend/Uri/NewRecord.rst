@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-backend-uri-newrecord:
+..  _typo3-backend-uri-newrecord:
 
 =============================================
 Uri.newRecord ViewHelper `<be:uri.newRecord>`

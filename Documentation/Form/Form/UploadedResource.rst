@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-form-form-uploadedresource:
+..  _typo3-form-form-uploadedresource:
 
 =================================================================
 Form.uploadedResource ViewHelper `<formvh:form.uploadedResource>`

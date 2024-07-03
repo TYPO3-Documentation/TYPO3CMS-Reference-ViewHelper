@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-format-crop:
+..  _typo3-fluid-format-crop:
 
 ========================================
 Format.crop ViewHelper `<f:format.crop>`

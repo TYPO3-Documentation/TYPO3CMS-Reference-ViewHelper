@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-translate:
+..  _typo3-fluid-translate:
 
 ====================================
 Translate ViewHelper `<f:translate>`

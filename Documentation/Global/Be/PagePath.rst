@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-be-pagepath:
+..  _typo3-fluid-be-pagepath:
 
 ========================================
 Be.pagePath ViewHelper `<f:be.pagePath>`

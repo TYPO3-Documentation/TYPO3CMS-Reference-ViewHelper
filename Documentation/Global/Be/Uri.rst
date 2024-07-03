@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-be-uri:
+..  _typo3-fluid-be-uri:
 
 ==============================
 Be.uri ViewHelper `<f:be.uri>`

@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-uri-typolink:
+..  _typo3-fluid-uri-typolink:
 
 ==========================================
 Uri.typolink ViewHelper `<f:uri.typolink>`

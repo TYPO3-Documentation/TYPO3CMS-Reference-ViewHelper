@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-link-email:
+..  _typo3-fluid-link-email:
 
 ======================================
 Link.email ViewHelper `<f:link.email>`

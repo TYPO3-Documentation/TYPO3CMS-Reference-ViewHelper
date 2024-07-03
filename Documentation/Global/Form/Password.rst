@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-form-password:
+..  _typo3-fluid-form-password:
 
 ============================================
 Form.password ViewHelper `<f:form.password>`

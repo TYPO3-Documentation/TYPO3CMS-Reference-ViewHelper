@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-backend-uri-editrecord:
+..  _typo3-backend-uri-editrecord:
 
 ===============================================
 Uri.editRecord ViewHelper `<be:uri.editRecord>`

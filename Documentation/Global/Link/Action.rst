@@ -6,7 +6,7 @@
 
 ..  include:: /Includes.rst.txt
 
-..  _typo3-cms-fluid-link-action:
+..  _typo3-fluid-link-action:
 
 ========================================
 Link.action ViewHelper `<f:link.action>`
