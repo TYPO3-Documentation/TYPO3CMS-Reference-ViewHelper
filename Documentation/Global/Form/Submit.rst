@@ -1,11 +1,6 @@
-..  This reStructured text file has been automatically generated, do not change.
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/fluid/Classes/ViewHelpers/Form/SubmitViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Form/SubmitViewHelper.php
 :navigation-title: form.submit
 
 ..  include:: /Includes.rst.txt
-
 ..  _typo3-fluid-form-submit:
 
 ========================================
@@ -14,3 +9,31 @@ Form.submit ViewHelper `<f:form.submit>`
 
 ..  typo3:viewhelper:: form.submit
     :source: ../../Global.json
+    :display: tags,description,gitHubLink,arguments
+
+..  _typo3-fluid-form-submit-example:
+
+Examples
+========
+
+Defaults
+--------
+
+::
+
+   <f:form.submit value="Send Mail" />
+
+Output::
+
+   <input type="submit" />
+
+Dummy content for template preview
+----------------------------------
+
+::
+
+   <f:form.submit name="mySubmit" value="Send Mail"><button>dummy button</button></f:form.submit>
+
+Output::
+
+   <input type="submit" name="mySubmit" value="Send Mail" />

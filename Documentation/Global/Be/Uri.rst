@@ -1,11 +1,6 @@
-..  This reStructured text file has been automatically generated, do not change.
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/fluid/Classes/ViewHelpers/Be/UriViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Be/UriViewHelper.php
 :navigation-title: be.uri
 
 ..  include:: /Includes.rst.txt
-
 ..  _typo3-fluid-be-uri:
 
 ==============================
@@ -14,3 +9,21 @@ Be.uri ViewHelper `<f:be.uri>`
 
 ..  typo3:viewhelper:: be.uri
     :source: ../../Global.json
+    :display: tags,description,gitHubLink,arguments
+
+..  _typo3-fluid-be-uri-example:
+
+Examples
+========
+
+URI to the web_ts module on page 92::
+
+   <f:be.uri route="web_ts" parameters="{id: 92}"/>
+
+``/typo3/module/web/ts?token=b6e9c9f&id=92``
+
+Inline notation::
+
+   {f:be.uri(route: 'web_ts', parameters: '{id: 92}')}
+
+``/typo3/module/web/ts?token=b6e9c9f&id=92``
