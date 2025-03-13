@@ -12,7 +12,7 @@ class MyController extends ActionController
     public function demonstrateFlashMessagesAction(): ResponseInterface
     {
         $this->addFlashMessage('This is a success message.');
-        $this->addFlashMessage('This is a warning. ', 'Warning Headline', ContextualFeedbackSeverity::WARNING);
+        $this->addFlashMessage('This is a warning.', 'Warning Headline', ContextualFeedbackSeverity::WARNING);
         return $this->htmlResponse();
     }
 }
