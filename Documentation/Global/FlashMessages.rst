@@ -24,8 +24,8 @@ This ViewHelper renders the `Flash messages <https://docs.typo3.org/permalink/t3
 
 ..  _typo3-fluid-flashmessages-example-simple:
 
-Simple flash message output (Extbase only)
-==========================================
+Quick start: Simple flash message output
+========================================
 
 You can use the following tag within any Extbase template:
 
@@ -38,8 +38,8 @@ It displays the flash messages with a standard bootstrap compatible layout.
 
 ..  _typo3-fluid-flashmessages-extbase:
 
-Using and displaying flash messages in Extbase
-==============================================
+Adding and displaying flash messages in Extbase
+===============================================
 
 Within an Extbase `controller <https://docs.typo3.org/permalink/t3coreapi:extbase-action-controller>`_
 (extending :php-short:`\TYPO3\CMS\Extbase\Mvc\Controller\ActionController`) you
@@ -48,7 +48,7 @@ can call method `addFlashMessage()` to add flash messages to the message queue:
 ..  literalinclude:: _FlashMessages/_MyController.php
     :caption: packages/my_extension/Classes/Controller/MyController.php
 
-They will be displayed when a `<f:flashMessages>` is displayed within any action
+As mentioned above, they will be displayed when a `<f:flashMessages>` is displayed within any action
 of the same controller:
 
 ..  literalinclude:: _FlashMessages/_DemonstrateFlashMessages.html
@@ -62,8 +62,8 @@ you can use the identifier `extbase.flashmessages.<pluginNamespace>`, for exampl
 
 ..  _typo3-fluid-flashmessages-queueIdentifier:
 
-Using a specific queue
-======================
+Using a specific flash message queue in plain classes
+=====================================================
 
 When you use the FlashMessages ViewHelper outside of the Extbase context,
 supplying the :ref:`queueIdentifier <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-flashmessagesviewhelper-queueidentifier>`
@@ -83,11 +83,6 @@ You can then display messages of only this one queue using the identifier:
 ..  code-block:: html
 
     <f:flashMessages queueIdentifier="myQueue" />
-
-..  tip::
-    In Extbase controllers the `queueIdentifier` is
-    `extbase.flashmessages.<pluginNamespace>` by default, see also
-    `Using and displaying flash messages in Extbase <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-flashmessages-extbase>`_.
 
 ..  _typo3-fluid-flashmessages-example:
 ..  _typo3-fluid-flashmessages-example-custom:
