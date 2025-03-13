@@ -74,7 +74,7 @@ identifier:
 
 ..  code-block:: php
 
-    // private \TYPO3\CMS\Core\Messaging\FlashMessageService flashMessageService;
+    // private \TYPO3\CMS\Core\Messaging\FlashMessageService $flashMessageService;
 
     $messageQueue = $this->flashMessageService->getMessageQueueByIdentifier('myQueue');
 
