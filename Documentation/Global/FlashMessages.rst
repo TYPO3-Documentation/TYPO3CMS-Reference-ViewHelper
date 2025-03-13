@@ -7,77 +7,110 @@
 FlashMessages ViewHelper `<f:flashMessages>`
 ============================================
 
+This ViewHelper renders the `Flash messages <https://docs.typo3.org/permalink/t3coreapi:flash-messages-api>`_
+(if there are any) as an unsorted list.
+
+..  figure:: /Images/FlashMessageExamples.png
+    :alt: Screenshot of two flash message one with success and one with warning severity
+
+    Example for the output of flash messages in an Extbase plugin
+
 ..  typo3:viewhelper:: flashMessages
-    :display: tags,description,gitHubLink,arguments
+    :display: tags,gitHubLink
     :source: ../Global.json
+    :noindex:
+
+..  contents:: Table of contents
+
+..  _typo3-fluid-flashmessages-example-simple:
+
+Quick start: Simple flash message output
+========================================
+
+You can use the following tag within any Extbase template:
+
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Something/DoSomething.html
+
+    <f:flashMessages />
+
+It displays the flash messages with a standard bootstrap compatible layout.
+
+..  _typo3-fluid-flashmessages-extbase:
+
+Adding and displaying flash messages in Extbase
+===============================================
+
+Within an Extbase `controller <https://docs.typo3.org/permalink/t3coreapi:extbase-action-controller>`_
+(extending :php-short:`\TYPO3\CMS\Extbase\Mvc\Controller\ActionController`) you
+can call method `addFlashMessage()` to add flash messages to the message queue:
+
+..  literalinclude:: _FlashMessages/_MyController.php
+    :caption: packages/my_extension/Classes/Controller/MyController.php
+
+As mentioned above, they will be displayed when a `<f:flashMessages>` is displayed within any action
+of the same controller:
+
+..  literalinclude:: _FlashMessages/_DemonstrateFlashMessages.html
+    :caption: packages/my_extension/Resources/Private/Templates/My/DemonstrateFlashMessages.html
+
+If you want to display the flash messages in any place outside of the controller
+you can use the identifier `extbase.flashmessages.<pluginNamespace>`, for example:
+
+..  literalinclude:: _FlashMessages/_SomeForm.html
+    :caption: packages/my_extension/Resources/Private/Templates/Other/SomeForm.html
+
+..  _typo3-fluid-flashmessages-queueIdentifier:
+
+Using a specific flash message queue in plain classes
+=====================================================
+
+When you use the FlashMessages ViewHelper outside of the Extbase context,
+supplying the :ref:`queueIdentifier <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-flashmessagesviewhelper-queueidentifier>`
+is mandatory.
+
+When you add a message manually to the queue, you can specify an arbitrary
+identifier:
+
+..  code-block:: php
+
+    // private \TYPO3\CMS\Core\Messaging\FlashMessageService $flashMessageService;
+
+    $messageQueue = $this->flashMessageService->getMessageQueueByIdentifier('myQueue');
+
+You can then display messages of only this one queue using the identifier:
+
+..  code-block:: html
+
+    <f:flashMessages queueIdentifier="myQueue" />
 
 ..  _typo3-fluid-flashmessages-example:
+..  _typo3-fluid-flashmessages-example-custom:
 
-Examples
-========
+Output flash messages with a custom layout
+==========================================
 
-Simple
-------
+Using the argument :ref:`as <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-flashmessagesviewhelper-as>`
+you can receive all flash messages in a variable and then handle the rendering
+yourself within the `<f:flashMessages>` tag:
 
-::
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Something/DoSomething.html
 
-   <f:flashMessages />
-
-A list of flash messages.
-
-TYPO3 core style
-----------------
-
-::
-
-   <f:flashMessages />
-
-Output::
-
-   <div class="typo3-messages">
-      <div class="alert alert-info">
-         <div class="alert-inner">
-            <div class="alert-icon">
-               <span class="icon-emphasized">
-                  <span class="t3js-icon icon icon-size-small icon-state-default icon-actions-info" data-identifier="actions-info">
-                     <span class="icon-markup">
-                        <svg class="icon-color"><use xlink:href="/typo3/sysext/core/Resources/Public/Icons/T3Icons/sprites/actions.svg#actions-info"></use></svg>
-                     </span>
-                  </span>
-               </span>
-            </div>
-            <div class="alert-content">
-               <div class="alert-title">Info - Title for Info message</div>
-               <p class="alert-message">Message text here.</p>
-            </div>
-         </div>
-      </div>
-   </div>
-
-Output flash messages as a description list
--------------------------------------------
-
-::
-
-   <f:flashMessages as="flashMessages">
+    <f:flashMessages as="flashMessages">
       <dl class="messages">
-         <f:for each="{flashMessages}" as="flashMessage">
-            <dt>{flashMessage.code}</dt>
-            <dd>{flashMessage.message}</dd>
-         </f:for>
+        <f:for each="{flashMessages}" as="flashMessage">
+          <dt>{flashMessage.code}</dt>
+          <dd>{flashMessage.message}</dd>
+        </f:for>
       </dl>
-   </f:flashMessages>
+    </f:flashMessages>
 
-Output::
+..  _typo3-fluid-flashmessages-arguments:
 
-   <dl class="messages">
-      <dt>1013</dt>
-      <dd>Some Warning Message.</dd>
-  </dl>
+Argument of the FlashMessages ViewHelper
+========================================
 
-Using a specific queue
-----------------------
-
-::
-
-   <f:flashMessages queueIdentifier="myQueue" />
+..  typo3:viewhelper:: flashMessages
+    :display: arguments-only
+    :source: ../Global.json
