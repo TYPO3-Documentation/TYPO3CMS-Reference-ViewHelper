@@ -84,7 +84,6 @@ Warning box with disabled icon:
         title="Message title"
         message="your box content"
         state="{f:constant(name: 'TYPO3\CMS\Fluid\ViewHelpers\Be\InfoboxViewHelper::STATE_WARNING')}"
-        iconName="check"
         disableIcon="true"
     />
 
