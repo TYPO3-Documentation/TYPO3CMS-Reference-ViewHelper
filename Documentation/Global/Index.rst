@@ -8,6 +8,7 @@ Global (f:*)
 ..  toctree::
     :titlesonly:
     :glob:
+    :globExclude: Form
 
     */Index
     *
