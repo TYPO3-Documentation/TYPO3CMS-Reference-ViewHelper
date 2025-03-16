@@ -1,4 +1,4 @@
-:navigation-title: be.tableList
+git :navigation-title: be.tableList
 
 ..  include:: /Includes.rst.txt
 ..  _typo3-fluid-be-tablelist:
@@ -7,40 +7,54 @@
 Be.tableList ViewHelper `<f:be.tableList>`
 ==========================================
 
+..  figure:: /Images/BeTablelistCategory.png
+    :alt: Screenshot of a table of categories.
+
 ..  typo3:viewhelper:: be.tableList
     :source: ../../Global.json
-    :display: tags,description,gitHubLink,arguments
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  contents:: Table of contents
 
 ..  _typo3-fluid-be-tablelist-example:
 
 Examples
 ========
 
-Minimal::
+Display and make editable the content elements of page 1 and its direct children:
 
-   <f:be.tableList tableName="fe_users" />
+..  tabs::
 
-List of all "Website user" records stored in the configured storage PID.
-Records will be editable, if the current backend user has got edit rights for the table ``fe_users``.
+    ..  group-tab:: Code example
 
-Only the title column (username) will be shown.
+        ..  literalinclude:: /Global/Be/_TableList/_Content.html
+            :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.html
 
-Context menu is active.
+    ..  group-tab:: Screenshot
 
-Full::
+        ..  figure:: /Images/BeTablelist.png
+            :alt: Screenshot of a table of content elements with edit options.
 
-   <f:be.tableList tableName="fe_users" fieldList="{0: 'name', 1: 'email'}"
-       storagePid="1"
-       levels="2"
-       filter="foo"
-       recordsPerPage="10"
-       sortField="name"
-       sortDescending="true"
-       readOnly="true"
-       enableClickMenu="false"
-       enableControlPanels="true"
-       clickTitleMode="info"
-       />
+List all categories on page 5 and make them editable when clicking the title:
 
-List of "Website user" records with a text property of ``foo`` stored on PID ``1`` and two levels down.
-Clicking on a username will open the TYPO3 info popup for the respective record
+..  tabs::
+
+    ..  group-tab:: Code example
+
+        ..  literalinclude:: /Global/Be/_TableList/_Category.html
+            :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.html
+
+    ..  group-tab:: Screenshot
+
+        ..  figure:: /Images/BeTablelistCategory.png
+            :alt: Screenshot of a table of categories.
+
+..  _typo3-fluid-be-tablelist-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: be.tableList
+    :source: ../../Global.json
+    :display: arguments-only
