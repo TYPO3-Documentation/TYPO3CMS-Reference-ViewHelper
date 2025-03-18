@@ -17,7 +17,8 @@ class CommentController extends ActionController
     ) {}
 
     #[IgnoreValidation(['argumentName' => 'newComment'])]
-    public function commentFormAction(?Comment $newComment = null): ResponseInterface {
+    public function commentFormAction(?Comment $newComment = null): ResponseInterface
+    {
         if ($newComment === null) {
             $newComment = new Comment();
             $newComment->setDate(new \DateTime());
