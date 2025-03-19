@@ -1,0 +1,7 @@
+..  attention::
+    ..  versionchanged:: 12.0
+        The f:form ViewHelpers can only be used within the Extbase context.
+
+        In a non-Extbase context, for example within a
+        `FLUIDTEMPLATE <https://docs.typo3.org/permalink/t3tsref:cobj-template>`_
+        Use plain HTML `<form>` and `<input>` tags.
