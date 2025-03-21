@@ -14,3 +14,32 @@ test-docs: ## Test the documentation rendering
 	mkdir -p Documentation-GENERATED-temp
 
 	docker run --rm --pull always -v "$(shell pwd)":/project -t ghcr.io/typo3-documentation/render-guides:latest --config=Documentation --no-progress --minimal-test
+
+.PHONY: test-lint
+test-lint: ## Regenerate code snippets
+	Build/Scripts/runTests.sh -s lint
+
+.PHONY: test-cgl
+test-cgl: ## Regenerate code snippets
+	Build/Scripts/runTests.sh -s cgl
+
+.PHONY: test-yaml
+test-yaml: ## Regenerate code snippets
+	Build/Scripts/runTests.sh -s yamlLint
+
+.PHONY: composerUpdate
+composerUpdate: ## Update all dependencies (the composer.lock is not commited)
+	Build/Scripts/runTests.sh -s composerUpdate
+
+.PHONY: install
+install: composerUpdate## Update all dependencies (the composer.lock is not commited)
+
+.PHONY: test
+test: test-docs test-lint test-cgl test-yaml## Test the documentation rendering
+
+.PHONY: fix-cgl
+fix-cgl: ## Fix cgl
+	Build/Scripts/runTests.sh -s cgl
+
+.PHONY: Fix all
+fix: fix-cgl## Test the documentation rendering
