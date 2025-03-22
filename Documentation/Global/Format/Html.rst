@@ -89,4 +89,3 @@ Inline notation
 Output::
 
    TYPO3 is a cool <strong>CMS</strong> (<a href="https://www.typo3.org" target="_blank">TYPO3</a>).
-
