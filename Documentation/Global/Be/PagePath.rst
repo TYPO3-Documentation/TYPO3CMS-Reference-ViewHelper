@@ -21,4 +21,3 @@ Default::
    <f:be.pagePath />
 
 Current page path, prefixed with "Path:" and wrapped in a span with the class ``typo3-docheader-pagePath``.
-
