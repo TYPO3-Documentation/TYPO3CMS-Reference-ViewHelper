@@ -1,0 +1,10 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+    <f:form action="submit" controller="MyController" objectName="comment" object="{comment}" method="post">
+        <label for="tx-blogexample-content">Message:</label>
+        <f:form.textarea property="content" id="tx-blogexample-content" rows="8" cols="46"/>
+        <f:form.submit name="submitButton" value="Submit"/>
+        <f:form.submit name="cancelButton" value="Cancel"/>
+        <f:form.submit name="spellingButton" value="Check spelling"/>
+    </f:form>
+</html>
