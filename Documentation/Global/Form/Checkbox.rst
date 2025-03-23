@@ -23,17 +23,17 @@ A single checkbox is usually mapped to a boolean property or controller
 argument.
 
 However due to how checkboxes work in HTML a non-checked checkbox does not
-appear in the request send by the form. Therefore properties and arguments
-need to default to `false` they will then be set to `true` if the checkbox
+appear in the request sent by the form submission. Therefore properties and arguments
+need to default to `false`. They will then be set to `true` if the checkbox
 was checked.
 
 While the :ref:`value <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-form-checkboxviewhelper-value>`
-does not play a role if you are working with a checkbox the argument must still
+does not play a role when you are working with a checkbox, the argument must still
 be supplied.
 
 ..  _typo3-fluid-form-checkbox-example:
 
-Single optional checkbox tied to a action argument
+Single optional checkbox tied to an action argument
 --------------------------------------------------
 
 Checkboxes in HTML work a little different from other input fields in that
