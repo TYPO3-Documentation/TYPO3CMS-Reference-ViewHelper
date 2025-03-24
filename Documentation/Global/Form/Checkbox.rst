@@ -71,7 +71,7 @@ The checkbox should already by checked / preselected
 
     <f:form.checkbox name="accept" value="yes" checked="true" />
 
-You can also use a variable to determine weather the field should be
+You can also use a variable to determine whether the field should be
 checked:
 
 ..  code-block:: html
@@ -80,16 +80,16 @@ checked:
 
 ..  note::
     When you work with `Property mapping <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-form-checkbox-property>`_
-    the checkbox is automatically preselected if the models property is true.
+    the checkbox is automatically preselected if the model's property evalutes to `true`.
 
 ..  _typo3-fluid-form-checkbox-property:
 
 Property mapping - domain model property bound to single checkbox
 -----------------------------------------------------------------
 
-If you are using a `the form with a model <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-form-example-property>`_
-you can use argument :ref:`property <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-form-checkboxviewhelper-property>`
-to map the checkbox to a property of you domain model or data object:
+If you are using `the form with a model <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-form-example-property>`_
+you can use the argument :ref:`property <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-form-checkboxviewhelper-property>`
+to map the checkbox to a property of your domain model or data object:
 
 ..  tabs::
 
@@ -100,7 +100,7 @@ to map the checkbox to a property of you domain model or data object:
 
     ..  group-tab:: Controller
 
-        Then the controller action can then look like this:
+        Then the controller action can look like this:
 
         ..  literalinclude:: _codesnippets/_CheckboxModelController.php
             :caption: packages/my_extension/Classes/Controller/NewsletterController.php
@@ -136,10 +136,10 @@ must be set.
 Multiple checkboxes mapped to an array in a controller action
 -------------------------------------------------------------
 
-Multiple checkboxes are usually mapped to array. It would however be possible
-to map them to, for example, an integer using binaries or such.
+Multiple checkboxes are usually mapped to an `array`. It would however be possible, for example,
+to map them to an integer using binaries or such.
 
-Therefore when working with multiple checkboxes and array you have to tell
+Therefore when working with multiple checkboxes and arrays, you have to tell
 Extbase how to map the data from the request to your controller action in an
 `initialize` action.
 
@@ -152,14 +152,14 @@ Extbase how to map the data from the request to your controller action in an
 
     ..  group-tab:: Controller
 
-        Then the controller action can then look like this:
+        Then the controller action can look like this:
 
         ..  literalinclude:: _codesnippets/_CheckboxMultipleController.php
             :caption: packages/my_extension/Classes/Controller/NewsletterController.php
 
 ..  note::
     See class :php:`\TYPO3\CMS\Extbase\Property\TypeConverter\ArrayConverter`
-    for details on mapping array.
+    for details on mapping arrays.
 
 ..  _typo3-fluid-form-checkbox-multiple-property:
 
@@ -167,7 +167,7 @@ Property mapping of multiple checkboxes
 ---------------------------------------
 
 When working with multiple checkboxes mapped to the property of an Extbase model
-or data object the same
+or data object, the same
 :ref:`property <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-form-checkboxviewhelper-property>`
 is used for all checkboxes to be mapped to that property.
 
@@ -185,14 +185,14 @@ When multiple checkboxes should be used independently they must have unique
 :ref:`name <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-form-checkboxviewhelper-name>`
 properties to map to multiple action arguments or unique
 :ref:`property <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-form-checkboxviewhelper-property>`
-values to bins to multiple properties.
+values to bind to multiple properties.
 
 ..  _typo3-fluid-form-checkbox-mandatory:
 
 Mandatory checkboxes - require a checkbox to be set
 ===================================================
 
-On the browser side you can use the `HTML 5  required Attribute <https://www.w3schools.com/tags/att_input_required.asp>`_.
+On the browser side you can use the `HTML 5 "required" Attribute <https://www.w3schools.com/tags/att_input_required.asp>`_.
 As the `<f:form.checkbox>` ViewHelper allows arbitrary arguments, using
 the `required` property is possible even though it is not listed.
 
@@ -217,8 +217,8 @@ the `required` property is possible even though it is not listed.
         ..  literalinclude:: _codesnippets/_CheckboxModelUserRequired.php
             :caption: packages/my_extension/Classes/Domain/Model/User.php
 
-If the server side validation on the model fails the request is forwarded to
-the calling request with an error message.
+If the server side validation on the model fails, the request is forwarded to
+the originating request with an error message.
 
 ..  _typo3-fluid-form-checkbox-arguments:
 
