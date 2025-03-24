@@ -51,7 +51,7 @@ Using the :ref:`property <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewh
 argument, a text field can be bound to the property of an
 `Extbase model <https://docs.typo3.org/permalink/t3coreapi:extbase-model>`_.
 
-For this the surrounding form must also define the
+For this, the surrounding form must also define the
 :ref:`object <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-formviewhelper-object>`
 property.
 
@@ -85,7 +85,7 @@ ARIA arguments for improved accessibility
 -----------------------------------------
 
 You have the choice of defining each `aria-* <https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA>`_
-attribute separately as you would do in HTML or passing them as an array to
+attribute separately as you would do in HTML, or by passing them as an array to
 the Fluid argument :ref:`aria <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-form-textfieldviewhelper-aria>`.
 
 ..  _typo3-fluid-form-textfield-example-validation-data:
