@@ -12,7 +12,7 @@ Form.submit ViewHelper `<f:form.submit>`
     :display: tags
     :noindex:
 
-Creates a submit button (`<input type="submit"`) within a
+Creates a submit button (`<input type="submit"...>`) within a
 `Form ViewHelper <f:form> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-form>`_.
 
 ..  note::
@@ -48,7 +48,7 @@ is called.
 
     ..  group-tab:: Controller
 
-        Then controller action can then look like this:
+        The controller action can then look like this:
 
         ..  literalinclude:: _codesnippets/_SubmitController.php
             :caption: packages/my_extension/Classes/Controller/CommentController.php
@@ -58,7 +58,7 @@ is called.
 A Fluid form with multiple submit buttons
 =========================================
 
-When you want to offer different actions it can be helpful to use multiple
+When you want to offer different actions, it can be helpful to use multiple
 submit buttons with different labels:
 
 ..  tabs::
@@ -70,14 +70,14 @@ submit buttons with different labels:
 
     ..  group-tab:: Controller
 
-        Then controller action can then look like this:
+        The controller action can then look like this:
 
         ..  literalinclude:: _codesnippets/_SubmitMultipleController.php
             :caption: packages/my_extension/Classes/Controller/CommentController.php
 
 ..  note::
-    All rendered buttons will be rendered as `<input type="submit"`.
-    If you need a button with a different type then "submit" use the
+    All rendered buttons will be rendered as `<input type="submit"...>`.
+    If you need a button with a different type than "submit", use the
     `Form.button ViewHelper <f:form.button> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-form-button>`_
     instead.
 
