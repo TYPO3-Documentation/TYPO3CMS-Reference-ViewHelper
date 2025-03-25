@@ -1,0 +1,9 @@
+<f:form action="orderNewsletter" method="post">
+    <f:for each="{newsletterList}" as="newsletter" iteration="i">
+        <div>
+            <f:form.checkbox name="orderNewsletters" id="newsletter{i.cycle}" value="{newsletter.uid}" />
+            <label for="newsletter{i.cycle}">{newsletter.title}</label>
+        </div>
+    </f:for>
+    <div><f:form.submit value="Submit" /></div>
+</f:form>
