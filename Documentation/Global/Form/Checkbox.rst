@@ -39,7 +39,7 @@ Single optional checkbox tied to an action argument
 Checkboxes in HTML work a little different from other input fields in that
 multiple or none at all can be checked.
 
-Fluid outputs a normal HTML `<input type="checkbox" <https://www.w3schools.com/tags/att_input_type_checkbox.asp>`_
+Fluid outputs a normal HTML `<input type="checkbox" ...><https://www.w3schools.com/tags/att_input_type_checkbox.asp>`_
 and some of the pitfalls also apply here. Especially a check box that is not
 sends no argument to the request.
 
