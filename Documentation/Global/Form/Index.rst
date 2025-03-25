@@ -44,7 +44,7 @@ data objects.
 For example, user could add a comment in such a form:
 
 ..  literalinclude:: _codesnippets/_CommentForm.html
-    :caption: packages/my_extension/Resources/Private/Templates/Comment/_CommentForm.html
+    :caption: packages/my_extension/Resources/Private/Templates/Comment/CommentForm.html
 
 The Extbase Controller action displaying the form then creates the Domain object
 and passes it to the view. In the Fluid template above we use argument
