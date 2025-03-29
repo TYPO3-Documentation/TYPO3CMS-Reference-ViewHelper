@@ -25,7 +25,7 @@ Form.password ViewHelper `<f:form.password>`
 A basic password field
 ======================
 
-The simplest usage sets a name and renders a password input:
+The basic usage sets a name and renders a password input:
 
 ..  tabs::
 
