@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace MyVendor\MyExtension\Domain\Model;
 
 use TYPO3\CMS\Extbase\Annotation\ORM\Transient;
-use TYPO3\CMS\Extbase\DomainObject\AbstractEntity;
 use TYPO3\CMS\Extbase\Annotation\Validate;
+use TYPO3\CMS\Extbase\DomainObject\AbstractEntity;
 
 class User extends AbstractEntity
 {

@@ -20,14 +20,14 @@ class UserController extends ActionController
 
     public function registerFormAction(?User $user = null): ResponseInterface
     {
-        $this->view->assign('newUser', $user??new User());
+        $this->view->assign('newUser', $user ?? new User());
         return $this->htmlResponse();
     }
 
     public function registerAction(User $user): ResponseInterface
     {
         $passwordValidator = new PasswordPolicyValidator(
-            PasswordPolicyAction::NEW_USER_PASSWORD
+            PasswordPolicyAction::NEW_USER_PASSWORD,
         );
         // validate password against password policy
         if (!$passwordValidator->isValidPassword($user->plainTextPassword)) {
