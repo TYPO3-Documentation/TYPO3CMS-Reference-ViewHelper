@@ -1,0 +1,23 @@
+<f:form action="create" controller="Comment"
+        objectName="comment" object="{newComment}" method="post">
+
+    <label for="name">Name:</label>
+    <f:form.textfield property="name" id="name"
+                      autocomplete="name" required="required"
+                      aria-required="true" />
+
+    <label for="email">E-Mail (*):</label>
+    <f:form.textfield property="email" id="email" type="email"
+                      autocomplete="email" required="required"
+                      aria="{required: 'true', describedby: 'email-hint'}" />
+
+    <label for="homepage">Website:</label>
+    <f:form.textfield property="homepage" id="homepage" type="url"
+                      autocomplete="url" />
+
+    <f:form.submit value="Send" />
+</f:form>
+
+<span id="email-hint">
+  (*) We will never share your email.
+</span>
