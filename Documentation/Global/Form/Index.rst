@@ -9,38 +9,92 @@ Form ViewHelper `<f:form>`
 
 ..  typo3:viewhelper:: form
     :source: /Global.json
-    :display: tags,description,gitHubLink,arguments
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  include:: /_Includes/_ExtbaseFormViewHelpers.rst.txt
+
+..  contents:: Table of contents
 
 ..  _typo3-fluid-form-example:
 
-Examples
-========
+Array parameter passed to Extbase controller action
+===================================================
 
-A complex form with a specified encoding type
----------------------------------------------
+For example a very simplified search form could look like this:
 
-Form with enctype set::
+..  literalinclude:: _codesnippets/_PlainParameterForm.html
+    :caption: packages/my_extension/Resources/Private/Templates/Search/SearchForm.html
 
-   <f:form action=".." controller="..." package="..." enctype="multipart/form-data">...</f:form>
+The `Extbase controller <https://docs.typo3.org/permalink/t3coreapi:extbase-controller>`_
+action could for example look like this:
 
-A Form which should render a domain object
-------------------------------------------
+..  literalinclude:: _codesnippets/_SearchController.php
+    :caption: packages/my_extension/Classes/Controller/SearchController.php
 
-Binding a domain object to a form::
+..  _typo3-fluid-form-example-property:
 
-   <f:form action="..." name="customer" object="{customer}">
-      <f:form.hidden property="id" />
-      <f:form.textarea property="name" />
-   </f:form>
+Property mapping - using the form with a model
+==============================================
 
-This automatically inserts the value of ``{customer.name}`` inside the
-textarea and adjusts the name of the textarea accordingly.
+In most cases you will use the f:form ViewHelper with
+`Extbase models <https://docs.typo3.org/permalink/t3coreapi:extbase-model>`_ or
+data objects.
+
+For example, user could add a comment in such a form:
+
+..  literalinclude:: _codesnippets/_CommentForm.html
+    :caption: packages/my_extension/Resources/Private/Templates/Comment/_CommentForm.html
+
+The Extbase Controller action displaying the form then creates the Domain object
+and passes it to the view. In the Fluid template above we use argument
+:ref:`object <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-formviewhelper-object>`
+to pass any data the object might already contain to the ViewHelper.
+
+By using the argument "property" on the form input elements the properties of
+the model are automatically bound to the input elements.
+
+The controller could look like this:
+
+..  literalinclude:: _codesnippets/_CommentController.php
+    :caption: packages/my_extension/Classes/Controller/CommentController.php
+
+If the model is not valid (see `Validation <https://docs.typo3.org/permalink/t3coreapi:extbase-validation>`_)
+Extbase will automatically refer the request back to the referring action
+(here commentFormAction()). By passing the object with the non-validated object
+to the view again, the user can see their faulty inputs and correct them instead
+of seeing an empty form.
+
+..  _typo3-fluid-form-security:
+
+Security in Fluid forms
+=======================
+
+Fluid automatically adds a hidden field to forms, including an `__hmac`
+value. This value lists all allowed fields. If fields are added or
+removed via attacks, Extbase detects the mismatch and blocks submission.
+
+Form fields can be grouped in an array for efficient processing. The
+receiving action maps the data to a model, where validation occurs if
+rules are defined. Only valid data is passed to the action and stored in
+the database.
+
+..  _typo3-fluid-form-arguments:
+
+Arguments of the form ViewHelper
+================================
+
+..  include:: /_Includes/_ArbitraryArguments.rst.txt
+
+..  typo3:viewhelper:: form
+    :source: /Global.json
+    :display: arguments-only
 
 
 ..  _typo3-fluid-form-viewhelpers:
 
-ViewHelpers to be used within the form ViewHelper
-=================================================
+ViewHelpers for form input elements
+===================================
 
 ..  toctree::
     :titlesonly:

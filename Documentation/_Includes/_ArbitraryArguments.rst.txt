@@ -1,0 +1,4 @@
+..  admonition:: Allows arbitrary arguments
+
+    This ViewHelper allows you to pass arbitrary arguments not defined below
+    directly to the HTML tag created. This includes custom `data-` arguments.
