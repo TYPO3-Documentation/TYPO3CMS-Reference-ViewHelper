@@ -72,7 +72,10 @@ password to the database.
 
         ..  literalinclude:: _codesnippets/_UserController.php
             :caption: Classes/Controller/UserController.php
-
+            
+        The example above shows validation inlined in an action of the controller for brevity.
+        For re-usability and better architecture following best practices, you can create a custom 
+        validator for this: `Custom Extbase validator implementation <https://docs.typo3.org/permalink/t3coreapi:extbase-domain-validator>`_.
 ..  seealso::
 
     *   `Password policies <https://docs.typo3.org/permalink/t3coreapi:password-policies>`_
