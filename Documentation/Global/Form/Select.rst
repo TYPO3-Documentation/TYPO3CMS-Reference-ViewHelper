@@ -37,7 +37,7 @@ human-readable name.
 
     ..  group-tab:: Controller
 
-        The argument for will have the key of the chosen entry as value.
+        The argument will have the key of the chosen entry as value.
 
         ..  literalinclude:: _codesnippets/_SelectGender.php
             :caption: packages/my_extension/Classes/Controller/UserController.php
@@ -64,7 +64,7 @@ array with the options to the view:
         ..  literalinclude:: _codesnippets/_SelectPayment.php
             :caption: packages/my_extension/Classes/Controller/UserController.php
 
-To pre select a value, use the argument
+To pre-select a value, use the argument
 :ref:`value <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-form-selectviewhelper-value>`.
 
 ..  _typo3-fluid-form-select-usage-models:
@@ -85,7 +85,7 @@ and in an Extbase model:
 
     ..  group-tab:: Controller
 
-        In the controller we can get all payment methods from the from the
+        In the controller we can get all payment methods from the
         `Repository <https://docs.typo3.org/permalink/t3coreapi:extbase-repository>`_
         now and pass it to the view as variable:
 
@@ -103,7 +103,7 @@ and in an Extbase model:
 When the form gets submitted, the UID of the chosen model appears in the request
 data. Extbase will then map that uid back to the model for you.
 
-The ViewHelper will then use the models UID as data submitted in the from and
+The ViewHelper will then use the model's UID as data submitted in the from and
 the result of method :php:`__toString()` as display text.
 
 ..  note::
@@ -130,16 +130,16 @@ display the content of a different field, use option
         options="{paymentOptions}" optionLabelField="someLabel"/>
 
 The :ref:`options <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-form-selectviewhelper-options>`
-may contain an array or anything else Traversable including
+may contain an array or anything else `Traversable` including
 
 ..  _typo3-fluid-form-select-usage-models-optionValueField:
 
 optionValueField: Define another property of the model as value
 ---------------------------------------------------------------
 
-If you are dealing with non-persisted models or Data-Transfer-Objects there is
-no valid identifier that could be used to automatically map the users selection
-in your controller. In this case you must provide the name of the field to
+If you are dealing with non-persisted models or Data-Transfer-Objects (DTO) there is
+no valid identifier that could be used to automatically map the user's selection
+in your controller. In this case, you must provide the name of the field to
 be used to identify the object:
 
 ..  code-block:: html
@@ -241,13 +241,13 @@ to produce :html:`<optgroup>` in the HTML output.
 
 ..  _typo3-fluid-form-select-option-placeholder:
 
-Please select option placeholder
+Using an "Please select an option" placeholder
 ================================
 
-In HTML the :html:`<select>` element always selects the first option if nothing
+In HTML, the :html:`<select>` element always selects the first option, if nothing
 else is selected. If the field is mandatory and the user should be forced to
 make a selection or if an empty value should be possible, you need an empty
-option as first option. You can use argument
+option as first option. You can use the argument
 :ref:`prependOptionLabel <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-form-selectviewhelper-prependoptionlabel>`
 to set a label for this object. The value of the option will be an empty string.
 If you need another value, for example 0 because you are expecting an integer,
