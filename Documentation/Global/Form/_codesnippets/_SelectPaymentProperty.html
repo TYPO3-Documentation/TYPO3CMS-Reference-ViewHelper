@@ -1,0 +1,6 @@
+<f:form action="selectPreferredPayment" object="{user}" objectName="user">
+    <f:form.select options="{user.availablePaymentOptions}"
+                   property="preferredPayment"
+    />
+    <f:form.submit value="Submit"/>
+</f:form>

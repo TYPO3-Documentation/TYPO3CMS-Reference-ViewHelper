@@ -1,13 +1,3 @@
-..  include:: /Includes.rst.txt
+:orphan:
 
-======
-Select
-======
-
-
-..  toctree::
-    :titlesonly:
-    :glob:
-
-    */Index
-    *
+See: :ref:`typo3-fluid-form-select`.
