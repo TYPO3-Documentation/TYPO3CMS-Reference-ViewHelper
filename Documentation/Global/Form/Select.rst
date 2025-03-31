@@ -103,7 +103,7 @@ and in an Extbase model:
 When the form gets submitted, the UID of the chosen model appears in the request
 data. Extbase will then map that uid back to the model for you.
 
-The ViewHelper will then use the model's UID as data submitted in the from and
+The ViewHelper will then use the model's UID as data submitted in the form and
 the result of method :php:`__toString()` as display text.
 
 ..  note::
