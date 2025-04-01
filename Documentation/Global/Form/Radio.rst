@@ -8,7 +8,7 @@ Form.radio ViewHelper `<f:form.radio>`
 ======================================
 
 ..  typo3:viewhelper:: form.radio
-    :source: ../../Global.json
+    :source: /Global.json
     :display: tags,description,gitHubLink
     :noindex:
 
@@ -148,5 +148,4 @@ Arguments of the form radio ViewHelper
 
 ..  typo3:viewhelper:: form.radio
     :source: /Global.json
-    :display: tags,description,gitHubLink
-    :noindex: arguments-only
+    :display: arguments-only
