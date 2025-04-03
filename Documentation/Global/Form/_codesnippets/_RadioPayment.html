@@ -1,0 +1,12 @@
+<f:form action="selectPayment">
+    <fieldset>
+        <legend>Chose your preferred payment option: </legend>
+        <f:for each="{paymentOptions}" as="option">
+            <f:form.radio name="payment" id="payment-{option.uid}"
+                             value="payment-{option.uid}"
+                             checked="{myPayment} == {option.uid}"/>
+            <label for="payment-{option.uid}">payment-{option.uid}</label><br>
+        </f:for>
+    </fieldset>
+    <f:form.submit value="Submit"/>
+</f:form>

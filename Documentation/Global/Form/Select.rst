@@ -242,7 +242,7 @@ to produce :html:`<optgroup>` in the HTML output.
 ..  _typo3-fluid-form-select-option-placeholder:
 
 Using an "Please select an option" placeholder
-================================
+==============================================
 
 In HTML, the :html:`<select>` element always selects the first option, if nothing
 else is selected. If the field is mandatory and the user should be forced to
