@@ -1,0 +1,10 @@
+<f:form action="orderNewsletter" method="post" object="user" objectName="user">
+    <fieldset>
+        <legend>Would you like to order the newsletter?</legend>
+        <f:form.radio property="orderNewsletter" id="orderNewsletterYes" value="1"/>
+        <label for="orderNewsletter">Yes</label><br>
+        <f:form.radio name="orderNewsletter" id="orderNewsletterNo" value="0" checked="1"/>
+        <label for="orderNewsletterNo">No</label><br>
+    </fieldset>
+    <f:form.submit value="Submit"/>
+</f:form>
