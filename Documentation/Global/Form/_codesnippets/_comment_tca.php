@@ -19,7 +19,7 @@ return [
         'content' => [
             'label' => 'Message',
             'config' => [
-                'type' => 'text'
+                'type' => 'text',
             ],
         ],
     ],
