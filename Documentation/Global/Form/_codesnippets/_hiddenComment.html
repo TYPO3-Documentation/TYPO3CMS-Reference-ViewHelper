@@ -1,0 +1,5 @@
+<f:form action="save" controller="Comment" method="post">
+    <f:form.hidden name="commentId" value="{comment.id}" />
+    <f:form.textfield name="message" value="{comment.message}" />
+    <f:form.submit value="Save" />
+</f:form>

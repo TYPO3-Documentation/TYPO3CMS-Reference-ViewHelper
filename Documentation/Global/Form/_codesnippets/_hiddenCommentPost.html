@@ -1,0 +1,6 @@
+<f:form action="create" controller="Comment" method="post" object="{comment}">
+    <f:form.hidden property="blogPost" value="{blogPost.uid}" />
+    <f:form.textfield property="authorName" />
+    <f:form.textarea property="content" />
+    <f:form.submit value="Submit Comment" />
+</f:form>
