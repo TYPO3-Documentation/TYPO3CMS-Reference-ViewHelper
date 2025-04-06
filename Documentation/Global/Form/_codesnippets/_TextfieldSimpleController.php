@@ -1,14 +1,18 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
-      data-namespace-typo3-fluid="true">
+<?php
+declare(strict_types=1);
 
-<f:form action="sendMessage" controller="Contact" method="post">
+namespace MyVendor\MyExtension\Controller;
 
-    <label for="tx-contact-name">Your Name:</label>
-    <f:form.textfield name="name" id="tx-contact-name" required="true" />
-    <label for="tx-contact-message">Message:</label>
-    <f:form.textarea name="message" id="tx-contact-message" required="true" />
+use Psr\Http\Message\ResponseInterface;
+use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
-    <f:form.submit class="button" value="Send" />
-</f:form>
-
-</html>
+class ContactController extends ActionController
+{
+    public function sendMessageAction(string $name, string $message): ResponseInterface
+    {
+        // Process data
+        $this->addFlashMessage('Your message was received.');
+        return $this->redirect('showForm');
+    }
+    // ...
+}
