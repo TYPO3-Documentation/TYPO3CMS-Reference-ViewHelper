@@ -67,7 +67,7 @@ purpose and custom styling or icons.
 
 Unlike `<f:form.submit>`, you can include inline HTML (e.g. icons, spans) in each button.
 
-.. tabs::
+..  tabs::
 
     ..  group-tab:: Fluid
 
@@ -109,7 +109,7 @@ form submission and validation.
     You can use these attributes with any button type (`submit`, `reset`, or `button`) and
     they will be passed through to the rendered `<button>` tag.
 
-.. _typo3-fluid-form-button-aria:
+..  _typo3-fluid-form-button-aria:
 
 A button with accessibility attributes
 ======================================
@@ -127,7 +127,7 @@ attribute and pass an array to it.
 Fluid will automatically generate the corresponding `aria-*` attributes
 based on the key-value pairs in the array.
 
-.. literalinclude:: _codesnippets/_FormButtonAria.html
+..  literalinclude:: _codesnippets/_FormButtonAria.html
     :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.html
 
 ..  note::
