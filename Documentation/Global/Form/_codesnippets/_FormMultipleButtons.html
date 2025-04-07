@@ -1,0 +1,19 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+<f:form action="submit" controller="Comment" object="{comment}" objectName="comment" method="post">
+    <label for="tx-comment-content">Message:</label>
+    <f:form.textarea property="content" id="tx-comment-content" rows="6" cols="50" />
+
+    <f:form.button type="submit" name="action" value="save">
+        <i class="fa fa-save" aria-hidden="true"></i> Save
+    </f:form.button>
+
+    <f:form.button type="reset">
+        <i class="fa fa-undo" aria-hidden="true"></i> Reset
+    </f:form.button>
+
+    <f:form.button type="button" name="preview" value="1" onclick="alert('Preview not implemented!')">
+        <i class="fa fa-eye" aria-hidden="true"></i> Preview
+    </f:form.button>
+</f:form>
+</html>
