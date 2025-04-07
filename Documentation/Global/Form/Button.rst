@@ -7,7 +7,7 @@
 Form.button ViewHelper `<f:form.button>`
 ========================================
 
-This ViewHelper creates an :html:`<button>` HTML element within the
+This ViewHelper creates a :html:`<button>` HTML element within the
 `Form ViewHelper <f:form> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-form>`_.
 
 Unlike the `Form.submit ViewHelper <f:form.submit> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-form-submit>`_,
