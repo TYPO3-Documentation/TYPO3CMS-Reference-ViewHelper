@@ -71,7 +71,7 @@ Unlike `<f:form.submit>`, you can include inline HTML (e.g. icons, spans) in eac
 
     ..  group-tab:: Fluid
 
-        .. literalinclude:: _codesnippets/_FormMultipleButtons.html
+        ..  literalinclude:: _codesnippets/_FormMultipleButtons.html
             :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.html
 
     ..  group-tab:: Controller
