@@ -1,9 +1,10 @@
 <?php
+
 namespace Vendor\MyExtension\Controller;
 
+use MyVendor\MyExtension\Domain\Model\Comment;
 use Psr\Http\Message\ResponseInterface;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
-use MyVendor\MyExtension\Domain\Model\Comment;
 
 class CommentController extends ActionController
 {
