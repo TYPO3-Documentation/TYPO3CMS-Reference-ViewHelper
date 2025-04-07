@@ -1,0 +1,14 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+<f:form action="submit" controller="Comment" object="{comment}" objectName="comment" method="post">
+    <label for="tx-comment-content">Message:</label>
+    <f:form.textarea property="content" id="tx-comment-content" rows="6" cols="50" />
+    <p id="commentHint" class="form-text">
+        Press the send button to submit your comment.
+    </p>
+
+    <f:form.button type="submit" aria="{label: 'Send comment', describedby: 'commentHint'}">
+        <i class="fa fa-paper-plane" aria-hidden="true"></i> Send
+    </f:form.button>
+</f:form>
+</html>
