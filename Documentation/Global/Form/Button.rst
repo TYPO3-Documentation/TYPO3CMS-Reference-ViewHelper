@@ -43,7 +43,7 @@ is triggered.
 
     ..  group-tab:: Fluid
 
-        .. literalinclude:: _codesnippets/_FormSubmitButton.html
+        ..  literalinclude:: _codesnippets/_FormSubmitButton.html
             :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.html
 
     ..  group-tab:: Controller
