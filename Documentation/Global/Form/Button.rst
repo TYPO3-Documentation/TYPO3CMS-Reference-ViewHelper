@@ -55,7 +55,7 @@ is triggered.
         ..  literalinclude:: _codesnippets/_SubmitController.php
             :caption: packages/my_extension/Classes/Controller/CommentController.php
 
-.. _typo3-fluid-form-button-multiple:
+..  _typo3-fluid-form-button-multiple:
 
 A Fluid form with multiple buttons of different types
 =====================================================
