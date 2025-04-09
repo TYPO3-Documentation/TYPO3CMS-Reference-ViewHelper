@@ -113,6 +113,13 @@ where (optional and configurable) validation occurs.
 Only valid data is passed on to the action and stored in
 the database.
 
+..  _typo3-fluid-form-talk:
+
+Ask the community about the form ViewHelper
+===========================================
+
+..  typo3:talk::
+
 ..  _typo3-fluid-form-arguments:
 
 Arguments of the form ViewHelper
