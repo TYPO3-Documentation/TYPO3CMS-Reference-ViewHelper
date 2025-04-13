@@ -9,7 +9,8 @@ Form.validationResults ViewHelper `<f:form.validationResults>`
 
 ..  typo3:viewhelper:: form.validationResults
     :source: ../../Global.json
-    :display: tags,description,gitHubLink,arguments
+    :display: tags,description,gitHubLink
+    :noindex:
 
 ..  _typo3-fluid-form-validationresults-example:
 
@@ -57,3 +58,13 @@ Output::
    <ul class="errors">
      <li>1234567890: Some error message</li>
    </ul>
+
+
+..  _typo3-fluid-form-validationresults-arguments:
+
+Arguments of f:form.validationResults
+=====================================
+
+..  typo3:viewhelper:: form.validationResults
+    :source: ../../Global.json
+    :display: arguments-only
