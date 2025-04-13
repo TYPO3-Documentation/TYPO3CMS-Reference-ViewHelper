@@ -9,7 +9,8 @@ Form.countrySelect ViewHelper `<f:form.countrySelect>`
 
 ..  typo3:viewhelper:: form.countrySelect
     :source: ../../Global.json
-    :display: tags,description,gitHubLink,arguments
+    :display: tags,description,gitHubLink
+    :noindex:
 
 ..  _typo3-fluid-form-countryselect-example:
 
@@ -65,3 +66,15 @@ Bind an object
 
 You can also use the "property" attribute if you have bound an object to the form.
 See :ref:`<f:form> <typo3-fluid-form>` for more documentation.
+
+
+..  _typo3-fluid-form-countryselect-arguments:
+
+Arguments of f:form.countrySelect
+=================================
+
+..  include:: /_Includes/_ArbitraryArguments.rst.txt
+
+..  typo3:viewhelper:: form.countrySelect
+    :source: ../../Global.json
+    :display: arguments-only
