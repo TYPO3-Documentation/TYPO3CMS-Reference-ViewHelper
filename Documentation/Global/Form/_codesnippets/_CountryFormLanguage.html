@@ -1,0 +1,12 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+<f:form action="saveCountry">
+    <f:form.countrySelect
+        name="country"
+        optionLabelField="localizedOfficialName"
+        alternativeLanguage="fr"
+        sortByOptionLabel="true"
+    />
+    <f:form.submit value="Submit"/>
+</f:form>
+</html>
