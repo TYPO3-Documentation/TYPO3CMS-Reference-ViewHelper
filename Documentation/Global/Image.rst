@@ -74,7 +74,7 @@ You can then use the :ref:`image <t3viewhelper:viewhelper-argument-typo3-cms-flu
 argument to pass the :php-short:`\TYPO3\CMS\Core\Resource\File or \TYPO3\CMS\Core\Resource\FileReference`
 provided by the TypoScript data processor to the ViewHelper.
 
-..  code-block:: HTML
+..  code-block:: html
 
     <f:for each="{images}" as="image">
         <f:image image="{image}" class="something" height="250" alt="Description"/>
@@ -97,7 +97,7 @@ field may contain several images. They can then be displayed using the
 :ref:`image <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-image>`
 argument:
 
-..  code-block:: HTML
+..  code-block:: html
 
     <f:for each="{mymodel.images}" as="image">
         <f:image image="{image}" class="something" height="250"/>
