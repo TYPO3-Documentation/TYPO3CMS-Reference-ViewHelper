@@ -9,7 +9,8 @@ Image ViewHelper `<f:image>`
 
 ..  typo3:viewhelper:: image
     :source: ../Global.json
-    :display: tags,description,gitHubLink,arguments
+    :display: tags,description,gitHubLink
+    :noindex:
 
 ..  contents:: Table of contents
 
