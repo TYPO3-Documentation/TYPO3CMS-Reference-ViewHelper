@@ -142,10 +142,10 @@ the typolink string starting with `t3://file` as
 
 ..  code-block:: html
 
-    <f:image image="{file.link}" height="250"/>
+    <f:image src="{file.link}" height="250"/>
 
     <!-- File with uid 928 -->
-    <f:image image="t3://file?uid=928" height="250"/>
+    <f:image src="t3://file?uid=928" height="250"/>
 
 ..  _typo3-fluid-image-example:
 
