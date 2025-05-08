@@ -29,8 +29,8 @@ argument and the `EXT:` syntax:
 
     <f:image src="EXT:my_site_package/Resources/Public/images/typo3_logo.png" alt="alt text" />
 
-The assets **must** be stored in folder :path:`Resources/Public/` or a sub
-folder of an extension.
+The assets **must** be stored in folder :path:`Resources/Public/` of an extension or a sub
+folder thereof.
 
 If you installed the extension via Composer **before** it had a folder of that
 exact name, reinstall it so that the symlinks in folder :path:`public/_assets`
