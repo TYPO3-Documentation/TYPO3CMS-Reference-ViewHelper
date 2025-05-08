@@ -71,7 +71,8 @@ See `Example: Render the images stored in field image <https://docs.typo3.org/pe
 in the TypoScript reference.
 
 You can then use the :ref:`image <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-image>`
-argument to pass the :php-short:`\TYPO3\CMS\Core\Resource\File or \TYPO3\CMS\Core\Resource\FileReference`
+argument to pass the :php-short:`\TYPO3\CMS\Core\Resource\File` or
+:php-short:`\TYPO3\CMS\Core\Resource\FileReference`
 provided by the TypoScript data processor to the ViewHelper.
 
 ..  code-block:: html
