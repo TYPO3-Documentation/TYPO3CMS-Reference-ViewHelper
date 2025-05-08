@@ -82,7 +82,7 @@ provided by the TypoScript data processor to the ViewHelper.
     </f:for>
 
 The :abbr:`FAL (file abstraction layer)` will take care of scaling the image and
-converting it to a web format if necessary (for example a pdf to a png).
+converting it to a web format if necessary (for example from a pdf to a png).
 
 The `<f:image>` ViewHelper generates a HTML `<img>` tag with the correct paths etc.
 
