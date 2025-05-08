@@ -121,26 +121,25 @@ the first array element:
 Using the UID of the database entry directly
 ============================================
 
-Using :php-short:`\TYPO3\CMS\Extbase\Domain\Model\FileReference` objects is the
-preferred way of displaying an image in Fluid. However if only the UID of
-database entry is available you can also use the `<f:image>` ViewHelper with the
-UID.
-
-If the UID of the **sys_file** table is available you can pass this value to
-the :ref:`src <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-src>`
-argument of the ViewHelper directly.
-
-If you have the UID of the **sys_file_reference** table you have to set
+If you have the UID of the **sys_file_reference** table (prefered) you have to set
 :ref:`treatIdAsReference <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-treatidasreference>`
-to true additionally.
+to true additionally and pass the UID of the file reference to the 
+ref:`src <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-src>`
+argument.
+
+If only the UID of the **sys_file** table is available you can pass this value to
+the :ref:`src <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-src>`
+argument of the ViewHelper directly, `treatIdAsReference` can be left to the default (false).
+In this case no data from the file reference such as default cropping or overrides for alt text and 
+description are available.
 
 ..  code-block:: html
 
-    <f:image image="{file.uid}" height="250"/>
-    <f:image image="{reference.uid}" treatIdAsReference="1" class="something" height="250"/>
+    <f:image src="{reference.uid}" treatIdAsReference="1" height="250"/>
+    <f:image src="{file.uid}" height="250" alt="My image description"/>
 
     <!-- File with uid 42 -->
-    <f:image image="42" height="250"/>
+    <f:image src="42" treatIdAsReference="1" class="something" height="250"/>
 
 ..  _typo3-fluid-image-typolink:
 
