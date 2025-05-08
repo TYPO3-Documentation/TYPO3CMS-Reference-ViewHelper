@@ -91,10 +91,11 @@ The `<f:image>` ViewHelper generates a HTML `<img>` tag with the correct paths e
 Images from Extbase models in Fluid
 -----------------------------------
 
-In Extbase models you can use fields of type
-:php:`\TYPO3\CMS\Extbase\Domain\Model\FileReference` if a field may contain
-maximal one image and :php:`\TYPO3\CMS\Extbase\Persistence\ObjectStorage` if a
-field may contain several images. They can then be displayed using the
+In Extbase models you can use fields of type :php:`\TYPO3\CMS\Extbase\Persistence\ObjectStorage` with 
+the TCA type `File <https://docs.typo3.org/permalink/t3tca:columns-file>`_.
+
+When you are loping the object storage each element will be of type 
+:php:`\TYPO3\CMS\Extbase\Domain\Model\FileReference`. They can be used with the 
 :ref:`image <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-image>`
 argument:
 
@@ -103,6 +104,17 @@ argument:
     <f:for each="{mymodel.images}" as="image">
         <f:image image="{image}" class="something" height="250"/>
     </f:for>
+
+If the field may only contain one image maximal 
+(`maxitems=1  <https://docs.typo3.org/permalink/t3tca:confval-file-maxitems>`_)
+you can display this image directly by selecting
+the first array element:
+
+..  code-block:: html
+
+    <f:if condition="{mymodel.image.0}">
+        <f:image image="{mymodel.image.0}" class="something" height="250"/>
+    </f:if>
 
 ..  _typo3-fluid-image-uidreference:
 
