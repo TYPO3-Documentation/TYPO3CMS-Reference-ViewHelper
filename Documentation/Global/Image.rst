@@ -114,7 +114,7 @@ preferred way of displaying an image in Fluid. However if only the UID of
 database entry is available you can also use the `<f:image>` ViewHelper with the
 UID.
 
-If the UID of the **sys_file** table is available you can pass this reference to
+If the UID of the **sys_file** table is available you can pass this value to
 the :ref:`src <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-src>`
 argument of the ViewHelper directly.
 
