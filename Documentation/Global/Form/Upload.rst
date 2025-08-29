@@ -25,14 +25,6 @@ Output::
 
    <input type="file" name="file" />
 
-Example for allowed MIME types (native HTML5 attribute)::
-
-   <f:form.upload name="file" accept=".gif,.jpg,image/jpg,image/jpeg,image/gif" />
-
-Output::
-
-   <input type="file" name="file" accept=".gif,.jpg,image/jpg,image/jpeg,image/gif" />
-
 ..  _typo3-fluid-form-upload-arguments:
 
 Arguments of f:form.upload
