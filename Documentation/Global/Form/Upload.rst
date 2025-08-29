@@ -17,13 +17,36 @@ Form.upload ViewHelper `<f:form.upload>`
 Examples
 ========
 
-Example::
+
+..  _typo3-fluid-form-upload-example-basic:
+
+Basic usage
+-----------
+
+..  code-block:: html
+    :caption: EXT:my_extension/Resources/Private/Partials/Upload.html
 
    <f:form.upload name="file" />
 
-Output::
+..  code-block:: html
+    :caption: HTML output
 
    <input type="file" name="file" />
+
+..  _typo3-fluid-form-upload-example-accept:
+
+Example for allowed MIME types / file extensions (native HTML5 attribute)
+-------------------------------------------------------------------------
+
+..  code-block:: html
+    :caption: EXT:my_extension/Resources/Private/Partials/Upload.html
+
+   <f:form.upload name="file" accept=".gif,.jpg,image/jpg,image/jpeg,image/gif" />
+
+..  code-block:: html
+    :caption: HTML output
+
+   <input type="file" name="file" accept=".gif,.jpg,image/jpg,image/jpeg,image/gif" />
 
 ..  _typo3-fluid-form-upload-arguments:
 
