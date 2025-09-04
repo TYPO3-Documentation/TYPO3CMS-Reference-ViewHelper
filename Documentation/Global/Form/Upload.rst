@@ -47,7 +47,9 @@ Example for allowed MIME types / file extensions (native HTML5 attribute)
     :caption: HTML output
 
    <input type="file" name="file" accept=".gif,.jpg,image/jpg,image/jpeg,image/gif" />
+..  hint::
 
+    Please be aware that the `accept` attribute is a native HTML5 element. It has no specific Extbase or Fluid implementation, so validation of the incoming file is only performed in the client. It does not replace proper validation on the backend / server side, so proper `UploadedFile` or Extbase File-Upload-Handling validation needs to be implemented, too.
 ..  _typo3-fluid-form-upload-arguments:
 
 Arguments of f:form.upload
