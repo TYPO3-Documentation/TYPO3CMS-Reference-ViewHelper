@@ -6,7 +6,6 @@
 ======================================
 Form.radio ViewHelper `<f:form.radio>`
 ======================================
-
 ..  typo3:viewhelper:: form.radio
     :source: /Global.json
     :display: tags,description,gitHubLink
@@ -32,14 +31,14 @@ The following shows two radio buttons, the one labeled "No" is preselected.
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_CheckboxOptional.html
+        ..  literalinclude:: _codesnippets/_RadioYesNo.html
             :caption: packages/my_extension/Resources/Private/Templates/Comment/Newsletter.html
 
     ..  group-tab:: Controller
 
         The controller action can then look like this:
 
-        ..  literalinclude:: _codesnippets/_CheckboxController.php
+        ..  literalinclude:: _codesnippets/_RadioController.php
             :caption: packages/my_extension/Classes/Controller/NewsletterController.php
 
 ..  tip::
@@ -62,7 +61,7 @@ the Extbase action.
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_CheckboxProperty.html
+        ..  literalinclude:: _codesnippets/_RadioProperty.html
             :caption: packages/my_extension/Resources/Private/Templates/Newsletter/SomeForm.html
 
     ..  group-tab:: Controller
