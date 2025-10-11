@@ -24,13 +24,17 @@ Be.infobox ViewHelper `<f:be.infobox>`
 Severity states of the Be.infobox ViewHelper
 ============================================
 
+..  deprecated:: 14.0
+    The public constants in :php-short:`\TYPO3\CMS\Fluid\ViewHelpers\Be\InfoboxViewHelper`
+    for defining the state/severity of an infobox have been deprecated. Use
+    the enum :php:`\TYPO3\CMS\Core\Type\ContextualFeedbackSeverity` instead.
+
 The Infobox provides different context-sensitive states that
 can be used to provide an additional visual feedback to the
-
 user to underline the meaning of the information.
 
-Possible values are in range from ``-2`` to ``2``. Please choose a
-meaningful value from the following list.
+The `state` property allows enums of type :php:`\TYPO3\CMS\Core\Type\ContextualFeedbackSeverity`
+and integer values between `-2` and `+2` for backward compatibility.
 
 ..  tabs::
 
@@ -41,23 +45,23 @@ meaningful value from the following list.
 
             A demonstration of all possible states
 
-    ..  group-tab:: Numeral values
+    ..  group-tab:: Enum values
 
-        ``-2``
+        `ContextualFeedbackSeverity::NOTICE` (-2)
            Notices (Default)
-        ``-1``
+        `ContextualFeedbackSeverity::INFO` (-1)
            Information
-        ``0``
+        `ContextualFeedbackSeverity::OK` (0)
            Positive feedback
-        ``1``
+        `ContextualFeedbackSeverity::WARNING` (1)
            Warnings
-        ``2``
+        `ContextualFeedbackSeverity::ERROR` (2)
            Error
 
     ..  group-tab:: Code example
 
         It is considered best practice to use the states from
-        :php:`\TYPO3\CMS\Fluid\ViewHelpers\Be\InfoboxViewHelper` together with the
+        :php:`\TYPO3\CMS\Core\Type\ContextualFeedbackSeverity` enum together with the
         `Constant ViewHelper <f:constant> <https://docs.typo3.org/permalink/t3viewhelper:typo3fluid-fluid-constant>`_:
 
         ..  literalinclude:: _Infobox/_States.html
@@ -65,8 +69,8 @@ meaningful value from the following list.
 
 ..  _typo3-fluid-be-infobox-example:
 
-Examples
-========
+Examples of Be.infobox ViewHelper usage
+=======================================
 
 Info box of level notice with a static title and a static text:
 
@@ -77,28 +81,13 @@ Info box of level notice with a static title and a static text:
 
 Warning box with disabled icon:
 
-..  code-block:: html
+..  literalinclude:: _Infobox/_Warning.html
     :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.html
-
-    <f:be.infobox
-        title="Message title"
-        message="your box content"
-        state="{f:constant(name: 'TYPO3\CMS\Fluid\ViewHelpers\Be\InfoboxViewHelper::STATE_WARNING')}"
-        disableIcon="true"
-    />
 
 Success box with custom icon:
 
-..  code-block:: html
+..  literalinclude:: _Infobox/_CustomIcon.html
     :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.html
-
-    <f:be.infobox
-        title="Message title"
-        message="your box content"
-        state="{f:constant(name: 'TYPO3\CMS\Fluid\ViewHelpers\Be\InfoboxViewHelper::STATE_OK')}"
-        iconName="check"
-    />
-
 
 ..  _typo3-fluid-be-infobox-example-html:
 
@@ -111,6 +100,26 @@ You can find this example in the TYPO3 backend module
 
 ..  literalinclude:: _Infobox/_ReferenceIndex.html
     :caption: EXT:lowlevel/Resources/Private/Templates/ReferenceIndex.html
+
+..  _typo3-fluid-be-infobox-migration:
+
+Migration from using InfoboxViewHelper state constants
+------------------------------------------------------
+
+If you want to support both TYPO3 v13 and v14 you can keep using the constants
+until dropping TYPO3 13 support.
+
+After dropping TYPO3 13 support migrate as follows:
+
+..  literalinclude:: _Infobox/_Migration.diff
+    :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.html
+
+In PHP code replace the severity by using the enum or their value instead of the
+constants:
+
+..  literalinclude:: _Infobox/_Migration.php
+    :caption: EXT:my_extension/Classes/Controller/MyController.php
+
 
 ..  _typo3-fluid-be-infobox-arguments:
 
