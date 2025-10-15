@@ -113,6 +113,35 @@ where (optional and configurable) validation occurs.
 Only valid data is passed on to the action and stored in
 the database.
 
+..  _typo3-fluid-form-components:
+
+Using f:form.<somefield> in Fluid components
+============================================
+
+..  warning::
+
+    Form input fields like the `Form.textfield ViewHelper <f:form.textfield> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-form-textfield>`_
+    need to find their parent form `<f:form>` within the rendering context.
+
+    They cannot be used in Fluid Components in TYPO3 13.4.
+
+In `Components <https://docs.typo3.org/permalink/fluid:components>`_
+(introduced with Fluid 4.3) a new rendering context is created for
+each Fluid component. Therefore form fields loose the connection
+to their parent form and cannot be used.
+
+It is however possible to pass a form field to a slot:
+
+..  literalinclude:: _codesnippets/FormFieldComponent.html
+
+And then use it like this:
+
+..  code-block:: html
+
+    <my:inputWithLabel id="abc" label="My label">
+        <f:input id="abc" property="myProperty"
+    <my:inputWithLabel>
+
 ..  _typo3-fluid-form-talk:
 
 Ask the community about the form ViewHelper
