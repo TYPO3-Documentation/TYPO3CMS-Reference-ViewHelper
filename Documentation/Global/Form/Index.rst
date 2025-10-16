@@ -139,7 +139,7 @@ And then use it like this:
 ..  code-block:: html
 
     <my:inputWithLabel id="abc" label="My label">
-        <f:input id="abc" property="myProperty"
+        <f:form.textfield id="abc" property="myProperty"
     <my:inputWithLabel>
 
 ..  _typo3-fluid-form-talk:
