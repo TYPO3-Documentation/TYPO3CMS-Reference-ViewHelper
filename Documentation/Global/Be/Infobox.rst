@@ -69,7 +69,7 @@ and integer values between `-2` and `+2` for backward compatibility.
 
 ..  _typo3-fluid-be-infobox-example:
 
-Examples of Be.infobox ViewHelper usage
+Examples of be.infobox ViewHelper usage
 =======================================
 
 Info box of level notice with a static title and a static text:
