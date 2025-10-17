@@ -11,5 +11,10 @@
 Uri.newRecord ViewHelper `<be:uri.newRecord>`
 =============================================
 
+..  versionadded:: 14.0
+    Argument :ref:`module <t3viewhelper:viewhelper-argument-typo3-cms-backend-viewhelpers-uri-newrecordviewhelper-module>`
+    has been added to explicitly define the backend module context used when
+    opening the FormEngine to edit or create a record.
+
 ..  typo3:viewhelper:: uri.newRecord
     :source: ../../Backend.json
