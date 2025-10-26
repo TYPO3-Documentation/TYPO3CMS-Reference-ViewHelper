@@ -58,6 +58,16 @@ its `media` field. Intermediate tables are then used to attach the actual image
 to the content elements. This allows backend users to move or rename files,
 without the files connection being lost in the content element.
 
+..  versionadded:: TYPO3 14.0
+
+The default image conversion format used can be configured
+via the `$GLOBALS['TYPO3_CONF_VARS']['GFX']['imageFileConversionFormats']
+<https://docs.typo3.org/permalink/t3coreapi:confval-globals-typo3-conf-vars-sys-gfx-imagefileconversionformats>`_.
+
+This allows integrators to globally define which output format TYPO3 should
+use when converting images, for example, to prefer WebP output for JPEG and
+GIF sources by default.
+
 ..  _typo3-fluid-image-fluidtemplate:
 
 FLUIDTEMPLATE and data processors and images
