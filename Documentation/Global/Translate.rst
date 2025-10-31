@@ -24,15 +24,15 @@ Translate ViewHelper `<f:translate>`
     ..  versionadded:: 14.0
         The translate ViewHelper supports `translation domains <https://docs.typo3.org/permalink/t3coreapi:label-reference>`_,
         a short and convenient way to reference language labels without
-        requiring `LLL:` paths or explicit extension names.
+        requiring `LLL:` paths or extension names.
 
-        The translation domain syntax is the **preferred** and **future-proof** way
+        Translation domain syntax is the **recommended** and **future-proof** way
         to reference translations.
 
-        The traditional `LLL:` and `extension` arguments remain available for
+        The older `LLL:` and `extension` arguments are still valid for
         **backward compatibility**.
 
-        All existing syntax forms remain fully supported, ensuring backward
+        All existing syntax remains fully supported, ensuring backward
         compatibility. The new syntax can be adopted incrementally within a
         project, and both old and new forms can coexist in the same template.
 
@@ -42,13 +42,13 @@ Translate ViewHelper `<f:translate>`
 Using translation domains
 =========================
 
-The translation domain syntax is the **recommended** and preferred way to
-reference labels. It allows concise and clear label identifiers without
-`LLL:` paths or extension names.
+The translation domain syntax is the **recommended** way to
+reference labels. It allows concise and clear label identifiers, without using
+`LLL:` paths and extension names.
 
 There are two equivalent ways to use domains:
 
-1.  **Provide the domain separately** and reference only the identifier
+1.  **Provide the domain as a separate argument** and only reference the identifier
     (recommended):
 
     ..  code-block:: html
@@ -56,27 +56,27 @@ There are two equivalent ways to use domains:
         <f:translate domain="backend.toolbar" key="save" />
         <f:translate domain="my_extension.messages" id="greeting.hello" />
 
-2.  **Use the combined domain + identifier syntax** directly in `key`/`id`:
+2.  **Use the combined domain + identifier syntax** in the `key`/`id` arguments:
 
     ..  code-block:: html
 
         <f:translate key="backend.toolbar:save" />
         <f:translate id="my_extension.messages:greeting.hello" />
 
-*   The **domain** syntax is the preferred way for all new templates.
-*   If both `domain` and `extension` are set, property **domain takes precedence**.
-*   Traditional `key="LLL:EXT:..."` or `extension` arguments are still supported for
+*   The **domain** syntax is the preferred syntax for all new templates.
+*   If both `domain` and `extension` are set, **the domain property takes precedence**.
+*   The older `key="LLL:EXT:..."` and `extension` arguments are still supported for
     backward compatibility.
 
 ..  tip::
-    You can list all available translation domains and their corresponding
-    language file mappings by running the console command:
+    Run the console command to list all translation domains and their language
+    file mapping:
 
     ..  code-block:: bash
 
         vendor/bin/typo3 language:domain:list
 
-    This helps identify existing domains when migrating from `LLL:` paths
+    This will help you find your domains when migrating from `LLL:` paths
     to the new translation domain syntax.
 
 ..  _typo3-fluid-translate-example-backward:
@@ -84,8 +84,8 @@ There are two equivalent ways to use domains:
 Backward compatible syntax
 ==========================
 
-The following forms remain supported for older templates and extensions.
-New code should use translation domains instead.
+The following forms are still supported for older templates and extensions.
+New code should use domains instead.
 
 ..  _typo3-fluid-translate-example-key-only:
 
@@ -93,7 +93,7 @@ Short key - Usage in Extbase
 ----------------------------
 
 The :ref:`key <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-translateviewhelper-key>`
-argument alone works only within the Extbase context.
+argument on its own works in the Extbase context.
 
 ..  tabs::
 
@@ -109,13 +109,13 @@ argument alone works only within the Extbase context.
             :language: xml
             :caption: packages/my_extension/Resources/Private/Language/locallang.xlf
 
-Alternatively, you can use `id` instead of `key`, producing the same output.
+Alternatively, you can use `id` instead of `key` to produce the same output.
 If both `id` and `key` are set, `id` takes precedence.
 
 If the translate ViewHelper is used with only the language key, the template
-**must** be rendered within an Extbase request, usually from an Extbase
+**must** be rendered in an Extbase request, usually from an Extbase
 controller action. The default language file must be located in the same
-extension as the Extbase controller and must be saved in the file
+extension as the Extbase controller and must be saved in
 :file:`Resources/Private/Language/locallang.xlf`.
 
 ..  _typo3-fluid-translate-example-key-extension:
@@ -123,19 +123,19 @@ extension as the Extbase controller and must be saved in the file
 Short key and extension name
 ----------------------------
 
-When the ViewHelper is called from outside Extbase, it is mandatory to either
-pass the extension name or use the full `LLL:` reference for the key.
+If the ViewHelper is called from outside Extbase, the extension name or the
+full `LLL:` key reference must be passed as arguments.
 
 ..  code-block:: html
 
     <f:translate key="domain_model.title" extension="my_extension" />
 
-The default language file must be saved in the extension specified in the
-argument, in the file :file:`Resources/Private/Language/locallang.xlf`.
+The default language file must be located in
+:file:`Resources/Private/Language/locallang.xlf` of the extension.
 
 ..  versionchanged:: 14.0
-    The translation domain syntax replaces this form as the preferred way
-    to reference labels. The `extension` argument continues to work for
+    The translation domain syntax is now the recommended way
+    to reference labels. The `extension` argument still works for
     backward compatibility.
 
 ..  _typo3-fluid-translate-example-key-full:
@@ -154,7 +154,7 @@ file can be used.
 
 ..  note::
     This legacy form remains fully supported for backward compatibility.
-    The domain syntax should be used for all new templates.
+    Domain syntax should be used for all new templates.
 ..  _typo3-fluid-translate-example-html:
 
 Keeping HTML tags within translations
@@ -237,7 +237,7 @@ which allows for more flexible and readable formatting.
 Inline notation with arguments and default value
 ================================================
 
-Like all other ViewHelpers, the translate ViewHelper can be used with the
+Like all the other ViewHelpers, the translate ViewHelper can be used with
 `Inline syntax <https://docs.typo3.org/permalink/fluid:viewhelper-inline-notation>`_.
 
 ..  code-block:: html
