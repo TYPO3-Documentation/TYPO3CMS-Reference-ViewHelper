@@ -19,7 +19,7 @@ Examples
 ::
 
    <f:asset.script identifier="identifier123" src="EXT:my_ext/Resources/Public/JavaScript/foo.js" />
-   <f:asset.script identifier="identifier123">
+   <f:asset.script identifier="identifier987">
       alert('hello world');
    </f:asset.script>
 
