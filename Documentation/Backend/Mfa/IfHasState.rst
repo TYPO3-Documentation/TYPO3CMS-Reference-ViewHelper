@@ -11,5 +11,7 @@
 Mfa.ifHasState ViewHelper `<be:mfa.ifHasState>`
 ===============================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: mfa.ifHasState
     :source: ../../Backend.json

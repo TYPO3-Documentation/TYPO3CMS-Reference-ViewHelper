@@ -11,5 +11,7 @@
 Be.renderContentElementPreview ViewHelper `<formvh:be.renderContentElementPreview>`
 ===================================================================================
 
+..  include:: /Form/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: be.renderContentElementPreview
     :source: ../../Form.json

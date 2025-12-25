@@ -11,5 +11,7 @@
 Form.uploadedResource ViewHelper `<formvh:form.uploadedResource>`
 =================================================================
 
+..  include:: /Form/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: form.uploadedResource
     :source: ../../Form.json

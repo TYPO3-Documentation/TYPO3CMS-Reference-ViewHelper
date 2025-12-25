@@ -11,5 +11,7 @@
 Uri.newRecord ViewHelper `<be:uri.newRecord>`
 =============================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: uri.newRecord
     :source: ../../Backend.json

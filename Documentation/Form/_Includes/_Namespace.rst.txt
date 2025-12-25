@@ -1,0 +1,7 @@
+..  note::
+    This ViewHelper is not available by default. It is only available if
+    :composer:`typo3/cms-form` is installed and its namespace is imported.
+
+    :ref:`Import its namespace <t3coreapi:fluid-syntax-viewhelpers-import-namespaces>`
+    :fluid:`{namespace formvh=TYPO3\CMS\Form\ViewHelpers\}` in the Fluid file or
+    :fluid:`xmlns:formvh="http://typo3.org/ns/TYPO3/CMS/Form/ViewHelpers/"` in the opening HTML tag.

@@ -11,5 +11,7 @@
 Uri.editRecord ViewHelper `<be:uri.editRecord>`
 ===============================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: uri.editRecord
     :source: ../../Backend.json

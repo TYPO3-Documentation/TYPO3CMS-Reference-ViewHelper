@@ -11,5 +11,7 @@
 Link.editRecord ViewHelper `<be:link.editRecord>`
 =================================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: link.editRecord
     :source: ../../Backend.json
