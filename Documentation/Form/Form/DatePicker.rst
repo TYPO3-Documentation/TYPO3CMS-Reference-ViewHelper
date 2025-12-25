@@ -11,5 +11,7 @@
 Form.datePicker ViewHelper `<formvh:form.datePicker>`
 =====================================================
 
+..  include:: /Form/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: form.datePicker
     :source: ../../Form.json

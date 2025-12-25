@@ -11,5 +11,7 @@
 LoginLogo ViewHelper `<be:loginLogo>`
 =====================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: loginLogo
     :source: ../Backend.json

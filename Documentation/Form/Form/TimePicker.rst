@@ -11,5 +11,7 @@
 Form.timePicker ViewHelper `<formvh:form.timePicker>`
 =====================================================
 
+..  include:: /Form/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: form.timePicker
     :source: ../../Form.json

@@ -11,5 +11,7 @@
 LanguageColumn ViewHelper `<be:languageColumn>`
 ===============================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: languageColumn
     :source: ../Backend.json

@@ -11,5 +11,7 @@
 Avatar ViewHelper `<be:avatar>`
 ===============================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: avatar
     :source: ../Backend.json

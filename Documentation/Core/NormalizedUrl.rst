@@ -11,5 +11,7 @@
 NormalizedUrl ViewHelper `<core:normalizedUrl>`
 ===============================================
 
+..  include:: /Core/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: normalizedUrl
     :source: ../Core.json

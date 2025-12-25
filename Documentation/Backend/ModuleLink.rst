@@ -11,5 +11,7 @@
 ModuleLink ViewHelper `<be:moduleLink>`
 =======================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: moduleLink
     :source: ../Backend.json

@@ -11,5 +11,7 @@
 TranslateElementProperty ViewHelper `<formvh:translateElementProperty>`
 =======================================================================
 
+..  include:: /Form/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: translateElementProperty
     :source: ../Form.json
