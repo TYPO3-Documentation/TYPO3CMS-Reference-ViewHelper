@@ -12,5 +12,7 @@
 Thumbnail ViewHelper `<be:thumbnail>`
 =====================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: thumbnail
     :source: ../Backend.json

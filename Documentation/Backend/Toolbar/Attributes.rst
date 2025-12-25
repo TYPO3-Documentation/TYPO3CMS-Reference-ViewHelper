@@ -12,5 +12,7 @@
 Toolbar.attributes ViewHelper `<be:toolbar.attributes>`
 =======================================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: toolbar.attributes
     :source: ../../Backend.json

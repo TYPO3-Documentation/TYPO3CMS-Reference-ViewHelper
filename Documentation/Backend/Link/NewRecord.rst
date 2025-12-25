@@ -12,5 +12,7 @@
 Link.newRecord ViewHelper `<be:link.newRecord>`
 ===============================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: link.newRecord
     :source: ../../Backend.json

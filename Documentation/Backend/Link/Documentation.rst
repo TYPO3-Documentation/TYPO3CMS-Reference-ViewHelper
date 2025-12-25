@@ -12,5 +12,7 @@
 Link.documentation ViewHelper `<be:link.documentation>`
 =======================================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: link.documentation
     :source: ../../Backend.json

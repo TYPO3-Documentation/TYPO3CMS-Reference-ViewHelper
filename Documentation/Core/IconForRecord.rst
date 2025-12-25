@@ -12,5 +12,7 @@
 IconForRecord ViewHelper `<core:iconForRecord>`
 ===============================================
 
+..  include:: /Core/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: iconForRecord
     :source: ../Core.json

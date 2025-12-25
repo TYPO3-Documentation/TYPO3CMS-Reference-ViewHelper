@@ -12,5 +12,7 @@
 Toolbar.ifHasDropdown ViewHelper `<be:toolbar.ifHasDropdown>`
 =============================================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: toolbar.ifHasDropdown
     :source: ../../Backend.json

@@ -1,20 +1,6 @@
-..  This reStructured text file has been automatically generated, do not change.
-..  include:: /Includes.rst.txt
-
-==============
-Backend (be:*)
-==============
-
 ..  note::
-    These ViewHelpers are not available by default.
+    This ViewHelper is not available by default.
 
     :ref:`Import its namespace <t3coreapi:fluid-syntax-viewhelpers-import-namespaces>`
     :fluid:`{namespace core=TYPO3\CMS\Core\ViewHelpers\}` in the Fluid file or
     :fluid:`xmlns:core="http://typo3.org/ns/TYPO3/CMS/Core/ViewHelpers/"` in the opening HTML tag.
-
-..  toctree::
-    :titlesonly:
-    :glob:
-
-    */Index
-    *

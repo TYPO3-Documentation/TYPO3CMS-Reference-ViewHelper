@@ -12,5 +12,7 @@
 IconForResource ViewHelper `<core:iconForResource>`
 ===================================================
 
+..  include:: /Core/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: iconForResource
     :source: ../Core.json

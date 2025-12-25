@@ -12,5 +12,7 @@
 GridColumnClassAutoConfiguration ViewHelper `<formvh:gridColumnClassAutoConfiguration>`
 =======================================================================================
 
+..  include:: /Form/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: gridColumnClassAutoConfiguration
     :source: ../Form.json

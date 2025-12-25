@@ -12,5 +12,7 @@
 RenderFormValue ViewHelper `<formvh:renderFormValue>`
 =====================================================
 
+..  include:: /Form/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: renderFormValue
     :source: ../Form.json

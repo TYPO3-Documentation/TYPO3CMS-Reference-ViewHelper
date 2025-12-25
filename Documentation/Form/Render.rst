@@ -12,5 +12,7 @@
 Render ViewHelper `<formvh:render>`
 ===================================
 
+..  include:: /Form/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: render
     :source: ../Form.json

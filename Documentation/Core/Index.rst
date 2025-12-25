@@ -5,6 +5,7 @@
 Core (core:*)
 =============
 
+..  include:: /Core/_Includes/_Namespace.rst.txt
 
 ..  toctree::
     :titlesonly:

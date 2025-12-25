@@ -12,5 +12,7 @@
 TypoScript.fineDiff ViewHelper `<be:typoScript.fineDiff>`
 =========================================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: typoScript.fineDiff
     :source: ../../Backend.json

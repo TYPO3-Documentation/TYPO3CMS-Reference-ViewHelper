@@ -12,5 +12,7 @@
 TranslateElementError ViewHelper `<formvh:translateElementError>`
 =================================================================
 
+..  include:: /Form/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: translateElementError
     :source: ../Form.json
