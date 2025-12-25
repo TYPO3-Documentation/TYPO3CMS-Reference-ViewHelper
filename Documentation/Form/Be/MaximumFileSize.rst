@@ -11,5 +11,7 @@
 Be.maximumFileSize ViewHelper `<formvh:be.maximumFileSize>`
 ===========================================================
 
+..  include:: /Form/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: be.maximumFileSize
     :source: ../../Form.json

@@ -11,5 +11,7 @@
 Form ViewHelper `<formvh:form>`
 ===============================
 
+..  include:: /Form/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: form
     :source: ../Form.json

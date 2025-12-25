@@ -12,5 +12,7 @@
 Type.isArray ViewHelper `<be:type.isArray>`
 ===========================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: type.isArray
     :source: ../../Backend.json

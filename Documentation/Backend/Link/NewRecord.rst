@@ -16,5 +16,7 @@ Link.newRecord ViewHelper `<be:link.newRecord>`
     has been added to explicitly define the backend module context used when
     opening the FormEngine to edit or create a record.
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  typo3:viewhelper:: link.newRecord
     :source: ../../Backend.json

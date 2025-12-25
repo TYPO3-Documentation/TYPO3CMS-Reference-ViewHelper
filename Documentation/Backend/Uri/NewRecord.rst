@@ -11,6 +11,8 @@
 Uri.newRecord ViewHelper `<be:uri.newRecord>`
 =============================================
 
+..  include:: /Backend/_Includes/_Namespace.rst.txt
+
 ..  versionadded:: 14.0
     Argument :ref:`module <t3viewhelper:viewhelper-argument-typo3-cms-backend-viewhelpers-uri-newrecordviewhelper-module>`
     has been added to explicitly define the backend module context used when
