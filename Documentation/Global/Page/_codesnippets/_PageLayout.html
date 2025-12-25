@@ -1,0 +1,31 @@
+
+<f:page.title>{page.title} - {page.subtitle} - {site.name}</f:page.title>
+
+<f:page.meta property="description">
+    {page.description -> f:format.stripTags()}
+</f:page.meta>
+<f:page.meta property="og:title">{page.title} - {page.subtitle} - {site.name}</f:page.meta>
+<f:page.meta property="og:type">article</f:page.meta>
+<f:page.meta property="og:description">
+    {page.description -> f:format.stripTags()}
+</f:page.meta>
+
+<f:page.headerData>
+    <link rel="icon"
+          href="{f:uri.resource(
+                  path: 'Icons/favicon.ico',
+                  extensionName: 'my_extension'
+              )}"
+          sizes="any" />
+    <link rel="apple-touch-icon"
+          href="{f:uri.resource(
+                  path: 'Icons/apple-touch-icon.png',
+                  extensionName: 'my_extension'
+              )}" />
+</f:page.headerData>
+
+<h1>{page.title}</h1>
+{page.description -> f:format.html()}
+<main>
+    <f:render section="Main"/>
+</main>
