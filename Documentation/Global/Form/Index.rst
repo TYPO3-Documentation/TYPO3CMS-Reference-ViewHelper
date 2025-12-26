@@ -143,12 +143,6 @@ And then use it like this:
     <my:inputWithLabel>
 
 ..  _typo3-fluid-form-talk:
-
-Ask the community about the form ViewHelper
-===========================================
-
-..  typo3:talk::
-
 ..  _typo3-fluid-form-arguments:
 
 Arguments of the form ViewHelper
