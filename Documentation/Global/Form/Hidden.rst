@@ -34,7 +34,7 @@ Hidden fields can be used to pass additional arguments to a controller action.
 
         The controller action can then look like this:
 
-        ..  literalinclude:: _codesnippets/_CheckboxController.php
+        ..  literalinclude:: _codesnippets/_HiddenCommentController.php
             :caption: packages/my_extension/Classes/Controller/CommentController.php
 
 ..  tip::
