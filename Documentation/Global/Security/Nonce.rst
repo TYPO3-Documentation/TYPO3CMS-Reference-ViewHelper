@@ -9,8 +9,8 @@ Security.nonce ViewHelper `<f:security.nonce>`
 
 ..  versionchanged:: 14.1, 13.4.23
     CSP nonce sources set via the `{f:security.nonce()}` ViewHelper are no
-    longer incorrectly considered negligible. The newly introduced directive
-    and scope arguments allow TYPO3 to correctly assign that nonce to the
+    longer incorrectly considered negligible. The newly introduced `directive`
+    and `scope` arguments allow TYPO3 to correctly assign that nonce to the
     appropriate CSP directive, whereas previously the nonce could be silently
     discarded due to missing context.
 
@@ -20,7 +20,7 @@ nonce and registers it for inclusion in the CSP header.
 
 ..  hint::
     The `{f:security.nonce()}` view-helper is meant as a compatibility
-    fallback. It is suggested to use more specific view-helpers like
+    fallback. It is suggested to use more specific ViewHelpers like
     `Asset.css ViewHelper <f:asset.css> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-asset-css>`_
     or `Asset.script ViewHelper <f:asset.script> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-asset-script>`_.
 
@@ -52,7 +52,7 @@ Inline script (default scope)
 -----------------------------
 
 Inline scripts require the nonce to be registered for the
-`script-src` directive. The `inline` scope is the default and may be
+`script-src` CSP directive. The `inline` scope is the default and may be
 omitted.
 
 ..  code-block:: html
@@ -102,10 +102,10 @@ Arguments of the `<f:security.nonce>` ViewHelper
 ================================================
 
 ..  versionadded:: 14.1, 13.4.23
-    The arguments `directive` and `scope` where introduced.
+    The arguments `directive` and `scope` were introduced.
 
 Parameter `directive` can be one of `default-src`, `script-src`,
-`script-src-elem`, `style-src`, or `style-src-elem`.
+`script-src-elem`, `style-src`, or `style-src-elem` (referring to a CSP directive).
 
 ..  typo3:viewhelper:: security.nonce
     :source: /Global.json
