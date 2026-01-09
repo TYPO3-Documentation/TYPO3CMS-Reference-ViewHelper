@@ -8,7 +8,7 @@
                project-repository="https://github.com/TYPO3-Documentation/TYPO3CMS-Reference-ViewHelper"
                project-issues="https://github.com/TYPO3-Documentation/TYPO3CMS-Reference-ViewHelper/issues"
                edit-on-github="TYPO3-Documentation/TYPO3CMS-Reference-ViewHelper"
-               edit-on-github-branch="13.4"
+               edit-on-github-branch="main"
                typo3-core-preferred="13"
                interlink-shortcode="t3viewhelper"
     />
