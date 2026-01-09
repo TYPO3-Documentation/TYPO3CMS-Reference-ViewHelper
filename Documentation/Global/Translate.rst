@@ -128,7 +128,7 @@ full `LLL:` key reference must be passed as arguments.
 
 ..  code-block:: html
 
-    <f:translate key="domain_model.title" extension="my_extension" />
+    <f:translate key="domain_model.title" extensionName="my_extension" />
 
 The default language file must be located in
 :file:`Resources/Private/Language/locallang.xlf` of the extension.
