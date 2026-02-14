@@ -184,10 +184,10 @@ following TypoScript:
       }
     }
 
-At the moment, we're only passing a single value to the TypoScript.
-It's more versatile, though, to pass multiple values to the TypoScript object
-because then you can select which value to use in the TypoScript, and the
-values can be concatenated. You can also pass whole objects to the
+At the moment, we are only passing a single value to TypoScript.
+However, it is more versatile to pass multiple values to the TypoScript object,
+because you can then select which value to use in TypoScript, and the
+values can be concatenated. You can also pass entire objects to the
 ViewHelper in the template:
 
 ..  code-block:: html
