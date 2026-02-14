@@ -142,8 +142,8 @@ with the help of the :html:`data` attribute.
 
     <f:cObject typoscriptObjectPath="lib.myCounter" data="{post.viewCount}" />
 
-Also advisable for this example is the inline notation, because you can
-easily read it from left to right:
+Inline notation is also advisable in this example, because it is
+easy to read from left to right:
 
 ..  code-block:: html
     :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.html
