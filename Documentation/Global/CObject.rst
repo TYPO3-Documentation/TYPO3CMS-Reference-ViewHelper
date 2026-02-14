@@ -213,8 +213,8 @@ This TypoScript snippet outputs the title of the blog and the number of page vis
 
 ..  _typo3-fluid-cobject-contentobject-typoscript-current:
 
-Using :typoscript:`current` to pass values
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Using `current` to pass values
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 It is also possible to use the :typoscript:`current` switch here.
 If you set the property :html:`currentValueKey`
