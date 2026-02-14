@@ -125,8 +125,7 @@ Use data from a TypoScript ContentObject
 As a more advanced use case, the ViewHelper can be used to pass data from a
 Fluid template to a content object defined in TypoScript. The following example
 demonstrates this with a user counter. The value
-of our user counter should come from the Blog-Post. (Every Blog-Post should
-count how many times it's been viewed in this example).
+of our user counter should come from theblog post. (In this example, every blog post should count how many times it has been viewed.)
 
 In the Fluid template we add:
 
