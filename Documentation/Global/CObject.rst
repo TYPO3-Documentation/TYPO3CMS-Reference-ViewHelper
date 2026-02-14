@@ -196,7 +196,7 @@ ViewHelper in the template:
     {post -> f:cObject(typoscriptObjectPath: 'lib.myCounter')}
 
 Now, how do you access individual properties of the object in the
-TypoScript-Setup? You can use the property :typoscript:`field` of
+TypoScript setup? You can use the property :typoscript:`field` of
 :typoscript:`stdWrap`:
 
 ..  code-block:: typoscript
