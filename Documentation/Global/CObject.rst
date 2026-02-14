@@ -135,7 +135,7 @@ In the Fluid template we add:
 
     <f:cObject typoscriptObjectPath="lib.myCounter">{post.viewCount}</f:cObject>
 
-Alternatively, we can use a self-closing tag. The data is being passed
+Alternatively, we can use a self-closing tag. The data is passed
 with the help of the :html:`data` attribute.
 
 ..  code-block:: html
@@ -221,7 +221,7 @@ in the cObject ViewHelper, this value will be available in
 the TypoScript template with :typoscript:`current`. That is especially useful
 when you want to emphasize that the value is very
 *important* for the TypoScript template. For example, the
-*amount of visits* is significant in our view
+*number of visits* is significant in our view
 counter:
 
 ..  code-block:: html
@@ -230,7 +230,7 @@ counter:
     {post -> f:cObject(typoscriptObjectPath: 'lib.myCounter', currentValueKey: 'viewCount')}
 
 In the TypoScript template you can now use both, :typoscript:`current`
-and :typoscript:`field`, and have therefor the maximum flexibility with the
+and :typoscript:`field`, and have therefore the maximum flexibility with the
 greatest readability. The following TypoScript snippet outputs the same
 information as the previous example:
 
