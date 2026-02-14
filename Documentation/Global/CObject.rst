@@ -211,8 +211,8 @@ TypoScript setup? You can use the property :typoscript:`field` of
       wrap = (<strong>|</strong>)
     }
 
-Now we always output the title of the blog, followed by the amount of
-page visits in parenthesis in the example above.
+In this example, we output the title of the blog followed by the number of
+page visits in parentheses.
 
 You can also combine the :typoscript:`field` based approach with
 :typoscript:`current`: If you set the property :html:`currentValueKey`
