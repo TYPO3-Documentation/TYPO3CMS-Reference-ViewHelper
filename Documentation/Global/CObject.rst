@@ -180,6 +180,8 @@ of text:
       }
     }
 
+..  _typo3-fluid-cobject-contentobject-typoscript:
+
 Passing objects to TypoScript
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -208,6 +210,8 @@ But how do we access the object's properties in our TypoScript? By setting the
     }
 
 This TypoScript snippet outputs the title of the blog and the number of page visits in parentheses.
+
+..  _typo3-fluid-cobject-contentobject-typoscript-current:
 
 Using :typoscript:`current` to pass values
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
