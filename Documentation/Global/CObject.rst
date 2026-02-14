@@ -116,3 +116,138 @@ When passing an object with `{data}`, the properties of the object are
 accessible with :typoscript:`.field` in TypoScript. If only a single value is
 passed or the `currentValueKey` is specified, :typoscript:`.current = 1`
 can be used in the TypoScript.
+
+..  _typo3-fluid-cobject-contentobject:
+
+Use data from a TypoScript ContentObject
+----------------------------------------
+
+As an example of a more advanced use case, the cObject viewhelper can pass
+content data from a Fluid template to a content object defined in TypoScript. The
+following example demonstrates this with a user counter. The user counter is in
+a blog post (the blog post has a count of how many times it has been viewed.)
+
+Add the viewhelper to your Fluid template. This can be done in 3 different
+ways. The basic tag syntax:
+
+..  code-block:: html
+    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.html
+
+    <f:cObject typoscriptObjectPath="lib.myCounter">{post.viewCount}</f:cObject>
+
+Or a self-closing tag. Data is passed in the :html:`data` attribute.
+
+..  code-block:: html
+    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.html
+
+    <f:cObject typoscriptObjectPath="lib.myCounter" data="{post.viewCount}" />
+
+Or inline notation, which is easy to read and understand (from left to right):
+
+..  code-block:: html
+    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.html
+
+    {post.viewCount -> f:cObject(typoscriptObjectPath: 'lib.myCounter')}
+
+Then, add TypoScript (to your TypoScript template) to process this data. In our
+example below, the :typoscript:`stdWrap` attribute :typoscript:`current`
+works like a switch: if set to 1, it contains the value that was passed to the
+TypoScript object from the Fluid template:
+
+..  code-block:: typoscript
+    :caption: EXT:my_extension/Configuration/TypoScript/setup.typoscript
+
+    lib.myCounter = TEXT
+    lib.myCounter {
+      current = 1
+      wrap = <strong>|</strong>
+    }
+
+This TypoScript snippet outputs the current number of visits in bold.
+
+We can easily modify this TypoScript to output the user counter as an image instead
+of text:
+
+..  code-block:: typoscript
+    :caption: EXT:my_extension/Configuration/TypoScript/setup.typoscript
+
+    lib.myCounter = IMAGE
+    lib.myCounter {
+      file = GIFBUILDER
+      file {
+         10 = TEXT
+         10.text.current = 1
+      }
+    }
+
+..  _typo3-fluid-cobject-contentobject-typoscript:
+
+Passing objects to TypoScript
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Up till now, we have only been passing a single value to the TypoScript object.
+However, it is also possible to pass multiple values, useful for selecting  which value to
+use or concatenating values, or you can pass objects (here the `post` object):
+
+..  code-block:: html
+    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.html
+
+    {post -> f:cObject(typoscriptObjectPath: 'lib.myCounter')}
+
+But how do we access the object's properties in our TypoScript? By setting the
+:typoscript:`field` property of :typoscript:`stdWrap` (in a :typoscript:`COA`):
+
+..  code-block:: typoscript
+    :caption: EXT:my_extension/Configuration/TypoScript/setup.typoscript
+
+    lib.myCounter = COA
+    lib.myCounter {
+      10 = TEXT
+      10.field = title
+      20 = TEXT
+      20.field = viewCount
+      wrap = (<strong>|</strong>)
+    }
+
+This TypoScript snippet outputs the title of the blog and the number of page visits in parentheses.
+
+..  _typo3-fluid-cobject-contentobject-typoscript-current:
+
+Using `current` to pass values
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+It is also possible to use the :typoscript:`current` switch here.
+If you set the property :html:`currentValueKey`
+in the cObject ViewHelper, the value will be available in
+the TypoScript template as :typoscript:`current`. That is especially useful
+when you want to emphasize that the value is very
+*important* for the TypoScript template. For example, the
+*number of visits* is significant in our view
+counter:
+
+..  code-block:: html
+    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.html
+
+    {post -> f:cObject(typoscriptObjectPath: 'lib.myCounter', currentValueKey: 'viewCount')}
+
+Then, in the TypoScript template, use :typoscript:`field` aswell as
+:typoscript:`current` to output the value of the view count. The following
+TypoScript snippet outputs the same information as above:
+
+..  code-block:: typoscript
+    :caption: EXT:my_extension/Configuration/TypoScript/setup.typoscript
+
+    lib.myCounter = COA
+    lib.myCounter {
+      10 = TEXT
+      10.field = title
+      20 = TEXT
+      20.current = 1
+      wrap = (<strong>|</strong>)
+    }
+
+Using :typoscript:`current` makes the TypoScript easier to read and the logic
+easier to understand.
+
+In summary, the cObject ViewHelper is a powerful option to embed TypoScript
+expressions in Fluid templates.
