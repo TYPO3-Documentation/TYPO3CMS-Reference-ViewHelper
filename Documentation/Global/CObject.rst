@@ -168,7 +168,7 @@ example, it looks like this:
 This TypoScript snippet outputs the current number of visits written
 in bold.
 
-Now for example we can output the user counter as image instead of
+For example, we can output the user counter as image instead of
 text without modifying the Fluid template. We have to use the
 following TypoScript:
 
