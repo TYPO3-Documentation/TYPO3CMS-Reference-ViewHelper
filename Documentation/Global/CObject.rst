@@ -184,6 +184,9 @@ following TypoScript:
       }
     }
 
+Passing objects to TypoScript
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 At the moment, we are only passing a single value to TypoScript.
 However, it is more versatile to pass multiple values to the TypoScript object,
 because you can then select which value to use in TypoScript, and the
@@ -213,6 +216,9 @@ TypoScript setup? You can use the property :typoscript:`field` of
 
 In this example, we output the title of the blog followed by the number of
 page visits in parentheses.
+
+Using :typoscript:`current` to pass values
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can also combine the :typoscript:`field` based approach with
 :typoscript:`current`: If you set the property :html:`currentValueKey`
