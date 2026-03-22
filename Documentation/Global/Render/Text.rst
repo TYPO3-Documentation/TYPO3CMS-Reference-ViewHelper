@@ -16,7 +16,7 @@ Render.text ViewHelper `<f:render.text>`
     and :fluid:`<f:format.html>{record.my_richtext}</f:format.html>`
 
 ..  typo3:viewhelper:: render.text
-    :source: ../Global.json
+    :source: /Global.json
     :display: tags,description,gitHubLink
     :noindex:
 
@@ -183,5 +183,5 @@ Arguments of the `<f:render.text>` ViewHelper
 =============================================
 
 ..  typo3:viewhelper:: render.text
-    :source: ../Global.json
+    :source: /Global.json
     :display: arguments-only
