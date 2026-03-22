@@ -12,7 +12,7 @@ Render.text ViewHelper `<f:render.text>`
 ..  versionadded:: 14.2
     This ViewHelper should be used whenever text fields from records are
     displayed in HTML output. It can replace :fluid:`{record.my_inputfield}` for
-    input fields as well as :fluid:`<f:format.nl2br>{record.my_textarea}</f:format.nl2br>`
+    input fields, as well as :fluid:`<f:format.nl2br>{record.my_textarea}</f:format.nl2br>`
     and :fluid:`<f:format.html>{record.my_richtext}</f:format.html>`
 
 ..  typo3:viewhelper:: render.text
@@ -53,7 +53,7 @@ and Extbase models.
 Rendering texts with the `record-transformation` data processor
 ===============================================================
 
-You can use the :fluid:`<f:render.text>` ViewHelper to render a TCA field for
+You can use the :fluid:`<f:render.text>` ViewHelper to render a TCA field, for
 example of type `Input <https://docs.typo3.org/permalink/t3tca:columns-input-rendertype-default>`_.
 
 ..  tabs::
@@ -138,7 +138,7 @@ The ViewHelper can also be used to display an
 `Extbase model <https://docs.typo3.org/permalink/t3coreapi:extbase-model>`_.
 
 The Extbase model is internally converted to a
-:php-short:`\TYPO3\CMS\Core\Domain\RecordInterface`, the rendering method is
+:php-short:`\TYPO3\CMS\Core\Domain\RecordInterface` where the rendering method is
 determined by the TCA definition of the field.
 
 Usage with an Extbase model (property name differs from database field name):
