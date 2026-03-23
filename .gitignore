@@ -16,3 +16,4 @@ nbproject
 /composer.json.testing
 /composer.lock
 /.Build/
+/var/
