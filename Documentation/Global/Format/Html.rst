@@ -7,6 +7,15 @@
 Format.html ViewHelper `<f:format.html>`
 ========================================
 
+..  versionchanged:: 14.0
+
+    The `Render.text ViewHelper <f:render.text> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-render-text>`_
+    should be used whenever text fields from records are
+    displayed in HTML output.
+
+    Depending on the TCA definition of the rendered field `nl2br` is then
+    automatically applied for multi line text areas.
+
 ..  typo3:viewhelper:: format.html
     :source: ../../Global.json
     :display: tags,description,gitHubLink
@@ -81,26 +90,38 @@ With a custom parsing function defined in TypoScript:
 ..  _typo3-fluid-format-html-arguments-data:
 
 Data argument
---------------
+-------------
+
+..  versionchanged:: 14.0
+
+    The `Render.text ViewHelper <f:render.text> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-render-text>`_
+    should be used whenever text fields from records are
+    displayed in HTML output.
+
+    Depending on the TCA definition of the rendered field `nl2br` is then
+    automatically applied for multi line text areas.
 
 If you use TypoScript properties such as :typoscript:`field` or :typoscript:`dataWrap`,
-you should pass the current record as `data`. This ensures that field references like
+you should pass structured data
+(`Data transfer object (DTO) <https://docs.typo3.org/permalink/t3coreapi:extbase-dto>`_
+or named array) as `data`. This ensures that field references like
 `{FIELD:title}` are resolved correctly.
 
 ..  code-block:: html
 
     <f:format.html
-        data="{newsRecord}"
+        data="{someDto}"
         parseFuncTSPath="lib.myParseFunc"
     >
-        News title:
+        You entered the following in the form:
     </f:format.html>
 
 You may get the following output:
 
 ..  code-block:: html
 
-    News title: <strong>TYPO3, greatest CMS ever</strong>
+    You entered the following in the form:
+    <strong>TYPO3, greatest CMS ever</strong>
 
 With a custom parsing function defined in TypoScript:
 
@@ -156,7 +177,7 @@ current value.
 ..  code-block:: html
 
     <f:format.html
-        data="{contentRecord}"
+        data="{someDto}"
         currentValueKey="header"
         parseFuncTSPath="lib.content"
     >

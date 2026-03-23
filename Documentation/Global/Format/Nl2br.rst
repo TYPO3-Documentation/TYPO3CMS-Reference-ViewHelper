@@ -8,6 +8,15 @@
 Format.nl2br ViewHelper `<f:format.nl2br>`
 ==========================================
 
+..  versionchanged:: 14.0
+
+    The `Render.text ViewHelper <f:render.text> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-render-text>`_
+    should be used whenever text fields from records are
+    displayed in HTML output.
+
+    Depending on the TCA definition of the rendered field `nl2br` is then
+    automatically applied for multi line text areas.
+
 ..  typo3:viewhelper:: format.nl2br
     :source: ../../Global.json
     :display: tags,description,gitHubLink
