@@ -241,15 +241,15 @@ Migration: Use the `f:render.contentArea` ViewHelper
 ----------------------------------------------------
 
 ..  versionchanged:: 14.2
-    Instead of using the :html:`<f:cObject>` ViewHelper to the new
+    Instead of using the :html:`<f:cObject>` ViewHelper, the new
     `Render.contentArea ViewHelper <f:render.contentArea> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-render-contentarea>`_
     can be used to render all content elements within a column from a backend
     layout.
 
-When using the `page-content data processor <https://docs.typo3.org/permalink/t3tsref:pagecontentfetchingprocessor>`_
+If you are using the `page-content data processor <https://docs.typo3.org/permalink/t3tsref:pagecontentfetchingprocessor>`_
 to display the content elements of a
 `PAGEVIEW <https://docs.typo3.org/permalink/t3tsref:cobj-pageview>`_, switch
-to using the
+to the
 `Render.contentArea ViewHelper <f:render.contentArea> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-render-contentarea>`_
 on dropping TYPO3 v13 support:
 
@@ -269,8 +269,8 @@ on dropping TYPO3 v13 support:
 Variable `{contentElement.mainType}` already contains the correct TypoScript path
 to the TypoScript top-level object `tt_content <https://docs.typo3.org/permalink/t3tsref:tlo-tt-content>`_.
 
-The table storing the content elements is also called `tt_content` so we can use
-the same variable here. Variable `contentElement` already contains the
+The table storing the content elements is also called `tt_content`, so we can use
+the same variable here. Variable `contentElement` will already contain the
 `Record object <https://docs.typo3.org/permalink/t3coreapi:record-objects>`_
 containing the data needed to render the content element with the
 CObject ViewHelper.

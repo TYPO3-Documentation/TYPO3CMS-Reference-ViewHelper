@@ -30,8 +30,8 @@ to allow other extensions to modify the output via event listeners.
 
 ..  _typo3-fluid-render-contentarea-example:
 
-Rendering all content elements within a column from a backend layout
-====================================================================
+Rendering all content elements within a backend layout column
+=============================================================
 
 The most common use case for the `<f:render.contentArea>` is to render all
 content elements within a column from a backend layout.
@@ -67,7 +67,7 @@ content elements within a column from a backend layout.
             }
 
 For an example of how to configure the backend layout in page TSconfig
-and for further options in the data processor, see
+and further data processor options, see
 `Example: Use the page-content data processor to display the content
 <https://docs.typo3.org/permalink/t3tsref:pagecontentfetchingprocessor-example>`_.
 
@@ -77,7 +77,7 @@ Using the "recordAs" argument to wrap each content element
 ==========================================================
 
 Using the :ref:`recordAs <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-render-contentareaviewhelper-recordas>`
-argument, the `<f:render.contentArea>` can be used in combination with the
+argument, `<f:render.contentArea>` can be combined with the
 `Render.record ViewHelper <f:render.record> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-render-record>`_
 to wrap each content element:
 
@@ -97,9 +97,8 @@ to wrap each content element:
 Intercepting the rendering of content areas via an event
 ========================================================
 
-With the :php:`\TYPO3\CMS\Fluid\Event\ModifyRenderedContentAreaEvent`,
-developers can intercept the rendering of content areas in Fluid templates to
-modify the output.
+Developers can intercept the rendering of content areas in Fluid templates using
+:php:`\TYPO3\CMS\Fluid\Event\ModifyRenderedContentAreaEvent` to modify output.
 
 ..  _typo3-fluid-render-contentarea-arguments:
 

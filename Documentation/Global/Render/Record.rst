@@ -12,8 +12,8 @@ Render.record ViewHelper `<f:render.record>`
     Instead of using the :html:`<f:cObject>` ViewHelper to render database records,
     use the new :html:`<f:render.record>` ViewHelper.
 
-This ViewHelper renders a record object using its TypoScript definition. The
-most common use case is rendering a content element, which is available as a
+This ViewHelper renders a record object via its TypoScript definition. The
+most common use case is rendering a content element that is available as a
 record object in a Fluid template.
 
 By default, the ViewHelper renders the record as-is. However, event listeners
@@ -62,7 +62,7 @@ Rendering content elements using the `record-transformation` data processor
 Rendering arbitrary database records
 ====================================
 
-You can render any database record with valid
+You can render any database record that has valid
 `TCA <https://docs.typo3.org/permalink/t3tca:start>`_, including categories and
 records provided by third-party extensions.
 
@@ -72,7 +72,7 @@ Rendering system categories
 ---------------------------
 
 You can render not only `tt_content` records but any database record by defining
-a top-level TypoScript object with the name of the record's table.
+a top-level TypoScript object with the name of the record table.
 
 For example, to render system categories, use `sys_category = FLUIDTEMPLATE`
 (`FLUIDTEMPLATE <https://docs.typo3.org/permalink/t3tsref:cobj-template>`_)
@@ -130,7 +130,7 @@ to configure the rendering.
 Rendering records with types
 ============================
 
-If you want to render a database record with different
+If you want to render a database record that has different
 `types <https://docs.typo3.org/permalink/t3tca:types-introduction>`_, you can
 use a TypoScript `Content object array (COA) <https://docs.typo3.org/permalink/t3tsref:cobj-coa-int>`_
 to configure rendering for special types:
