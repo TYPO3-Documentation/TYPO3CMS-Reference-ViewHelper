@@ -7,6 +7,14 @@
 CObject ViewHelper `<f:cObject>`
 ================================
 
+..  versionchanged:: 14.2
+    Instead of using the :html:`<f:cObject>` ViewHelper to render database records,
+    the new `Render.record ViewHelper <f:render.record> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-render-record>`_
+    ViewHelper can be used to render database records and the new
+    `Render.contentArea ViewHelper <f:render.contentArea> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-render-contentarea>`_
+    can be used to render all content elements within a column from a backend
+    layout.
+
 ..  typo3:viewhelper:: cObject
     :display: tags,description,gitHubLink
     :source: ../Global.json
@@ -44,36 +52,6 @@ The TypoScript could look like this:
 
     lib.someLibObject = TEXT
     lib.someLibObject.value = Hello World!
-
-..  _typo3-fluid-cobject-content:
-
-Displaying content elements provided by the page-content data processor
------------------------------------------------------------------------
-
-When using the `page-content data processor <https://docs.typo3.org/permalink/t3tsref:pagecontentfetchingprocessor>`_
-to display the content elements of a
-`PAGEVIEW <https://docs.typo3.org/permalink/t3tsref:cobj-pageview>`_,
-the CObject ViewHelper can be used to display the actual content elements:
-
-..  code-block:: html
-    :caption: packages/my_sitepackage/Resources/Private/Templates/Pages/Default.html
-
-    <f:for each="{myContent.left.records}" as="contentElement">
-        <f:cObject
-            typoscriptObjectPath="{contentElement.mainType}"
-            table="{contentElement.mainType}"
-            data="{contentElement}"
-        />
-    </f:for>
-
-Variable `{contentElement.mainType}` already contains the correct TypoScript path
-to the TypoScript top-level object `tt_content <https://docs.typo3.org/permalink/t3tsref:tlo-tt-content>`_.
-
-The table storing the content elements is also called `tt_content` so we can use
-the same variable here. Variable `contentElement` already contains the
-`Record object <https://docs.typo3.org/permalink/t3coreapi:record-objects>`_
-containing the data needed to render the content element with the
-CObject ViewHelper.
 
 ..  _typo3-fluid-cobject-plugin:
 
@@ -127,7 +105,7 @@ content data from a Fluid template to a content object defined in TypoScript. Th
 following example demonstrates this with a user counter. The user counter is in
 a blog post (the blog post has a count of how many times it has been viewed.)
 
-Add the viewhelper to your Fluid template. This can be done in 3 different
+Add the Viewhelper to your Fluid template. This can be done in 3 different
 ways. The basic tag syntax:
 
 ..  code-block:: html
@@ -251,3 +229,48 @@ easier to understand.
 
 In summary, the cObject ViewHelper is a powerful option to embed TypoScript
 expressions in Fluid templates.
+
+..  _typo3-fluid-cobject-migration:
+
+Migration from the `f:cObject` to dedicated ViewHelpers for special cases
+=========================================================================
+
+..  _typo3-fluid-cobject-content:
+
+Migration: Use the `f:render.contentArea` ViewHelper
+----------------------------------------------------
+
+..  versionchanged:: 14.2
+    Instead of using the :html:`<f:cObject>` ViewHelper to the new
+    `Render.contentArea ViewHelper <f:render.contentArea> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-render-contentarea>`_
+    can be used to render all content elements within a column from a backend
+    layout.
+
+When using the `page-content data processor <https://docs.typo3.org/permalink/t3tsref:pagecontentfetchingprocessor>`_
+to display the content elements of a
+`PAGEVIEW <https://docs.typo3.org/permalink/t3tsref:cobj-pageview>`_, switch
+to using the
+`Render.contentArea ViewHelper <f:render.contentArea> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-render-contentarea>`_
+on dropping TYPO3 v13 support:
+
+..  code-block:: diff
+    :caption: packages/my_sitepackage/Resources/Private/Templates/Pages/Default.html (diff)
+
+    - <f:for each="{myContent.left.records}" as="contentElement">
+    -     <f:cObject
+    -         typoscriptObjectPath="{contentElement.mainType}"
+    -         table="{contentElement.mainType}"
+    -         data="{contentElement}"
+    -     />
+    - </f:for>
+
+    + <f:render.contentArea contentArea="{myContent.left}" />
+
+Variable `{contentElement.mainType}` already contains the correct TypoScript path
+to the TypoScript top-level object `tt_content <https://docs.typo3.org/permalink/t3tsref:tlo-tt-content>`_.
+
+The table storing the content elements is also called `tt_content` so we can use
+the same variable here. Variable `contentElement` already contains the
+`Record object <https://docs.typo3.org/permalink/t3coreapi:record-objects>`_
+containing the data needed to render the content element with the
+CObject ViewHelper.
