@@ -129,6 +129,30 @@ TCA configuration.
         ..  literalinclude:: _codesnippets/_tt_content_textarea.php
             :caption: my_theme/Configuration/TCA/Overrides/tt_content.php
 
+..  _typo3-fluid-render-text-usage-optional-argument:
+
+Using the `optional` argument
+=============================
+
+Accessing a field that is not available in a record usually raises an
+exception. However, in shared templates that need to be rendered even if a field
+happens to be missing in a particular record, setting the boolean argument
+:html:`optional` to :html:`true` means the ViewHelper will return
+:html:`null` instead of an exception.
+
+..  code-block:: html
+    :caption: SharedHeader.fluid.html
+
+    <f:variable name="header">{record -> f:render.text(field: 'header', optional: true)}</f:variable>
+
+This is useful for shared partials such as in :html:`fluid_styled_content`
+where header partials can be reused by content elements when the transformed record
+does not provide a :html:`header` or :html:`subheader` field. Without
+:html:`optional="true"`, rendering the partial would raise a
+:php:`RecordPropertyNotFoundException`. If :html:`optional="true"`, the ViewHelper
+returns :html:`null` and the partial can continue to handle the missing value
+gracefully.
+
 ..  _typo3-fluid-render-text-extbase:
 
 Rendering texts from Extbase models
