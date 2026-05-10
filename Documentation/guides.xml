@@ -9,7 +9,7 @@
                project-issues="https://github.com/TYPO3-Documentation/TYPO3CMS-Reference-ViewHelper/issues"
                edit-on-github="TYPO3-Documentation/TYPO3CMS-Reference-ViewHelper"
                edit-on-github-branch="main"
-               typo3-core-preferred="main"
+               typo3-core-preferred="14.3"
                interlink-shortcode="t3viewhelper"
     />
     <project title="Fluid ViewHelper Reference"
