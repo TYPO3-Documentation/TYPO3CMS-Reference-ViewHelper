@@ -1,4 +1,4 @@
-:navigation-title:
+:navigation-title: Removed ViewHelpers
 
 ..  _not-found:
 
@@ -10,17 +10,16 @@ ViewHelpers removed from TYPO3
 
 ..  _not-found-15:
 
-TYPO3 15.0: removed content
-===========================
+TYPO3 15.0: removed ViewHelpers
+===============================
 
 ..  _typo3-fluid-debug-render:
 
-Debug.render ViewHelper `<f:debug.render>` removed
---------------------------------------------------
+Debug.render ViewHelper `<f:debug.render>` was removed
+------------------------------------------------------
 
 ..  deprecated:: 14.2
+    See: `Deprecation: #107208 - <f:debug.render> ViewHelper <https://docs.typo3.org/permalink/changelog:deprecation-107208-1754387701>`_
 
 The ViewHelper has been moved to :composer:`typo3/cms-adminpanel` in v14 and is now
 removed from `typo3/cms-fluid`.
-
-See: `Deprecation: #107208 - <f:debug.render> ViewHelper <https://docs.typo3.org/permalink/changelog:deprecation-107208-1754387701>`_
