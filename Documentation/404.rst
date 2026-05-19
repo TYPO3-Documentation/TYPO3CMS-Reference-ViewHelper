@@ -1,10 +1,10 @@
-:orphan:
+:navigation-title:
 
 ..  _not-found:
 
-===================
-Content was removed
-===================
+==============================
+ViewHelpers removed from TYPO3
+==============================
 
 ..  contents:: Table of contents
 
