@@ -47,6 +47,7 @@ from the PHP source code of TYPO3.
     Backend/Index
     Core/Index
     Form/Index
+    404
 
 ..  toctree::
     :hidden:
