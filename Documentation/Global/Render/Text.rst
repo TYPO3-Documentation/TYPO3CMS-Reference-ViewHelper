@@ -63,7 +63,7 @@ example of type `Input <https://docs.typo3.org/permalink/t3tca:columns-input-ren
         ..  code-block:: html
             :caption: my_theme/Resources/Private/Templates/Content/MyContentElement.fluid.html
 
-            <f:render.text record="{record} field="my_title" />
+            <f:render.text record="{record}" field="my_title" />
             or
             {f:render.text(record: record, field: 'my_title')}
             or
