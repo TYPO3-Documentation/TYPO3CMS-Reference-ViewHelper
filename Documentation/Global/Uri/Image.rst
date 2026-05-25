@@ -11,6 +11,12 @@ Uri.image ViewHelper `<f:uri.image>`
     :source: ../../Global.json
     :display: tags,description,gitHubLink,arguments
 
+..  versionchanged:: 14.2
+    When working with `srcset` in HTML, the
+    `Image.srcset ViewHelper <f:image.srcset> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-image-srcset>`_
+    simplifies previous manual implementations
+    using :fluid:`{f:uri.image}` for each image size manually.
+
 ..  _typo3-fluid-uri-image-example:
 
 Examples
