@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/form/Classes/ViewHelpers/Form/DatePickerViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/form/Classes/ViewHelpers/Form/DatePickerViewHelper.php
 :navigation-title: form.datePicker
 
 ..  include:: /Includes.rst.txt
@@ -10,6 +7,14 @@
 =====================================================
 Form.datePicker ViewHelper `<formvh:form.datePicker>`
 =====================================================
+
+..  deprecated:: 14.2
+    The :yaml:`DatePicker` form element type and its associated
+    `<formvh:form.datePicker>` and `<formvh:form.timePicker>` have been
+    deprecated in favor of the :yaml:`Date` form element.
+
+    See `Deprecation: #109152 - Form DatePicker element <https://docs.typo3.org/permalink/changelog:deprecation-109152-1741600000>`_.
+
 
 ..  include:: /Form/_Includes/_Namespace.rst.txt
 
