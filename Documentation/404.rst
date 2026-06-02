@@ -23,3 +23,29 @@ Debug.render ViewHelper `<f:debug.render>` was removed
 
 The ViewHelper has been moved to :composer:`typo3/cms-adminpanel` in v14 and is now
 removed from `typo3/cms-fluid`.
+
+
+..  _typo3-form-form-datepicker:
+
+Form.datePicker ViewHelper `<formvh:form.datePicker>` was removed
+-----------------------------------------------------------------
+
+..  deprecated:: 14.2
+    See `Deprecation: #109152 - Form DatePicker element <https://docs.typo3.org/permalink/changelog:deprecation-109152-1741600000>`_.
+
+The :yaml:`DatePicker` form element type and its associated
+`<formvh:form.datePicker>` and `<formvh:form.timePicker>` have been
+deprecated in favor of the :yaml:`Date` form element.
+
+
+..  _typo3-form-form-timepicker:
+
+Form.timePicker ViewHelper `<formvh:form.timePicker>` was removed
+-----------------------------------------------------------------
+
+..  deprecated:: 14.2
+    See `Deprecation: #109152 - Form DatePicker element <https://docs.typo3.org/permalink/changelog:deprecation-109152-1741600000>`_.
+
+The :yaml:`DatePicker` form element type and its associated
+`<formvh:form.datePicker>` and `<formvh:form.timePicker>` have been
+deprecated in favor of the :yaml:`Date` form element.
