@@ -49,3 +49,15 @@ Form.timePicker ViewHelper `<formvh:form.timePicker>` was removed
 The :yaml:`DatePicker` form element type and its associated
 `<formvh:form.datePicker>` and `<formvh:form.timePicker>` have been
 deprecated in favor of the :yaml:`Date` form element.
+
+..  _typo3-fluid-be-infobox-migration:
+
+InfoboxViewHelper state constants moved to ContextualFeedbackSeverity enum
+--------------------------------------------------------------------------
+
+..  deprecated:: 14.0
+    See `Deprecation: #107648 - InfoboxViewHelper STATE_* constants <https://docs.typo3.org/permalink/changelog:deprecation-107648-1744465200>`_.
+
+The public constants in :php-short:`\TYPO3\CMS\Fluid\ViewHelpers\Be\InfoboxViewHelper`
+for defining the state/severity of an infobox have been removed. Use
+the enum :php:`\TYPO3\CMS\Core\Type\ContextualFeedbackSeverity` instead.
