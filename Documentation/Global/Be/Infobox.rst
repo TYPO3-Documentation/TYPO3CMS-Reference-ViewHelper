@@ -24,11 +24,6 @@ Be.infobox ViewHelper `<f:be.infobox>`
 Severity states of the Be.infobox ViewHelper
 ============================================
 
-..  deprecated:: 14.0
-    The public constants in :php-short:`\TYPO3\CMS\Fluid\ViewHelpers\Be\InfoboxViewHelper`
-    for defining the state/severity of an infobox have been deprecated. Use
-    the enum :php:`\TYPO3\CMS\Core\Type\ContextualFeedbackSeverity` instead.
-
 The Infobox provides different context-sensitive states that
 can be used to provide an additional visual feedback to the
 user to underline the meaning of the information.
@@ -100,26 +95,6 @@ You can find this example in the TYPO3 backend module
 
 ..  literalinclude:: _Infobox/_ReferenceIndex.html
     :caption: EXT:lowlevel/Resources/Private/Templates/ReferenceIndex.html
-
-..  _typo3-fluid-be-infobox-migration:
-
-Migration from using InfoboxViewHelper state constants
-------------------------------------------------------
-
-If you want to support both TYPO3 v13 and v14 you can keep using the constants
-until dropping TYPO3 13 support.
-
-After dropping TYPO3 13 support migrate as follows:
-
-..  literalinclude:: _Infobox/_Migration.diff
-    :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.html
-
-In PHP code replace the severity by using the enum or their value instead of the
-constants:
-
-..  literalinclude:: _Infobox/_Migration.php
-    :caption: EXT:my_extension/Classes/Controller/MyController.php
-
 
 ..  _typo3-fluid-be-infobox-arguments:
 
