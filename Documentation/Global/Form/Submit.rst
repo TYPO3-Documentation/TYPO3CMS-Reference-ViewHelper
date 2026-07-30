@@ -43,8 +43,8 @@ is called.
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_FormSubmit.html
-            :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.html
+        ..  literalinclude:: _codesnippets/_FormSubmit.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.fluid.html
 
     ..  group-tab:: Controller
 
@@ -65,8 +65,8 @@ submit buttons with different labels:
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_FormSubmitMultiple.html
-            :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.html
+        ..  literalinclude:: _codesnippets/_FormSubmitMultiple.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.fluid.html
 
     ..  group-tab:: Controller
 

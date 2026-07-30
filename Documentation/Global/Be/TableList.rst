@@ -28,8 +28,8 @@ Display and make editable the content elements of page 1 and its direct children
 
     ..  group-tab:: Code example
 
-        ..  literalinclude:: /Global/Be/_TableList/_Content.html
-            :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.html
+        ..  literalinclude:: /Global/Be/_TableList/_Content.fluid.html
+            :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.fluid.html
 
     ..  group-tab:: Screenshot
 
@@ -42,8 +42,8 @@ List all categories on page 5 and make them editable when clicking the title:
 
     ..  group-tab:: Code example
 
-        ..  literalinclude:: /Global/Be/_TableList/_Category.html
-            :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.html
+        ..  literalinclude:: /Global/Be/_TableList/_Category.fluid.html
+            :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.fluid.html
 
     ..  group-tab:: Screenshot
 

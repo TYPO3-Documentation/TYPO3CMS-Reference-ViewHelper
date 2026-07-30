@@ -23,8 +23,8 @@ Array parameter passed to Extbase controller action
 
 For example a very simplified search form could look like this:
 
-..  literalinclude:: _codesnippets/_PlainParameterForm.html
-    :caption: packages/my_extension/Resources/Private/Templates/Search/SearchForm.html
+..  literalinclude:: _codesnippets/_PlainParameterForm.fluid.html
+    :caption: packages/my_extension/Resources/Private/Templates/Search/SearchForm.fluid.html
 
 The `Extbase controller <https://docs.typo3.org/permalink/t3coreapi:extbase-controller>`_
 action could for example look like this:
@@ -43,8 +43,8 @@ data objects.
 
 For example, user could add a comment in such a form:
 
-..  literalinclude:: _codesnippets/_CommentForm.html
-    :caption: packages/my_extension/Resources/Private/Templates/Comment/CommentForm.html
+..  literalinclude:: _codesnippets/_CommentForm.fluid.html
+    :caption: packages/my_extension/Resources/Private/Templates/Comment/CommentForm.fluid.html
 
 The Extbase Controller action displaying the form then creates the Domain object
 and passes it to the view. In the Fluid template above we use argument
@@ -132,7 +132,7 @@ to their parent form and cannot be used.
 
 It is however possible to pass a form field to a slot:
 
-..  literalinclude:: _codesnippets/FormFieldComponent.html
+..  literalinclude:: _codesnippets/FormFieldComponent.fluid.html
 
 And then use it like this:
 

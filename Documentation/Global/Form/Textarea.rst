@@ -37,8 +37,8 @@ controller action, without relying on a domain model or Data Transfer Object (DT
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_TextfieldSimple.html
-            :caption: packages/my_extension/Resources/Private/Templates/Contact/ShowForm.html
+        ..  literalinclude:: _codesnippets/_TextfieldSimple.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Contact/ShowForm.fluid.html
 
     ..  group-tab:: Controller
 
@@ -67,8 +67,8 @@ which is suitable for longer content.”
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_CommentForm.html
-            :caption: packages/my_extension/Resources/Private/Templates/Blog/Comment.html
+        ..  literalinclude:: _codesnippets/_CommentForm.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Blog/Comment.fluid.html
 
     ..  group-tab:: Controller
 

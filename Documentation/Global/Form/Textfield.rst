@@ -31,8 +31,8 @@ For example a very simplified search form could look like this:
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_PlainParameterForm.html
-            :caption: packages/my_extension/Resources/Private/Templates/Search/SearchForm.html
+        ..  literalinclude:: _codesnippets/_PlainParameterForm.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Search/SearchForm.fluid.html
 
     ..  group-tab:: Controller
 
@@ -55,8 +55,8 @@ For this, the surrounding form must also define the
 :ref:`object <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-formviewhelper-object>`
 property.
 
-..  literalinclude:: _codesnippets/_CommentForm.html
-    :caption: packages/my_extension/Resources/Private/Templates/Blog/Comment.html
+..  literalinclude:: _codesnippets/_CommentForm.fluid.html
+    :caption: packages/my_extension/Resources/Private/Templates/Blog/Comment.fluid.html
 
 ..  _typo3-fluid-form-textfield-example-validation:
 
@@ -119,8 +119,8 @@ Example with validation and aria-attributes
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_CommentFormValidation.html
-            :caption: packages/my_extension/Resources/Private/Templates/Comment/CommentForm.html
+        ..  literalinclude:: _codesnippets/_CommentFormValidation.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Comment/CommentForm.fluid.html
 
     ..  group-tab:: Controller
 

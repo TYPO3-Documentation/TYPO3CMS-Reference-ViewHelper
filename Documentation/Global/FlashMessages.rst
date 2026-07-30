@@ -51,14 +51,14 @@ can call method `addFlashMessage()` to add flash messages to the message queue:
 As mentioned above, they will be displayed when a `<f:flashMessages>` is displayed within any action
 of the same controller:
 
-..  literalinclude:: _FlashMessages/_DemonstrateFlashMessages.html
-    :caption: packages/my_extension/Resources/Private/Templates/My/DemonstrateFlashMessages.html
+..  literalinclude:: _FlashMessages/_DemonstrateFlashMessages.fluid.html
+    :caption: packages/my_extension/Resources/Private/Templates/My/DemonstrateFlashMessages.fluid.html
 
 If you want to display the flash messages in any place outside of the controller
 you can use the identifier `extbase.flashmessages.<pluginNamespace>`, for example:
 
-..  literalinclude:: _FlashMessages/_SomeForm.html
-    :caption: packages/my_extension/Resources/Private/Templates/Other/SomeForm.html
+..  literalinclude:: _FlashMessages/_SomeForm.fluid.html
+    :caption: packages/my_extension/Resources/Private/Templates/Other/SomeForm.fluid.html
 
 ..  _typo3-fluid-flashmessages-queueIdentifier:
 
