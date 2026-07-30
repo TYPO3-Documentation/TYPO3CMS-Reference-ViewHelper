@@ -59,8 +59,8 @@ and integer values between `-2` and `+2` for backward compatibility.
         :php:`\TYPO3\CMS\Core\Type\ContextualFeedbackSeverity` enum together with the
         `Constant ViewHelper <f:constant> <https://docs.typo3.org/permalink/t3viewhelper:typo3fluid-fluid-constant>`_:
 
-        ..  literalinclude:: _Infobox/_States.html
-            :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.html
+        ..  literalinclude:: _Infobox/_States.fluid.html
+            :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.fluid.html
 
 ..  _typo3-fluid-be-infobox-example:
 
@@ -76,13 +76,13 @@ Info box of level notice with a static title and a static text:
 
 Warning box with disabled icon:
 
-..  literalinclude:: _Infobox/_Warning.html
-    :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.html
+..  literalinclude:: _Infobox/_Warning.fluid.html
+    :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.fluid.html
 
 Success box with custom icon:
 
-..  literalinclude:: _Infobox/_CustomIcon.html
-    :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.html
+..  literalinclude:: _Infobox/_CustomIcon.fluid.html
+    :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.fluid.html
 
 ..  _typo3-fluid-be-infobox-example-html:
 
@@ -93,8 +93,8 @@ You can find this example in the TYPO3 backend module
 :guilabel:`System > DB Check > Manage Reference Index` if
 :composer:`typo3/cms-lowlevel` is installed.
 
-..  literalinclude:: _Infobox/_ReferenceIndex.html
-    :caption: EXT:lowlevel/Resources/Private/Templates/ReferenceIndex.html
+..  literalinclude:: _Infobox/_ReferenceIndex.fluid.html
+    :caption: EXT:lowlevel/Resources/Private/Templates/ReferenceIndex.fluid.html
 
 ..  _typo3-fluid-be-infobox-arguments:
 

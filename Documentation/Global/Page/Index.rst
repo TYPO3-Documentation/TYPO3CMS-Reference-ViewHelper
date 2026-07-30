@@ -47,8 +47,8 @@ This approach is typically used in site packages and custom frontend
 rendering setups where page title, meta data, and head markup are defined
 centrally in a layout.
 
-..  literalinclude:: _codesnippets/_PageLayout.html
-    :caption: EXT:my_extension/Resources/Private/PageView/Layout/Default.html
+..  literalinclude:: _codesnippets/_PageLayout.fluid.html
+    :caption: EXT:my_extension/Resources/Private/PageView/Layout/Default.fluid.html
 
 The example above combines several Page ViewHelpers, each responsible for a
 specific page-level concern:

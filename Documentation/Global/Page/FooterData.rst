@@ -37,4 +37,4 @@ do not support all required attributes or use cases
 
 ..  rubric:: Example usage
 
-..  literalinclude:: _codesnippets/_FooterData.html
+..  literalinclude:: _codesnippets/_FooterData.fluid.html
