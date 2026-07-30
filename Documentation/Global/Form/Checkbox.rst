@@ -47,8 +47,8 @@ sends no argument to the request.
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_CheckboxOptional.html
-            :caption: packages/my_extension/Resources/Private/Templates/Comment/Newsletter.html
+        ..  literalinclude:: _codesnippets/_CheckboxOptional.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Comment/Newsletter.fluid.html
 
     ..  group-tab:: Controller
 
@@ -95,8 +95,8 @@ to map the checkbox to a property of your domain model or data object:
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_CheckboxProperty.html
-            :caption: packages/my_extension/Resources/Private/Templates/Newsletter/SomeForm.html
+        ..  literalinclude:: _codesnippets/_CheckboxProperty.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Newsletter/SomeForm.fluid.html
 
     ..  group-tab:: Controller
 
@@ -147,8 +147,8 @@ Extbase how to map the data from the request to your controller action in an
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_CheckboxMultiple.html
-            :caption: packages/my_extension/Resources/Private/Templates/Newsletter/SomeForm.html
+        ..  literalinclude:: _codesnippets/_CheckboxMultiple.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Newsletter/SomeForm.fluid.html
 
     ..  group-tab:: Controller
 
@@ -200,8 +200,8 @@ the `required` property is possible even though it is not listed.
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_CheckboxRequired.html
-            :caption: packages/my_extension/Resources/Private/Templates/Newsletter/SomeForm.html
+        ..  literalinclude:: _codesnippets/_CheckboxRequired.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Newsletter/SomeForm.fluid.html
 
     ..  group-tab:: Controller
 

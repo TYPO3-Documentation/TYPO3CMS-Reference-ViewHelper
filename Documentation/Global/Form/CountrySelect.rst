@@ -23,8 +23,8 @@ For example a very simplified search form could look like this:
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_CountryForm.html
-            :caption: packages/my_extension/Resources/Private/Templates/User/SelectCountry.html
+        ..  literalinclude:: _codesnippets/_CountryForm.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/User/SelectCountry.fluid.html
 
     ..  group-tab:: Controller
 
@@ -43,8 +43,8 @@ Define a list of countries which should be listed as first options in the
 form element by setting
 :ref:`prioritizedCountries <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-form-countryselectviewhelper-prioritizedcountries>`:
 
-..  literalinclude:: _codesnippets/_CountryFormPrioritized.html
-    :caption: packages/my_extension/Resources/Private/Templates/User/SelectCountry.html
+..  literalinclude:: _codesnippets/_CountryFormPrioritized.fluid.html
+    :caption: packages/my_extension/Resources/Private/Templates/User/SelectCountry.fluid.html
 
 Additionally, Austria is pre-selected.
 
@@ -60,8 +60,8 @@ instance, if you want to show the localized official names but not in your
 default language but in French. You can achieve this by using the following
 combination:
 
-..  literalinclude:: _codesnippets/_CountryFormLanguage.html
-    :caption: packages/my_extension/Resources/Private/Templates/User/SelectCountry.html
+..  literalinclude:: _codesnippets/_CountryFormLanguage.fluid.html
+    :caption: packages/my_extension/Resources/Private/Templates/User/SelectCountry.fluid.html
 
 ..  _typo3-fluid-form-countryselect-example-property:
 
@@ -75,8 +75,8 @@ attribute if you have bound an object to the form.
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_CountryPropertyForm.html
-            :caption: packages/my_extension/Resources/Private/Templates/User/SelectCountry.html
+        ..  literalinclude:: _codesnippets/_CountryPropertyForm.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/User/SelectCountry.fluid.html
 
     ..  group-tab:: Model
 
