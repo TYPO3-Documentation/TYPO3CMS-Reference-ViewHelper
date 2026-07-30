@@ -31,8 +31,8 @@ The basic usage sets a name and renders a password input:
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_PasswordFormBasic.html
-            :caption: Resources/Private/Templates/User/LoginForm.html
+        ..  literalinclude:: _codesnippets/_PasswordFormBasic.fluid.html
+            :caption: Resources/Private/Templates/User/LoginForm.fluid.html
 
     ..  group-tab:: Output
 
@@ -48,8 +48,8 @@ Binding to a model property
 You can bind the password field to a property in an Extbase model.
 This requires the form to define the `object` and `objectName` as well.
 
-..  literalinclude:: _codesnippets/_PasswordFormBound.html
-    :caption: Resources/Private/Templates/User/RegisterForm.html
+..  literalinclude:: _codesnippets/_PasswordFormBound.fluid.html
+    :caption: Resources/Private/Templates/User/RegisterForm.fluid.html
 
 ..  _typo3-fluid-form-password-example-validation:
 

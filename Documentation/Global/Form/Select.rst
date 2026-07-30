@@ -32,8 +32,8 @@ human-readable name.
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_SelectGender.html
-            :caption: packages/my_extension/Resources/Private/Templates/User/GenderForm.html
+        ..  literalinclude:: _codesnippets/_SelectGender.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/User/GenderForm.fluid.html
 
     ..  group-tab:: Controller
 
@@ -54,8 +54,8 @@ array with the options to the view:
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_SelectPayment.html
-            :caption: packages/my_extension/Resources/Private/Templates/User/PaymentForm.html
+        ..  literalinclude:: _codesnippets/_SelectPayment.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/User/PaymentForm.fluid.html
 
     ..  group-tab:: Controller
 
@@ -97,8 +97,8 @@ and in an Extbase model:
         The Fluid template can be left unchanged even though we are dealing with a
         different data source:
 
-        ..  literalinclude:: _codesnippets/_SelectPayment.html
-            :caption: packages/my_extension/Resources/Private/Templates/User/PaymentForm.html
+        ..  literalinclude:: _codesnippets/_SelectPayment.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/User/PaymentForm.fluid.html
 
 When the form gets submitted, the UID of the chosen model appears in the request
 data. Extbase will then map that uid back to the model for you.
@@ -166,8 +166,8 @@ we can also map the selected option to the model:
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_SelectPaymentProperty.html
-            :caption: packages/my_extension/Resources/Private/Templates/User/PaymentForm.html
+        ..  literalinclude:: _codesnippets/_SelectPaymentProperty.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/User/PaymentForm.fluid.html
 
     ..  group-tab:: User Model
 

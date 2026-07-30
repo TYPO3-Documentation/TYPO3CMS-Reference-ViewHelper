@@ -31,8 +31,8 @@ The following shows two radio buttons, the one labeled "No" is preselected.
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_RadioYesNo.html
-            :caption: packages/my_extension/Resources/Private/Templates/Comment/Newsletter.html
+        ..  literalinclude:: _codesnippets/_RadioYesNo.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Comment/Newsletter.fluid.html
 
     ..  group-tab:: Controller
 
@@ -61,8 +61,8 @@ the Extbase action.
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_RadioProperty.html
-            :caption: packages/my_extension/Resources/Private/Templates/Newsletter/SomeForm.html
+        ..  literalinclude:: _codesnippets/_RadioProperty.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Newsletter/SomeForm.fluid.html
 
     ..  group-tab:: Controller
 
@@ -96,8 +96,8 @@ for the key, the radio button can be matched to the model in use.
         The Fluid template can be left unchanged even though we are dealing with a
         different data source:
 
-        ..  literalinclude:: _codesnippets/_SelectPayment.html
-            :caption: packages/my_extension/Resources/Private/Templates/User/PaymentForm.html
+        ..  literalinclude:: _codesnippets/_SelectPayment.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/User/PaymentForm.fluid.html
 
     ..  group-tab:: Model
 

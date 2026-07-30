@@ -27,8 +27,8 @@ Hidden fields can be used to pass additional arguments to a controller action.
 
         The form includes a hidden field to pass the blog post UID:
 
-        ..  literalinclude:: _codesnippets/_hiddenComment.html
-            :caption: packages/my_extension/Resources/Private/Templates/Comment/Form.html
+        ..  literalinclude:: _codesnippets/_hiddenComment.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Comment/Form.fluid.html
 
     ..  group-tab:: Controller
 
@@ -60,8 +60,8 @@ You have:
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_hiddenCommentPost.html
-            :caption: packages/my_extension/Resources/Private/Templates/Comment/CreateForm.html
+        ..  literalinclude:: _codesnippets/_hiddenCommentPost.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Comment/CreateForm.fluid.html
 
     ..  group-tab:: Model
 

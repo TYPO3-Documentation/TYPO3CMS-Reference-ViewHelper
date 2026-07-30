@@ -43,8 +43,8 @@ is triggered.
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_FormSubmitButton.html
-            :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.html
+        ..  literalinclude:: _codesnippets/_FormSubmitButton.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.fluid.html
 
     ..  group-tab:: Controller
 
@@ -71,8 +71,8 @@ Unlike `<f:form.submit>`, you can include inline HTML (e.g. icons, spans) in eac
 
     ..  group-tab:: Fluid
 
-        ..  literalinclude:: _codesnippets/_FormMultipleButtons.html
-            :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.html
+        ..  literalinclude:: _codesnippets/_FormMultipleButtons.fluid.html
+            :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.fluid.html
 
     ..  group-tab:: Controller
 
@@ -102,8 +102,8 @@ button attributes such as `disabled`, `formmethod`, and `formnovalidate`.
 This is useful when you need more control over how the button behaves in relation to
 form submission and validation.
 
-..  literalinclude:: _codesnippets/_FormButtonHtml5Attributes.html
-    :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.html
+..  literalinclude:: _codesnippets/_FormButtonHtml5Attributes.fluid.html
+    :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.fluid.html
 
 ..  note::
     You can use these attributes with any button type (`submit`, `reset`, or `button`) and
@@ -127,8 +127,8 @@ attribute and pass an array to it.
 Fluid will automatically generate the corresponding `aria-*` attributes
 based on the key-value pairs in the array.
 
-..  literalinclude:: _codesnippets/_FormButtonAria.html
-    :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.html
+..  literalinclude:: _codesnippets/_FormButtonAria.fluid.html
+    :caption: packages/my_extension/Resources/Private/Templates/Comment/Edit.fluid.html
 
 ..  note::
     Combine visible labels with appropriate `ARIA <https://www.w3.org/WAI/ARIA/apg/>`_
