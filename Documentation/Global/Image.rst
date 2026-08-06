@@ -38,11 +38,12 @@ are correctly created for you.
 
 ..  note::
 
-    Avoid using image operations such as the arguments
-    :ref:`width <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-width>` or
+    Images inside the public assets of an extension (:path:`Resources/Public/`) are **non-FAL** images.
+
+    When working with those images you should avoid using arguments like
+    :ref:`width <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-width>`,
     :ref:`crop <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-crop>`
-    with images included from an extensions' assets. Each
-    non-FAL image operation creates a "fake" FAL record, which may lead to problems.
+    or other image operations as these would create "fake" FAL records which may lead to problems.
 
 ..  _typo3-fluid-image-image:
 
