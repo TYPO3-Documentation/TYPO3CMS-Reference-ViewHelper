@@ -30,7 +30,7 @@ Quick start: Simple flash message output
 You can use the following tag within any Extbase template:
 
 ..  code-block:: html
-    :caption: packages/my_extension/Resources/Private/Templates/Something/DoSomething.html
+    :caption: packages/my_extension/Resources/Private/Templates/Something/DoSomething.fluid.html
 
     <f:flashMessages />
 
@@ -95,7 +95,7 @@ you can receive all flash messages in a variable and then handle the rendering
 yourself within the `<f:flashMessages>` tag:
 
 ..  code-block:: html
-    :caption: packages/my_extension/Resources/Private/Templates/Something/DoSomething.html
+    :caption: packages/my_extension/Resources/Private/Templates/Something/DoSomething.fluid.html
 
     <f:flashMessages as="flashMessages">
       <dl class="messages">

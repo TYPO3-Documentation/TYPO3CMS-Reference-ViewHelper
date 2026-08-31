@@ -37,14 +37,14 @@ Rendering content elements using the `record-transformation` data processor
     ..  group-tab:: Fluid
 
         ..  code-block:: html
-            :caption: packages/my_sitepackage/Resources/Private/Templates/Content/MyContent.html
+            :caption: packages/my_sitepackage/Resources/Private/Templates/Content/MyContent.fluid.html
 
             <f:render.record record="{record}"/>
 
         Or using inline syntax:
 
         ..  code-block:: html
-            :caption: packages/my_sitepackage/Resources/Private/Templates/Content/Default.html
+            :caption: packages/my_sitepackage/Resources/Private/Templates/Content/Default.fluid.html
 
             {record -> f:render.record()}
 
@@ -87,7 +87,7 @@ to configure the rendering.
 
             sys_category = FLUIDTEMPLATE
             sys_category {
-              file = EXT:my_sitepackage/Resources/Private/Templates/Category/Default.html
+              file = EXT:my_sitepackage/Resources/Private/Templates/Category/Default.fluid.html
               layoutRootPaths.10 = EXT:my_sitepackage/Resources/Private/Layouts/Category/
               partialRootPaths.10 = EXT:my_extension/Resources/Private/Partials/Category/
               dataProcessing.1774685451 = record-transformation
@@ -96,7 +96,7 @@ to configure the rendering.
     ..  group-tab:: Fluid
 
         ..  code-block:: html
-            :caption: EXT:my_sitepackage/Resources/Private/Templates/Partials/Categories.html
+            :caption: EXT:my_sitepackage/Resources/Private/Templates/Partials/Categories.fluid.html
 
             <f:for each="{categories}" as="category">
                 {category -> f:render.record()}
@@ -152,7 +152,7 @@ to configure rendering for special types:
             required = 1
             case = uppercamelcase
           }
-          # for record_type = 'mainProduct' the template file my_extension/Resources/Private/Templates/Product/MainProduct.html will be used
+          # for record_type = 'mainProduct' the template file my_extension/Resources/Private/Templates/Product/MainProduct.fluid.html will be used
           templateRootPaths.10 = EXT:my_extension/Resources/Private/Templates/Product/
           layoutRootPaths.10 = EXT:my_extension/Resources/Private/Layouts/
           partialRootPaths.10 = EXT:my_extension/Resources/Private/Partials/

@@ -41,14 +41,14 @@ content elements within a column from a backend layout.
     ..  group-tab:: Fluid
 
         ..  code-block:: html
-            :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.html
+            :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.fluid.html
 
             <f:render.contentArea contentArea="{content.main}"/>
 
         Or using inline syntax:
 
         ..  code-block:: html
-            :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.html
+            :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.fluid.html
 
             {content.main -> f:render.contentArea()}
 
@@ -82,7 +82,7 @@ argument, `<f:render.contentArea>` can be combined with the
 to wrap each content element:
 
 ..  code-block:: html
-    :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.html
+    :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.fluid.html
 
     <div id="sidebar">
         <f:render.contentArea contentArea="{content.left}" recordAs="record">
