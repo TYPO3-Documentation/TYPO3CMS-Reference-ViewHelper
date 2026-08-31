@@ -17,7 +17,7 @@ in their detail views without having to implement their own custom `page title
 provider <https://docs.typo3.org/permalink/t3coreapi:pagetitle>`_.
 
 ..  code-block:: html
-    :caption: EXT:my_extension/Resources/Private/Templates/Item/Show.html
+    :caption: EXT:my_extension/Resources/Private/Templates/Item/Show.fluid.html
 
     <f:page.title>{item.title}</f:page.title>
 
@@ -27,7 +27,7 @@ provider <https://docs.typo3.org/permalink/t3coreapi:pagetitle>`_.
 The ViewHelper can also be used with static content:
 
 ..  code-block:: html
-    :caption: EXT:my_extension/Resources/Private/Templates/Static/About.html
+    :caption: EXT:my_extension/Resources/Private/Templates/Static/About.fluid.html
 
     <f:page.title>About Us - Company Information</f:page.title>
 

@@ -75,7 +75,7 @@ Examples of be.infobox ViewHelper usage
 Info box of level notice with a static title and a static text:
 
 ..  code-block:: html
-    :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.html
+    :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.fluid.html
 
     <f:be.infobox title="Message title">your box content</f:be.infobox>
 
