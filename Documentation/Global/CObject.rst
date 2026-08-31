@@ -41,7 +41,7 @@ example on stored in the `lib <https://docs.typo3.org/permalink/t3tsref:tlo-lib>
 top-level object:
 
 ..  code-block:: html
-    :caption: packages/my_sitepackage/Resources/Private/Templates/Pages/Default.html
+    :caption: packages/my_sitepackage/Resources/Private/Templates/Pages/Default.fluid.html
 
     <f:cObject typoscriptObjectPath="lib.someLibObject" />
 
@@ -62,7 +62,7 @@ By using the `data` property you can forward data provided by the controller
 to the TypoScript object doing the actual rendering:
 
 ..  code-block:: html
-    :caption: packages/my_extension/Resources/Private/Templates/Plugin/Default.html
+    :caption: packages/my_extension/Resources/Private/Templates/Plugin/Default.fluid.html
 
     <f:cObject
         typoscriptObjectPath="lib.customHeader"
@@ -73,7 +73,7 @@ to the TypoScript object doing the actual rendering:
 The same can also be done in the inline notation.
 
 ..  code-block:: html
-    :caption: packages/my_extension/Resources/Private/Templates/Plugin/Default.html
+    :caption: packages/my_extension/Resources/Private/Templates/Plugin/Default.fluid.html
 
     {article -> f:cObject(typoscriptObjectPath: 'lib.customHeader', currentValueKey: 'title')}
 
@@ -109,21 +109,21 @@ Add the Viewhelper to your Fluid template. This can be done in 3 different
 ways. The basic tag syntax:
 
 ..  code-block:: html
-    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.html
+    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.fluid.html
 
     <f:cObject typoscriptObjectPath="lib.myCounter">{post.viewCount}</f:cObject>
 
 Or a self-closing tag. Data is passed in the :html:`data` attribute.
 
 ..  code-block:: html
-    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.html
+    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.fluid.html
 
     <f:cObject typoscriptObjectPath="lib.myCounter" data="{post.viewCount}" />
 
 Or inline notation, which is easy to read and understand (from left to right):
 
 ..  code-block:: html
-    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.html
+    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.fluid.html
 
     {post.viewCount -> f:cObject(typoscriptObjectPath: 'lib.myCounter')}
 
@@ -168,7 +168,7 @@ However, it is also possible to pass multiple values, useful for selecting  whic
 use or concatenating values, or you can pass objects (here the `post` object):
 
 ..  code-block:: html
-    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.html
+    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.fluid.html
 
     {post -> f:cObject(typoscriptObjectPath: 'lib.myCounter')}
 
@@ -204,7 +204,7 @@ when you want to emphasize that the value is very
 counter:
 
 ..  code-block:: html
-    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.html
+    :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.fluid.html
 
     {post -> f:cObject(typoscriptObjectPath: 'lib.myCounter', currentValueKey: 'viewCount')}
 
@@ -254,7 +254,7 @@ to the
 on dropping TYPO3 v13 support:
 
 ..  code-block:: diff
-    :caption: packages/my_sitepackage/Resources/Private/Templates/Pages/Default.html (diff)
+    :caption: packages/my_sitepackage/Resources/Private/Templates/Pages/Default.fluid.html (diff)
 
     - <f:for each="{myContent.left.records}" as="contentElement">
     -     <f:cObject

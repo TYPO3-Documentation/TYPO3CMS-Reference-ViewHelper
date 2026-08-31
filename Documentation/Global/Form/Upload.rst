@@ -24,7 +24,7 @@ Basic usage
 -----------
 
 ..  code-block:: html
-    :caption: EXT:my_extension/Resources/Private/Partials/Upload.html
+    :caption: EXT:my_extension/Resources/Private/Partials/Upload.fluid.html
 
    <f:form.upload name="file" />
 
@@ -39,7 +39,7 @@ Example for allowed MIME types / file extensions (native HTML5 attribute)
 -------------------------------------------------------------------------
 
 ..  code-block:: html
-    :caption: EXT:my_extension/Resources/Private/Partials/Upload.html
+    :caption: EXT:my_extension/Resources/Private/Partials/Upload.fluid.html
 
    <f:form.upload name="file" accept=".gif,.jpg,image/jpg,image/jpeg,image/gif" />
 

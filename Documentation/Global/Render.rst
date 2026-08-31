@@ -34,19 +34,19 @@ The render ViewHelper can be used with the argument
 to render the content of a "partial". A partial is a separate Fluid file.
 
 ..  code-block:: html
-    :caption: packages/my_site_package/Resources/Private/PageView/Pages/Default.html
+    :caption: packages/my_site_package/Resources/Private/PageView/Pages/Default.fluid.html
 
     <f:render partial="Footer" arguments="{_all}"/>
 
 During rendering the content of file
-:file:`packages/my_site_package/Resources/Private/PageView/Partials/Footer.html`
+:file:`packages/my_site_package/Resources/Private/PageView/Partials/Footer.fluid.html`
 will be rendered with all variables that are also available in the main template.
 
 It is possible to render a partial within a partial or layout as well. For
 example the footer partial could look like this:
 
 ..  code-block::
-    :caption: packages/my_site_package/Resources/Private/PageView/Partials/Footer.html
+    :caption: packages/my_site_package/Resources/Private/PageView/Partials/Footer.fluid.html
 
     <footer class="my-footer">
         <f:render partial="Navigation/FooterMenu" arguments="{_all}"/>
@@ -55,7 +55,7 @@ example the footer partial could look like this:
 When the argument :ref:`partial <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-renderviewhelper-partial>`
 contains a slash `/` the partial will be searched in a subfolder. The partial
 from the above example will therefore be expected in file
-:file:`packages/my_site_package/Resources/Private/PageView/Partials/Navigation/FooterMenu.html`.
+:file:`packages/my_site_package/Resources/Private/PageView/Partials/Navigation/FooterMenu.fluid.html`.
 
 ..  _typo3-fluid-render-partial-path:
 
@@ -88,7 +88,7 @@ the content of a `Section ViewHelper <f:section> <https://docs.typo3.org/permali
 can be rendered.
 
 ..  code-block:: html
-    :caption: packages/my_site_package/Resources/Private/PageView/Layouts/PageLayout.html
+    :caption: packages/my_site_package/Resources/Private/PageView/Layouts/PageLayout.fluid.html
 
     <f:render section="SomeSection"/>
 
@@ -113,7 +113,7 @@ was not found in the template. You can use the content of the tag or the argumen
 :ref:`default <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-renderviewhelper-default>`.
 
 ..  code-block:: html
-    :caption: packages/my_site_package/Resources/Private/PageView/Layouts/PageLayout.html
+    :caption: packages/my_site_package/Resources/Private/PageView/Layouts/PageLayout.fluid.html
 
     <f:render section="Header" optional="true">
         <f:render partial="Header" arguments="{_all}"/>
@@ -132,7 +132,7 @@ All templates have to define the section "Main" otherwise there is an error.
 Template 1 just defines some content:
 
 ..  code-block:: html
-    :caption: packages/my_site_package/Resources/Private/PageView/Pages/Template1.html
+    :caption: packages/my_site_package/Resources/Private/PageView/Pages/Template1.fluid.html
 
     <f:layout name="PageLayout"/>
     <f:section name="Main">
@@ -140,7 +140,7 @@ Template 1 just defines some content:
     </f:section>
 
 ..  code-block:: html
-    :caption: packages/my_site_package/Resources/Private/PageView/Pages/Template2.html
+    :caption: packages/my_site_package/Resources/Private/PageView/Pages/Template2.fluid.html
 
     <f:layout name="PageLayout"/>
     <f:section name="Header">
