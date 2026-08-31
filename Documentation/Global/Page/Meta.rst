@@ -48,7 +48,7 @@ Meta tags can be defined directly in a Fluid template, for example in a
 detail view that renders a single domain object.
 
 ..  code-block:: html
-    :caption: EXT:my_extension/Resources/Private/Templates/Item/Show.html
+    :caption: EXT:my_extension/Resources/Private/Templates/Item/Show.fluid.html
 
     <f:page.meta property="description">{item.description}</f:page.meta>
     <f:page.meta property="og:title">{item.title}</f:page.meta>
