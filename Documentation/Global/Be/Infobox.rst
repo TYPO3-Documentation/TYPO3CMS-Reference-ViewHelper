@@ -112,7 +112,7 @@ until dropping TYPO3 13 support.
 After dropping TYPO3 13 support migrate as follows:
 
 ..  literalinclude:: _Infobox/_Migration.diff
-    :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.html
+    :caption: EXT:my_extension/Resources/Private/Backend/Templates/MyModule.fluid.html
 
 In PHP code replace the severity by using the enum or their value instead of the
 constants:
