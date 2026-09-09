@@ -11,7 +11,7 @@ Documentation/*.json             # generator-maintained data feeding the typo3:v
 
 - `make install` — install dependencies
 - `make docs` — render the manual locally with Docker
-- `make test-docs` — render in fail-on-log mode; use this to validate any change before committing
+- `make test-docs` — render in minimal-test mode (the same validation CI runs); use this to validate any change before committing
 - `pre-commit run --all-files` — apply the whitespace hooks (`trailing-whitespace`,
   `end-of-file-fixer`) configured in `.pre-commit-config.yaml`; `pre-commit install`
   wires them into `git commit`
