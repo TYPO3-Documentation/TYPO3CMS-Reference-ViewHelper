@@ -67,6 +67,7 @@ OpenGraph and Twitter / X Card meta tags can be used to control how pages
 are displayed when shared on social media platforms.
 
 ..  code-block:: html
+    :caption: EXT:my_extension/Resources/Private/Templates/Item/Show.fluid.html
 
     <f:page.meta property="og:title">My Article Title</f:page.meta>
     <f:page.meta property="og:description">Article description</f:page.meta>
@@ -84,6 +85,7 @@ Some meta tags, such as image-related tags, support additional
 sub-properties like dimensions or alternative text.
 
 ..  code-block:: html
+    :caption: EXT:my_extension/Resources/Private/Templates/Item/Show.fluid.html
 
     <f:page.meta property="og:image"
                  subProperties="{width: 1200, height: 630,
@@ -101,6 +103,7 @@ Custom meta tags can be defined by explicitly specifying the meta tag type
 attribute.
 
 ..  code-block:: html
+    :caption: EXT:my_extension/Resources/Private/Templates/Item/Show.fluid.html
 
     <f:page.meta property="author" type="name">John Doe</f:page.meta>
     <f:page.meta property="robots" type="name">
