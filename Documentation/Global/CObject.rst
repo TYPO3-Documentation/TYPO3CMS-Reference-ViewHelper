@@ -155,7 +155,7 @@ works like a switch: if set to 1, it contains the value that was passed to the
 TypoScript object from the Fluid template:
 
 ..  code-block:: typoscript
-    :caption: EXT:my_extension/Configuration/TypoScript/setup.typoscript
+    :caption: EXT:my_extension/Configuration/Sets/MyExtension/setup.typoscript
 
     lib.myCounter = TEXT
     lib.myCounter {
@@ -169,7 +169,7 @@ We can easily modify this TypoScript to output the user counter as an image inst
 of text:
 
 ..  code-block:: typoscript
-    :caption: EXT:my_extension/Configuration/TypoScript/setup.typoscript
+    :caption: EXT:my_extension/Configuration/Sets/MyExtension/setup.typoscript
 
     lib.myCounter = IMAGE
     lib.myCounter {
@@ -198,7 +198,7 @@ But how do we access the object's properties in our TypoScript? By setting the
 :typoscript:`field` property of :typoscript:`stdWrap` (in a :typoscript:`COA`):
 
 ..  code-block:: typoscript
-    :caption: EXT:my_extension/Configuration/TypoScript/setup.typoscript
+    :caption: EXT:my_extension/Configuration/Sets/MyExtension/setup.typoscript
 
     lib.myCounter = COA
     lib.myCounter {
@@ -235,7 +235,7 @@ Then, in the TypoScript template, use :typoscript:`field` aswell as
 TypoScript snippet outputs the same information as above:
 
 ..  code-block:: typoscript
-    :caption: EXT:my_extension/Configuration/TypoScript/setup.typoscript
+    :caption: EXT:my_extension/Configuration/Sets/MyExtension/setup.typoscript
 
     lib.myCounter = COA
     lib.myCounter {
