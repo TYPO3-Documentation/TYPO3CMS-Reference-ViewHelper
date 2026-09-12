@@ -144,6 +144,7 @@ In this case no data from the file reference, such as default cropping or overri
 description, will be available.
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Media/Image.fluid.html
 
     <f:image src="{reference.uid}" treatIdAsReference="1" height="250"/>
     <f:image src="{file.uid}" height="250" alt="My image description"/>
@@ -178,6 +179,7 @@ argument is set to true, the resulting image tag will contain the source of the 
 encoded form.
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Media/Image.fluid.html
 
     <f:image base64="true"
              src="EXT:backend/Resources/Public/Images/typo3_logo_orange.svg"
@@ -188,6 +190,7 @@ This will result in the HTML tag providing the image encoded in
 base64.
 
 .. code-block:: html
+    :caption: HTML output
 
     <img class="pr-2"
          src="data:image/svg+xml;base64,PHN2...cuODQ4LTYuNzU3Ii8+Cjwvc3ZnPgo="

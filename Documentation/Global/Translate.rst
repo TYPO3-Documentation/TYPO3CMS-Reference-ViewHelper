@@ -171,6 +171,7 @@ in the frontend.
     ..  group-tab:: Fluid
 
         ..  code-block:: html
+            :caption: packages/my_extension/Resources/Private/Templates/Message/Show.fluid.html
 
             <f:format.html>
                 <f:translate
@@ -201,6 +202,7 @@ Displaying translated labels with placeholders
     ..  group-tab:: Fluid
 
         ..  code-block:: html
+            :caption: packages/my_extension/Resources/Private/Templates/Message/Show.fluid.html
 
             <f:translate
                 domain="my_extension.domainmodel"
@@ -267,6 +269,7 @@ use the argument :ref:`languageKey <t3viewhelper:viewhelper-argument-typo3-cms-f
 to specify the desired language for the ViewHelper:
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Email/Salutation.fluid.html
 
     Salutation in Danish:
     <f:translate

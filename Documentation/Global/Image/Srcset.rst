@@ -42,6 +42,7 @@ Examples of f:image.srcset usage
 Using width descriptors in a :html:`<source>` tag:
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Media/Image.fluid.html
 
     <picture>
         <source
@@ -59,6 +60,7 @@ Using width descriptors in a :html:`<source>` tag:
 Using density descriptors:
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Media/Image.fluid.html
 
     <source
         srcset="{f:image.srcset(
