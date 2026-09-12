@@ -35,3 +35,4 @@ JavaScript).
 ..  rubric:: Example usage
 
 ..  literalinclude:: _codesnippets/_HeaderData.fluid.html
+    :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.fluid.html
