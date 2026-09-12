@@ -205,6 +205,7 @@ HMAC generation.
 To do so, leave out the `options` argument and use child ViewHelpers:
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/User/OptionsForm.fluid.html
 
     <f:form.select name="myproperty">
       <f:form.select.option value="1">Option one</f:form.select.option>
@@ -229,6 +230,7 @@ The `<f:form.select.option>` can be grouped with the `<f:form.select.optgroup>`
 to produce :html:`<optgroup>` in the HTML output.
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/User/OptionsForm.fluid.html
 
     <f:form.select name="myproperty">
        <f:form.select.option value="1">Option one</f:form.select.option>
@@ -255,6 +257,7 @@ you can use
 :ref:`prependOptionValue <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-form-selectviewhelper-prependoptionvalue>`.
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/User/PaymentForm.fluid.html
 
     <f:form.select options="{user.availablePaymentOptions}"
                    property="preferredPayment"
@@ -268,6 +271,7 @@ argument with one (or several)
 `<form.select.option> <f:form.select.option> <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-form-select-option>`_:
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/User/PaymentForm.fluid.html
 
     <f:form.select options="{user.availablePaymentOptions}"
                    property="preferredPayment"
@@ -281,6 +285,7 @@ argument with one (or several)
 It is possible to put the additional options last and combine the two:
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/User/PaymentForm.fluid.html
 
     <f:form.select options="{user.availablePaymentOptions}"
                    property="preferredPayment"

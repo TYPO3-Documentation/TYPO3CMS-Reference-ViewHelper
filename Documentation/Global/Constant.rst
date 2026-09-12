@@ -29,6 +29,7 @@ You can display `global PHP constants <https://www.php.net/manual/en/reserved.co
 using this ViewHelper
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Info/SystemInfo.fluid.html
 
     Maximal possible number: {f:constant(name: 'PHP_INT_MAX')}
 
@@ -62,6 +63,7 @@ then use their value. For example you can use values of the enum cases in
 object:
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Info/SystemInfo.fluid.html
 
     <f:variable name="imageType"><f:constant name="\TYPO3\CMS\Core\Resource\FileType::IMAGE"/></f:variable>
     The image case has the value {imageType.value} and name {imageType.name}:
