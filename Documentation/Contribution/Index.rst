@@ -65,6 +65,7 @@ this structure:
 #.  The :rst:`typo3:viewhelper` directive showing the description and flags:
 
     ..  code-block:: rst
+        :caption: Documentation/Global/Form/Checkbox.rst
 
         ..  typo3:viewhelper:: form.checkbox
             :source: ../../Global.json

@@ -20,6 +20,7 @@ Using the `<f:format.html>` ViewHelper with default arguments
 =============================================================
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Content/Text.fluid.html
 
     <f:format.html>
         {$myConstant.project} is a cool <b>CMS</b>
@@ -88,6 +89,7 @@ you should pass the current record as `data`. This ensures that field references
 `{FIELD:title}` are resolved correctly.
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Content/Text.fluid.html
 
     <f:format.html
         data="{newsRecord}"
@@ -121,6 +123,7 @@ Use the `current` argument to override the current value used by the TypoScript
 content object.
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Content/Text.fluid.html
 
     <f:format.html
         current="{strContent}"
@@ -154,6 +157,7 @@ Use the `currentValueKey` argument to define a value of data object as the
 current value.
 
 ..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Content/Text.fluid.html
 
     <f:format.html
         data="{contentRecord}"
