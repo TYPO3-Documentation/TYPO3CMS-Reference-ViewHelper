@@ -133,6 +133,7 @@ to their parent form and cannot be used.
 It is however possible to pass a form field to a slot:
 
 ..  literalinclude:: _codesnippets/FormFieldComponent.fluid.html
+    :caption: packages/my_extension/Resources/Private/Components/FormField/FormField.fluid.html
 
 And then use it like this:
 
