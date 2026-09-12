@@ -221,6 +221,7 @@ Displaying translated labels with placeholders
     ..  group-tab:: Language file example
 
         ..  literalinclude:: _Translate/_locallang_arguments.xlf
+            :caption: packages/my_extension/Resources/Private/Language/locallang.xlf
             :language: xml
 
 The placeholder `%s` is used to insert dynamic values, passed as the parameter
