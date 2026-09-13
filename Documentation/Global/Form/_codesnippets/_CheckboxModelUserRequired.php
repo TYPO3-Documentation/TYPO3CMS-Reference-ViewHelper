@@ -9,19 +9,19 @@ use TYPO3\CMS\Extbase\DomainObject\AbstractEntity;
 
 class User extends AbstractEntity
 {
-    #[Validate([
-        'validator' => 'Boolean',
-        'options' => ['is' => true],
-    ])]
-    protected bool $consentGiven = false;
+  #[Validate([
+    'validator' => 'Boolean',
+    'options' => ['is' => true],
+  ])]
+  protected bool $consentGiven = false;
 
-    public function isConsentGiven(): bool
-    {
-        return $this->consentGiven;
-    }
+  public function isConsentGiven(): bool
+  {
+    return $this->consentGiven;
+  }
 
-    public function setConsentGiven(bool $consentGiven): void
-    {
-        $this->consentGiven = $consentGiven;
-    }
+  public function setConsentGiven(bool $consentGiven): void
+  {
+    $this->consentGiven = $consentGiven;
+  }
 }

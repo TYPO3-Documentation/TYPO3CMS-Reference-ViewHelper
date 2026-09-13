@@ -9,11 +9,11 @@ use TYPO3\CMS\Extbase\DomainObject\AbstractEntity;
 
 class Comment extends AbstractEntity
 {
-    #[Validate(['validator' => 'EmailAddress'])]
-    protected string $email = '';
+  #[Validate(['validator' => 'EmailAddress'])]
+  protected string $email = '';
 
-    #[Validate(['validator' => 'StringLength', 'options' => ['maximum' => 500]])]
-    protected string $content = '';
+  #[Validate(['validator' => 'StringLength', 'options' => ['maximum' => 500]])]
+  protected string $content = '';
 
-    // Getters and setters ...
+  // Getters and setters ...
 }
