@@ -8,9 +8,9 @@ use TYPO3\CMS\Extbase\DomainObject\AbstractEntity;
 
 class Comment extends AbstractEntity
 {
-    protected string $authorName = '';
-    protected string $content = '';
-    protected BlogPost $blogPost;
+  protected string $authorName = '';
+  protected string $content = '';
+  protected BlogPost $blogPost;
 
-    // Getters and setters...
+  // Getters and setters...
 }

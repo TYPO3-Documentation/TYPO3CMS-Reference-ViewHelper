@@ -10,10 +10,10 @@ use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 class MyController extends ActionController
 {
-    public function demonstrateFlashMessagesAction(): ResponseInterface
-    {
-        $this->addFlashMessage('This is a success message.');
-        $this->addFlashMessage('This is a warning.', 'Warning Headline', ContextualFeedbackSeverity::WARNING);
-        return $this->htmlResponse();
-    }
+  public function demonstrateFlashMessagesAction(): ResponseInterface
+  {
+    $this->addFlashMessage('This is a success message.');
+    $this->addFlashMessage('This is a warning.', 'Warning Headline', ContextualFeedbackSeverity::WARNING);
+    return $this->htmlResponse();
+  }
 }
