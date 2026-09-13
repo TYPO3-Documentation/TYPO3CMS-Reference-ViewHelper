@@ -1,7 +1,3 @@
-..  This reStructured text file has been automatically generated, do not change.
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/MaxViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/MaxViewHelper.php
 :navigation-title: max
 
 ..  include:: /Includes.rst.txt
@@ -14,3 +10,14 @@ Max ViewHelper `<f:max>`
 
 ..  typo3:viewhelper:: max
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-max-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: max
+    :source: ../Global.json
+    :display: arguments-only

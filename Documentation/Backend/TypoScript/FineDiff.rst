@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/backend/Classes/ViewHelpers/TypoScript/FineDiffViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/TypoScript/FineDiffViewHelper.php
 :navigation-title: typoScript.fineDiff
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,14 @@ TypoScript.fineDiff ViewHelper `<be:typoScript.fineDiff>`
 
 ..  typo3:viewhelper:: typoScript.fineDiff
     :source: ../../Backend.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-backend-typoscript-finediff-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: typoScript.fineDiff
+    :source: ../../Backend.json
+    :display: arguments-only

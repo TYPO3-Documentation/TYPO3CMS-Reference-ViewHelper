@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/Cache/DisableViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/Cache/DisableViewHelper.php
 :navigation-title: cache.disable
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ Cache.disable ViewHelper `<f:cache.disable>`
 
 ..  typo3:viewhelper:: cache.disable
     :source: ../../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-cache-disable-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: cache.disable
+    :source: ../../Global.json
+    :display: arguments-only

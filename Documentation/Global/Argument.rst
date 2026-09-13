@@ -1,7 +1,3 @@
-..  This reStructured text file has been automatically generated, do not change.
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/ArgumentViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/ArgumentViewHelper.php
 :navigation-title: argument
 
 ..  include:: /Includes.rst.txt
@@ -14,3 +10,14 @@ Argument ViewHelper `<f:argument>`
 
 ..  typo3:viewhelper:: argument
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-argument-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: argument
+    :source: ../Global.json
+    :display: arguments-only

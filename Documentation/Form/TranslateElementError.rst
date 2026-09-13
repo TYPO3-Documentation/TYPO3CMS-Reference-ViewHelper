@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/form/Classes/ViewHelpers/TranslateElementErrorViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/form/Classes/ViewHelpers/TranslateElementErrorViewHelper.php
 :navigation-title: translateElementError
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,14 @@ TranslateElementError ViewHelper `<formvh:translateElementError>`
 
 ..  typo3:viewhelper:: translateElementError
     :source: ../Form.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-form-translateelementerror-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: translateElementError
+    :source: ../Form.json
+    :display: arguments-only
