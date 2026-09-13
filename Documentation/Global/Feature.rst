@@ -9,32 +9,50 @@ Feature ViewHelper `<f:feature>`
 
 ..  typo3:viewhelper:: feature
     :source: ../Global.json
-    :display: tags,description,gitHubLink,arguments
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  contents:: Table of contents
 
 ..  _typo3-fluid-feature-example:
 
 Examples
 ========
 
+..  _typo3-fluid-feature-basic-usage:
+
 Basic usage
 -----------
 
-::
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Blog/List.fluid.html
 
-   <f:feature name="myFeatureFlag">
+    <f:feature name="myFeatureFlag">
       This is being shown if the flag is enabled
-   </f:feature>
+    </f:feature>
 
-feature / then / else
+..  _typo3-fluid-feature-feature-then-else:
+
+Feature / then / else
 ---------------------
 
-::
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Blog/List.fluid.html
 
-   <f:feature name="myFeatureFlag">
+    <f:feature name="myFeatureFlag">
       <f:then>
-         Flag is enabled
+        Flag is enabled
       </f:then>
       <f:else>
-         Flag is undefined or not enabled
+        Flag is undefined or not enabled
       </f:else>
-   </f:feature>
+    </f:feature>
+
+..  _typo3-fluid-feature-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: feature
+    :source: ../Global.json
+    :display: arguments-only

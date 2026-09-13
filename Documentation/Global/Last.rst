@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/LastViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/LastViewHelper.php
 :navigation-title: last
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ Last ViewHelper `<f:last>`
 
 ..  typo3:viewhelper:: last
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-last-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: last
+    :source: ../Global.json
+    :display: arguments-only

@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLinkViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/ModuleLinkViewHelper.php
 :navigation-title: moduleLink
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,14 @@ ModuleLink ViewHelper `<be:moduleLink>`
 
 ..  typo3:viewhelper:: moduleLink
     :source: ../Backend.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-backend-modulelink-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: moduleLink
+    :source: ../Backend.json
+    :display: arguments-only

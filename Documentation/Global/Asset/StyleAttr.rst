@@ -1,7 +1,3 @@
-..  This reStructured text file has been automatically generated, do not change.
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/fluid/Classes/ViewHelpers/Asset/StyleAttrViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Asset/StyleAttrViewHelper.php
 :navigation-title: asset.styleAttr
 
 ..  include:: /Includes.rst.txt
@@ -14,3 +10,14 @@ Asset.styleAttr ViewHelper `<f:asset.styleAttr>`
 
 ..  typo3:viewhelper:: asset.styleAttr
     :source: ../../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-fluid-asset-styleattr-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: asset.styleAttr
+    :source: ../../Global.json
+    :display: arguments-only

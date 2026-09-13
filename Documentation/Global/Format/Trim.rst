@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/Format/TrimViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/Format/TrimViewHelper.php
 :navigation-title: format.trim
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ Format.trim ViewHelper `<f:format.trim>`
 
 ..  typo3:viewhelper:: format.trim
     :source: ../../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-format-trim-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: format.trim
+    :source: ../../Global.json
+    :display: arguments-only

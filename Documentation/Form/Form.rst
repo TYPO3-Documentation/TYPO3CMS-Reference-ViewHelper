@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/form/Classes/ViewHelpers/FormViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/form/Classes/ViewHelpers/FormViewHelper.php
 :navigation-title: form
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,16 @@ Form ViewHelper `<formvh:form>`
 
 ..  typo3:viewhelper:: form
     :source: ../Form.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-form-form-arguments:
+
+Arguments
+=========
+
+..  include:: /_Includes/_ArbitraryArguments.rst.txt
+
+..  typo3:viewhelper:: form
+    :source: ../Form.json
+    :display: arguments-only

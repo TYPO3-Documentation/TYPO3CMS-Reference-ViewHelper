@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/backend/Classes/ViewHelpers/LanguageColumnViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/LanguageColumnViewHelper.php
 :navigation-title: languageColumn
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,14 @@ LanguageColumn ViewHelper `<be:languageColumn>`
 
 ..  typo3:viewhelper:: languageColumn
     :source: ../Backend.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-backend-languagecolumn-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: languageColumn
+    :source: ../Backend.json
+    :display: arguments-only

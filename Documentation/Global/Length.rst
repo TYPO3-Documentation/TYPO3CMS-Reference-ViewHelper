@@ -1,7 +1,3 @@
-..  This reStructured text file has been automatically generated, do not change.
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/LengthViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/LengthViewHelper.php
 :navigation-title: length
 
 ..  include:: /Includes.rst.txt
@@ -14,3 +10,14 @@ Length ViewHelper `<f:length>`
 
 ..  typo3:viewhelper:: length
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-length-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: length
+    :source: ../Global.json
+    :display: arguments-only
