@@ -9,15 +9,15 @@ use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 class CommentController extends ActionController
 {
-    public function saveAction(string $message, ?string $commentId = null): ResponseInterface
-    {
-        if ($commentId === null) {
-            // Create new comment
-            $this->addFlashMessage('Created a new comment');
-        } else {
-            // Fetch and update an existing comment
-            $this->addFlashMessage('Updated comment with ID ' . $commentId);
-        }
-        return $this->redirect('list');
+  public function saveAction(string $message, ?string $commentId = null): ResponseInterface
+  {
+    if ($commentId === null) {
+      // Create new comment
+      $this->addFlashMessage('Created a new comment');
+    } else {
+      // Fetch and update an existing comment
+      $this->addFlashMessage('Updated comment with ID ' . $commentId);
     }
+    return $this->redirect('list');
+  }
 }

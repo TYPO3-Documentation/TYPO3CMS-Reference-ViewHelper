@@ -10,10 +10,10 @@ use TYPO3\CMS\Extbase\Persistence\ObjectStorage;
 
 class User extends AbstractEntity
 {
-    //Other fields
-    protected ?PaymentMethod $preferredPayment;
-    /** @var ObjectStorage<PaymentMethod>  */
-    protected ObjectStorage $availablePaymentOptions;
+  //Other fields
+  protected ?PaymentMethod $preferredPayment;
+  /** @var ObjectStorage<PaymentMethod>  */
+  protected ObjectStorage $availablePaymentOptions;
 
-    // initialize method, getters and setters
+  // initialize method, getters and setters
 }
