@@ -9,13 +9,13 @@ use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 class UserController extends ActionController
 {
-    public function genderFormAction(): ResponseInterface
-    {
-        return $this->htmlResponse();
-    }
-    public function selectGenderAction(int $gender): ResponseInterface
-    {
-        // do something
-        return $this->redirect('show');
-    }
+  public function genderFormAction(): ResponseInterface
+  {
+    return $this->htmlResponse();
+  }
+  public function selectGenderAction(int $gender): ResponseInterface
+  {
+    // do something
+    return $this->redirect('show');
+  }
 }

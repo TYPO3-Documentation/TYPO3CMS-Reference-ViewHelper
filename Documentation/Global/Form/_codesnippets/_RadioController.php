@@ -9,12 +9,12 @@ use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 class NewsletterController extends ActionController
 {
-    public function orderNewsletterAction(
-        bool $orderNewsletter,
-    ): ResponseInterface {
-        if ($orderNewsletter) {
-            // TODO: Newsletter ordering
-        }
-        return $this->htmlResponse();
+  public function orderNewsletterAction(
+    bool $orderNewsletter,
+  ): ResponseInterface {
+    if ($orderNewsletter) {
+      // TODO: Newsletter ordering
     }
+    return $this->htmlResponse();
+  }
 }

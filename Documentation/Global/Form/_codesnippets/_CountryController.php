@@ -9,11 +9,11 @@ use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 class UserController extends ActionController
 {
-    /**
-     * @param string $country ISO 2 country code ("BE", "FR", "US", ...)
-     */
-    public function createAction(string $country): ResponseInterface
-    {
-        return $this->redirect('show');
-    }
+  /**
+   * @param string $country ISO 2 country code ("BE", "FR", "US", ...)
+   */
+  public function createAction(string $country): ResponseInterface
+  {
+    return $this->redirect('show');
+  }
 }

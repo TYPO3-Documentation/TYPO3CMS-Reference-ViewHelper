@@ -10,16 +10,16 @@ use TYPO3\CMS\Extbase\DomainObject\AbstractEntity;
 
 class User extends AbstractEntity
 {
-    #[Validate(['validator' => 'NotEmpty'])]
-    public string $username = '';
+  #[Validate(['validator' => 'NotEmpty'])]
+  public string $username = '';
 
-    // Never save a plaintext password to the database. Make it transient to
-    // prevent saving
-    #[Transient]
-    #[Validate(['validator' => 'NotEmpty'])]
-    #[Validate(['validator' => 'StringLength', 'options' => ['minimum' => 8]])]
-    public string $plainTextPassword = '';
+  // Never save a plaintext password to the database. Make it transient to
+  // prevent saving
+  #[Transient]
+  #[Validate(['validator' => 'NotEmpty'])]
+  #[Validate(['validator' => 'StringLength', 'options' => ['minimum' => 8]])]
+  public string $plainTextPassword = '';
 
-    // Saved the hashed password to the database
-    public string $password = '';
+  // Saved the hashed password to the database
+  public string $password = '';
 }
