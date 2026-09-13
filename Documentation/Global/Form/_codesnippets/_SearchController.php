@@ -9,9 +9,9 @@ use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 class SearchController extends ActionController
 {
-    public function searchAction(array $search = []): ResponseInterface
-    {
-        // TODO: implement search
-        return $this->htmlResponse();
-    }
+  public function searchAction(array $search = []): ResponseInterface
+  {
+    // TODO: implement search
+    return $this->htmlResponse();
+  }
 }
