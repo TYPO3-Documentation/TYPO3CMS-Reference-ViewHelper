@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/IfViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/IfViewHelper.php
 :navigation-title: if
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ If ViewHelper `<f:if>`
 
 ..  typo3:viewhelper:: if
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-if-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: if
+    :source: ../Global.json
+    :display: arguments-only

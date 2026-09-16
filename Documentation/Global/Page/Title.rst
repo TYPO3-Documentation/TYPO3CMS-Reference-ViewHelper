@@ -42,3 +42,12 @@ The ViewHelper can also be used with static content:
 The ViewHelper integrates seamlessly with TYPO3's existing `page title
 provider <https://docs.typo3.org/permalink/t3coreapi:pagetitle>`_
 system and respects the configured provider priorities.
+
+..  _typo3-fluid-page-title-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: page.title
+    :source: ../../Global.json
+    :display: arguments-only

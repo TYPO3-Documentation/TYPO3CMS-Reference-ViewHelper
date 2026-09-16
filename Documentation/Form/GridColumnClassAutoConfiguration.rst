@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/form/Classes/ViewHelpers/GridColumnClassAutoConfigurationViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/form/Classes/ViewHelpers/GridColumnClassAutoConfigurationViewHelper.php
 :navigation-title: gridColumnClassAutoConfiguration
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,14 @@ GridColumnClassAutoConfiguration ViewHelper `<formvh:gridColumnClassAutoConfigur
 
 ..  typo3:viewhelper:: gridColumnClassAutoConfiguration
     :source: ../Form.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-form-gridcolumnclassautoconfiguration-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: gridColumnClassAutoConfiguration
+    :source: ../Form.json
+    :display: arguments-only

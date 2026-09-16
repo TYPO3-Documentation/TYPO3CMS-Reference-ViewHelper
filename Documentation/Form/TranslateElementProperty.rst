@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/form/Classes/ViewHelpers/TranslateElementPropertyViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/form/Classes/ViewHelpers/TranslateElementPropertyViewHelper.php
 :navigation-title: translateElementProperty
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,14 @@ TranslateElementProperty ViewHelper `<formvh:translateElementProperty>`
 
 ..  typo3:viewhelper:: translateElementProperty
     :source: ../Form.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-form-translateelementproperty-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: translateElementProperty
+    :source: ../Form.json
+    :display: arguments-only

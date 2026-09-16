@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/ReplaceViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/ReplaceViewHelper.php
 :navigation-title: replace
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ Replace ViewHelper `<f:replace>`
 
 ..  typo3:viewhelper:: replace
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-replace-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: replace
+    :source: ../Global.json
+    :display: arguments-only

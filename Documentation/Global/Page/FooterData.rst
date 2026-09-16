@@ -1,7 +1,3 @@
-..  This reStructured text file has been automatically generated, do not change.
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/fluid/Classes/ViewHelpers/Page/FooterDataViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/fluid/Classes/ViewHelpers/Page/FooterDataViewHelper.php
 :navigation-title: page.footerData
 
 ..  include:: /Includes.rst.txt
@@ -34,8 +30,23 @@ do not support all required attributes or use cases
 ..  typo3:viewhelper:: page.footerData
     :source: ../../Global.json
     :display: tags,gitHubLink
+    :noindex:
 
-..  rubric:: Example usage
+..  contents:: Table of contents
+
+..  _typo3-fluid-page-footerdata-example:
+
+Example usage
+=============
 
 ..  literalinclude:: _codesnippets/_FooterData.fluid.html
     :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.fluid.html
+
+..  _typo3-fluid-page-footerdata-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: page.footerData
+    :source: ../../Global.json
+    :display: arguments-only
