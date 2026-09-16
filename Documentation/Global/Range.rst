@@ -1,7 +1,3 @@
-..  This reStructured text file has been automatically generated, do not change.
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/RangeViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/RangeViewHelper.php
 :navigation-title: range
 
 ..  include:: /Includes.rst.txt
@@ -14,3 +10,14 @@ Range ViewHelper `<f:range>`
 
 ..  typo3:viewhelper:: range
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-range-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: range
+    :source: ../Global.json
+    :display: arguments-only

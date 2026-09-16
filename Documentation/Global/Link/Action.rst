@@ -9,19 +9,37 @@ Link.action ViewHelper `<f:link.action>`
 
 ..  typo3:viewhelper:: link.action
     :source: ../../Global.json
-    :display: tags,description,gitHubLink,arguments
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  contents:: Table of contents
 
 ..  _typo3-fluid-link-action-example:
 
 Examples
 ========
 
-link to the show-action of the current controller::
+Link to the show-action of the current controller:
 
-   <f:link.action action="show">action link</f:link.action>
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Blog/Show.fluid.html
 
-Output::
+    <f:link.action action="show">action link</f:link.action>
 
-   <a href="index.php?id=123&tx_myextension_plugin[action]=show&tx_myextension_plugin[controller]=Standard&cHash=xyz">action link</a>
+..  code-block:: html
+    :caption: Output
+
+    <a href="index.php?id=123&tx_myextension_plugin[action]=show&tx_myextension_plugin[controller]=Standard&cHash=xyz">action link</a>
 
 Depending on the current page and your TypoScript configuration.
+
+..  _typo3-fluid-link-action-arguments:
+
+Arguments
+=========
+
+..  include:: /_Includes/_ArbitraryArguments.rst.txt
+
+..  typo3:viewhelper:: link.action
+    :source: ../../Global.json
+    :display: arguments-only

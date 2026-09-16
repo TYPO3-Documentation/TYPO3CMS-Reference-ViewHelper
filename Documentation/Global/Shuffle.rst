@@ -1,7 +1,3 @@
-..  This reStructured text file has been automatically generated, do not change.
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/ShuffleViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/ShuffleViewHelper.php
 :navigation-title: shuffle
 
 ..  include:: /Includes.rst.txt
@@ -14,3 +10,14 @@ Shuffle ViewHelper `<f:shuffle>`
 
 ..  typo3:viewhelper:: shuffle
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-shuffle-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: shuffle
+    :source: ../Global.json
+    :display: arguments-only

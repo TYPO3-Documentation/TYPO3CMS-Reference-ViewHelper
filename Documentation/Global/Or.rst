@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/OrViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/OrViewHelper.php
 :navigation-title: or
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ Or ViewHelper `<f:or>`
 
 ..  typo3:viewhelper:: or
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-or-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: or
+    :source: ../Global.json
+    :display: arguments-only
