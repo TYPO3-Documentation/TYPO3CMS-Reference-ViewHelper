@@ -72,8 +72,8 @@ Magically adds 'Resources/Public' to path.
 
 ..  _typo3-fluid-uri-resource-arguments:
 
-Arguments
-=========
+Arguments of the `<f:uri.resource>` ViewHelper
+==============================================
 
 ..  typo3:viewhelper:: uri.resource
     :source: ../../Global.json

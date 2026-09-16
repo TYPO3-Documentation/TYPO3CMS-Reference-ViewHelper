@@ -74,8 +74,8 @@ Depending on the value of `{fileSize}`.
 
 ..  _typo3-fluid-format-bytes-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.bytes>` ViewHelper
+==============================================
 
 ..  typo3:viewhelper:: format.bytes
     :source: ../../Global.json

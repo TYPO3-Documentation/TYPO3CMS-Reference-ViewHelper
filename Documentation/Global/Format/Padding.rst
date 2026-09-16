@@ -66,8 +66,8 @@ Specify padding type
 
 ..  _typo3-fluid-format-padding-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.padding>` ViewHelper
+================================================
 
 ..  typo3:viewhelper:: format.padding
     :source: ../../Global.json

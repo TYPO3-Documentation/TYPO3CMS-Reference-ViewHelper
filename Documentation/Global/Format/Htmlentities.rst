@@ -49,8 +49,8 @@ But encoded as ISO-8859-1.
 
 ..  _typo3-fluid-format-htmlentities-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.htmlentities>` ViewHelper
+=====================================================
 
 ..  typo3:viewhelper:: format.htmlentities
     :source: ../../Global.json

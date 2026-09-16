@@ -15,8 +15,8 @@ Range ViewHelper `<f:range>`
 
 ..  _typo3fluid-fluid-range-arguments:
 
-Arguments
-=========
+Arguments of the `<f:range>` ViewHelper
+=======================================
 
 ..  typo3:viewhelper:: range
     :source: ../Global.json

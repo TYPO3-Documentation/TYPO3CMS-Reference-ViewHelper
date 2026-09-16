@@ -30,8 +30,8 @@ Current page path, prefixed with "Path:" and wrapped in a span with the class `t
 
 ..  _typo3-fluid-be-pagepath-arguments:
 
-Arguments
-=========
+Arguments of the `<f:be.pagePath>` ViewHelper
+=============================================
 
 ..  typo3:viewhelper:: be.pagePath
     :source: ../../Global.json

@@ -33,8 +33,8 @@ URI to the web_ts module on page 92:
 
 ..  _typo3-fluid-be-link-arguments:
 
-Arguments
-=========
+Arguments of the `<f:be.link>` ViewHelper
+=========================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

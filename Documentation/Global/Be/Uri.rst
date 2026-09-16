@@ -45,8 +45,8 @@ Inline notation:
 
 ..  _typo3-fluid-be-uri-arguments:
 
-Arguments
-=========
+Arguments of the `<f:be.uri>` ViewHelper
+========================================
 
 ..  typo3:viewhelper:: be.uri
     :source: ../../Global.json

@@ -15,8 +15,8 @@ Section ViewHelper `<f:section>`
 
 ..  _typo3fluid-fluid-section-arguments:
 
-Arguments
-=========
+Arguments of the `<f:section>` ViewHelper
+=========================================
 
 ..  typo3:viewhelper:: section
     :source: ../Global.json

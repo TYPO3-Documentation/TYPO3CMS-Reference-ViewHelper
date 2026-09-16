@@ -15,8 +15,8 @@ Shuffle ViewHelper `<f:shuffle>`
 
 ..  _typo3fluid-fluid-shuffle-arguments:
 
-Arguments
-=========
+Arguments of the `<f:shuffle>` ViewHelper
+=========================================
 
 ..  typo3:viewhelper:: shuffle
     :source: ../Global.json

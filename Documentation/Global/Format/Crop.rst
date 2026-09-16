@@ -109,8 +109,8 @@ Depending on the value of `{someLongText}`.
 
 ..  _typo3-fluid-format-crop-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.crop>` ViewHelper
+=============================================
 
 ..  typo3:viewhelper:: format.crop
     :source: ../../Global.json

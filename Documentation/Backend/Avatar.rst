@@ -17,8 +17,8 @@ Avatar ViewHelper `<be:avatar>`
 
 ..  _typo3-backend-avatar-arguments:
 
-Arguments
-=========
+Arguments of the `<be:avatar>` ViewHelper
+=========================================
 
 ..  typo3:viewhelper:: avatar
     :source: ../Backend.json

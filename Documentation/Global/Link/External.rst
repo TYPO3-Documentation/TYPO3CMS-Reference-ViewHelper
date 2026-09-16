@@ -51,8 +51,8 @@ Custom default scheme
 
 ..  _typo3-fluid-link-external-arguments:
 
-Arguments
-=========
+Arguments of the `<f:link.external>` ViewHelper
+===============================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

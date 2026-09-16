@@ -22,8 +22,8 @@ Link.newRecord ViewHelper `<be:link.newRecord>`
 
 ..  _typo3-backend-link-newrecord-arguments:
 
-Arguments
-=========
+Arguments of the `<be:link.newRecord>` ViewHelper
+=================================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 
