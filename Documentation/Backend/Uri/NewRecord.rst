@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/backend/Classes/ViewHelpers/Uri/NewRecordViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/Uri/NewRecordViewHelper.php
 :navigation-title: uri.newRecord
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,16 @@ Uri.newRecord ViewHelper `<be:uri.newRecord>`
 
 ..  typo3:viewhelper:: uri.newRecord
     :source: ../../Backend.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-backend-uri-newrecord-arguments:
+
+Arguments
+=========
+
+..  include:: /_Includes/_ArbitraryArguments.rst.txt
+
+..  typo3:viewhelper:: uri.newRecord
+    :source: ../../Backend.json
+    :display: arguments-only

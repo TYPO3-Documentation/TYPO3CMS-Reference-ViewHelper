@@ -9,19 +9,23 @@ Asset.css ViewHelper `<f:asset.css>`
 
 ..  typo3:viewhelper:: asset.css
     :source: ../../Global.json
-    :display: tags, description, gitHubLink, arguments
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  contents:: Table of contents
 
 ..  _typo3-fluid-asset-css-example:
 
 Examples
 ========
 
-::
+..  code-block:: html
+    :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.fluid.html
 
-   <f:asset.css identifier="identifier123" href="EXT:my_ext/Resources/Public/Css/foo.css" />
-   <f:asset.css identifier="identifier123">
+    <f:asset.css identifier="identifier123" href="EXT:my_ext/Resources/Public/Css/foo.css" />
+    <f:asset.css identifier="identifier123">
       .foo { color: black; }
-   </f:asset.css>
+    </f:asset.css>
 
 ..  _typo3-fluid-asset-css-details:
 
@@ -36,3 +40,14 @@ for this ViewHelper are: as, crossorigin, disabled, href, hreflang, importance, 
 sizes, type, nonce.
 
 Using the "inline" argument, the file content of the referenced file is added as inline style.
+
+..  _typo3-fluid-asset-css-arguments:
+
+Arguments
+=========
+
+..  include:: /_Includes/_ArbitraryArguments.rst.txt
+
+..  typo3:viewhelper:: asset.css
+    :source: ../../Global.json
+    :display: arguments-only

@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/Format/StripTagsViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/Format/StripTagsViewHelper.php
 :navigation-title: format.stripTags
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ Format.stripTags ViewHelper `<f:format.stripTags>`
 
 ..  typo3:viewhelper:: format.stripTags
     :source: ../../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-format-striptags-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: format.stripTags
+    :source: ../../Global.json
+    :display: arguments-only

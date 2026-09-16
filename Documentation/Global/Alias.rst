@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/AliasViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/AliasViewHelper.php
 :navigation-title: alias
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ Alias ViewHelper `<f:alias>`
 
 ..  typo3:viewhelper:: alias
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-alias-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: alias
+    :source: ../Global.json
+    :display: arguments-only

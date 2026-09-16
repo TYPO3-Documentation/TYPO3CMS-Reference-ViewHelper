@@ -9,40 +9,66 @@ Format.padding ViewHelper `<f:format.padding>`
 
 ..  typo3:viewhelper:: format.padding
     :source: ../../Global.json
-    :display: tags,description,gitHubLink,arguments
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  contents:: Table of contents
 
 ..  _typo3-fluid-format-padding-example:
 
 Examples
 ========
 
+..  _typo3-fluid-format-padding-defaults:
+
 Defaults
 --------
 
-::
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Content/Text.fluid.html
 
-   <f:format.padding padLength="10">TYPO3</f:format.padding>
+    <f:format.padding padLength="10">TYPO3</f:format.padding>
 
-Output::
+..  code-block:: text
+    :caption: Output
 
     TYPO3␠␠␠␠␠
 
-``TYPO3␠␠␠␠␠``
+..  _typo3-fluid-format-padding-specify-padding-string:
 
 Specify padding string
 ----------------------
 
-::
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Content/Text.fluid.html
 
-   <f:format.padding padLength="10" padString="-=">TYPO3</f:format.padding>
+    <f:format.padding padLength="10" padString="-=">TYPO3</f:format.padding>
 
-``TYPO3-=-=-``
+..  code-block:: text
+    :caption: Output
+
+    TYPO3-=-=-
+
+..  _typo3-fluid-format-padding-specify-padding-type:
 
 Specify padding type
 --------------------
 
-::
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Content/Text.fluid.html
 
-   <f:format.padding padLength="10" padString="-" padType="both">TYPO3</f:format.padding>
+    <f:format.padding padLength="10" padString="-" padType="both">TYPO3</f:format.padding>
 
-``--TYPO3---``
+..  code-block:: text
+    :caption: Output
+
+    --TYPO3---
+
+..  _typo3-fluid-format-padding-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: format.padding
+    :source: ../../Global.json
+    :display: arguments-only

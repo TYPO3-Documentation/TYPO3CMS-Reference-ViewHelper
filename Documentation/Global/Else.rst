@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/ElseViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/ElseViewHelper.php
 :navigation-title: else
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ Else ViewHelper `<f:else>`
 
 ..  typo3:viewhelper:: else
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-else-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: else
+    :source: ../Global.json
+    :display: arguments-only

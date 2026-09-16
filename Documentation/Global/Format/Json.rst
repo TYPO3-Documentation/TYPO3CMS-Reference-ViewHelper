@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/Format/JsonViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/Format/JsonViewHelper.php
 :navigation-title: format.json
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ Format.json ViewHelper `<f:format.json>`
 
 ..  typo3:viewhelper:: format.json
     :source: ../../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-format-json-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: format.json
+    :source: ../../Global.json
+    :display: arguments-only

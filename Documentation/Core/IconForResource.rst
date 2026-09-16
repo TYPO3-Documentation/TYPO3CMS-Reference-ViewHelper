@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/core/Classes/ViewHelpers/IconForResourceViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/core/Classes/ViewHelpers/IconForResourceViewHelper.php
 :navigation-title: iconForResource
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,14 @@ IconForResource ViewHelper `<core:iconForResource>`
 
 ..  typo3:viewhelper:: iconForResource
     :source: ../Core.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-core-iconforresource-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: iconForResource
+    :source: ../Core.json
+    :display: arguments-only

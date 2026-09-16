@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/CycleViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/CycleViewHelper.php
 :navigation-title: cycle
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ Cycle ViewHelper `<f:cycle>`
 
 ..  typo3:viewhelper:: cycle
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-cycle-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: cycle
+    :source: ../Global.json
+    :display: arguments-only

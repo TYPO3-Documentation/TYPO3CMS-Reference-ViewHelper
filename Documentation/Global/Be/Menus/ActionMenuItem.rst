@@ -9,28 +9,48 @@ Be.menus.actionMenuItem ViewHelper `<f:be.menus.actionMenuItem>`
 
 ..  typo3:viewhelper:: be.menus.actionMenuItem
     :source: ../../../Global.json
-    :display: tags,description,gitHubLink,arguments
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  contents:: Table of contents
 
 ..  _typo3-fluid-be-menus-actionmenuitem-example:
 
 Examples
 ========
 
-Simple::
+Simple:
 
-   <f:be.menus.actionMenu>
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Module/Index.fluid.html
+
+    <f:be.menus.actionMenu>
       <f:be.menus.actionMenuItem label="Overview" controller="Blog" action="index" />
       <f:be.menus.actionMenuItem label="Create new Blog" controller="Blog" action="new" />
       <f:be.menus.actionMenuItem label="List Posts" controller="Post" action="index" arguments="{blog: blog}" />
-   </f:be.menus.actionMenu>
+    </f:be.menus.actionMenu>
 
 Select box with the options "Overview", "Create new Blog" and "List Posts".
 
-Localized::
+Localized:
 
-   <f:be.menus.actionMenu>
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Module/Index.fluid.html
+
+    <f:be.menus.actionMenu>
       <f:be.menus.actionMenuItem label="{f:translate(key='overview')}" controller="Blog" action="index" />
       <f:be.menus.actionMenuItem label="{f:translate(key='create_blog')}" controller="Blog" action="new" />
-   </f:be.menus.actionMenu>
+    </f:be.menus.actionMenu>
 
 Localized select box.
+
+..  _typo3-fluid-be-menus-actionmenuitem-arguments:
+
+Arguments
+=========
+
+..  include:: /_Includes/_ArbitraryArguments.rst.txt
+
+..  typo3:viewhelper:: be.menus.actionMenuItem
+    :source: ../../../Global.json
+    :display: arguments-only

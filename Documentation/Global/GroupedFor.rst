@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/GroupedForViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/GroupedForViewHelper.php
 :navigation-title: groupedFor
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ GroupedFor ViewHelper `<f:groupedFor>`
 
 ..  typo3:viewhelper:: groupedFor
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-groupedfor-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: groupedFor
+    :source: ../Global.json
+    :display: arguments-only
