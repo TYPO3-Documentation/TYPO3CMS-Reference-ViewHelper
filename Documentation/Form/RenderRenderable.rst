@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/form/Classes/ViewHelpers/RenderRenderableViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/form/Classes/ViewHelpers/RenderRenderableViewHelper.php
 :navigation-title: renderRenderable
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,14 @@ RenderRenderable ViewHelper `<formvh:renderRenderable>`
 
 ..  typo3:viewhelper:: renderRenderable
     :source: ../Form.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-form-renderrenderable-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: renderRenderable
+    :source: ../Form.json
+    :display: arguments-only

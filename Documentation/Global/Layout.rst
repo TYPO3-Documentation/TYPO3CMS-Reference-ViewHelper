@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/LayoutViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/LayoutViewHelper.php
 :navigation-title: layout
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ Layout ViewHelper `<f:layout>`
 
 ..  typo3:viewhelper:: layout
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-layout-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: layout
+    :source: ../Global.json
+    :display: arguments-only

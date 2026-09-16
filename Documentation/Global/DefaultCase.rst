@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/DefaultCaseViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/DefaultCaseViewHelper.php
 :navigation-title: defaultCase
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ DefaultCase ViewHelper `<f:defaultCase>`
 
 ..  typo3:viewhelper:: defaultCase
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-defaultcase-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: defaultCase
+    :source: ../Global.json
+    :display: arguments-only

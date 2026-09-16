@@ -31,8 +31,23 @@ JavaScript).
 ..  typo3:viewhelper:: page.headerData
     :source: ../../Global.json
     :display: tags,gitHubLink
+    :noindex:
 
-..  rubric:: Example usage
+..  contents:: Table of contents
+
+..  _typo3-fluid-page-headerdata-example:
+
+Example usage
+=============
 
 ..  literalinclude:: _codesnippets/_HeaderData.fluid.html
     :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.fluid.html
+
+..  _typo3-fluid-page-headerdata-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: page.headerData
+    :source: ../../Global.json
+    :display: arguments-only

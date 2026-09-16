@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/backend/Classes/ViewHelpers/ThumbnailViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/ThumbnailViewHelper.php
 :navigation-title: thumbnail
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,16 @@ Thumbnail ViewHelper `<be:thumbnail>`
 
 ..  typo3:viewhelper:: thumbnail
     :source: ../Backend.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-backend-thumbnail-arguments:
+
+Arguments
+=========
+
+..  include:: /_Includes/_ArbitraryArguments.rst.txt
+
+..  typo3:viewhelper:: thumbnail
+    :source: ../Backend.json
+    :display: arguments-only
