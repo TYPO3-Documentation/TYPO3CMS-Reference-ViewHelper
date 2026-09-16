@@ -9,62 +9,85 @@ Uri.image ViewHelper `<f:uri.image>`
 
 ..  typo3:viewhelper:: uri.image
     :source: ../../Global.json
-    :display: tags,description,gitHubLink,arguments
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  contents:: Table of contents
 
 ..  _typo3-fluid-uri-image-example:
 
 Examples
 ========
 
+..  _typo3-fluid-uri-image-default:
+
 Default
 -------
 
-::
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Blog/Show.fluid.html
 
-   <f:uri.image src="EXT:myext/Resources/Public/typo3_logo.png" />
+    <f:uri.image src="EXT:myext/Resources/Public/typo3_logo.png" />
 
 Results in the following output within TYPO3 frontend:
 
-``typo3conf/ext/myext/Resources/Public/typo3_logo.png``
+`typo3conf/ext/myext/Resources/Public/typo3_logo.png`
 
 and the following output inside TYPO3 backend:
 
-``../typo3conf/ext/myext/Resources/Public/typo3_logo.png``
+`../typo3conf/ext/myext/Resources/Public/typo3_logo.png`
 
-Image Object
+..  _typo3-fluid-uri-image-image-object:
+
+Image object
 ------------
 
-::
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Blog/Show.fluid.html
 
-   <f:uri.image image="{imageObject}" />
+    <f:uri.image image="{imageObject}" />
 
 Results in the following output within TYPO3 frontend:
 
-``fileadmin/images/image.png``
+`fileadmin/images/image.png`
 
 and the following output inside TYPO3 backend:
 
-``fileadmin/images/image.png``
+`fileadmin/images/image.png`
+
+..  _typo3-fluid-uri-image-inline-notation:
 
 Inline notation
 ---------------
 
-::
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Blog/Show.fluid.html
 
-   {f:uri.image(src: 'EXT:myext/Resources/Public/typo3_logo.png', minWidth: 30, maxWidth: 40)}
+    {f:uri.image(src: 'EXT:myext/Resources/Public/typo3_logo.png', minWidth: 30, maxWidth: 40)}
 
-``typo3temp/assets/images/[b4c0e7ed5c].png``
+..  code-block:: text
+    :caption: Output
+
+    typo3temp/assets/images/[b4c0e7ed5c].png
 
 Depending on your TYPO3s encryption key.
+
+..  _typo3-fluid-uri-image-non-existing-image:
 
 Non existing image
 ------------------
 
-::
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Blog/Show.fluid.html
 
-   <f:uri.image src="NonExistingImage.png" />
+    <f:uri.image src="NonExistingImage.png" />
 
-``Could not get image resource for "NonExistingImage.png".``
+..  code-block:: text
+    :caption: Output
+
+    Could not get image resource for "NonExistingImage.png".
+
+..  _typo3-fluid-uri-image-base-64:
 
 Base 64
 =======
@@ -84,3 +107,12 @@ Will return the image encoded in base64:
     <img src="data:image/svg+xml;base64,PHN2...cuODQ4LTYuNzU3Ii8+Cjwvc3ZnPgo=">
 
 This can be particularly useful inside `FluidEmail` or to prevent unneeded HTTP calls.
+
+..  _typo3-fluid-uri-image-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: uri.image
+    :source: ../../Global.json
+    :display: arguments-only

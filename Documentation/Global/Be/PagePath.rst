@@ -9,16 +9,30 @@ Be.pagePath ViewHelper `<f:be.pagePath>`
 
 ..  typo3:viewhelper:: be.pagePath
     :source: ../../Global.json
-    :display: tags,description,gitHubLink,arguments
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  contents:: Table of contents
 
 ..  _typo3-fluid-be-pagepath-example:
 
 Examples
 ========
 
-Default::
+Default:
 
-   <f:be.pagePath />
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Module/Index.fluid.html
 
-Current page path, prefixed with "Path:" and wrapped in a span with the class ``typo3-docheader-pagePath``.
+    <f:be.pagePath />
 
+Current page path, prefixed with "Path:" and wrapped in a span with the class `typo3-docheader-pagePath`.
+
+..  _typo3-fluid-be-pagepath-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: be.pagePath
+    :source: ../../Global.json
+    :display: arguments-only

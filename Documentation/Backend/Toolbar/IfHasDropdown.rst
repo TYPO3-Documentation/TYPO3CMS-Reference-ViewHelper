@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/backend/Classes/ViewHelpers/Toolbar/IfHasDropdownViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/Toolbar/IfHasDropdownViewHelper.php
 :navigation-title: toolbar.ifHasDropdown
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,14 @@ Toolbar.ifHasDropdown ViewHelper `<be:toolbar.ifHasDropdown>`
 
 ..  typo3:viewhelper:: toolbar.ifHasDropdown
     :source: ../../Backend.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-backend-toolbar-ifhasdropdown-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: toolbar.ifHasDropdown
+    :source: ../../Backend.json
+    :display: arguments-only

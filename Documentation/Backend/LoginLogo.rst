@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/backend/Classes/ViewHelpers/LoginLogoViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/backend/Classes/ViewHelpers/LoginLogoViewHelper.php
 :navigation-title: loginLogo
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,14 @@ LoginLogo ViewHelper `<be:loginLogo>`
 
 ..  typo3:viewhelper:: loginLogo
     :source: ../Backend.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-backend-loginlogo-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: loginLogo
+    :source: ../Backend.json
+    :display: arguments-only

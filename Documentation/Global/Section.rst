@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/SectionViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/SectionViewHelper.php
 :navigation-title: section
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ Section ViewHelper `<f:section>`
 
 ..  typo3:viewhelper:: section
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-section-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: section
+    :source: ../Global.json
+    :display: arguments-only

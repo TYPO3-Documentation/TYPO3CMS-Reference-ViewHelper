@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/form/Classes/ViewHelpers/Form/UploadedResourceViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/form/Classes/ViewHelpers/Form/UploadedResourceViewHelper.php
 :navigation-title: form.uploadedResource
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,16 @@ Form.uploadedResource ViewHelper `<formvh:form.uploadedResource>`
 
 ..  typo3:viewhelper:: form.uploadedResource
     :source: ../../Form.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-form-form-uploadedresource-arguments:
+
+Arguments
+=========
+
+..  include:: /_Includes/_ArbitraryArguments.rst.txt
+
+..  typo3:viewhelper:: form.uploadedResource
+    :source: ../../Form.json
+    :display: arguments-only

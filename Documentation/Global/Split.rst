@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/Fluid/blob/main/src/ViewHelpers/SplitViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/Fluid/edit/main/src/ViewHelpers/SplitViewHelper.php
 :navigation-title: split
 
 ..  include:: /Includes.rst.txt
@@ -13,3 +10,14 @@ Split ViewHelper `<f:split>`
 
 ..  typo3:viewhelper:: split
     :source: ../Global.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3fluid-fluid-split-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: split
+    :source: ../Global.json
+    :display: arguments-only

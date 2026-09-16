@@ -1,6 +1,3 @@
-..  Source: https://github.com/TYPO3/typo3/blob/main/typo3/sysext/form/Classes/ViewHelpers/RenderAllFormValuesViewHelper.php
-
-:edit-on-github-link: https://github.com/TYPO3/typo3/edit/main/typo3/sysext/form/Classes/ViewHelpers/RenderAllFormValuesViewHelper.php
 :navigation-title: renderAllFormValues
 
 ..  include:: /Includes.rst.txt
@@ -15,3 +12,14 @@ RenderAllFormValues ViewHelper `<formvh:renderAllFormValues>`
 
 ..  typo3:viewhelper:: renderAllFormValues
     :source: ../Form.json
+    :display: tags,description,gitHubLink
+    :noindex:
+
+..  _typo3-form-renderallformvalues-arguments:
+
+Arguments
+=========
+
+..  typo3:viewhelper:: renderAllFormValues
+    :source: ../Form.json
+    :display: arguments-only
