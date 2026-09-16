@@ -44,15 +44,15 @@ meaningful value from the following list.
     ..  group-tab:: Numeral values
 
         ``-2``
-           Notices (Default)
+            Notices (Default)
         ``-1``
-           Information
+            Information
         ``0``
-           Positive feedback
+            Positive feedback
         ``1``
-           Warnings
+            Warnings
         ``2``
-           Error
+            Error
 
     ..  group-tab:: Code example
 

@@ -72,16 +72,16 @@ Security in Fluid forms
 
 Fluid automatically adds several hidden field to forms:
 
-*  `__referrer[]` with an array of items `@extension`, `@controller`,
-   `@action`, `arguments` and `@request`. This holds information about
-   where the form has been created, so that in case of errors,
-   redirection to the originating Extbase controller and action
-   (and extension) is possible.
-*  `__trustedProperties` (string) holds information about all used properties
-   of all Extbase domain models that have been utilized within the
-   related `<f:form>` context. This is used to ensure only properties
-   will be evaluated for persistence that have an editable form field
-   associated with them.
+*   `__referrer[]` with an array of items `@extension`, `@controller`,
+    `@action`, `arguments` and `@request`. This holds information about
+    where the form has been created, so that in case of errors,
+    redirection to the originating Extbase controller and action
+    (and extension) is possible.
+*   `__trustedProperties` (string) holds information about all used properties
+    of all Extbase domain models that have been utilized within the
+    related `<f:form>` context. This is used to ensure only properties
+    will be evaluated for persistence that have an editable form field
+    associated with them.
 
 To prevent tampering with this vital data, the important fields
 (`__referrer[arguments]`, `__referrer[@request]`, `__trustedProperties`)

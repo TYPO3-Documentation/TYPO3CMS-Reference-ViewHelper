@@ -1,6 +1,6 @@
 ..  include:: /Includes.rst.txt
 
-.. _typo3-fluid-link:
+..  _typo3-fluid-link:
 
 ====
 Link
