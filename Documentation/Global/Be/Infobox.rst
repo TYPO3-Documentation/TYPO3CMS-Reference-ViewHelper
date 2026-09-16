@@ -43,15 +43,15 @@ and integer values between `-2` and `+2` for backward compatibility.
     ..  group-tab:: Enum values
 
         `ContextualFeedbackSeverity::NOTICE` (-2)
-           Notices (Default)
+            Notices (Default)
         `ContextualFeedbackSeverity::INFO` (-1)
-           Information
+            Information
         `ContextualFeedbackSeverity::OK` (0)
-           Positive feedback
+            Positive feedback
         `ContextualFeedbackSeverity::WARNING` (1)
-           Warnings
+            Warnings
         `ContextualFeedbackSeverity::ERROR` (2)
-           Error
+            Error
 
     ..  group-tab:: Code example
 

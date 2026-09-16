@@ -26,12 +26,12 @@ Basic usage
 ..  code-block:: html
     :caption: EXT:my_extension/Resources/Private/Partials/Upload.fluid.html
 
-   <f:form.upload name="file" />
+    <f:form.upload name="file" />
 
 ..  code-block:: html
     :caption: HTML output
 
-   <input type="file" name="file" />
+    <input type="file" name="file" />
 
 ..  _typo3-fluid-form-upload-example-accept:
 
@@ -41,12 +41,12 @@ Example for allowed MIME types / file extensions (native HTML5 attribute)
 ..  code-block:: html
     :caption: EXT:my_extension/Resources/Private/Partials/Upload.fluid.html
 
-   <f:form.upload name="file" accept=".gif,.jpg,image/jpg,image/jpeg,image/gif" />
+    <f:form.upload name="file" accept=".gif,.jpg,image/jpg,image/jpeg,image/gif" />
 
 ..  code-block:: html
     :caption: HTML output
 
-   <input type="file" name="file" accept=".gif,.jpg,image/jpg,image/jpeg,image/gif" />
+    <input type="file" name="file" accept=".gif,.jpg,image/jpg,image/jpeg,image/gif" />
 
 ..  hint::
 
