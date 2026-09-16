@@ -1,6 +1,6 @@
 ..  include:: /Includes.rst.txt
 
-.. _typo3-fluid-asset:
+..  _typo3-fluid-asset:
 
 =====
 Asset
