@@ -1,4 +1,4 @@
-.. include:: /Includes.rst.txt
+..  include:: /Includes.rst.txt
 
 ..  _contribution:
 
@@ -93,10 +93,10 @@ Editing the PHP doc-comment is the right fix when the short description
 itself is wrong or missing, since that text is shown on the page and in
 IDEs. The ViewHelper classes live at
 
-1. https://github.com/TYPO3/typo3/tree/main/typo3/sysext/core/Classes/ViewHelpers
-2. https://github.com/TYPO3/typo3/tree/main/typo3/sysext/backend/Classes/ViewHelpers
-3. https://github.com/TYPO3/typo3/tree/main/typo3/sysext/fluid/Classes/ViewHelpers
-4. https://github.com/TYPO3/Fluid/tree/main/src/ViewHelpers
+1.  https://github.com/TYPO3/typo3/tree/main/typo3/sysext/core/Classes/ViewHelpers
+2.  https://github.com/TYPO3/typo3/tree/main/typo3/sysext/backend/Classes/ViewHelpers
+3.  https://github.com/TYPO3/typo3/tree/main/typo3/sysext/fluid/Classes/ViewHelpers
+4.  https://github.com/TYPO3/Fluid/tree/main/src/ViewHelpers
 
 Such a change reaches this manual with the next run of the generator, which
 happens once a day. See

@@ -12,19 +12,22 @@ Form.uploadDeleteCheckbox ViewHelper `<f:form.uploadDeleteCheckbox>`
     :display: tags,description,gitHubLink
     :noindex:
 
+..  contents:: Table of contents
+
 ..  _typo3-fluid-form-uploaddeletecheckbox-example:
 
 Examples
 ========
 
-Example::
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Partials/Upload.fluid.html
 
-   <f:form.uploadDeleteCheckbox id="file" property="file" fileReference="{myModel.file}" />
+    <f:form.uploadDeleteCheckbox id="file" property="file" fileReference="{myModel.file}" />
 
-Output::
+..  code-block:: html
+    :caption: HTML output
 
-   <input type="checkbox" id="file" name="tx_extension_plugin[@delete][item][hash]" value="signed-json-string">
-
+    <input type="checkbox" id="file" name="tx_extension_plugin[@delete][item][hash]" value="signed-json-string">
 
 ..  _typo3-fluid-form-uploaddeletecheckbox-arguments:
 

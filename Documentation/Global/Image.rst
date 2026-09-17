@@ -179,7 +179,7 @@ encoded form.
 This will result in the HTML tag providing the image encoded in
 base64.
 
-.. code-block:: html
+..  code-block:: html
     :caption: HTML output
 
     <img class="pr-2"
