@@ -52,8 +52,8 @@ List all categories on page 5 and make them editable when clicking the title:
 
 ..  _typo3-fluid-be-tablelist-arguments:
 
-Arguments
-=========
+Arguments of the `<f:be.tableList>` ViewHelper
+==============================================
 
 ..  typo3:viewhelper:: be.tableList
     :source: ../../Global.json

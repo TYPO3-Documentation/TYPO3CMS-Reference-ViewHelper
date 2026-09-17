@@ -16,8 +16,8 @@ CObject ViewHelper `<f:cObject>`
 
 ..  _typo3-fluid-cobject-arguments:
 
-Arguments
-=========
+Arguments of the `<f:cObject>` ViewHelper
+=========================================
 
 ..  typo3:viewhelper:: cObject
     :display: arguments-only

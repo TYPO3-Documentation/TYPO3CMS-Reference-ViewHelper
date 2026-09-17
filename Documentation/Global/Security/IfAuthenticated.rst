@@ -56,8 +56,8 @@ Otherwise, everything inside the :html:`<f:else></f:else>` tag is displayed.
 
 ..  _typo3-fluid-security-ifauthenticated-arguments:
 
-Arguments
-=========
+Arguments of the `<f:security.ifAuthenticated>` ViewHelper
+==========================================================
 
 ..  typo3:viewhelper:: security.ifAuthenticated
     :source: ../../Global.json

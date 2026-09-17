@@ -17,8 +17,8 @@ ModuleLink ViewHelper `<be:moduleLink>`
 
 ..  _typo3-backend-modulelink-arguments:
 
-Arguments
-=========
+Arguments of the `<be:moduleLink>` ViewHelper
+=============================================
 
 ..  typo3:viewhelper:: moduleLink
     :source: ../Backend.json

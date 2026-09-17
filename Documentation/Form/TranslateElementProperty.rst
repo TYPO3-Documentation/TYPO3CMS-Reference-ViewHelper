@@ -17,8 +17,8 @@ TranslateElementProperty ViewHelper `<formvh:translateElementProperty>`
 
 ..  _typo3-form-translateelementproperty-arguments:
 
-Arguments
-=========
+Arguments of the `<formvh:translateElementProperty>` ViewHelper
+===============================================================
 
 ..  typo3:viewhelper:: translateElementProperty
     :source: ../Form.json

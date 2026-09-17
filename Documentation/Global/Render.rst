@@ -164,8 +164,8 @@ are used a section found in a partial can be rendered.
 
 ..  _typo3-fluid-render-arguments:
 
-Arguments
-=========
+Arguments of the `<f:render>` ViewHelper
+========================================
 
 ..  typo3:viewhelper:: render
     :source: ../Global.json

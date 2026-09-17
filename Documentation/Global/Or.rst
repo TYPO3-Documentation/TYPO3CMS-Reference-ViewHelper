@@ -15,8 +15,8 @@ Or ViewHelper `<f:or>`
 
 ..  _typo3fluid-fluid-or-arguments:
 
-Arguments
-=========
+Arguments of the `<f:or>` ViewHelper
+====================================
 
 ..  typo3:viewhelper:: or
     :source: ../Global.json

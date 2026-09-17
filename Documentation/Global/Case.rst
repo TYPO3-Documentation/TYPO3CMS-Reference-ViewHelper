@@ -15,8 +15,8 @@ Case ViewHelper `<f:case>`
 
 ..  _typo3fluid-fluid-case-arguments:
 
-Arguments
-=========
+Arguments of the `<f:case>` ViewHelper
+======================================
 
 ..  typo3:viewhelper:: case
     :source: ../Global.json

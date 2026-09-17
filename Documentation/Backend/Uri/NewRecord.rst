@@ -17,8 +17,8 @@ Uri.newRecord ViewHelper `<be:uri.newRecord>`
 
 ..  _typo3-backend-uri-newrecord-arguments:
 
-Arguments
-=========
+Arguments of the `<be:uri.newRecord>` ViewHelper
+================================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

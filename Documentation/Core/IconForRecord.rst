@@ -17,8 +17,8 @@ IconForRecord ViewHelper `<core:iconForRecord>`
 
 ..  _typo3-core-iconforrecord-arguments:
 
-Arguments
-=========
+Arguments of the `<core:iconForRecord>` ViewHelper
+==================================================
 
 ..  typo3:viewhelper:: iconForRecord
     :source: ../Core.json

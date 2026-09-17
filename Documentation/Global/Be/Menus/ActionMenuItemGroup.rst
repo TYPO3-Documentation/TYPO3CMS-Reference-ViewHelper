@@ -38,8 +38,8 @@ Example
 
 ..  _typo3-fluid-be-menus-actionmenuitemgroup-arguments:
 
-Arguments
-=========
+Arguments of the `<f:be.menus.actionMenuItemGroup>` ViewHelper
+==============================================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

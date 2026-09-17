@@ -50,8 +50,8 @@ Feature / then / else
 
 ..  _typo3-fluid-feature-arguments:
 
-Arguments
-=========
+Arguments of the `<f:feature>` ViewHelper
+=========================================
 
 ..  typo3:viewhelper:: feature
     :source: ../Global.json

@@ -17,8 +17,8 @@ Uri.editRecord ViewHelper `<be:uri.editRecord>`
 
 ..  _typo3-backend-uri-editrecord-arguments:
 
-Arguments
-=========
+Arguments of the `<be:uri.editRecord>` ViewHelper
+=================================================
 
 ..  typo3:viewhelper:: uri.editRecord
     :source: ../../Backend.json

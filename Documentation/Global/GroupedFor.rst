@@ -15,8 +15,8 @@ GroupedFor ViewHelper `<f:groupedFor>`
 
 ..  _typo3fluid-fluid-groupedfor-arguments:
 
-Arguments
-=========
+Arguments of the `<f:groupedFor>` ViewHelper
+============================================
 
 ..  typo3:viewhelper:: groupedFor
     :source: ../Global.json

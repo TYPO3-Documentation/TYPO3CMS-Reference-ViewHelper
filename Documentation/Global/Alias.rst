@@ -15,8 +15,8 @@ Alias ViewHelper `<f:alias>`
 
 ..  _typo3fluid-fluid-alias-arguments:
 
-Arguments
-=========
+Arguments of the `<f:alias>` ViewHelper
+=======================================
 
 ..  typo3:viewhelper:: alias
     :source: ../Global.json

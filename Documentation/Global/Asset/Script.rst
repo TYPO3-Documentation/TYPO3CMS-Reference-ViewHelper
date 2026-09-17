@@ -42,8 +42,8 @@ Using the "inline" argument, the file content of the referenced file is added as
 
 ..  _typo3-fluid-asset-script-arguments:
 
-Arguments
-=========
+Arguments of the `<f:asset.script>` ViewHelper
+==============================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

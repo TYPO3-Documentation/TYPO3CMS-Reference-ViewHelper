@@ -88,8 +88,8 @@ Depending on routing and page path configuration.
 
 ..  _typo3-fluid-link-typolink-arguments:
 
-Arguments
-=========
+Arguments of the `<f:link.typolink>` ViewHelper
+===============================================
 
 ..  typo3:viewhelper:: link.typolink
     :source: ../../Global.json

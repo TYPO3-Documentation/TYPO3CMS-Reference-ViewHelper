@@ -15,8 +15,8 @@ Switch ViewHelper `<f:switch>`
 
 ..  _typo3fluid-fluid-switch-arguments:
 
-Arguments
-=========
+Arguments of the `<f:switch>` ViewHelper
+========================================
 
 ..  typo3:viewhelper:: switch
     :source: ../Global.json

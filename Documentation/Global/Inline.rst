@@ -15,8 +15,8 @@ Inline ViewHelper `<f:inline>`
 
 ..  _typo3fluid-fluid-inline-arguments:
 
-Arguments
-=========
+Arguments of the `<f:inline>` ViewHelper
+========================================
 
 ..  typo3:viewhelper:: inline
     :source: ../Global.json

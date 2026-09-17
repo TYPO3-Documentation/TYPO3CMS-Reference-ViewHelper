@@ -35,8 +35,8 @@ Depending on the current page and your TypoScript configuration.
 
 ..  _typo3-fluid-link-action-arguments:
 
-Arguments
-=========
+Arguments of the `<f:link.action>` ViewHelper
+=============================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

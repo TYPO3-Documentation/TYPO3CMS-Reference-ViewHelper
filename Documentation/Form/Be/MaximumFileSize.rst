@@ -17,8 +17,8 @@ Be.maximumFileSize ViewHelper `<formvh:be.maximumFileSize>`
 
 ..  _typo3-form-be-maximumfilesize-arguments:
 
-Arguments
-=========
+Arguments of the `<formvh:be.maximumFileSize>` ViewHelper
+=========================================================
 
 ..  typo3:viewhelper:: be.maximumFileSize
     :source: ../../Form.json
