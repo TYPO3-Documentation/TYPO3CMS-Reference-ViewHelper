@@ -17,8 +17,8 @@ TypoScript.fineDiff ViewHelper `<be:typoScript.fineDiff>`
 
 ..  _typo3-backend-typoscript-finediff-arguments:
 
-Arguments
-=========
+Arguments of the `<be:typoScript.fineDiff>` ViewHelper
+======================================================
 
 ..  typo3:viewhelper:: typoScript.fineDiff
     :source: ../../Backend.json

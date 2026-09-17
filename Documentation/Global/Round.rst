@@ -15,8 +15,8 @@ Round ViewHelper `<f:round>`
 
 ..  _typo3fluid-fluid-round-arguments:
 
-Arguments
-=========
+Arguments of the `<f:round>` ViewHelper
+=======================================
 
 ..  typo3:viewhelper:: round
     :source: ../Global.json

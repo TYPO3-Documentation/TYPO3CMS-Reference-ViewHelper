@@ -15,8 +15,8 @@ Comment ViewHelper `<f:comment>`
 
 ..  _typo3fluid-fluid-comment-arguments:
 
-Arguments
-=========
+Arguments of the `<f:comment>` ViewHelper
+=========================================
 
 ..  typo3:viewhelper:: comment
     :source: ../Global.json

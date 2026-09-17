@@ -15,8 +15,8 @@ Else ViewHelper `<f:else>`
 
 ..  _typo3fluid-fluid-else-arguments:
 
-Arguments
-=========
+Arguments of the `<f:else>` ViewHelper
+======================================
 
 ..  typo3:viewhelper:: else
     :source: ../Global.json

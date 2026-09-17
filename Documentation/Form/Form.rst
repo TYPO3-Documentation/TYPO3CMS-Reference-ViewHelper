@@ -17,8 +17,8 @@ Form ViewHelper `<formvh:form>`
 
 ..  _typo3-form-form-arguments:
 
-Arguments
-=========
+Arguments of the `<formvh:form>` ViewHelper
+===========================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

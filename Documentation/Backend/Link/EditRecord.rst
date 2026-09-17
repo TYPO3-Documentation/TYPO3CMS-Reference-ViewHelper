@@ -17,8 +17,8 @@ Link.editRecord ViewHelper `<be:link.editRecord>`
 
 ..  _typo3-backend-link-editrecord-arguments:
 
-Arguments
-=========
+Arguments of the `<be:link.editRecord>` ViewHelper
+==================================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

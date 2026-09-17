@@ -15,8 +15,8 @@ DefaultCase ViewHelper `<f:defaultCase>`
 
 ..  _typo3fluid-fluid-defaultcase-arguments:
 
-Arguments
-=========
+Arguments of the `<f:defaultCase>` ViewHelper
+=============================================
 
 ..  typo3:viewhelper:: defaultCase
     :source: ../Global.json

@@ -43,8 +43,8 @@ Using the "inline" argument, the file content of the referenced file is added as
 
 ..  _typo3-fluid-asset-css-arguments:
 
-Arguments
-=========
+Arguments of the `<f:asset.css>` ViewHelper
+===========================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

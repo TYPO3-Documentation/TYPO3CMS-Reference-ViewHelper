@@ -17,8 +17,8 @@ LoginLogo ViewHelper `<be:loginLogo>`
 
 ..  _typo3-backend-loginlogo-arguments:
 
-Arguments
-=========
+Arguments of the `<be:loginLogo>` ViewHelper
+============================================
 
 ..  typo3:viewhelper:: loginLogo
     :source: ../Backend.json

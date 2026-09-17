@@ -17,8 +17,8 @@ NormalizedUrl ViewHelper `<core:normalizedUrl>`
 
 ..  _typo3-core-normalizedurl-arguments:
 
-Arguments
-=========
+Arguments of the `<core:normalizedUrl>` ViewHelper
+==================================================
 
 ..  typo3:viewhelper:: normalizedUrl
     :source: ../Core.json

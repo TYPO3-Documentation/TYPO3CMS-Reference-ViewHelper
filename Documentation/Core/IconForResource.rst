@@ -17,8 +17,8 @@ IconForResource ViewHelper `<core:iconForResource>`
 
 ..  _typo3-core-iconforresource-arguments:
 
-Arguments
-=========
+Arguments of the `<core:iconForResource>` ViewHelper
+====================================================
 
 ..  typo3:viewhelper:: iconForResource
     :source: ../Core.json

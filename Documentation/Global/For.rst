@@ -15,8 +15,8 @@ For ViewHelper `<f:for>`
 
 ..  _typo3fluid-fluid-for-arguments:
 
-Arguments
-=========
+Arguments of the `<f:for>` ViewHelper
+=====================================
 
 ..  typo3:viewhelper:: for
     :source: ../Global.json

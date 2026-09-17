@@ -15,8 +15,8 @@ Replace ViewHelper `<f:replace>`
 
 ..  _typo3fluid-fluid-replace-arguments:
 
-Arguments
-=========
+Arguments of the `<f:replace>` ViewHelper
+=========================================
 
 ..  typo3:viewhelper:: replace
     :source: ../Global.json

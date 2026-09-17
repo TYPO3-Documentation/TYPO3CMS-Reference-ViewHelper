@@ -114,8 +114,8 @@ You can find this example in the TYPO3 backend module
 
 ..  _typo3-fluid-be-infobox-arguments:
 
-Arguments
-=========
+Arguments of the `<f:be.infobox>` ViewHelper
+============================================
 
 ..  typo3:viewhelper:: be.infobox
     :source: ../../Global.json

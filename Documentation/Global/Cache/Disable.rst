@@ -15,8 +15,8 @@ Cache.disable ViewHelper `<f:cache.disable>`
 
 ..  _typo3fluid-fluid-cache-disable-arguments:
 
-Arguments
-=========
+Arguments of the `<f:cache.disable>` ViewHelper
+===============================================
 
 ..  typo3:viewhelper:: cache.disable
     :source: ../../Global.json

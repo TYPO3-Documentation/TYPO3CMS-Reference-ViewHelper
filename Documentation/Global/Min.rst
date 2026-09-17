@@ -15,8 +15,8 @@ Min ViewHelper `<f:min>`
 
 ..  _typo3fluid-fluid-min-arguments:
 
-Arguments
-=========
+Arguments of the `<f:min>` ViewHelper
+=====================================
 
 ..  typo3:viewhelper:: min
     :source: ../Global.json

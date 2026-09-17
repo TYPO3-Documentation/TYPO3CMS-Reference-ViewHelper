@@ -15,8 +15,8 @@ Fragment ViewHelper `<f:fragment>`
 
 ..  _typo3fluid-fluid-fragment-arguments:
 
-Arguments
-=========
+Arguments of the `<f:fragment>` ViewHelper
+==========================================
 
 ..  typo3:viewhelper:: fragment
     :source: ../Global.json

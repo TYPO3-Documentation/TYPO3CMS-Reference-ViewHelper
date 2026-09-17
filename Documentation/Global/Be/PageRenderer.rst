@@ -38,8 +38,8 @@ inline setting, and adds a resolved label to be used in js.
 
 ..  _typo3-fluid-be-pagerenderer-arguments:
 
-Arguments
-=========
+Arguments of the `<f:be.pageRenderer>` ViewHelper
+=================================================
 
 ..  typo3:viewhelper:: be.pageRenderer
     :source: ../../Global.json

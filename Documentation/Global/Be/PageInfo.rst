@@ -30,8 +30,8 @@ Page info icon with context menu.
 
 ..  _typo3-fluid-be-pageinfo-arguments:
 
-Arguments
-=========
+Arguments of the `<f:be.pageInfo>` ViewHelper
+=============================================
 
 ..  typo3:viewhelper:: be.pageInfo
     :source: ../../Global.json

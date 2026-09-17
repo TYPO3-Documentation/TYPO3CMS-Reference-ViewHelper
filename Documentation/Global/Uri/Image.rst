@@ -110,8 +110,8 @@ This can be particularly useful inside `FluidEmail` or to prevent unneeded HTTP 
 
 ..  _typo3-fluid-uri-image-arguments:
 
-Arguments
-=========
+Arguments of the `<f:uri.image>` ViewHelper
+===========================================
 
 ..  typo3:viewhelper:: uri.image
     :source: ../../Global.json

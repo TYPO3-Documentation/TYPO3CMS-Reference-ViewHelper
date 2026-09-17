@@ -17,8 +17,8 @@ LanguageColumn ViewHelper `<be:languageColumn>`
 
 ..  _typo3-backend-languagecolumn-arguments:
 
-Arguments
-=========
+Arguments of the `<be:languageColumn>` ViewHelper
+=================================================
 
 ..  typo3:viewhelper:: languageColumn
     :source: ../Backend.json
