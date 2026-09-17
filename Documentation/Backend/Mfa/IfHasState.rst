@@ -17,8 +17,8 @@ Mfa.ifHasState ViewHelper `<be:mfa.ifHasState>`
 
 ..  _typo3-backend-mfa-ifhasstate-arguments:
 
-Arguments
-=========
+Arguments of the `<be:mfa.ifHasState>` ViewHelper
+=================================================
 
 ..  typo3:viewhelper:: mfa.ifHasState
     :source: ../../Backend.json

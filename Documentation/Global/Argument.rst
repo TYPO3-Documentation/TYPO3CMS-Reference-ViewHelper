@@ -15,8 +15,8 @@ Argument ViewHelper `<f:argument>`
 
 ..  _typo3fluid-fluid-argument-arguments:
 
-Arguments
-=========
+Arguments of the `<f:argument>` ViewHelper
+==========================================
 
 ..  typo3:viewhelper:: argument
     :source: ../Global.json

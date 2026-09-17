@@ -15,8 +15,8 @@ Format.htmlspecialchars ViewHelper `<f:format.htmlspecialchars>`
 
 ..  _typo3fluid-fluid-format-htmlspecialchars-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.htmlspecialchars>` ViewHelper
+=========================================================
 
 ..  typo3:viewhelper:: format.htmlspecialchars
     :source: ../../Global.json

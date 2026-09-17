@@ -17,8 +17,8 @@ Toolbar.ifHasDropdown ViewHelper `<be:toolbar.ifHasDropdown>`
 
 ..  _typo3-backend-toolbar-ifhasdropdown-arguments:
 
-Arguments
-=========
+Arguments of the `<be:toolbar.ifHasDropdown>` ViewHelper
+========================================================
 
 ..  typo3:viewhelper:: toolbar.ifHasDropdown
     :source: ../../Backend.json

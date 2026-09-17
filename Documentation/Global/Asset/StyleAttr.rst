@@ -15,8 +15,8 @@ Asset.styleAttr ViewHelper `<f:asset.styleAttr>`
 
 ..  _typo3-fluid-asset-styleattr-arguments:
 
-Arguments
-=========
+Arguments of the `<f:asset.styleAttr>` ViewHelper
+=================================================
 
 ..  typo3:viewhelper:: asset.styleAttr
     :source: ../../Global.json

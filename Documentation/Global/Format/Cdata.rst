@@ -15,8 +15,8 @@ Format.cdata ViewHelper `<f:format.cdata>`
 
 ..  _typo3fluid-fluid-format-cdata-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.cdata>` ViewHelper
+==============================================
 
 ..  typo3:viewhelper:: format.cdata
     :source: ../../Global.json

@@ -17,8 +17,8 @@ Toolbar.attributes ViewHelper `<be:toolbar.attributes>`
 
 ..  _typo3-backend-toolbar-attributes-arguments:
 
-Arguments
-=========
+Arguments of the `<be:toolbar.attributes>` ViewHelper
+=====================================================
 
 ..  typo3:viewhelper:: toolbar.attributes
     :source: ../../Backend.json

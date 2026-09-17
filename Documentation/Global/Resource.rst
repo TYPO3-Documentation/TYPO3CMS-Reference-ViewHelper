@@ -15,8 +15,8 @@ Resource ViewHelper `<f:resource>`
 
 ..  _typo3-fluid-resource-arguments:
 
-Arguments
-=========
+Arguments of the `<f:resource>` ViewHelper
+==========================================
 
 ..  typo3:viewhelper:: resource
     :source: ../Global.json

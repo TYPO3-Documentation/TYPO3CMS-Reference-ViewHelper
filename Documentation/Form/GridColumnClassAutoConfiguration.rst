@@ -17,8 +17,8 @@ GridColumnClassAutoConfiguration ViewHelper `<formvh:gridColumnClassAutoConfigur
 
 ..  _typo3-form-gridcolumnclassautoconfiguration-arguments:
 
-Arguments
-=========
+Arguments of the `<formvh:gridColumnClassAutoConfiguration>` ViewHelper
+=======================================================================
 
 ..  typo3:viewhelper:: gridColumnClassAutoConfiguration
     :source: ../Form.json

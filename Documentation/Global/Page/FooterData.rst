@@ -44,8 +44,8 @@ Example usage
 
 ..  _typo3-fluid-page-footerdata-arguments:
 
-Arguments
-=========
+Arguments of the `<f:page.footerData>` ViewHelper
+=================================================
 
 ..  typo3:viewhelper:: page.footerData
     :source: ../../Global.json

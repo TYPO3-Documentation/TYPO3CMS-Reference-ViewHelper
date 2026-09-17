@@ -15,8 +15,8 @@ Floor ViewHelper `<f:floor>`
 
 ..  _typo3fluid-fluid-floor-arguments:
 
-Arguments
-=========
+Arguments of the `<f:floor>` ViewHelper
+=======================================
 
 ..  typo3:viewhelper:: floor
     :source: ../Global.json

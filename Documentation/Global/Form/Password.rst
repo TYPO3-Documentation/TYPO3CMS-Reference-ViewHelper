@@ -97,8 +97,8 @@ arguments for accessibility and JavaScript validation support.
 
 ..  _typo3-fluid-form-password-arguments:
 
-Arguments
-=========
+Arguments of the `<f:form.password>` ViewHelper
+===============================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

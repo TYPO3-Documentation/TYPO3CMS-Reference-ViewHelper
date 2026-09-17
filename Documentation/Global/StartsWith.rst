@@ -15,8 +15,8 @@ StartsWith ViewHelper `<f:startsWith>`
 
 ..  _typo3fluid-fluid-startswith-arguments:
 
-Arguments
-=========
+Arguments of the `<f:startsWith>` ViewHelper
+============================================
 
 ..  typo3:viewhelper:: startsWith
     :source: ../Global.json

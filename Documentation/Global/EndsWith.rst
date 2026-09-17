@@ -15,8 +15,8 @@ EndsWith ViewHelper `<f:endsWith>`
 
 ..  _typo3fluid-fluid-endswith-arguments:
 
-Arguments
-=========
+Arguments of the `<f:endsWith>` ViewHelper
+==========================================
 
 ..  typo3:viewhelper:: endsWith
     :source: ../Global.json

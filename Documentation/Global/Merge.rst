@@ -15,8 +15,8 @@ Merge ViewHelper `<f:merge>`
 
 ..  _typo3fluid-fluid-merge-arguments:
 
-Arguments
-=========
+Arguments of the `<f:merge>` ViewHelper
+=======================================
 
 ..  typo3:viewhelper:: merge
     :source: ../Global.json

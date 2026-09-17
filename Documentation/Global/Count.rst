@@ -15,8 +15,8 @@ Count ViewHelper `<f:count>`
 
 ..  _typo3fluid-fluid-count-arguments:
 
-Arguments
-=========
+Arguments of the `<f:count>` ViewHelper
+=======================================
 
 ..  typo3:viewhelper:: count
     :source: ../Global.json
