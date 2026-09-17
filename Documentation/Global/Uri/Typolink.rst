@@ -61,8 +61,8 @@ Depending on routing and page path configuration.
 
 ..  _typo3-fluid-uri-typolink-arguments:
 
-Arguments
-=========
+Arguments of the `<f:uri.typolink>` ViewHelper
+==============================================
 
 ..  typo3:viewhelper:: uri.typolink
     :source: ../../Global.json

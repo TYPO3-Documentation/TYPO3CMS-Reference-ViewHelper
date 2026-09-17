@@ -15,8 +15,8 @@ Layout ViewHelper `<f:layout>`
 
 ..  _typo3fluid-fluid-layout-arguments:
 
-Arguments
-=========
+Arguments of the `<f:layout>` ViewHelper
+========================================
 
 ..  typo3:viewhelper:: layout
     :source: ../Global.json

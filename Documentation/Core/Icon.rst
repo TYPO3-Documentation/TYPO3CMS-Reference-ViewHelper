@@ -17,8 +17,8 @@ Icon ViewHelper `<core:icon>`
 
 ..  _typo3-core-icon-arguments:
 
-Arguments
-=========
+Arguments of the `<core:icon>` ViewHelper
+=========================================
 
 ..  typo3:viewhelper:: icon
     :source: ../Core.json

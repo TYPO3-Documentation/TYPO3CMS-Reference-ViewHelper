@@ -174,8 +174,8 @@ Depending on the value of `{dateObject}`.
 
 ..  _typo3-fluid-format-date-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.date>` ViewHelper
+=============================================
 
 ..  typo3:viewhelper:: format.date
     :source: ../../Global.json

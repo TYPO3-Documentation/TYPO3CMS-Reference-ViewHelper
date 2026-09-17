@@ -15,8 +15,8 @@ Cycle ViewHelper `<f:cycle>`
 
 ..  _typo3fluid-fluid-cycle-arguments:
 
-Arguments
-=========
+Arguments of the `<f:cycle>` ViewHelper
+=======================================
 
 ..  typo3:viewhelper:: cycle
     :source: ../Global.json

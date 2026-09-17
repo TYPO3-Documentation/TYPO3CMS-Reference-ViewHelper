@@ -17,8 +17,8 @@ RenderFormValue ViewHelper `<formvh:renderFormValue>`
 
 ..  _typo3-form-renderformvalue-arguments:
 
-Arguments
-=========
+Arguments of the `<formvh:renderFormValue>` ViewHelper
+======================================================
 
 ..  typo3:viewhelper:: renderFormValue
     :source: ../Form.json

@@ -15,8 +15,8 @@ Cache.static ViewHelper `<f:cache.static>`
 
 ..  _typo3fluid-fluid-cache-static-arguments:
 
-Arguments
-=========
+Arguments of the `<f:cache.static>` ViewHelper
+==============================================
 
 ..  typo3:viewhelper:: cache.static
     :source: ../../Global.json

@@ -50,8 +50,8 @@ Everything inside the :html:`<f:then></f:then>` is displayed if the backend user
 
 ..  _typo3-fluid-be-security-ifauthenticated-arguments:
 
-Arguments
-=========
+Arguments of the `<f:be.security.ifAuthenticated>` ViewHelper
+=============================================================
 
 ..  typo3:viewhelper:: be.security.ifAuthenticated
     :source: ../../../Global.json

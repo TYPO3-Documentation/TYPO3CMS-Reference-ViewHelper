@@ -143,8 +143,8 @@ Example with validation and aria-attributes
 
 ..  _typo3-fluid-form-textfield-arguments:
 
-Arguments
-=========
+Arguments of the `<f:form.textfield>` ViewHelper
+================================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

@@ -48,8 +48,8 @@ Inline notation
 
 ..  _typo3-fluid-sanitize-html-arguments:
 
-Arguments
-=========
+Arguments of the `<f:sanitize.html>` ViewHelper
+===============================================
 
 ..  typo3:viewhelper:: sanitize.html
     :source: ../../Global.json

@@ -15,8 +15,8 @@ Format.urlencode ViewHelper `<f:format.urlencode>`
 
 ..  _typo3fluid-fluid-format-urlencode-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.urlencode>` ViewHelper
+==================================================
 
 ..  typo3:viewhelper:: format.urlencode
     :source: ../../Global.json

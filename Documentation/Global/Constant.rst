@@ -73,8 +73,8 @@ object:
 
 ..  _typo3fluid-fluid-constant-arguments:
 
-Arguments
-=========
+Arguments of the `<f:constant>` ViewHelper
+==========================================
 
 ..  typo3:viewhelper:: constant
     :source: ../Global.json

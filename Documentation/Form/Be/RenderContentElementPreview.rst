@@ -17,8 +17,8 @@ Be.renderContentElementPreview ViewHelper `<formvh:be.renderContentElementPrevie
 
 ..  _typo3-form-be-rendercontentelementpreview-arguments:
 
-Arguments
-=========
+Arguments of the `<formvh:be.renderContentElementPreview>` ViewHelper
+=====================================================================
 
 ..  typo3:viewhelper:: be.renderContentElementPreview
     :source: ../../Form.json

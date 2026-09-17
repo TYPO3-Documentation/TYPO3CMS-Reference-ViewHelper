@@ -15,8 +15,8 @@ Format.number ViewHelper `<f:format.number>`
 
 ..  _typo3fluid-fluid-format-number-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.number>` ViewHelper
+===============================================
 
 ..  typo3:viewhelper:: format.number
     :source: ../../Global.json

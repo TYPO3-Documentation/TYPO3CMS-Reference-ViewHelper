@@ -15,8 +15,8 @@ Ceil ViewHelper `<f:ceil>`
 
 ..  _typo3fluid-fluid-ceil-arguments:
 
-Arguments
-=========
+Arguments of the `<f:ceil>` ViewHelper
+======================================
 
 ..  typo3:viewhelper:: ceil
     :source: ../Global.json

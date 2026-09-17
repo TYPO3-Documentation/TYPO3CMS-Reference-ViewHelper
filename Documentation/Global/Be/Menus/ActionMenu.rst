@@ -46,8 +46,8 @@ Localized select box.
 
 ..  _typo3-fluid-be-menus-actionmenu-arguments:
 
-Arguments
-=========
+Arguments of the `<f:be.menus.actionMenu>` ViewHelper
+=====================================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

@@ -17,8 +17,8 @@ Render ViewHelper `<formvh:render>`
 
 ..  _typo3-form-render-arguments:
 
-Arguments
-=========
+Arguments of the `<formvh:render>` ViewHelper
+=============================================
 
 ..  typo3:viewhelper:: render
     :source: ../Form.json

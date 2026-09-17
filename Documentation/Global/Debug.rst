@@ -52,8 +52,8 @@ All features
 
 ..  _typo3-fluid-debug-arguments:
 
-Arguments
-=========
+Arguments of the `<f:debug>` ViewHelper
+=======================================
 
 ..  typo3:viewhelper:: debug
     :source: ../Global.json

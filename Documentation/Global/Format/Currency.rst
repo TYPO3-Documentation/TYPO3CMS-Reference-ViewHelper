@@ -87,8 +87,8 @@ Use dash for decimals without value
 
 ..  _typo3-fluid-format-currency-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.currency>` ViewHelper
+=================================================
 
 ..  typo3:viewhelper:: format.currency
     :source: ../../Global.json

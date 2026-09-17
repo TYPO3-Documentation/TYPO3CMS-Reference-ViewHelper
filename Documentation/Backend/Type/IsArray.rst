@@ -17,8 +17,8 @@ Type.isArray ViewHelper `<be:type.isArray>`
 
 ..  _typo3-backend-type-isarray-arguments:
 
-Arguments
-=========
+Arguments of the `<be:type.isArray>` ViewHelper
+===============================================
 
 ..  typo3:viewhelper:: type.isArray
     :source: ../../Backend.json

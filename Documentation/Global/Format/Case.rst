@@ -15,8 +15,8 @@ Format.case ViewHelper `<f:format.case>`
 
 ..  _typo3fluid-fluid-format-case-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.case>` ViewHelper
+=============================================
 
 ..  typo3:viewhelper:: format.case
     :source: ../../Global.json

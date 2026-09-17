@@ -15,8 +15,8 @@ Form.uploadDeleteCheckbox ViewHelper `<formvh:form.uploadDeleteCheckbox>`
 
 ..  _typo3-form-form-uploaddeletecheckbox-arguments:
 
-Arguments
-=========
+Arguments of the `<formvh:form.uploadDeleteCheckbox>` ViewHelper
+================================================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

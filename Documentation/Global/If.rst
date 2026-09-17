@@ -15,8 +15,8 @@ If ViewHelper `<f:if>`
 
 ..  _typo3fluid-fluid-if-arguments:
 
-Arguments
-=========
+Arguments of the `<f:if>` ViewHelper
+====================================
 
 ..  typo3:viewhelper:: if
     :source: ../Global.json

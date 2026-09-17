@@ -65,8 +65,8 @@ Depending on :ref:`spamProtectEmailAddresses <t3tsref:confval-config-spamprotect
 
 ..  _typo3-fluid-link-email-arguments:
 
-Arguments
-=========
+Arguments of the `<f:link.email>` ViewHelper
+============================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

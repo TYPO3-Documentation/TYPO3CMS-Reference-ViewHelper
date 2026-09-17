@@ -15,8 +15,8 @@ Format.json ViewHelper `<f:format.json>`
 
 ..  _typo3fluid-fluid-format-json-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.json>` ViewHelper
+=============================================
 
 ..  typo3:viewhelper:: format.json
     :source: ../../Global.json

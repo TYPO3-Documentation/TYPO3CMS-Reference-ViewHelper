@@ -45,8 +45,8 @@ system and respects the configured provider priorities.
 
 ..  _typo3-fluid-page-title-arguments:
 
-Arguments
-=========
+Arguments of the `<f:page.title>` ViewHelper
+============================================
 
 ..  typo3:viewhelper:: page.title
     :source: ../../Global.json

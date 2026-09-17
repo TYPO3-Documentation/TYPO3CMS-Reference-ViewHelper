@@ -17,8 +17,8 @@ RenderAllFormValues ViewHelper `<formvh:renderAllFormValues>`
 
 ..  _typo3-form-renderallformvalues-arguments:
 
-Arguments
-=========
+Arguments of the `<formvh:renderAllFormValues>` ViewHelper
+==========================================================
 
 ..  typo3:viewhelper:: renderAllFormValues
     :source: ../Form.json

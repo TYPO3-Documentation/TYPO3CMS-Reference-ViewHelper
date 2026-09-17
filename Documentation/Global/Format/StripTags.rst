@@ -15,8 +15,8 @@ Format.stripTags ViewHelper `<f:format.stripTags>`
 
 ..  _typo3fluid-fluid-format-striptags-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.stripTags>` ViewHelper
+==================================================
 
 ..  typo3:viewhelper:: format.stripTags
     :source: ../../Global.json

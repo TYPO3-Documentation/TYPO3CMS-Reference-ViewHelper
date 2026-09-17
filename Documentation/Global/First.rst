@@ -15,8 +15,8 @@ First ViewHelper `<f:first>`
 
 ..  _typo3fluid-fluid-first-arguments:
 
-Arguments
-=========
+Arguments of the `<f:first>` ViewHelper
+=======================================
 
 ..  typo3:viewhelper:: first
     :source: ../Global.json

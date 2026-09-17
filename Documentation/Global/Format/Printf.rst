@@ -15,8 +15,8 @@ Format.printf ViewHelper `<f:format.printf>`
 
 ..  _typo3fluid-fluid-format-printf-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.printf>` ViewHelper
+===============================================
 
 ..  typo3:viewhelper:: format.printf
     :source: ../../Global.json

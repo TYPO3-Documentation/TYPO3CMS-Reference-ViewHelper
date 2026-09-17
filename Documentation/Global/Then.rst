@@ -15,8 +15,8 @@ Then ViewHelper `<f:then>`
 
 ..  _typo3fluid-fluid-then-arguments:
 
-Arguments
-=========
+Arguments of the `<f:then>` ViewHelper
+======================================
 
 ..  typo3:viewhelper:: then
     :source: ../Global.json
