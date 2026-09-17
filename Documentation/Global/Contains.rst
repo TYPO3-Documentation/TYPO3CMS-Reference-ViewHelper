@@ -15,8 +15,8 @@ Contains ViewHelper `<f:contains>`
 
 ..  _typo3fluid-fluid-contains-arguments:
 
-Arguments
-=========
+Arguments of the `<f:contains>` ViewHelper
+==========================================
 
 ..  typo3:viewhelper:: contains
     :source: ../Global.json

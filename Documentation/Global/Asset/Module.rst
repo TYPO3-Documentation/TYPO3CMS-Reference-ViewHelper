@@ -15,8 +15,8 @@ Asset.module ViewHelper `<f:asset.module>`
 
 ..  _typo3-fluid-asset-module-arguments:
 
-Arguments
-=========
+Arguments of the `<f:asset.module>` ViewHelper
+==============================================
 
 ..  typo3:viewhelper:: asset.module
     :source: ../../Global.json

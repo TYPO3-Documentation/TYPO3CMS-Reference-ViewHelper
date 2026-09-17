@@ -15,8 +15,8 @@ Length ViewHelper `<f:length>`
 
 ..  _typo3fluid-fluid-length-arguments:
 
-Arguments
-=========
+Arguments of the `<f:length>` ViewHelper
+========================================
 
 ..  typo3:viewhelper:: length
     :source: ../Global.json

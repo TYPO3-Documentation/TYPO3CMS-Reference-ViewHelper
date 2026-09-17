@@ -222,8 +222,8 @@ the originating request with an error message.
 
 ..  _typo3-fluid-form-checkbox-arguments:
 
-Arguments
-=========
+Arguments of the `<f:form.checkbox>` ViewHelper
+===============================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

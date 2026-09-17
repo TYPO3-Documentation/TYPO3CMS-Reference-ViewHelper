@@ -15,8 +15,8 @@ Flatten ViewHelper `<f:flatten>`
 
 ..  _typo3fluid-fluid-flatten-arguments:
 
-Arguments
-=========
+Arguments of the `<f:flatten>` ViewHelper
+=========================================
 
 ..  typo3:viewhelper:: flatten
     :source: ../Global.json

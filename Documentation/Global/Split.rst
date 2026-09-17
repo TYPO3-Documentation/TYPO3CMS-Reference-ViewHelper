@@ -15,8 +15,8 @@ Split ViewHelper `<f:split>`
 
 ..  _typo3fluid-fluid-split-arguments:
 
-Arguments
-=========
+Arguments of the `<f:split>` ViewHelper
+=======================================
 
 ..  typo3:viewhelper:: split
     :source: ../Global.json

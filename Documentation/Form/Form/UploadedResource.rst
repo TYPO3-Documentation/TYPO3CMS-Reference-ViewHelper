@@ -17,8 +17,8 @@ Form.uploadedResource ViewHelper `<formvh:form.uploadedResource>`
 
 ..  _typo3-form-form-uploadedresource-arguments:
 
-Arguments
-=========
+Arguments of the `<formvh:form.uploadedResource>` ViewHelper
+============================================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

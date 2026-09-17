@@ -66,8 +66,8 @@ MP4 video object with loop and autoplay option set
 
 ..  _typo3-fluid-media-arguments:
 
-Arguments
-=========
+Arguments of the `<f:media>` ViewHelper
+=======================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

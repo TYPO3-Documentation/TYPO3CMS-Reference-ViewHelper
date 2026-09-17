@@ -15,8 +15,8 @@ Format.raw ViewHelper `<f:format.raw>`
 
 ..  _typo3fluid-fluid-format-raw-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.raw>` ViewHelper
+============================================
 
 ..  typo3:viewhelper:: format.raw
     :source: ../../Global.json

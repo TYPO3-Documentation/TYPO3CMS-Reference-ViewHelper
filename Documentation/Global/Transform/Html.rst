@@ -48,8 +48,8 @@ Inline notation
 
 ..  _typo3-fluid-transform-html-arguments:
 
-Arguments
-=========
+Arguments of the `<f:transform.html>` ViewHelper
+================================================
 
 ..  typo3:viewhelper:: transform.html
     :source: ../../Global.json

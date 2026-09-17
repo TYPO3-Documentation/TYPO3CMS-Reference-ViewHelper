@@ -72,8 +72,8 @@ Depending on current page, routing and page path configuration.
 
 ..  _typo3-fluid-link-page-arguments:
 
-Arguments
-=========
+Arguments of the `<f:link.page>` ViewHelper
+===========================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

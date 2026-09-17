@@ -15,8 +15,8 @@ Last ViewHelper `<f:last>`
 
 ..  _typo3fluid-fluid-last-arguments:
 
-Arguments
-=========
+Arguments of the `<f:last>` ViewHelper
+======================================
 
 ..  typo3:viewhelper:: last
     :source: ../Global.json

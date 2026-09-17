@@ -45,8 +45,8 @@ Example usage
 
 ..  _typo3-fluid-page-headerdata-arguments:
 
-Arguments
-=========
+Arguments of the `<f:page.headerData>` ViewHelper
+=================================================
 
 ..  typo3:viewhelper:: page.headerData
     :source: ../../Global.json

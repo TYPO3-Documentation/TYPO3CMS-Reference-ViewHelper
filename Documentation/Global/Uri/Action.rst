@@ -35,8 +35,8 @@ Depending on current page, routing and page path configuration.
 
 ..  _typo3-fluid-uri-action-arguments:
 
-Arguments
-=========
+Arguments of the `<f:uri.action>` ViewHelper
+============================================
 
 ..  typo3:viewhelper:: uri.action
     :source: ../../Global.json

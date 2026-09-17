@@ -17,8 +17,8 @@ Link.documentation ViewHelper `<be:link.documentation>`
 
 ..  _typo3-backend-link-documentation-arguments:
 
-Arguments
-=========
+Arguments of the `<be:link.documentation>` ViewHelper
+=====================================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

@@ -17,8 +17,8 @@ TranslateElementError ViewHelper `<formvh:translateElementError>`
 
 ..  _typo3-form-translateelementerror-arguments:
 
-Arguments
-=========
+Arguments of the `<formvh:translateElementError>` ViewHelper
+============================================================
 
 ..  typo3:viewhelper:: translateElementError
     :source: ../Form.json

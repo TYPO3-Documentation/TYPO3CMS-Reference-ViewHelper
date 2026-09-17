@@ -17,8 +17,8 @@ Thumbnail ViewHelper `<be:thumbnail>`
 
 ..  _typo3-backend-thumbnail-arguments:
 
-Arguments
-=========
+Arguments of the `<be:thumbnail>` ViewHelper
+============================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

@@ -73,8 +73,8 @@ Otherwise, everything inside the :html:`<f:else></f:else>` tag is displayed.
 
 ..  _typo3-fluid-security-ifhasrole-arguments:
 
-Arguments
-=========
+Arguments of the `<f:security.ifHasRole>` ViewHelper
+====================================================
 
 ..  typo3:viewhelper:: security.ifHasRole
     :source: ../../Global.json

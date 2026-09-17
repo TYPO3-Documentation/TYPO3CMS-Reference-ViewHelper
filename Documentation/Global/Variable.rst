@@ -15,8 +15,8 @@ Variable ViewHelper `<f:variable>`
 
 ..  _typo3fluid-fluid-variable-arguments:
 
-Arguments
-=========
+Arguments of the `<f:variable>` ViewHelper
+==========================================
 
 ..  typo3:viewhelper:: variable
     :source: ../Global.json

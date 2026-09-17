@@ -51,8 +51,8 @@ Custom default scheme
 
 ..  _typo3-fluid-uri-external-arguments:
 
-Arguments
-=========
+Arguments of the `<f:uri.external>` ViewHelper
+==============================================
 
 ..  typo3:viewhelper:: uri.external
     :source: ../../Global.json

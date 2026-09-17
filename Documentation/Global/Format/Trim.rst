@@ -15,8 +15,8 @@ Format.trim ViewHelper `<f:format.trim>`
 
 ..  _typo3fluid-fluid-format-trim-arguments:
 
-Arguments
-=========
+Arguments of the `<f:format.trim>` ViewHelper
+=============================================
 
 ..  typo3:viewhelper:: format.trim
     :source: ../../Global.json

@@ -15,8 +15,8 @@ Max ViewHelper `<f:max>`
 
 ..  _typo3fluid-fluid-max-arguments:
 
-Arguments
-=========
+Arguments of the `<f:max>` ViewHelper
+=====================================
 
 ..  typo3:viewhelper:: max
     :source: ../Global.json

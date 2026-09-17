@@ -15,8 +15,8 @@ Slot ViewHelper `<f:slot>`
 
 ..  _typo3fluid-fluid-slot-arguments:
 
-Arguments
-=========
+Arguments of the `<f:slot>` ViewHelper
+======================================
 
 ..  typo3:viewhelper:: slot
     :source: ../Global.json

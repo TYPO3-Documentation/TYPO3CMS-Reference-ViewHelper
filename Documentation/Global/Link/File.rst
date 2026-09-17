@@ -61,8 +61,8 @@ Link to download a file
 
 ..  _typo3-fluid-link-file-arguments:
 
-Arguments
-=========
+Arguments of the `<f:link.file>` ViewHelper
+===========================================
 
 ..  include:: /_Includes/_ArbitraryArguments.rst.txt
 

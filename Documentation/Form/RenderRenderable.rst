@@ -17,8 +17,8 @@ RenderRenderable ViewHelper `<formvh:renderRenderable>`
 
 ..  _typo3-form-renderrenderable-arguments:
 
-Arguments
-=========
+Arguments of the `<formvh:renderRenderable>` ViewHelper
+=======================================================
 
 ..  typo3:viewhelper:: renderRenderable
     :source: ../Form.json

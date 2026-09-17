@@ -15,8 +15,8 @@ Join ViewHelper `<f:join>`
 
 ..  _typo3fluid-fluid-join-arguments:
 
-Arguments
-=========
+Arguments of the `<f:join>` ViewHelper
+======================================
 
 ..  typo3:viewhelper:: join
     :source: ../Global.json
