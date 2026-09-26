@@ -1,3 +1,3 @@
 :orphan:
 
-See: :ref:`typo3-fluid-form-select`.
+See: :ref:`f:form.select ViewHelper <typo3-fluid-form-select>`.
