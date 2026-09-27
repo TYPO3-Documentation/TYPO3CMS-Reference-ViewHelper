@@ -129,9 +129,6 @@ display the content of a different field, use option
     <f:form.select name="payment" value="{myPayment}"
         options="{paymentOptions}" optionLabelField="someLabel"/>
 
-The :ref:`options <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-form-selectviewhelper-options>`
-may contain an array or anything else `Traversable` including
-
 ..  _typo3-fluid-form-select-usage-models-optionValueField:
 
 optionValueField: Define another property of the model as value
