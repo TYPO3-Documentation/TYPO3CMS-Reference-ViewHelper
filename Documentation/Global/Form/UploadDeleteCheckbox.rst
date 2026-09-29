@@ -27,7 +27,7 @@ Examples
 ..  code-block:: html
     :caption: HTML output
 
-    <input type="checkbox" id="file" name="tx_extension_plugin[@delete][item][hash]" value="signed-json-string">
+    <input type="checkbox" id="file" name="tx_myextension_plugin[@delete][item][hash]" value="signed-json-string">
 
 ..  _typo3-fluid-form-uploaddeletecheckbox-arguments:
 

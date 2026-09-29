@@ -22,7 +22,7 @@ Examples
 ..  code-block:: html
     :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.fluid.html
 
-    <f:asset.script identifier="identifier123" src="EXT:my_ext/Resources/Public/JavaScript/foo.js" />
+    <f:asset.script identifier="identifier123" src="EXT:my_sitepackage/Resources/Public/JavaScript/foo.js" />
     <f:asset.script identifier="identifier987">
       alert('hello world');
     </f:asset.script>
