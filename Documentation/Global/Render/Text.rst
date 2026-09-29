@@ -61,7 +61,7 @@ example of type `Input <https://docs.typo3.org/permalink/t3tca:columns-input-ren
     ..  group-tab:: Fluid
 
         ..  code-block:: html
-            :caption: my_theme/Resources/Private/Templates/Content/MyContentElement.fluid.html
+            :caption: EXT:my_sitepackage/Resources/Private/Templates/Content/MyContentElement.fluid.html
 
             <f:render.text record="{record}" field="my_title" />
             or
@@ -73,7 +73,7 @@ example of type `Input <https://docs.typo3.org/permalink/t3tca:columns-input-ren
     ..  group-tab:: TypoScript
 
         ..  code-block:: typoscript
-            :caption: my_theme/Configuration/Sets/my_set/setup.typoscript
+            :caption: EXT:my_sitepackage/Configuration/Sets/my_set/setup.typoscript
 
             tt_content.my_content_element {
                 # ...
@@ -85,7 +85,7 @@ example of type `Input <https://docs.typo3.org/permalink/t3tca:columns-input-ren
     ..  group-tab:: TCA
 
         ..  literalinclude:: _codesnippets/_tt_content_input.php
-            :caption: my_theme/Configuration/TCA/Overrides/tt_content.php
+            :caption: EXT:my_sitepackage/Configuration/TCA/Overrides/tt_content.php
 
 ..  _typo3-fluid-render-text-textarea:
 
@@ -105,17 +105,17 @@ TCA configuration.
     ..  group-tab:: Fluid
 
         ..  code-block:: html
-            :caption: my_theme/Resources/Private/Templates/Content/MyContentElement.fluid.html
+            :caption: EXT:my_sitepackage/Resources/Private/Templates/Content/MyContentElement.fluid.html
 
-            <f:render.text record="{record}" field="tx_mytheme_my_richtext" />
+            <f:render.text record="{record}" field="tx_mysitepackage_my_richtext" />
 
-            <f:render.text record="{record}" field="tx_mytheme_my_textarea" />
+            <f:render.text record="{record}" field="tx_mysitepackage_my_textarea" />
 
 
     ..  group-tab:: TypoScript
 
         ..  code-block:: typoscript
-            :caption: my_theme/Configuration/Sets/my_set/setup.typoscript
+            :caption: EXT:my_sitepackage/Configuration/Sets/my_set/setup.typoscript
 
             tt_content.my_content_element {
                 # ...
@@ -127,7 +127,7 @@ TCA configuration.
     ..  group-tab:: TCA
 
         ..  literalinclude:: _codesnippets/_tt_content_textarea.php
-            :caption: my_theme/Configuration/TCA/Overrides/tt_content.php
+            :caption: EXT:my_sitepackage/Configuration/TCA/Overrides/tt_content.php
 
 ..  _typo3-fluid-render-text-usage-optional-argument:
 
@@ -172,7 +172,7 @@ Usage with an Extbase model (property name differs from database field name):
     ..  group-tab:: Fluid
 
         ..  code-block:: html
-            :caption: my_theme/Resources/Private/Templates/MyController/MyAction.fluid.html
+            :caption: EXT:my_extension/Resources/Private/Templates/MyController/MyAction.fluid.html
 
             <!-- Use the field name from the TCA not from the model: -->
             <f:render.text record="{myModel}" field="my_link_text" />
@@ -180,12 +180,12 @@ Usage with an Extbase model (property name differs from database field name):
     ..  group-tab:: Extbase model
 
         ..  literalinclude:: _codesnippets/_MyModel.php
-            :caption: my_theme/Classes/Domain/Model/MyModel.php
+            :caption: EXT:my_extension/Classes/Domain/Model/MyModel.php
 
     ..  group-tab:: TCA
 
         ..  literalinclude:: _codesnippets/_tx_myextension_domain_model_mymodel.php
-            :caption: my_extension/Configuration/TCA/Overrides/tx_myextension_domain_model_mymodel.php
+            :caption: EXT:my_extension/Configuration/TCA/Overrides/tx_myextension_domain_model_mymodel.php
 
 The :fluid:`field` argument always refers to the database/TCA column name of the
 underlying record, even if your Extbase model maps that column to a differently

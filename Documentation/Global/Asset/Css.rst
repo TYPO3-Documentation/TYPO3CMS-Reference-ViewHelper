@@ -22,7 +22,7 @@ Examples
 ..  code-block:: html
     :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.fluid.html
 
-    <f:asset.css identifier="identifier123" href="EXT:my_ext/Resources/Public/Css/foo.css" />
+    <f:asset.css identifier="identifier123" href="EXT:my_sitepackage/Resources/Public/Css/foo.css" />
     <f:asset.css identifier="identifier123">
       .foo { color: black; }
     </f:asset.css>
