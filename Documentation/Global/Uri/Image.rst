@@ -27,7 +27,7 @@ Default
 ..  code-block:: html
     :caption: packages/my_extension/Resources/Private/Templates/Blog/Show.fluid.html
 
-    <f:uri.image src="EXT:myext/Resources/Public/typo3_logo.png" />
+    <f:uri.image src="EXT:my_extension/Resources/Public/typo3_logo.png" />
 
 Results in the following output within TYPO3 frontend:
 
@@ -63,7 +63,7 @@ Inline notation
 ..  code-block:: html
     :caption: packages/my_extension/Resources/Private/Templates/Blog/Show.fluid.html
 
-    {f:uri.image(src: 'EXT:myext/Resources/Public/typo3_logo.png', minWidth: 30, maxWidth: 40)}
+    {f:uri.image(src: 'EXT:my_extension/Resources/Public/typo3_logo.png', minWidth: 30, maxWidth: 40)}
 
 ..  code-block:: text
     :caption: Output

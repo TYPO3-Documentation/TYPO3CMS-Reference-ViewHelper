@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\MyExtension\Controller;
+namespace MyVendor\MyExtension\Controller;
 
 use MyVendor\MyExtension\Domain\Model\Comment;
 use Psr\Http\Message\ResponseInterface;

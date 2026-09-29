@@ -40,7 +40,7 @@ All features
     :caption: packages/my_extension/Resources/Private/Templates/Blog/List.fluid.html
 
     <f:debug title="My Title" maxDepth="5"
-      blacklistedClassNames="{0:'ACME\BlogExample\Domain\Model\Administrator'}"
+      blacklistedClassNames="{0:'MyVendor\MyExtension\Domain\Model\Administrator'}"
       blacklistedPropertyNames="{0:'posts'}"
       plainText="true" ansiColors="false"
       inline="true"
