@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\Extension\Domain\Model;
+namespace MyVendor\MyExtension\Domain\Model;
 
 use TYPO3\CMS\Extbase\DomainObject\AbstractEntity;
 

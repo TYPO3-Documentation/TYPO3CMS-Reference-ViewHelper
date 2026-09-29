@@ -5,8 +5,8 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 ExtensionManagementUtility::addTCAcolumns(
   'tt_content',
   [
-    'tx_mytheme_link_label' => [
-      'label' => 'my_theme.backend_fields:tt_content.tx_mytheme_link_label',
+    'tx_mysitepackage_link_label' => [
+      'label' => 'my_sitepackage.backend_fields:tt_content.tx_mysitepackage_link_label',
       'config' => [
         'type' => 'input',
         'size' => 30,
@@ -18,7 +18,7 @@ ExtensionManagementUtility::addTCAcolumns(
 
 ExtensionManagementUtility::addToAllTCAtypes(
   'tt_content',
-  'tx_mytheme_link_label',
+  'tx_mysitepackage_link_label',
   'my_content_element',
   'after:bodytext',
 );

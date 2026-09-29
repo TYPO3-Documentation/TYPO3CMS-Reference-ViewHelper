@@ -26,9 +26,9 @@ All options:
 
     <f:be.pageRenderer
       pageTitle="foo"
-      includeCssFiles="{0: 'EXT:my_ext/Resources/Public/Css/Stylesheet.css'}"
-      includeJsFiles="{0: 'EXT:my_ext/Resources/Public/JavaScript/Library1.js', 1: 'EXT:my_ext/Resources/Public/JavaScript/Library2.js'}"
-      addJsInlineLabels="{'my_ext.label1': 'LLL:EXT:my_ext/Resources/Private/Language/locallang.xlf:label1'}"
+      includeCssFiles="{0: 'EXT:my_extension/Resources/Public/Css/Stylesheet.css'}"
+      includeJsFiles="{0: 'EXT:my_extension/Resources/Public/JavaScript/Library1.js', 1: 'EXT:my_extension/Resources/Public/JavaScript/Library2.js'}"
+      addJsInlineLabels="{'my_extension.label1': 'LLL:EXT:my_extension/Resources/Private/Language/locallang.xlf:label1'}"
       includeJavaScriptModules="{0: '@my-vendor/my-ext/my-module.js'}"
       addInlineSettings="{'some.setting.key': 'some.setting.value'}"
     />
