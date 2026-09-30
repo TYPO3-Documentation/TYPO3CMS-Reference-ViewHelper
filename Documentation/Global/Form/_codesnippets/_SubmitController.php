@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace MyVendor\MyExtension\Controller;
 
+use MyVendor\MyExtension\Domain\Model\Comment;
+use MyVendor\MyExtension\Domain\Repository\CommentRepository;
 use Psr\Http\Message\ResponseInterface;
-use T3docs\BlogExample\Domain\Model\Comment;
-use T3docs\BlogExample\Domain\Repository\CommentRepository;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 class CommentController extends ActionController

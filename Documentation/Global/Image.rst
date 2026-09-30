@@ -27,7 +27,7 @@ argument and `EXT:` syntax:
 
 ..  code-block:: html
 
-    <f:image src="EXT:my_site_package/Resources/Public/images/typo3_logo.png" alt="alt text" />
+    <f:image src="EXT:my_sitepackage/Resources/Public/images/typo3_logo.png" alt="alt text" />
 
 In the extension the assets **must** be stored under :path:`Resources/Public/` or
 a subfolder of this folder.
