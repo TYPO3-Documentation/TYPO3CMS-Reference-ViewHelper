@@ -60,7 +60,7 @@ you can use the identifier `extbase.flashmessages.<pluginNamespace>`, for exampl
 ..  literalinclude:: _FlashMessages/_SomeForm.html
     :caption: packages/my_extension/Resources/Private/Templates/Other/SomeForm.html
 
-..  _typo3-fluid-flashmessages-queueIdentifier:
+..  _typo3-fluid-flashmessages-queueidentifier:
 
 Using a specific flash message queue in plain classes
 =====================================================
