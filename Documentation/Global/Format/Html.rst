@@ -52,7 +52,7 @@ Arguments of the `<f:format.html>` ViewHelper
     :source: ../../Global.json
     :display: arguments-only
 
-..  _typo3-fluid-format-html-parseFunc:
+..  _typo3-fluid-format-html-parsefunc:
 
 parseFuncTSPath argument: formatting text with a custom parsing function
 ------------------------------------------------------------------------
@@ -169,7 +169,7 @@ With the following custom parsing function defined in TypoScript:
         setContentToCurrent = 1
     }
 
-..  _typo3-fluid-format-html-arguments-data-CurrentValueKey:
+..  _typo3-fluid-format-html-arguments-data-currentvaluekey:
 
 CurrentValueKey argument
 -------------------------
