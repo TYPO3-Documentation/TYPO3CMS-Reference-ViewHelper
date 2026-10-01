@@ -115,7 +115,7 @@ the result of method :php:`__toString()` as display text.
     stored as relation in another object as
     :php-short:`\TYPO3\CMS\Extbase\Persistence\ObjectStorage`.
 
-..  _typo3-fluid-form-select-usage-models-optionLabelField:
+..  _typo3-fluid-form-select-usage-models-optionlabelfield:
 
 optionLabelField: Define another property of the model for the option label
 ---------------------------------------------------------------------------
@@ -129,7 +129,7 @@ display the content of a different field, use option
     <f:form.select name="payment" value="{myPayment}"
         options="{paymentOptions}" optionLabelField="someLabel"/>
 
-..  _typo3-fluid-form-select-usage-models-optionValueField:
+..  _typo3-fluid-form-select-usage-models-optionvaluefield:
 
 optionValueField: Define another property of the model as value
 ---------------------------------------------------------------
@@ -181,7 +181,7 @@ we can also map the selected option to the model:
 
             public function selectPreferredPaymentAction(User $user): ResponseInterface
 
-..  _typo3-fluid-form-select-subviewHelper:
+..  _typo3-fluid-form-select-subviewhelper:
 
 Working with options and option groups
 ======================================

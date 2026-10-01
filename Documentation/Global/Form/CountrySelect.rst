@@ -34,7 +34,7 @@ For example a very simplified search form could look like this:
         ..  literalinclude:: _codesnippets/_CountryController.php
             :caption: packages/my_extension/Classes/Controller/UserController.php
 
-..  _typo3-fluid-form-countryselect-example-prioritizedCountries:
+..  _typo3-fluid-form-countryselect-example-prioritizedcountries:
 
 Prioritize countries
 ====================
@@ -48,7 +48,7 @@ form element by setting
 
 Additionally, Austria is pre-selected.
 
-..  _typo3-fluid-form-countryselect-example-optionLabelField:
+..  _typo3-fluid-form-countryselect-example-optionlabelfield:
 
 Display another language
 ========================
