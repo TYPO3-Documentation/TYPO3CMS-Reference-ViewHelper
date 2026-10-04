@@ -1,0 +1,10 @@
+# Pages the Fluid ViewHelper Documentation Generator must not add again,
+# because the ViewHelper is documented elsewhere in this manual.
+# One rsync exclude pattern per line, relative to Documentation/; read by
+# fluid-viewhelper.yml in TYPO3-Documentation/t3docs-ci-deploy.
+
+# form.select.option and form.select.optgroup are sections of
+# Global/Form/Select.rst; their old addresses redirect there.
+/Global/Form/Select/Index.rst
+/Global/Form/Select/Option.rst
+/Global/Form/Select/Optgroup.rst
