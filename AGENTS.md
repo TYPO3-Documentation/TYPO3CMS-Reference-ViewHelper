@@ -38,6 +38,11 @@ Pages are only ever added, never rewritten:
 - An existing page is never overwritten, so hand-written text is safe.
 - When a ViewHelper is removed from the TYPO3 Core, its page is left behind
   and has to be deleted by hand.
+- A page that is documented elsewhere, for example a ViewHelper explained as
+  a section of its parent's page, would be generated again every day once
+  deleted. List its path in `.viewhelper-generator-ignore` at the root of
+  this repository, and add a redirect for its old address in
+  TYPO3GmbH/site-intercept.
 
 **Extended examples belong on the page here, not in the PHP doc-comment**; a
 doc-comment should stay a short description.
