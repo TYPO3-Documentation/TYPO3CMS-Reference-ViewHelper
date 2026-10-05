@@ -12,7 +12,7 @@ Image.srcset ViewHelper `<f:image.srcset>`
 
     The new ViewHelper `{f:image.srcset}` simplifies previous manual
     implementations using :fluid:`{f:uri.image}` for each image size
-    manually. It now makes it easy to supply images at different dimensions
+    manually. It now lets you supply images at different dimensions
     based on a single image.
 
 ViewHelper to generate a list of image URLs and their corresponding srcset
