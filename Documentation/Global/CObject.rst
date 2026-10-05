@@ -120,7 +120,7 @@ Or a self-closing tag. Data is passed in the :html:`data` attribute.
 
     <f:cObject typoscriptObjectPath="lib.myCounter" data="{post.viewCount}" />
 
-Or inline notation, which is easy to read and understand (from left to right):
+Or inline notation, which reads from left to right:
 
 ..  code-block:: html
     :caption: EXT:my_extension/Resources/Private/Templates/SomeTemplate.fluid.html
@@ -143,7 +143,7 @@ TypoScript object from the Fluid template:
 
 This TypoScript snippet outputs the current number of visits in bold.
 
-We can easily modify this TypoScript to output the user counter as an image instead
+We can modify this TypoScript to output the user counter as an image instead
 of text:
 
 ..  code-block:: typoscript
