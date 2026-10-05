@@ -118,7 +118,7 @@ argument:
 
 If the field should only contain a maximum of one image
 (`maxitems=1  <https://docs.typo3.org/permalink/t3tca:confval-file-maxitems>`_),
-you can display the image simply by selecting
+you can display the image by selecting
 the first array element:
 
 ..  code-block:: html

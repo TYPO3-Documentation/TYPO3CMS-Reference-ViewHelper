@@ -85,7 +85,7 @@ The form radio ViewHelper does not supply an argument that creates it from
 an array as you might have seen for the form select ViewHelper
 (`Select field for selecting (persisted) models <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-form-select-usage-models>`_).
 
-You can however just use the `For ViewHelper <f:for> <https://docs.typo3.org/permalink/t3viewhelper:typo3fluid-fluid-for>`_
+You can however use the `For ViewHelper <f:for> <https://docs.typo3.org/permalink/t3viewhelper:typo3fluid-fluid-for>`_
 to iterate your items and display them one by one. If you use the objects uid
 for the key, the radio button can be matched to the model in use.
 
