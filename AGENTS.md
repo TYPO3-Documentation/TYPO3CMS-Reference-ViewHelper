@@ -75,11 +75,15 @@ https://github.com/TYPO3-Documentation/TYPO3CMS-Guide-HowToDocument):
    anchors are never removed once published; see
    `Documentation/Reference/ReStructuredText/Links/Anchors.rst` in the
    how-to-document guide.
-6. **Validate before committing** — run `make test-docs`, and run the
+6. **Link TYPO3 documentation with permalinks**, also inside this manual,
+   and give every link its own link text; see
+   `Documentation/Reference/ReStructuredText/Links/Documentation.rst` in the
+   how-to-document guide. Do not suggest replacing a permalink with `:ref:`.
+7. **Validate before committing** — run `make test-docs`, and run the
    pre-commit hooks (see Commands). If you skip them the scheduled
    `apply-precommit` workflow fixes the whitespace later in a separate
    commit, which is avoidable noise.
-7. **Never commit or push without being asked.**
+8. **Never commit or push without being asked.**
 
 ## Commit message format
 
