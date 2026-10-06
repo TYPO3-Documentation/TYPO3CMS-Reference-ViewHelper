@@ -27,6 +27,38 @@ Examples
       .foo { color: black; }
     </f:asset.css>
 
+..  _typo3-fluid-asset-css-csp:
+
+Content security policy
+=======================
+
+The `csp` argument controls whether TYPO3 adds the stylesheet to the
+`content security policy
+<https://docs.typo3.org/permalink/t3coreapi:content-security-policy>`_ of
+the page. TYPO3 then adds a hash of the stylesheet to the CSP header, and a
+`nonce` attribute to the tag if the page uses a nonce. If `csp` is not set,
+TYPO3 does this for a file in `href`, but not for inline CSS:
+
+..  code-block:: html
+    :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.fluid.html
+
+    <f:asset.css identifier="highlight" csp="1">
+      .highlight { color: red; }
+    </f:asset.css>
+
+..  versionchanged:: 15.0
+    :changelog: breaking-109783-1776735296
+
+    The `useNonce` argument, deprecated since TYPO3 v14.2, has been removed.
+    Use the `csp` argument instead:
+
+    ..  code-block:: diff
+
+         <f:asset.css identifier="main"
+           href="EXT:my_sitepackage/Resources/Public/Css/main.css"
+        -  useNonce="1" />
+        +  csp="1" />
+
 ..  _typo3-fluid-asset-css-details:
 
 Details
