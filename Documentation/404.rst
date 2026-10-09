@@ -21,8 +21,16 @@ Debug.render ViewHelper `<f:debug.render>` was removed
 ..  deprecated:: 14.2
     :changelog: deprecation-107208-1754387701
 
-The ViewHelper has been moved to :composer:`typo3/cms-adminpanel` in v14 and is now
-removed from `typo3/cms-fluid`.
+TYPO3 v15.0 removed the ViewHelper. Use the `Render ViewHelper <f:render>
+<https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-render>`_
+instead. If :composer:`typo3/cms-adminpanel` is installed, it replaces
+`<f:render>` with its own implementation. Every `<f:render>` call then shows
+the Fluid debug output when the option :guilabel:`Show fluid debug output` is
+active in the :guilabel:`Preview` settings of the admin panel.
+
+The `debug` argument is only available while the admin panel is installed.
+Without the admin panel, Fluid throws an exception for this undeclared
+argument.
 
 
 ..  _typo3-form-form-datepicker:
