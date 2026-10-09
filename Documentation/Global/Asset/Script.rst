@@ -36,7 +36,7 @@ In the AssetCollector, the "identifier" attribute is used as a unique identifier
 times using the same identifier, the asset will only be served once (the last added overrides previous assets).
 
 Some available attributes are defaults but do not make sense for this ViewHelper. Relevant attributes specific
-for this ViewHelper are: async, crossorigin, defer, integrity, nomodule, nonce, referrerpolicy, src, type.
+for this ViewHelper are: async, crossorigin, defer, integrity, nomodule, nonce, referrerpolicy, type.
 
 Using the "inline" argument, the file content of the referenced file is added as inline script.
 
