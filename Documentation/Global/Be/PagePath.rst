@@ -7,6 +7,14 @@
 Be.pagePath ViewHelper `<f:be.pagePath>`
 ========================================
 
+..  deprecated:: 15.0
+    :changelog: deprecation-110148-1751533200
+
+    The ViewHelper will be removed in TYPO3 v16.0. The doc header of a
+    backend module already shows the page path. It is rendered by
+    :php-short:`\TYPO3\CMS\Backend\Template\ModuleTemplate` in the backend
+    controller.
+
 ..  typo3:viewhelper:: be.pagePath
     :source: ../../Global.json
     :display: tags,description,gitHubLink
