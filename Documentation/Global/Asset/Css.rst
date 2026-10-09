@@ -53,7 +53,7 @@ parameter.
 
 A local path such as `/styles/main.css` must point to an existing file
 in the public folder, otherwise TYPO3 throws an exception. To render a
-relative URL as is, for example a URL that no file backs, prefix it with
+local URL as is, for example a URL that no file backs, prefix it with
 `URI:`:
 
 ..  code-block:: html
