@@ -72,6 +72,45 @@ for this ViewHelper are: async, crossorigin, defer, integrity, nomodule, nonce, 
 
 Using the "inline" argument, the file content of the referenced file is added as inline script.
 
+..  _typo3-fluid-asset-script-uri:
+
+Link a script by URL
+====================
+
+The `src` argument accepts a file of an extension with the `EXT:` syntax,
+a file in the public folder of the project, and a URL. TYPO3 renders a URL
+that contains `://` or starts with `//` as is, without a cache busting
+parameter.
+
+A relative path such as `/scripts/main.js` must point to an existing file
+in the public folder, otherwise TYPO3 throws an exception. To render a
+relative URL as is, for example a URL that no file backs, prefix it with
+`URI:`:
+
+..  code-block:: html
+    :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.fluid.html
+
+    <f:asset.script identifier="cdnScript" src="https://example.com/main.js" />
+    <f:asset.script identifier="mainScript" src="URI:/scripts/main.js" />
+
+Resulting in the following HTML output:
+
+..  code-block:: html
+
+    <script src="https://example.com/main.js"></script>
+    <script src="/scripts/main.js"></script>
+
+The string after `URI:` must be a valid URI, otherwise TYPO3 throws an
+exception. The `inline` argument reads the content from a local file. With a
+URL, it adds nothing.
+
+..  versionchanged:: 14.0
+    :changelog: breaking-107927-1763052738
+
+    A relative URL that does not point to a file in the public folder
+    needs the prefix `URI:`. See also `Asset collector examples
+    <https://docs.typo3.org/permalink/t3coreapi:assets-examples>`_.
+
 ..  _typo3-fluid-asset-script-arguments:
 
 Arguments of the `<f:asset.script>` ViewHelper
