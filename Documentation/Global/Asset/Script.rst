@@ -27,6 +27,38 @@ Examples
       alert('hello world');
     </f:asset.script>
 
+..  _typo3-fluid-asset-script-csp:
+
+Content security policy
+=======================
+
+The `csp` argument controls whether TYPO3 adds the script to the
+`content security policy
+<https://docs.typo3.org/permalink/t3coreapi:content-security-policy>`_ of
+the page. TYPO3 then adds a hash of the script to the CSP header, and a
+`nonce` attribute to the tag if the page uses a nonce. If `csp` is not set,
+TYPO3 does this for a file in `src`, but not for an inline script:
+
+..  code-block:: html
+    :caption: packages/my_sitepackage/Resources/Private/Templates/Page/Default.fluid.html
+
+    <f:asset.script identifier="greeting" csp="1">
+      console.log('Hello');
+    </f:asset.script>
+
+..  versionchanged:: 15.0
+    :changelog: breaking-109783-1776735296
+
+    The `useNonce` argument, deprecated since TYPO3 v14.2, has been removed.
+    Use the `csp` argument instead:
+
+    ..  code-block:: diff
+
+         <f:asset.script identifier="main"
+           src="EXT:my_sitepackage/Resources/Public/JavaScript/main.js"
+        -  useNonce="1" />
+        +  csp="1" />
+
 ..  _typo3-fluid-asset-script-details:
 
 Details
