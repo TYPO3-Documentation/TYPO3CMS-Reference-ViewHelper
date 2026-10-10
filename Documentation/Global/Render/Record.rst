@@ -51,7 +51,7 @@ Rendering content elements using the `record-transformation` data processor
     ..  group-tab:: TypoScript
 
         ..  code-block:: typoscript
-            :caption: packages/my_sitepackage/Configuration/Sets/main/setup.typoscript
+            :caption: packages/my_sitepackage/Configuration/Sets/Main/setup.typoscript
 
             dataProcessing {
                 10 = record-transformation
@@ -83,7 +83,7 @@ to configure the rendering.
     ..  group-tab:: TypoScript rendering definition
 
         ..  code-block:: typoscript
-            :caption: packages/my_sitepackage/Configuration/Sets/main/setup.typoscript
+            :caption: packages/my_sitepackage/Configuration/Sets/Main/setup.typoscript
 
             sys_category = FLUIDTEMPLATE
             sys_category {
@@ -105,7 +105,7 @@ to configure the rendering.
     ..  group-tab:: TypoScript page definition
 
         ..  code-block:: typoscript
-            :caption: packages/my_sitepackage/Configuration/Sets/main/setup.typoscript
+            :caption: packages/my_sitepackage/Configuration/Sets/Main/setup.typoscript
 
             page = PAGE
             page {
@@ -136,7 +136,7 @@ use a TypoScript `Content object array (COA) <https://docs.typo3.org/permalink/t
 to configure rendering for special types:
 
 ..  code-block:: typoscript
-    :caption: packages/my_sitepackage/Configuration/Sets/main/setup.typoscript
+    :caption: packages/my_sitepackage/Configuration/Sets/Main/setup.typoscript
 
     tx_myextension_domain_model_product = COA
     tx_myextension_domain_model_product {
