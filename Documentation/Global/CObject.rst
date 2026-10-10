@@ -48,7 +48,7 @@ top-level object:
 The TypoScript could look like this:
 
 ..  code-block:: html
-    :caption: packages/my_sitepackage/Configuration/Sets/MySet/setup.typoscript
+    :caption: packages/my_sitepackage/Configuration/Sets/Main/setup.typoscript
 
     lib.someLibObject = TEXT
     lib.someLibObject.value = Hello World!
@@ -80,7 +80,7 @@ The same can also be done in the inline notation.
 The TypoScript could for example look like this:
 
 ..  code-block:: typoscript
-    :caption: packages/my_sitepackage/Configuration/Sets/MySet/setup.typoscript
+    :caption: packages/my_sitepackage/Configuration/Sets/Main/setup.typoscript
 
     lib.customHeader = COA
     lib.customHeader {
@@ -133,7 +133,7 @@ works like a switch: if set to 1, it contains the value that was passed to the
 TypoScript object from the Fluid template:
 
 ..  code-block:: typoscript
-    :caption: EXT:my_extension/Configuration/Sets/MyExtension/setup.typoscript
+    :caption: EXT:my_extension/Configuration/Sets/Main/setup.typoscript
 
     lib.myCounter = TEXT
     lib.myCounter {
@@ -147,7 +147,7 @@ We can modify this TypoScript to output the user counter as an image instead
 of text:
 
 ..  code-block:: typoscript
-    :caption: EXT:my_extension/Configuration/Sets/MyExtension/setup.typoscript
+    :caption: EXT:my_extension/Configuration/Sets/Main/setup.typoscript
 
     lib.myCounter = IMAGE
     lib.myCounter {
@@ -176,7 +176,7 @@ But how do we access the object's properties in our TypoScript? By setting the
 :typoscript:`field` property of :typoscript:`stdWrap` (in a :typoscript:`COA`):
 
 ..  code-block:: typoscript
-    :caption: EXT:my_extension/Configuration/Sets/MyExtension/setup.typoscript
+    :caption: EXT:my_extension/Configuration/Sets/Main/setup.typoscript
 
     lib.myCounter = COA
     lib.myCounter {
@@ -213,7 +213,7 @@ Then, in the TypoScript template, use :typoscript:`field` aswell as
 TypoScript snippet outputs the same information as above:
 
 ..  code-block:: typoscript
-    :caption: EXT:my_extension/Configuration/Sets/MyExtension/setup.typoscript
+    :caption: EXT:my_extension/Configuration/Sets/Main/setup.typoscript
 
     lib.myCounter = COA
     lib.myCounter {
