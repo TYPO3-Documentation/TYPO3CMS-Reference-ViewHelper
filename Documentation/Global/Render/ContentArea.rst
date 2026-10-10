@@ -55,7 +55,7 @@ content elements within a column from a backend layout.
     ..  group-tab:: TypoScript
 
         ..  code-block:: typoscript
-            :caption: packages/my_sitepackage/Configuration/Sets/main/setup.typoscript
+            :caption: packages/my_sitepackage/Configuration/Sets/Main/setup.typoscript
 
             page = PAGE
             page {

@@ -73,7 +73,7 @@ example of type `Input <https://docs.typo3.org/permalink/t3tca:columns-input-ren
     ..  group-tab:: TypoScript
 
         ..  code-block:: typoscript
-            :caption: EXT:my_sitepackage/Configuration/Sets/my_set/setup.typoscript
+            :caption: EXT:my_sitepackage/Configuration/Sets/Main/setup.typoscript
 
             tt_content.my_content_element {
                 # ...
@@ -115,7 +115,7 @@ TCA configuration.
     ..  group-tab:: TypoScript
 
         ..  code-block:: typoscript
-            :caption: EXT:my_sitepackage/Configuration/Sets/my_set/setup.typoscript
+            :caption: EXT:my_sitepackage/Configuration/Sets/Main/setup.typoscript
 
             tt_content.my_content_element {
                 # ...
