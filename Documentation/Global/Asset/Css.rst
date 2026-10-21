@@ -76,7 +76,7 @@ URL, it adds nothing.
 ..  versionchanged:: 14.0
     :changelog: breaking-107927-1763052738
 
-    A relative URL that does not point to a file in the public folder
+    A local URL that does not point to a file in the public folder
     needs the prefix `URI:`. See also `Asset collector examples
     <https://docs.typo3.org/permalink/t3coreapi:assets-examples>`_.
 
