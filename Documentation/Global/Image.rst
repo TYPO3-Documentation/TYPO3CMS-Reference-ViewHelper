@@ -36,14 +36,38 @@ If you installed the extension via Composer **before** it had a folder of that
 exact name, reinstall it so that the symlinks in folder :path:`public/_assets`
 are correctly created for you.
 
-..  note::
+..  _typo3-fluid-image-src-processing:
 
-    Images inside the public assets of an extension (:path:`Resources/Public/`) are **non-FAL** images.
+Processing images from extension assets
+---------------------------------------
 
-    When working with those images you should avoid using arguments like
-    :ref:`width <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-width>`,
-    :ref:`crop <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-crop>`
-    or other image operations as these would create "fake" FAL records which may lead to problems.
+..  versionchanged:: 15.0
+    :changelog: feature-110702-1789927725
+
+Images in the public assets of an extension (:path:`Resources/Public/`) are
+not part of the File Abstraction Layer (FAL). The ViewHelper can still resize,
+crop, and convert them with arguments like
+:ref:`width <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-width>`
+and
+:ref:`crop <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-crop>`.
+TYPO3 stores the processed image in :path:`typo3temp/assets/images/system/`
+and creates no database records for it:
+
+..  code-block:: html
+
+    <f:image src="EXT:my_sitepackage/Resources/Public/images/typo3_logo.png" width="200c" alt="alt text" />
+
+The argument
+:ref:`image <t3viewhelper:viewhelper-argument-typo3-cms-fluid-viewhelpers-imageviewhelper-image>`
+also accepts such an image as a system resource, as returned by the
+`<f:resource> ViewHelper <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-resource>`_:
+
+..  code-block:: html
+
+    <f:image image="{f:resource(identifier: 'EXT:my_sitepackage/Resources/Public/images/typo3_logo.png')}" width="200c" alt="alt text" />
+
+An image from the extension assets has no stored metadata. Set the crop area,
+the alternative text, and the title with the arguments of the ViewHelper.
 
 ..  _typo3-fluid-image-image:
 
