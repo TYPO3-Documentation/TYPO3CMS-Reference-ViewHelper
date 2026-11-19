@@ -73,6 +73,17 @@ sizes, type, nonce.
 
 Using the "inline" argument, the file content of the referenced file is added as inline style.
 
+..  versionchanged:: 14.3.10
+    :changelog: important-107420-1792093888
+
+TYPO3 rewrites relative paths in `url()` and `@import` of an inlined file to
+the public URL of the file they point to, as for
+`page.includeCSS <https://docs.typo3.org/permalink/t3tsref:confval-page-includecss>`_
+with `inline = 1`. A relative `url()` to a file that does not exist throws a
+:php:`\TYPO3\CMS\Core\SystemResource\Exception\CanNotResolveSystemResourceException`
+while the page renders. Make sure that all relative paths in an inlined file
+point to existing files.
+
 ..  _typo3-fluid-asset-css-uri:
 
 Link a stylesheet by URL
