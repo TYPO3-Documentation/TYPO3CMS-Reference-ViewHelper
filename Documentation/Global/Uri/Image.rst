@@ -61,6 +61,23 @@ and the following output inside TYPO3 backend:
 
 `fileadmin/images/image.png`
 
+..  _typo3-fluid-uri-image-public-path:
+
+Image from a public folder
+--------------------------
+
+..  versionchanged:: 15.0
+    :changelog: feature-110702-1789927725
+
+..  code-block:: html
+    :caption: packages/my_extension/Resources/Private/Templates/Blog/Show.fluid.html
+
+    <f:uri.image src="uploads/images/banner.png" width="200c" />
+
+The argument `src` also takes the path to a public file that is not part of
+a file storage, as in `<f:image>`. See
+`Images from other public folders <https://docs.typo3.org/permalink/t3viewhelper:typo3-fluid-image-src-public-path>`_.
+
 ..  _typo3-fluid-uri-image-inline-notation:
 
 Inline notation

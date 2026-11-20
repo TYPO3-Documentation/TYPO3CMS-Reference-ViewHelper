@@ -69,6 +69,33 @@ also accepts such an image as a system resource, as returned by the
 An image from the extension assets has no stored metadata. Set the crop area,
 the alternative text, and the title with the arguments of the ViewHelper.
 
+..  _typo3-fluid-image-src-public-path:
+
+Images from other public folders
+--------------------------------
+
+..  versionchanged:: 15.0
+    :changelog: feature-110702-1789927725
+
+The argument `src` also takes the path to a public file that is not part of
+a file storage. By default, these are the files in the folders
+:path:`_assets/`, :path:`typo3temp/assets/`, and :path:`uploads/` of the
+public folder. TYPO3 processes such an image in the same way as an image from
+the extension assets, without a record in the table `sys_file`:
+
+..  code-block:: html
+
+    <f:image src="uploads/images/banner.png" width="200c" alt="alt text" />
+
+Declare further public folders in :path:`config/system/resources.php`.
+Hidden files and files in hidden folders are never processed in this way.
+
+A path to a file in a file storage, for example
+:path:`fileadmin/images/banner.png`, still uses that storage. A path to a
+file outside of all file storages and outside of the public folders makes
+the ViewHelper throw an exception. See also
+`Breaking: #110361 - Remove FAL fallback storage (uid 0) <https://docs.typo3.org/permalink/changelog:breaking-110361-1785715200>`_.
+
 ..  _typo3-fluid-image-image:
 
 Argument image - display images from the folder fileadmin / from FAL
