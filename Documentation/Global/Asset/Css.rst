@@ -64,14 +64,17 @@ TYPO3 does this for a file in `href`, but not for inline CSS:
 Details
 =======
 
-In the AssetCollector, the "identifier" attribute is used as a unique identifier. Thus, if assets are added multiple
-times using the same identifier, the asset will only be served once (the last added overrides previous assets).
+The `identifier` attribute is a unique identifier into the AssetCollector. If
+multiple assets are added using the same identifier, only the asset that is
+added last will be served.
 
-Some available attributes are defaults but do not make sense for this ViewHelper. Relevant attributes specific
-for this ViewHelper are: as, crossorigin, hreflang, importance, integrity, media, referrerpolicy,
-sizes, type, nonce.
+Some attributes are defaults but do not make sense for this ViewHelper. The
+attributes for this ViewHelper are: as, crossorigin, hreflang, importance,
+integrity, media, referrerpolicy, sizes, type, nonce.
 
-Using the "inline" argument, the file content of the referenced file is added as inline style.
+If the `inline` argument is set to 1, the contents of the file in `href` are added
+to the page in the HTML `<style>` tag instead of linking the file with a
+`<link>` tag.
 
 ..  versionchanged:: 14.3.10
     :changelog: important-107420-1792093888
@@ -81,8 +84,8 @@ the public URL of the file they point to, as for
 `page.includeCSS <https://docs.typo3.org/permalink/t3tsref:confval-page-includecss>`_
 with `inline = 1`. A relative `url()` to a file that does not exist throws a
 :php:`\TYPO3\CMS\Core\SystemResource\Exception\CanNotResolveSystemResourceException`
-while the page renders. Make sure that all relative paths in an inlined file
-point to existing files.
+during page rendering. Make sure that all relative paths in an inlined file
+point to files that exist.
 
 ..  _typo3-fluid-asset-css-uri:
 
