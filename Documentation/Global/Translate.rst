@@ -231,12 +231,14 @@ subsequent array entries in order.
 
 To avoid dependency on order, use indexed placeholders like `%1$s`. This
 explicitly refers to the first value and ensures that it is treated as a string
-(`$s`). The keys of :html:`arguments` still start at `0`: `%1$s` takes the
-value with the key `0`, `%2$s` the value with the key `1`. Keys that do not
-form such a list, for example `1` and `2`, make TYPO3 format the label as an
-ICU message, and the `%1$s` placeholders stay in the output unchanged. This method is based on PHP’s
+(`$s`). This method is based on PHP’s
 `vsprintf function <https://www.php.net/manual/en/function.vsprintf.php>`_,
 which allows for more flexible and readable formatting.
+
+The keys of `arguments` start at `0`, also with indexed placeholders:
+`%1$s` takes the value with the key `0`, `%2$s` the value with the key `1`.
+With other keys, for example `1` and `2`, TYPO3 formats the label as an ICU
+message, and the placeholders stay in the output unchanged.
 
 ..  _typo3-fluid-translate-example-inline:
 
