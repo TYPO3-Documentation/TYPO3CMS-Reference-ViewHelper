@@ -181,6 +181,29 @@ we can also map the selected option to the model:
 
             public function selectPreferredPaymentAction(User $user): ResponseInterface
 
+..  _typo3-fluid-form-select-usage-property-collection:
+
+Binding the select field to a collection
+----------------------------------------
+
+..  versionchanged:: 14.3.11
+    :changelog: important-79571-1792595636
+
+A select field without `multiple` can be bound to a property that holds an
+array or an
+:php-short:`\TYPO3\CMS\Extbase\Persistence\ObjectStorage`. The `name`
+attribute of the field then ends with `[]`, as with `<f:form.checkbox>`.
+The field submits the selected option as a list with one entry, and Extbase
+maps it into the collection.
+
+The ViewHelper reads the value of the property when it renders the field.
+If the property is `null`, the field renders a single name, as before.
+Initialize the property with an empty
+`ObjectStorage`, for example in the constructor of the model.
+
+JavaScript that finds the field by its `name` attribute has to add the
+`[]`.
+
 ..  _typo3-fluid-form-select-subviewhelper:
 
 Working with options and option groups
